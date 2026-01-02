@@ -33,22 +33,12 @@ endef
 # --------------------------------------------------
 # Targets
 # --------------------------------------------------
-.PHONY: report-generate results-kanvas-sync remote-provider-results-sync meshery-results-sync report-open report
-
-## Sync Kanvas Test Results
-results-kanvas-sync: 
-	@echo "Syncing Kanvas Test Results..."
-	$(call results-sync,KANVAS_RESULTS_PATH,kanvas-results)
+.PHONY: report-generate results-meshery-sync report-open report
 
 ## Sync Meshery Test Results
 meshery-results-sync: 
 	@echo "Syncing Meshery Test Results..."
 	$(call results-sync,MESHERY_RESULTS_PATH,meshery-results)
-
-## Sync Remote Provider Test Results
-remote-provider-results-sync: 
-	@echo "Syncing Remote Provider Test Results..."
-	$(call results-sync,REMOTE_PROVIDER_RESULTS_PATH,remote-provider-results)
 
 ## Generate fresh QA Report
 report-build: 
@@ -64,3 +54,22 @@ report-build:
 report: report-build 
 	@echo "Opening QA Report..."
 	npm run report:open
+
+
+# --------------------------------------------------
+# Extension Targets
+# EXTENSION POINT (see https://docs.meshery.io/extensibility)
+# OPEN AN ISSUE TO ADD YOUR EXTENSION HERE
+# --------------------------------------------------
+.PHONY: results-kanvas-sync remote-provider-results-sync 
+
+## Sync Kanvas Test Results
+results-kanvas-sync: 
+	@echo "Syncing Kanvas Test Results..."
+	$(call results-sync,KANVAS_RESULTS_PATH,kanvas-results)
+
+## Sync Remote Provider Test Results
+remote-provider-results-sync: 
+	@echo "Syncing Remote Provider Test Results..."
+	$(call results-sync,REMOTE_PROVIDER_RESULTS_PATH,remote-provider-results)
+

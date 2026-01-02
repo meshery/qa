@@ -4,13 +4,16 @@ const PROJECTS = {
   KANVAS: "Kanvas",
   MESHERY: "Meshery",
   LAYER5_REMOTE_PROVIDER: "Layer5 Remote Provider",
+  // EXTENSION POINT (see https://docs.meshery.io/extensibility)
+  // OPEN AN ISSUE TO ADD TEST RESULTS FROM YOUR EXTENSION HERE.
+  // EXTENSION POINT
 };
 
 const isProject = (labels, projectName) =>
   labels.find(({ name, value }) => name === "project" && value === projectName);
 
 export default defineConfig({
-  name: "Meshery QA Report",
+  name: "Meshery Quality Dashboard",
   output: "./allure-report",
   historyPath: "./history.jsonl",
   plugins: {
@@ -21,7 +24,6 @@ export default defineConfig({
         reportLanguage: "en",
       },
     },
-
     allMeshery: {
       import: "@allurereport/plugin-awesome",
       options: {
@@ -32,6 +34,9 @@ export default defineConfig({
         filter: ({ labels }) => isProject(labels, PROJECTS.MESHERY),
       },
     },
+    // EXTENSION POINT (see https://docs.meshery.io/extensibility)
+    // OPEN AN ISSUE TO ADD TEST RESULTS FROM YOUR EXTENSION HERE.
+    // EXTENSION POINT
     allRemoteProvider: {
       import: "@allurereport/plugin-awesome",
       options: {
