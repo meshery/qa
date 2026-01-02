@@ -51,8 +51,9 @@ remote-provider-results-sync:
 	$(call results-sync,REMOTE_PROVIDER_RESULTS_PATH,remote-provider-results)
 
 ## Generate fresh QA Report
-report: 
+report-build: 
 	@echo "Generating QA Report..."
+	npm i
 	rm -rf allure-results || true
 	mkdir -p allure-results
 	cp kanvas-results/* allure-results/ || true
@@ -60,6 +61,6 @@ report:
 	npm run report:generate
 
 ## Open QA report in browser
-report-open: report-generate 
+report: report-build 
 	@echo "Opening QA Report..."
 	npm run report:open
