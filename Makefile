@@ -40,10 +40,14 @@ meshery-results-sync:
 	@echo "Syncing Meshery Test Results..."
 	$(call results-sync,MESHERY_RESULTS_PATH,meshery-results)
 
+
+## Setup environment; Install prequisites
+report-setup:
+	npm i
+
 ## Generate fresh QA Report
 report-build: 
 	@echo "Generating QA Report..."
-	npm i
 	rm -rf allure-results || true
 	mkdir -p allure-results
 	cp kanvas-results/* allure-results/ || true
