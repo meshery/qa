@@ -19,7 +19,7 @@ export default defineConfig({
   plugins: {
     dashboard: {
       options: {
-        singleFile: false,
+        singleFile: true,
         reportName: "Dashboard",
         reportLanguage: "en",
         logo: "https://raw.githubusercontent.com/meshery-extensions/qa/refs/heads/master/.github/assets/images/meshery/icon-only/meshery-light-icon.svg",
@@ -45,7 +45,7 @@ export default defineConfig({
     //     publish: true,
     //   },
     // },
-    allMeshery: {
+    meshery: {
       import: "@allurereport/plugin-awesome",
       options: {
         reportName: "Meshery",
@@ -59,7 +59,7 @@ export default defineConfig({
     // EXTENSION POINT (see https://docs.meshery.io/extensibility)
     // OPEN AN ISSUE TO ADD TEST RESULTS FROM YOUR EXTENSION HERE.
     // EXTENSION POINT
-    allRemoteProvider: {
+    layer5Cloud: {
       import: "@allurereport/plugin-awesome",
       options: {
         reportName: "Extension: Remote Provider Layer5 Cloud",
@@ -71,7 +71,7 @@ export default defineConfig({
           isProject(labels, PROJECTS.LAYER5_REMOTE_PROVIDER),
       },
     },
-    allKanvas: {
+    kanvas: {
       import: "@allurereport/plugin-awesome",
       options: {
         reportName: "Extension: Kanvas",

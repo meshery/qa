@@ -53,6 +53,8 @@ report-build:
 	cp kanvas-results/* allure-results/ || true
 	cp meshery-results/* allure-results/ || true
 	npm run report:generate
+# 	@echo "Removing 'Powered by Allure Report' footer..."
+# 	echo "footer { display: none !important; }" >> allure-report/dashboard/styles.css
 
 ## Open QA report in browser
 report: report-build 

@@ -7,7 +7,7 @@
   "author": "",
   "main": "",
   "scripts": {
-    "report:generate": "allure generate",
+    "report:generate": "node generate-env.js && allure generate && node post-process-report.js",
     "report:open": "allure open",
     "clean": "rm -rf ./allure-results"
   },
