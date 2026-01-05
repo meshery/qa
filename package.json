@@ -9,8 +9,7 @@
   "scripts": {
     "report:generate": "node generate-env.js && allure generate && node post-process-report.js",
     "report:open": "allure open",
-    "clean": "rm -rf ./allure-results",
-    "postinstall": "node scripts/patch-allure-plugin.js"
+    "clean": "rm -rf ./allure-results"
   },
   "devDependencies": {
     "@types/node": "^22.15.24",
