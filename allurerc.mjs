@@ -3,7 +3,7 @@ import { defineConfig } from "allure";
 const PROJECTS = {
   KANVAS: "Kanvas",
   MESHERY: "Meshery",
-  LAYER5_REMOTE_PROVIDER: "Layer5 Remote Provider",
+  LAYER5_REMOTE_PROVIDER: "Layer5Cloud",
   // EXTENSION POINT (see https://docs.meshery.io/extensibility)
   // OPEN AN ISSUE TO ADD TEST RESULTS FROM YOUR EXTENSION HERE.
   // EXTENSION POINT
