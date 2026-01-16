@@ -1,0 +1,470 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e7]:
+        - generic [ref=e9] [cursor=pointer]:
+          - img [ref=e10]
+          - img [ref=e11]
+        - list [ref=e12]:
+          - button [ref=e14] [cursor=pointer]:
+            - generic [ref=e15]:
+              - img [ref=e17]
+              - generic [ref=e22]: Dashboard
+          - button [ref=e24] [cursor=pointer]:
+            - generic [ref=e25]:
+              - img [ref=e27]
+              - generic [ref=e30]: Lifecycle
+          - generic [ref=e31]:
+            - button [ref=e32] [cursor=pointer]:
+              - generic [ref=e33]:
+                - img [ref=e35]
+                - generic [ref=e40]: Configuration
+            - list [ref=e44]:
+              - button [ref=e46] [cursor=pointer]:
+                - generic [ref=e47]:
+                  - img [ref=e49]
+                  - generic [ref=e55]: Catalog
+              - button [ref=e57] [cursor=pointer]:
+                - generic [ref=e58]:
+                  - img [ref=e60]
+                  - generic [ref=e72]: Designs
+          - button [ref=e74] [cursor=pointer]:
+            - generic [ref=e75]:
+              - img [ref=e77]
+              - generic [ref=e103]: Performance
+          - button [ref=e105] [cursor=pointer]:
+            - generic [ref=e106]:
+              - img [ref=e108]
+              - generic [ref=e135]: Extensions
+          - separator [ref=e136]
+          - list [ref=e137]:
+            - button [ref=e138] [cursor=pointer]:
+              - generic [ref=e140]:
+                - img [ref=e142]
+                - generic [ref=e144]: Kanvas
+          - separator [ref=e145]
+        - generic [ref=e146]:
+          - img [ref=e149] [cursor=pointer]
+          - group [ref=e151]:
+            - listitem [ref=e152]:
+              - link [ref=e153] [cursor=pointer]:
+                - /url: https://docs.meshery.io
+                - img [ref=e155]
+            - listitem [ref=e158]:
+              - link [ref=e159] [cursor=pointer]:
+                - /url: https://slack.meshery.io
+                - img [ref=e161]
+            - listitem [ref=e164]:
+              - link [ref=e165] [cursor=pointer]:
+                - /url: https://meshery.io/community#community-forums
+                - img [ref=e167]
+            - listitem [ref=e169]:
+              - link [ref=e170] [cursor=pointer]:
+                - /url: https://github.com/meshery/meshery/issues/new/choose
+                - img [ref=e172]
+          - listitem [ref=e177]:
+            - generic [ref=e178]:
+              - text: v0.8.197
+              - link [ref=e180] [cursor=pointer]:
+                - /url: https://docs.meshery.io/project/releases/v0.8.197
+                - img [ref=e181]
+              - text: Running latest
+    - generic [ref=e183]:
+      - banner [ref=e184]:
+        - generic [ref=e186]:
+          - generic [ref=e188]:
+            - button [ref=e190] [cursor=pointer]:
+              - img [ref=e191]
+            - text: /
+            - button [ref=e200] [cursor=pointer]:
+              - img [ref=e201]
+            - group [ref=e205]:
+              - generic [ref=e210]:
+                - combobox [ref=e211] [cursor=pointer]:
+                  - generic [ref=e212]: My Workspace
+                - textbox: 7ab472e8-3e13-422e-97b1-da98f968b11f
+                - img
+                - group
+            - text: /
+            - heading [level=5] [ref=e213]: Designs
+          - generic [ref=e215]:
+            - button [ref=e218] [cursor=pointer]:
+              - generic [ref=e219]:
+                - img [ref=e220]
+                - generic [ref=e221]: "3177"
+            - button [ref=e224] [cursor=pointer]:
+              - img [ref=e225]
+            - button [ref=e232] [cursor=pointer]:
+              - img [ref=e234]
+            - button [ref=e237] [cursor=pointer]:
+              - img [ref=e238]
+      - generic [ref=e240]:
+        - main [ref=e241]:
+          - generic [ref=e242]:
+            - generic [ref=e245]:
+              - button [ref=e246] [cursor=pointer]:
+                - img [ref=e247]
+                - generic [ref=e249]: Create Design
+              - button [ref=e250] [cursor=pointer]:
+                - img [ref=e251]
+                - generic [ref=e253]: Import Design
+            - generic [ref=e254]:
+              - button [ref=e257] [cursor=pointer]:
+                - img [ref=e258]
+              - button [ref=e262] [cursor=pointer]:
+                - img [ref=e263]
+              - button [ref=e267] [cursor=pointer]:
+                - img [ref=e269]
+          - generic [ref=e271]:
+            - generic [ref=e272]:
+              - generic [ref=e278] [cursor=pointer]:
+                - generic [ref=e279]:
+                  - generic [ref=e280]:
+                    - generic [ref=e281]: "[Tutorial] Exploring Kubernetes Pod"
+                    - generic [ref=e282]:
+                      - button [disabled]:
+                        - generic:
+                          - generic: private
+                  - generic [ref=e285]:
+                    - text: "Modified On:"
+                    - time [ref=e286]: January 16, 2026 2:36 AM
+                - generic [ref=e288]:
+                  - group [ref=e289]:
+                    - button [ref=e290]: Action
+                    - button [ref=e291]:
+                      - img [ref=e292]
+                  - button [ref=e294]:
+                    - img [ref=e295]
+                  - button [ref=e297]:
+                    - img [ref=e298]
+                  - button [ref=e299]:
+                    - img [ref=e300]
+                  - button [ref=e302]:
+                    - img [ref=e303]
+              - generic [ref=e310] [cursor=pointer]:
+                - generic [ref=e311]:
+                  - generic [ref=e312]:
+                    - generic [ref=e313]: autogenerated
+                    - generic [ref=e314]:
+                      - button [disabled]:
+                        - generic:
+                          - generic: public
+                  - generic [ref=e317]:
+                    - text: "Modified On:"
+                    - time [ref=e318]: January 16, 2026 2:18 AM
+                - generic [ref=e320]:
+                  - group [ref=e321]:
+                    - button [ref=e322]: Action
+                    - button [ref=e323]:
+                      - img [ref=e324]
+                  - button [ref=e326]:
+                    - img [ref=e327]
+                  - button [ref=e329]:
+                    - img [ref=e330]
+                  - button [ref=e333]:
+                    - img [ref=e334]
+                  - button [ref=e336]:
+                    - img [ref=e337]
+              - generic [ref=e344] [cursor=pointer]:
+                - generic [ref=e345]:
+                  - generic [ref=e346]:
+                    - generic [ref=e347]: autogenerated
+                    - generic [ref=e348]:
+                      - button [disabled]:
+                        - generic:
+                          - generic: public
+                  - generic [ref=e351]:
+                    - text: "Modified On:"
+                    - time [ref=e352]: January 16, 2026 2:17 AM
+                - generic [ref=e354]:
+                  - group [ref=e355]:
+                    - button [ref=e356]: Action
+                    - button [ref=e357]:
+                      - img [ref=e358]
+                  - button [ref=e360]:
+                    - img [ref=e361]
+                  - button [ref=e363]:
+                    - img [ref=e364]
+                  - button [ref=e367]:
+                    - img [ref=e368]
+                  - button [ref=e370]:
+                    - img [ref=e371]
+              - generic [ref=e378] [cursor=pointer]:
+                - generic [ref=e379]:
+                  - generic [ref=e380]:
+                    - generic [ref=e381]: autogenerated
+                    - generic [ref=e382]:
+                      - button [disabled]:
+                        - generic:
+                          - generic: public
+                  - generic [ref=e385]:
+                    - text: "Modified On:"
+                    - time [ref=e386]: January 16, 2026 2:12 AM
+                - generic [ref=e388]:
+                  - group [ref=e389]:
+                    - button [ref=e390]: Action
+                    - button [ref=e391]:
+                      - img [ref=e392]
+                  - button [ref=e394]:
+                    - img [ref=e395]
+                  - button [ref=e397]:
+                    - img [ref=e398]
+                  - button [ref=e401]:
+                    - img [ref=e402]
+                  - button [ref=e404]:
+                    - img [ref=e405]
+              - generic [ref=e412] [cursor=pointer]:
+                - generic [ref=e413]:
+                  - generic [ref=e414]:
+                    - generic [ref=e415]: pv-pvc-edge-non-binding-reference-relationship
+                    - generic [ref=e416]:
+                      - button [disabled]:
+                        - generic:
+                          - generic: private
+                  - generic [ref=e419]:
+                    - text: "Modified On:"
+                    - time [ref=e420]: January 16, 2026 2:08 AM
+                - generic [ref=e422]:
+                  - group [ref=e423]:
+                    - button [ref=e424]: Action
+                    - button [ref=e425]:
+                      - img [ref=e426]
+                  - button [ref=e428]:
+                    - img [ref=e429]
+                  - button [ref=e431]:
+                    - img [ref=e432]
+                  - button [ref=e433]:
+                    - img [ref=e434]
+                  - button [ref=e436]:
+                    - img [ref=e437]
+              - generic [ref=e444] [cursor=pointer]:
+                - generic [ref=e445]:
+                  - generic [ref=e446]:
+                    - generic [ref=e447]: Aws design
+                    - generic [ref=e448]:
+                      - button [disabled]:
+                        - generic:
+                          - generic: private
+                  - generic [ref=e451]:
+                    - text: "Modified On:"
+                    - time [ref=e452]: January 16, 2026 2:08 AM
+                - generic [ref=e454]:
+                  - group [ref=e455]:
+                    - button [ref=e456]: Action
+                    - button [ref=e457]:
+                      - img [ref=e458]
+                  - button [ref=e460]:
+                    - img [ref=e461]
+                  - button [ref=e463]:
+                    - img [ref=e464]
+                  - button [ref=e465]:
+                    - img [ref=e466]
+                  - button [ref=e468]:
+                    - img [ref=e469]
+              - generic [ref=e476] [cursor=pointer]:
+                - generic [ref=e477]:
+                  - generic [ref=e478]:
+                    - generic [ref=e479]: "[Tutorial] Exploring Kubernetes Pod"
+                    - generic [ref=e480]:
+                      - button [disabled]:
+                        - generic:
+                          - generic: private
+                  - generic [ref=e483]:
+                    - text: "Modified On:"
+                    - time [ref=e484]: January 16, 2026 2:07 AM
+                - generic [ref=e486]:
+                  - group [ref=e487]:
+                    - button [ref=e488]: Action
+                    - button [ref=e489]:
+                      - img [ref=e490]
+                  - button [ref=e492]:
+                    - img [ref=e493]
+                  - button [ref=e495]:
+                    - img [ref=e496]
+                  - button [ref=e497]:
+                    - img [ref=e498]
+                  - button [ref=e500]:
+                    - img [ref=e501]
+              - generic [ref=e508] [cursor=pointer]:
+                - generic [ref=e509]:
+                  - generic [ref=e510]:
+                    - generic [ref=e511]: "[Tutorial] Exploring Kubernetes Pod"
+                    - generic [ref=e512]:
+                      - button [disabled]:
+                        - generic:
+                          - generic: private
+                  - generic [ref=e515]:
+                    - text: "Modified On:"
+                    - time [ref=e516]: January 16, 2026 1:29 AM
+                - generic [ref=e518]:
+                  - group [ref=e519]:
+                    - button [ref=e520]: Action
+                    - button [ref=e521]:
+                      - img [ref=e522]
+                  - button [ref=e524]:
+                    - img [ref=e525]
+                  - button [ref=e527]:
+                    - img [ref=e528]
+                  - button [ref=e529]:
+                    - img [ref=e530]
+                  - button [ref=e532]:
+                    - img [ref=e533]
+              - generic [ref=e540] [cursor=pointer]:
+                - generic [ref=e541]:
+                  - generic [ref=e542]:
+                    - generic [ref=e543]: Architectural Diagramming (Copy)
+                    - generic [ref=e544]:
+                      - button [disabled]:
+                        - generic:
+                          - generic: private
+                  - generic [ref=e547]:
+                    - text: "Modified On:"
+                    - time [ref=e548]: January 16, 2026 1:28 AM
+                - generic [ref=e550]:
+                  - group [ref=e551]:
+                    - button [ref=e552]: Action
+                    - button [ref=e553]:
+                      - img [ref=e554]
+                  - button [ref=e556]:
+                    - img [ref=e557]
+                  - button [ref=e559]:
+                    - img [ref=e560]
+                  - button [ref=e561]:
+                    - img [ref=e562]
+                  - button [ref=e564]:
+                    - img [ref=e565]
+              - generic [ref=e572] [cursor=pointer]:
+                - generic [ref=e573]:
+                  - generic [ref=e574]:
+                    - generic [ref=e575]: understanding persistent storage in kubernetes
+                    - generic [ref=e576]:
+                      - button [disabled]:
+                        - generic:
+                          - generic: private
+                  - generic [ref=e579]:
+                    - text: "Modified On:"
+                    - time [ref=e580]: January 16, 2026 1:28 AM
+                - generic [ref=e582]:
+                  - group [ref=e583]:
+                    - button [ref=e584]: Action
+                    - button [ref=e585]:
+                      - img [ref=e586]
+                  - button [ref=e588]:
+                    - img [ref=e589]
+                  - button [ref=e591]:
+                    - img [ref=e592]
+                  - button [ref=e593]:
+                    - img [ref=e594]
+                  - button [ref=e596]:
+                    - img [ref=e597]
+            - navigation [ref=e600]:
+              - list [ref=e601]:
+                - listitem [ref=e602]:
+                  - button [disabled]:
+                    - img
+                - listitem [ref=e603]:
+                  - button [ref=e604] [cursor=pointer]: "1"
+                - listitem [ref=e605]:
+                  - button [ref=e606] [cursor=pointer]: "2"
+                - listitem [ref=e607]:
+                  - button [ref=e608] [cursor=pointer]: "3"
+                - listitem [ref=e609]:
+                  - button [ref=e610] [cursor=pointer]: "4"
+                - listitem [ref=e611]:
+                  - button [ref=e612] [cursor=pointer]: "5"
+                - listitem [ref=e613]:
+                  - generic [ref=e614]: …
+                - listitem [ref=e615]:
+                  - button [ref=e616] [cursor=pointer]: "6094"
+                - listitem [ref=e617]:
+                  - button [ref=e618] [cursor=pointer]:
+                    - img [ref=e619]
+        - contentinfo [ref=e621]:
+          - paragraph [ref=e622]:
+            - generic [ref=e623] [cursor=pointer]:
+              - text: Built with
+              - img [ref=e624]
+              - text: by the Meshery Community
+      - generic:
+        - generic [ref=e630]:
+          - img [ref=e631]
+          - paragraph [ref=e633]: Failed to interact with the connection.
+          - group [ref=e635]:
+            - button [ref=e636] [cursor=pointer]:
+              - img [ref=e637]
+            - button [ref=e641] [cursor=pointer]:
+              - img [ref=e642]
+        - generic [ref=e648]:
+          - img [ref=e649]
+          - paragraph [ref=e651]: Imported model test (4 components)
+          - group [ref=e653]:
+            - button [ref=e654] [cursor=pointer]:
+              - img [ref=e655]
+            - button [ref=e659] [cursor=pointer]:
+              - img [ref=e660]
+        - generic [ref=e666]:
+          - img [ref=e667]
+          - paragraph [ref=e669]: Failed to interact with the connection.
+          - group [ref=e671]:
+            - button [ref=e672] [cursor=pointer]:
+              - img [ref=e673]
+            - button [ref=e677] [cursor=pointer]:
+              - img [ref=e678]
+        - generic [ref=e684]:
+          - img [ref=e685]
+          - paragraph [ref=e687]: Failed to interact with the connection.
+          - group [ref=e689]:
+            - button [ref=e690] [cursor=pointer]:
+              - img [ref=e691]
+            - button [ref=e695] [cursor=pointer]:
+              - img [ref=e696]
+  - alert [ref=e698]: Designs | Meshery
+  - dialog [ref=e701]:
+    - generic [ref=e702]:
+      - img "pattern_trans" [ref=e704]
+      - generic [ref=e715]: Import Design
+      - button [ref=e717] [cursor=pointer]:
+        - img [ref=e718]
+    - generic [ref=e724]:
+      - generic [ref=e727]:
+        - generic [ref=e728]:
+          - text: Design file name
+          - generic [ref=e729]: "*"
+        - generic [ref=e731]:
+          - textbox "Design file name" [active] [ref=e732]: Meshery Design
+          - button [ref=e734] [cursor=pointer]:
+            - img [ref=e735]
+          - group
+      - generic [ref=e739]:
+        - generic [ref=e740]:
+          - text: Upload method
+          - generic [ref=e741]: "*"
+        - radiogroup [ref=e742]:
+          - generic [ref=e743] [cursor=pointer]:
+            - generic [ref=e744]:
+              - radio "File Upload" [checked] [ref=e745]
+              - generic [ref=e746]:
+                - img [ref=e747]
+                - img [ref=e749]
+            - generic [ref=e751]: File Upload
+          - generic [ref=e752] [cursor=pointer]:
+            - generic [ref=e753]:
+              - radio "URL Import" [ref=e754]
+              - img [ref=e756]
+            - generic [ref=e758]: URL Import
+      - generic [ref=e761]:
+        - generic [ref=e762]:
+          - text: file
+          - generic [ref=e763]: "*"
+        - generic [ref=e765]:
+          - button "file" [ref=e766]
+          - button [ref=e768] [cursor=pointer]:
+            - img [ref=e769]
+          - group
+    - generic [ref=e773]:
+      - button "Cancel" [ref=e774] [cursor=pointer]
+      - button "Import" [ref=e775] [cursor=pointer]
+```
