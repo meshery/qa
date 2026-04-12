@@ -3,6 +3,48 @@
     text-decoration: none;
 }
 
+.meshery-report-nav {
+    background: var(--bg-base-primary, #ffffff);
+    border-bottom: 1px solid var(--on-border-muted, #e5e7eb);
+    padding: 0.75rem 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.meshery-report-nav__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.meshery-report-nav__link {
+    background: var(--bg-control-secondary, rgba(148, 163, 184, 0.12));
+    border: 1px solid var(--on-border-muted, rgba(148, 163, 184, 0.3));
+    border-radius: 999px;
+    color: inherit;
+    font-size: 0.875rem;
+    line-height: 1.2;
+    padding: 0.5rem 0.875rem;
+    text-decoration: none;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.meshery-report-nav__link:hover,
+.meshery-report-nav__link:focus-visible {
+    background: var(--bg-control-secondary-medium, rgba(148, 163, 184, 0.2));
+    border-color: var(--on-border-primary, rgba(100, 116, 139, 0.4));
+    outline: none;
+}
+
+.meshery-report-nav__link--active {
+    background: var(--bg-support-capella, #1d4ed8);
+    border-color: var(--bg-support-capella, #1d4ed8);
+    color: var(--constant-on-text-primary, #ffffff);
+}
+
 .meshery-powered-by {
     align-items: center;
     color: inherit;
