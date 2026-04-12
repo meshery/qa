@@ -65,7 +65,7 @@ function formatReportLabel(relativeDir) {
     return navLabelOverrides[relativeDir];
   }
 
-  const reportName = relativeDir.split(path.sep).filter(Boolean).pop() || 'Home';
+  const reportName = relativeDir.split(path.sep).filter(Boolean).pop() || navLabelOverrides[''];
   return reportName
     .replace(/[-_]+/g, ' ')
     .replace(/([a-z0-9])([A-Z])/g, '$1 $2')

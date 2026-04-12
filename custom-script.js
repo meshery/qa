@@ -157,6 +157,8 @@
       }
 
       button.dataset.mesheryLegacyNavHidden = 'true';
+      button.hidden = true;
+      button.setAttribute('aria-hidden', 'true');
       button.style.display = 'none';
       changed = true;
     });
@@ -174,6 +176,8 @@
       }
 
       panel.dataset.mesheryLegacyNavHidden = 'true';
+      panel.hidden = true;
+      panel.setAttribute('aria-hidden', 'true');
       panel.style.display = 'none';
       changed = true;
     });
