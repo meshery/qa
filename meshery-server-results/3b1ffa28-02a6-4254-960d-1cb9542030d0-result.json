@@ -1,0 +1,46 @@
+{
+  "uuid": "3b1ffa28-02a6-4254-960d-1cb9542030d0",
+  "name": "TestBindingIdentification",
+  "fullName": "github.com/meshery/meshery/server/policies::TestBindingIdentification",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101250374,
+  "stop": 1776101250380,
+  "statusDetails": {
+    "message": "patching_test.go:541: Step 1: isValidBindingTyped(Role, RoleBinding, fromSel)\n    patching_test.go:543:   result: true\n    patching_test.go:545: Step 2: isValidBindingTyped(RoleBinding, ServiceAccount, toSel)\n    patching_test.go:547:   result: true\n    patching_test.go:550: Identified: 1 relationships\n    patching_test.go:552:   rel: kind=edge type=binding subType=permission status=approved"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestBindingIdentification"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

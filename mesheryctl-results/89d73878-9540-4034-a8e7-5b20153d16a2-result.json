@@ -1,0 +1,46 @@
+{
+  "uuid": "89d73878-9540-4034-a8e7-5b20153d16a2",
+  "name": "TestIsUUID/123",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestIsUUID/123",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101264469,
+  "stop": 1776101264470,
+  "statusDetails": {
+    "message": "=== PAUSE TestIsUUID/123\n=== CONT  TestIsUUID/123"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestIsUUID/123"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "uuid": "848aa577-f64b-4fe3-a9d8-253b0e952a63",
+  "name": "TestApplyCmd/given_invalid_file_path_when_design_apply_then_error_is_thrown",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/design::TestApplyCmd/given_invalid_file_path_when_design_apply_then_error_is_thrown",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101237055,
+  "stop": 1776101237058,
+  "statusDetails": {
+    "message": "Error: file path /invalid/path/design.yaml is invalid. Enter a valid path | Short Description: File read error | Probable Cause: The provided file is not present or has an invalid path. | Suggested Remediation: To proceed, provide a valid file path with a valid file."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/design"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestApplyCmd/given_invalid_file_path_when_design_apply_then_error_is_thrown"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

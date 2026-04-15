@@ -1,0 +1,46 @@
+{
+  "uuid": "99d750bc-f2ae-4f42-af5c-ab5f63728e72",
+  "name": "TestDesignView/given_no_name_or_ID_specified_when_design_view_then_error_is_thrown",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/design::TestDesignView/given_no_name_or_ID_specified_when_design_view_then_error_is_thrown",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101237133,
+  "stop": 1776101237133,
+  "statusDetails": {
+    "message": "Error: No design name or ID was provided | Short Description: Design name or ID not specified | Probable Cause: Command requires a design name or ID as argument | Suggested Remediation: Provide a design name or ID, or use '-a' flag to view all designs.\nRun 'mesheryctl design view --help' for usage details"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/design"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDesignView/given_no_name_or_ID_specified_when_design_view_then_error_is_thrown"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

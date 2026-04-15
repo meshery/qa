@@ -1,0 +1,46 @@
+{
+  "uuid": "d1a81f56-a725-4188-a415-7dc149021217",
+  "name": "TestProfileCmd/Unmarshal_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/perf::TestProfileCmd/Unmarshal_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101246616,
+  "stop": 1776101246617,
+  "statusDetails": {
+    "message": "Error: Error processing config:Failed to unmarshal response body.json: cannot unmarshal string into Go struct field PerformanceProfilesAPIResponse.page_size of type uint | Short Description: Error unmarshalling response | Probable Cause: The JSON format from the response body is not valid. | Suggested Remediation: Ensure a valid JSON is provided for processing..\nSee https://docs.meshery.io/reference/mesheryctl/perf/profile for usage details\n | Short Description: Error processing config | Probable Cause: Unable to load meshconfig due to wrong configurations | Suggested Remediation: Ensure your `config.yaml` file in your `.meshery` is valid, or run `mesheryctl system config`."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/perf"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProfileCmd/Unmarshal_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

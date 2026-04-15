@@ -1,0 +1,46 @@
+{
+  "uuid": "46551214-7ec7-420e-88c0-002708c8a523",
+  "name": "TestApplyCmd",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/design::TestApplyCmd",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101237038,
+  "stop": 1776101237058,
+  "statusDetails": {
+    "message": "testing.go:644: Test 'given valid file when design apply then design is applied' executed\n    testing.go:644: Test 'given valid file when design apply with --skip-save then design is applied without saving' executed\n    testing.go:644: Test 'given invalid file path when design apply then error is thrown' executed\n    testing.go:644: Test 'given invalid server response when design apply then error is thrown' executed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/design"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestApplyCmd"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

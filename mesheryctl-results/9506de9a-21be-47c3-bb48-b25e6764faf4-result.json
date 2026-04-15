@@ -1,0 +1,46 @@
+{
+  "uuid": "9506de9a-21be-47c3-bb48-b25e6764faf4",
+  "name": "TestCreateWorkspace/given_an_invalid_organization_Id_when_workspace_create_throw_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/workspaces::TestCreateWorkspace/given_an_invalid_organization_Id_when_workspace_create_throw_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101256655,
+  "stop": 1776101256656,
+  "statusDetails": {
+    "message": "Error: Failed to create \"workspace-test\" workspace in \"2d2c0b60-076a-4f0a-8a63-de538570a553\" organization.\nEnsure you provide a valid organization ID.\n\nSee https://docs.meshery.io/reference/mesheryctl/workspace/create for usage details\n | Short Description: Item Not Found | Probable Cause: The item you are searching for is not present. | Suggested Remediation: Check whether the item is present."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/workspaces"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCreateWorkspace/given_an_invalid_organization_Id_when_workspace_create_throw_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "uuid": "d2b0fdb2-dfb9-473c-949f-03c7e147a04d",
+  "name": "TestComponent/Given_no_args_provided_and_flag_count_is_false_trigger_an_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/components::TestComponent/Given_no_args_provided_and_flag_count_is_false_trigger_an_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101228892,
+  "stop": 1776101228893,
+  "statusDetails": {
+    "message": "Error: please provide a subcommand | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/components"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestComponent/Given_no_args_provided_and_flag_count_is_false_trigger_an_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

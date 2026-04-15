@@ -1,0 +1,46 @@
+{
+  "uuid": "5b443288-0962-42c7-90dc-855b7ab696a3",
+  "name": "TestDeployCmd/given_non-existent_design_name_when_design_deploy_then_throw_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/design::TestDeployCmd/given_non-existent_design_name_when_design_deploy_then_throw_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101237089,
+  "stop": 1776101237091,
+  "statusDetails": {
+    "message": "Error: No Design found with name, ID or at path: nonexistent-design | Short Description: Design Not Found | Probable Cause: Design with the given name, ID or path is not present | Suggested Remediation: Please check if the given design name or ID is present via 'mesheryctl design list' or provide a valid file path"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/design"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeployCmd/given_non-existent_design_name_when_design_deploy_then_throw_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

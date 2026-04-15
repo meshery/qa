@@ -1,0 +1,46 @@
+{
+  "uuid": "4fafc9b9-95bf-4271-bec0-9c102918995d",
+  "name": "TestNavigateToBrowser",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestNavigateToBrowser",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101263009,
+  "stop": 1776101263203,
+  "statusDetails": {
+    "message": "Your Terminal type is unknown!\n\n  Enter a terminal type: [vt100] \nTERMINAL TYPE IS SET TO vt100\n\u001b(B\u001b)0\u001b[1;24r\u001b[m\u000f\u001b[?7h\u001b[?1h\u001b=\u001b[?1h\u001b=\u001b[H\u001b[J\u001b[21B\u001b[0;7m\u000fGetting https://layer5.io/\u001b[m\u000f\r\u001b[0;7m\u000fLooking up layer5.io\u001b[m\u000f      \u001b[6D\r\u001b[0;7m\u000fMaking HTTPS connection to layer5.io\u001b[m\u000f\r\u001b[2B\u001b[24;1H\r\u001b[?1l\u001b>"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestNavigateToBrowser"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

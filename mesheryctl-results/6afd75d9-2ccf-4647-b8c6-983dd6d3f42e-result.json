@@ -1,0 +1,46 @@
+{
+  "uuid": "6afd75d9-2ccf-4647-b8c6-983dd6d3f42e",
+  "name": "TestComponentView/given_non-existent_component_provided_when_component_view_then_display_no_component_found",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/components::TestComponentView/given_non-existent_component_provided_when_component_view_then_display_no_component_found",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101228929,
+  "stop": 1776101228930,
+  "statusDetails": {
+    "message": "Error: No component(s) found with the name or id: foo | Short Description: Item Not Found | Probable Cause: The item you are searching for is not present. | Suggested Remediation: Check whether the item is present."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/components"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestComponentView/given_non-existent_component_provided_when_component_view_then_display_no_component_found"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

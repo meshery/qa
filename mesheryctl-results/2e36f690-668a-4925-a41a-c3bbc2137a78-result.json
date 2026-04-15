@@ -1,0 +1,46 @@
+{
+  "uuid": "2e36f690-668a-4925-a41a-c3bbc2137a78",
+  "name": "TestConnectionDeleteCmd/given_an_invalid_connectionID_provided_when_running_mesheryctl_connection_delete_invalid-id_then_an_error_message_is_displayed",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/connections::TestConnectionDeleteCmd/given_an_invalid_connectionID_provided_when_running_mesheryctl_connection_delete_invalid-id_then_an_error_message_is_displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101234276,
+  "stop": 1776101234276,
+  "statusDetails": {
+    "message": "Error: invalid connection ID: \"invalid-id\" | Short Description: Invalid ID format | Probable Cause: ID is not a valid UUID format.ID contains invalid characters | Suggested Remediation: Ensure the ID is a valid UUID format.Check the ID parameter for typos or formatting issues"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/connections"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestConnectionDeleteCmd/given_an_invalid_connectionID_provided_when_running_mesheryctl_connection_delete_invalid-id_then_an_error_message_is_displayed"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "uuid": "f6590fd5-87ca-4643-bf5a-af48dbd4cffb",
+  "name": "TestWorkspaces/Given_invalid_subcommand_name_provided_trigger_an_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/workspaces::TestWorkspaces/Given_invalid_subcommand_name_provided_trigger_an_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101256688,
+  "stop": 1776101256689,
+  "statusDetails": {
+    "message": "Error: 'invalidCommand' is an invalid subcommand. Please provide required options from [create, list]. Use 'mesheryctl workspace --help' to display usage guide | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/workspaces"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWorkspaces/Given_invalid_subcommand_name_provided_trigger_an_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

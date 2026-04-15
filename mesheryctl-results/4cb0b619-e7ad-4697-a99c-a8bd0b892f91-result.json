@@ -1,0 +1,46 @@
+{
+  "uuid": "4cb0b619-e7ad-4697-a99c-a8bd0b892f91",
+  "name": "TestDeleteModel",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestDeleteModel",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101245370,
+  "stop": 1776101245376,
+  "statusDetails": {
+    "message": "testing.go:558: Test 'given no model name or ID provided when running model delete then ErrInvalidArgument is returned' executed\n    testing.go:558: Test 'given a valid model-id when running model delete then model is deleted successfully' executed\n    testing.go:558: Test 'given a non-existent model name when running model delete then ErrModelNotFound is returned' executed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteModel"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

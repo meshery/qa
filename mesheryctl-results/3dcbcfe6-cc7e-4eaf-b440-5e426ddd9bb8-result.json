@@ -1,0 +1,46 @@
+{
+  "uuid": "3dcbcfe6-cc7e-4eaf-b440-5e426ddd9bb8",
+  "name": "TestViewModel",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestViewModel",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101245559,
+  "stop": 1776101245591,
+  "statusDetails": {
+    "message": "testing.go:558: Test 'given no argument provided when running mesheryctl model view then an error message is displayed' executed\n    testing.go:558: Test 'given a valid model-id when model view then display detailed information' executed\n    testing.go:558: Test 'given a valid model-name when model view then display detailed information' executed\n    testing.go:558: Test 'given a non-existent model-name when model view then display not found message' executed\n    testing.go:558: Test 'given multiple model-names when model view then throw error' executed\n    testing.go:558: Test 'given an invalid format when model view then throw error' executed\n    testing.go:558: Test 'given a valid format when model view then display detailed information' executed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestViewModel"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "uuid": "05ffee4d-2995-40aa-a66f-2172be81ee29",
+  "name": "TestProfileCmd/Server_Error_400",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/perf::TestProfileCmd/Server_Error_400",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101246617,
+  "stop": 1776101246619,
+  "statusDetails": {
+    "message": "Error: Error processing config:Response Status Code 400. Server emitted an error:  | Short Description: Failed response server error | Probable Cause: Invalid API call | Suggested Remediation: Check your network connection and the status of Meshery Server via `mesheryctl system status`. | Short Description: Error processing config | Probable Cause: Unable to load meshconfig due to wrong configurations | Suggested Remediation: Ensure your `config.yaml` file in your `.meshery` is valid, or run `mesheryctl system config`."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/perf"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProfileCmd/Server_Error_400"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

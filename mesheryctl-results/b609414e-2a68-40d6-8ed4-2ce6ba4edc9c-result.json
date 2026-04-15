@@ -1,0 +1,46 @@
+{
+  "uuid": "b609414e-2a68-40d6-8ed4-2ce6ba4edc9c",
+  "name": "TestModelGenerate/model_generate:_from_URL_with_template",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestModelGenerate/model_generate:_from_URL_with_template",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101245388,
+  "stop": 1776101245390,
+  "statusDetails": {
+    "message": "COMPONENT             VERSION  \nCouchbase Autoscaler  v1.0.0   \n\nFROM  TO   \nPod   Pod  \n    generate_test.go:123: [model generate: from URL with template] stdout:\n        Generating model from URL: https://github.com/cert-manager/cert-manager/releases/download/v1.13.0/cert-manager.crds.yaml\n        SUMMARY: Imported model couchbase (1 component and 1 relationship)\n        \n        MODEL: couchbase\n          RELATIONSHIP: Kind of edge, sub type firewall and type binding\n        Model can be accessed from .meshery/models"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestModelGenerate/model_generate:_from_URL_with_template"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "uuid": "8d4247ab-fab6-476b-8890-0f095e5940c1",
+  "name": "TestK8sHealthzHandler/Unhealthy_-_no_capabilities_loaded_(extension_status_doesn't_affect_health)",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestK8sHealthzHandler/Unhealthy_-_no_capabilities_loaded_(extension_status_doesn't_affect_health)",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101210918,
+  "stop": 1776101210918,
+  "statusDetails": {
+    "message": "k8s_healthz_handler_test.go:163: Response body: healthz check failed: capabilities: provider capabilities not loaded"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestK8sHealthzHandler/Unhealthy_-_no_capabilities_loaded_(extension_status_doesn't_affect_health)"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

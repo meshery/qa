@@ -1,0 +1,46 @@
+{
+  "uuid": "e19b39d2-160d-4208-8de7-7b111d5b3aeb",
+  "name": "TestModelBuild/given_name_and_multiple_versions_when_model_build_then_throw_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestModelBuild/given_name_and_multiple_versions_when_model_build_then_throw_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101245330,
+  "stop": 1776101245367,
+  "statusDetails": {
+    "message": "Error: Usage:\nmesheryctl model build [model-name]\nor\nmesheryctl model build [model-name]/[model-version]\n\nRun 'mesheryctl model build --help' to see detailed help message\n\nCommand does not support multiple versions build under one image | Short Description: Error model build | Probable Cause: Error during run of model build command | Suggested Remediation: Ensure passing all params according to the command description"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestModelBuild/given_name_and_multiple_versions_when_model_build_then_throw_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

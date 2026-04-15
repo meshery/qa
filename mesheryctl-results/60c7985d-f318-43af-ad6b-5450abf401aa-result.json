@@ -1,0 +1,46 @@
+{
+  "uuid": "60c7985d-f318-43af-ad6b-5450abf401aa",
+  "name": "TestOrganization/Launch_organization_without_args",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/organizations::TestOrganization/Launch_organization_without_args",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101245946,
+  "stop": 1776101245946,
+  "statusDetails": {
+    "message": "Error: please provide a subcommand with the command | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/organizations"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestOrganization/Launch_organization_without_args"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

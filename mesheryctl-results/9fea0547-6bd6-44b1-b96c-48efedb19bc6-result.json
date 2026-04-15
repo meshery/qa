@@ -1,0 +1,46 @@
+{
+  "uuid": "9fea0547-6bd6-44b1-b96c-48efedb19bc6",
+  "name": "TestResultCmd/failing_add_authentication_test",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/perf::TestResultCmd/failing_add_authentication_test",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101246908,
+  "stop": 1776101246909,
+  "statusDetails": {
+    "message": "Error: Authentication token not found: /home/runner/work/meshery/meshery/mesheryctl/internal/cli/root/perf/fixtures/auth.jsoninvalid-path does not exist\nLog in with `mesheryctl system login` | Short Description: Authentication token Not Found | Probable Cause: The user is not logged in to generate a token. | Suggested Remediation: Log in with `mesheryctl system login` or supply a valid user token using the --token (or -t) flag."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/perf"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestResultCmd/failing_add_authentication_test"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

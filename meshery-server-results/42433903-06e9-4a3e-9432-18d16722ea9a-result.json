@@ -1,0 +1,46 @@
+{
+  "uuid": "42433903-06e9-4a3e-9432-18d16722ea9a",
+  "name": "TestFetchKubernetesVersion",
+  "fullName": "github.com/meshery/meshery/server/helpers::TestFetchKubernetesVersion",
+  "status": "skipped",
+  "stage": "finished",
+  "start": 1776101228576,
+  "stop": 1776101228576,
+  "statusDetails": {
+    "message": "kubernetes_test.go:16: skipping tests"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/helpers"
+    },
+    {
+      "name": "suite",
+      "value": "server/helpers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestFetchKubernetesVersion"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

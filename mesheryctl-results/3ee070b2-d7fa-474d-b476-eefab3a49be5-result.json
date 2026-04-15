@@ -1,0 +1,46 @@
+{
+  "uuid": "3ee070b2-d7fa-474d-b476-eefab3a49be5",
+  "name": "TestApplyCmd/given_invalid_server_response_when_design_apply_then_error_is_thrown",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/design::TestApplyCmd/given_invalid_server_response_when_design_apply_then_error_is_thrown",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101237058,
+  "stop": 1776101237058,
+  "statusDetails": {
+    "message": "Error: Unable to process JSON response from server.\nunexpected end of JSON input | Short Description: Error unmarshalling response | Probable Cause: The JSON format from the response body is not valid. | Suggested Remediation: Ensure a valid JSON is provided for processing."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/design"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestApplyCmd/given_invalid_server_response_when_design_apply_then_error_is_thrown"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

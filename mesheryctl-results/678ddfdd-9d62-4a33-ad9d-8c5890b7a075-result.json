@@ -1,0 +1,46 @@
+{
+  "uuid": "678ddfdd-9d62-4a33-ad9d-8c5890b7a075",
+  "name": "TestSearchModel/given_no_argument_provided_when_running_mesheryctl_model_search_then_an_error_message_is_displayed",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestSearchModel/given_no_argument_provided_when_running_mesheryctl_model_search_then_an_error_message_is_displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101245556,
+  "stop": 1776101245557,
+  "statusDetails": {
+    "message": "Error: Please provide a model name. Usage: mesheryctl model search [query-text]\nRun 'mesheryctl model search --help' to see detailed help message | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSearchModel/given_no_argument_provided_when_running_mesheryctl_model_search_then_an_error_message_is_displayed"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

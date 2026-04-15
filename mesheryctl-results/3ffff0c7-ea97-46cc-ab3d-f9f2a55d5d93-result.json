@@ -1,0 +1,46 @@
+{
+  "uuid": "3ffff0c7-ea97-46cc-ab3d-f9f2a55d5d93",
+  "name": "TestCreateEnvironment/Create_environment_without_arguments",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/environments::TestCreateEnvironment/Create_environment_without_arguments",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101237051,
+  "stop": 1776101237052,
+  "statusDetails": {
+    "message": "Error: [ Organization ID | Name | Description ] aren't specified\n\nUsage: mesheryctl environment create --orgID [orgID] --name [name] --description [description]\nRun 'mesheryctl environment create --help' to see detailed help message | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/environments"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCreateEnvironment/Create_environment_without_arguments"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

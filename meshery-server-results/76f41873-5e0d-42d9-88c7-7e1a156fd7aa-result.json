@@ -1,0 +1,46 @@
+{
+  "uuid": "76f41873-5e0d-42d9-88c7-7e1a156fd7aa",
+  "name": "TestSessionPreferencePersisterReadFromPersisterReturnsPersistedPreference",
+  "fullName": "github.com/meshery/meshery/server/models::TestSessionPreferencePersisterReadFromPersisterReturnsPersistedPreference",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101243494,
+  "stop": 1776101243497,
+  "statusDetails": {
+    "message": "2026/04/13 17:27:23 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/preference_persister.go:50 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.082ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `user_preferences` WHERE id = \"user-1\" ORDER BY `user_preferences`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSessionPreferencePersisterReadFromPersisterReturnsPersistedPreference"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

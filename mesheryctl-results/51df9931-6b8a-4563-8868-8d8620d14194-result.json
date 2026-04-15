@@ -1,0 +1,46 @@
+{
+  "uuid": "51df9931-6b8a-4563-8868-8d8620d14194",
+  "name": "TestView/given_non_existing_model_name_provided_when_running_relationship_view_then_display_no_relationship_found",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/relationships::TestView/given_non_existing_model_name_provided_when_running_relationship_view_then_display_no_relationship_found",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101254859,
+  "stop": 1776101254860,
+  "statusDetails": {
+    "message": "Error: No relationship(s) found for the model with name: nonexistent | Short Description: Item Not Found | Probable Cause: The item you are searching for is not present. | Suggested Remediation: Check whether the item is present."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/relationships"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestView/given_non_existing_model_name_provided_when_running_relationship_view_then_display_no_relationship_found"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

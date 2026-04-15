@@ -1,0 +1,46 @@
+{
+  "uuid": "7bc22929-46b6-422f-be11-543e3ab62e00",
+  "name": "TestGenerateErrorOutput/Generate_registered_relationships_without_spreadsheet_credentials",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/relationships::TestGenerateErrorOutput/Generate_registered_relationships_without_spreadsheet_credentials",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101254743,
+  "stop": 1776101254744,
+  "statusDetails": {
+    "message": "Error: Invalid value for --spreadsheet-cred '' | Short Description: Invalid flag(s) provided | Probable Cause: The value for one or more flags provided is invalid. | Suggested Remediation: Provide valid flag value and try again.\nUsage:\n  relationship generate [flags]\n\nExamples:\n\n// Generate relationships documentss\nmesheryctl relationship generate --spreadsheet-id [Spreadsheet ID] --spreadsheet-cred $CRED\n\n\nFlags:\n  -h, --help                      help for generate\n      --spreadsheet-cred string   base64 encoded credential to download the spreadsheet\n      --spreadsheet-id string     spreadsheet ID for the integration spreadsheet"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/relationships"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGenerateErrorOutput/Generate_registered_relationships_without_spreadsheet_credentials"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

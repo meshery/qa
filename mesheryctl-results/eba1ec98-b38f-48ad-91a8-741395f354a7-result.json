@@ -1,0 +1,46 @@
+{
+  "uuid": "eba1ec98-b38f-48ad-91a8-741395f354a7",
+  "name": "TestDeployCmd",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/design::TestDeployCmd",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101237079,
+  "stop": 1776101237091,
+  "statusDetails": {
+    "message": "testing.go:644: Test 'given valid file and source type when design deploy then design is deployed' executed\n    testing.go:644: Test 'given valid file and --skip-save when design deploy then design is deployed without being saved' executed\n    testing.go:644: Test 'given invalid source type when design deploy then throw error' executed\n    testing.go:644: Test 'given non-existent design name when design deploy then throw error' executed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/design"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeployCmd"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

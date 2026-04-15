@@ -1,0 +1,46 @@
+{
+  "uuid": "e9d2dae4-859f-4ba8-987b-5b9a3d26b0a8",
+  "name": "TestConnectionDeleteCmd",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/connections::TestConnectionDeleteCmd",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101234265,
+  "stop": 1776101234279,
+  "statusDetails": {
+    "message": "testing.go:644: Test 'given no connectionID provided when running mesheryctl connection delete then an error message is displayed' executed\n    testing.go:644: Test 'given an invalid connectionID provided when running mesheryctl connection delete invalid-id then an error message is displayed' executed\n    testing.go:644: Test 'given a non-existent connectionID provided when running mesheryctl connection delete then an error message is displayed' executed\n    testing.go:644: Test 'given a valid connectionID provided when running mesheryctl connection delete then the connection is deleted' executed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/connections"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestConnectionDeleteCmd"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

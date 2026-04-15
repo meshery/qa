@@ -1,0 +1,46 @@
+{
+  "uuid": "0ce8b8c8-3483-404c-b086-9c265cddbe7f",
+  "name": "TestModelBuild/given_no_params_when_model_build_then_throw_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestModelBuild/given_no_params_when_model_build_then_throw_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101245326,
+  "stop": 1776101245327,
+  "statusDetails": {
+    "message": "Error: Usage:\nmesheryctl model build [model-name]\nor\nmesheryctl model build [model-name]/[model-version]\n\nRun 'mesheryctl model build --help' to see detailed help message | Short Description: Error model build | Probable Cause: Error during run of model build command | Suggested Remediation: Ensure passing all params according to the command description"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestModelBuild/given_no_params_when_model_build_then_throw_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

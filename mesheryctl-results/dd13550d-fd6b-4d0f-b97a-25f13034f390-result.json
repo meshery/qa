@@ -1,0 +1,46 @@
+{
+  "uuid": "dd13550d-fd6b-4d0f-b97a-25f13034f390",
+  "name": "TestModelInit/model_init_too_many_arguments",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestModelInit/model_init_too_many_arguments",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101245529,
+  "stop": 1776101245529,
+  "statusDetails": {
+    "message": "Error: must provide only one argument: model name | Short Description: Error model init | Probable Cause: Error during run of model init command | Suggested Remediation: Ensure passing all params according to the command description"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestModelInit/model_init_too_many_arguments"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

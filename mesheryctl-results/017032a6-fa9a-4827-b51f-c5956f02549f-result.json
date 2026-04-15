@@ -1,0 +1,46 @@
+{
+  "uuid": "017032a6-fa9a-4827-b51f-c5956f02549f",
+  "name": "TestViewWorkspace/given_invalid_output_format_flag_when_running_workspace_view_then_return_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/workspaces::TestViewWorkspace/given_invalid_output_format_flag_when_running_workspace_view_then_return_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101256682,
+  "stop": 1776101256682,
+  "statusDetails": {
+    "message": "Error: Invalid value for --output-format 'invalid': valid values are json yaml | Short Description: Invalid flag(s) provided | Probable Cause: The value for one or more flags provided is invalid. | Suggested Remediation: Provide valid flag value and try again."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/workspaces"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestViewWorkspace/given_invalid_output_format_flag_when_running_workspace_view_then_return_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

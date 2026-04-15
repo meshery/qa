@@ -1,0 +1,46 @@
+{
+  "uuid": "154f8788-3d76-4e10-a6e9-2034edaadea5",
+  "name": "TestDeleteMeshSyncResource/given_resource_table_not_migrated_when_DeleteMeshSyncResource_then_return_status_500_and_failed_to_delete",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestDeleteMeshSyncResource/given_resource_table_not_migrated_when_DeleteMeshSyncResource_then_return_status_500_and_failed_to_delete",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101210943,
+  "stop": 1776101210955,
+  "statusDetails": {
+    "message": "2026/04/13 17:26:50 \u001b[31;1m/home/runner/work/meshery/meshery/server/handlers/meshsync_handler.go:515 \u001b[35;1mno such table: kubernetes_resources\n\u001b[0m\u001b[33m[11.460ms] \u001b[34;1m[rows:0]\u001b[0m DELETE FROM `kubernetes_resources` WHERE `kubernetes_resources`.`id` = \"resource-1\""
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteMeshSyncResource/given_resource_table_not_migrated_when_DeleteMeshSyncResource_then_return_status_500_and_failed_to_delete"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

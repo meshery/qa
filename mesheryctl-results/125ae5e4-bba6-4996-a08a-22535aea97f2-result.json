@@ -1,0 +1,46 @@
+{
+  "uuid": "125ae5e4-bba6-4996-a08a-22535aea97f2",
+  "name": "TestModelInit/model_init_with_invalid_version_format",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestModelInit/model_init_with_invalid_version_format",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101245505,
+  "stop": 1776101245516,
+  "statusDetails": {
+    "message": "Error: Invalid value for --version '1.2': version must be in format vX.X.X | Short Description: Invalid flag(s) provided | Probable Cause: The value for one or more flags provided is invalid. | Suggested Remediation: Provide valid flag value and try again."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestModelInit/model_init_with_invalid_version_format"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

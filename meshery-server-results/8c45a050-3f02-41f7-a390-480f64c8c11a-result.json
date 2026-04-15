@@ -1,0 +1,46 @@
+{
+  "uuid": "8c45a050-3f02-41f7-a390-480f64c8c11a",
+  "name": "TestBindingPatching",
+  "fullName": "github.com/meshery/meshery/server/policies::TestBindingPatching",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101250374,
+  "stop": 1776101250374,
+  "statusDetails": {
+    "message": "patching_test.go:346: Got 1 patch actions\n    patching_test.go:348:   action[0]: op=update_component_configuration id=00000000-0000-0000-0000-000000000003 value=admin-role"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestBindingPatching"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

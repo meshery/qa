@@ -1,0 +1,46 @@
+{
+  "uuid": "1d6f365f-91fb-4f6e-88f8-ff5c4502c2f6",
+  "name": "TestModelGenerate/model_generate:_from_CSV_directory",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestModelGenerate/model_generate:_from_CSV_directory",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776101245381,
+  "stop": 1776101245387,
+  "statusDetails": {
+    "message": "COMPONENT             VERSION  \nCouchbase Autoscaler  v1.0.0   \n\nFROM  TO   \nPod   Pod  \n    generate_test.go:123: [model generate: from CSV directory] stdout:\n        Generating model from CSV files\n        SUMMARY: Imported model couchbase (1 component and 1 relationship)\n        \n        MODEL: couchbase\n          RELATIONSHIP: Kind of edge, sub type firewall and type binding\n        Model can be accessed from .meshery/models\n        Logs for the csv generation can be accessed .meshery/logs/registry"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestModelGenerate/model_generate:_from_CSV_directory"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
