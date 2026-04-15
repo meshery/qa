@@ -13,6 +13,7 @@
     'button, [role="button"], [role="menuitemcheckbox"], [role="menuitem"], [class*="menu-item"]';
   const OBSERVER_OPTIONS = { childList: true, subtree: true };
   let brandingScheduled = false;
+  let legacyNavHiddenOnce = false;
 
   function createMesheryLogo(className, size) {
     const logo = document.createElement('img');
@@ -145,6 +146,10 @@
   }
 
   function hideLegacyReportMenu() {
+    if (legacyNavHiddenOnce) {
+      return false;
+    }
+
     let changed = false;
 
     document.querySelectorAll('button').forEach((button) => {
@@ -181,6 +186,10 @@
       panel.style.display = 'none';
       changed = true;
     });
+
+    if (changed) {
+      legacyNavHiddenOnce = true;
+    }
 
     return changed;
   }

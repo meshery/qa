@@ -32,11 +32,16 @@
     transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
-.meshery-report-nav__link:hover,
+.meshery-report-nav__link:hover {
+    background: var(--bg-control-secondary-medium, rgba(148, 163, 184, 0.2));
+    border-color: var(--on-border-primary, rgba(100, 116, 139, 0.4));
+}
+
 .meshery-report-nav__link:focus-visible {
     background: var(--bg-control-secondary-medium, rgba(148, 163, 184, 0.2));
     border-color: var(--on-border-primary, rgba(100, 116, 139, 0.4));
-    outline: none;
+    outline: 2px solid var(--bg-support-capella, #1d4ed8);
+    outline-offset: 2px;
 }
 
 .meshery-report-nav__link--active {

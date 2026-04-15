@@ -105,12 +105,12 @@ function buildNavEntries(reportPages) {
 
 function createNavDataScript(currentPageDir, navEntries) {
   const navData = navEntries.map(({ label, relativeDir, reportPageDir }) => ({
-    id: relativeDir || 'home',
     label,
     href: toRelativeHref(currentPageDir, reportPageDir),
   }));
+  const serializedNavData = JSON.stringify(navData).replace(/</g, '\\u003c');
 
-  return `    <script>${navDataMarker} ${JSON.stringify(navData)};</script>\n`;
+  return `    <script>${navDataMarker} ${serializedNavData};</script>\n`;
 }
 
 function ensureInjectedMarkup(html, navDataScript) {
