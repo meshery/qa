@@ -6,10 +6,14 @@
   const POWERED_BY_TEXT = 'Powered by Meshery Authors';
   const POWERED_BY_SELECTOR =
     'a[href="https://allurereport.org"], a[href="https://allurereport.org/"]';
+  const CUSTOM_NAV_ID = 'meshery-report-nav';
+  const LEGACY_NAV_BUTTON_TEXT = 'report';
+  const LEGACY_NAV_PANEL_TOKENS = ['report', 'graphs', 'timeline'];
   const SECTION_ICON_SELECTOR =
     'button, [role="button"], [role="menuitemcheckbox"], [role="menuitem"], [class*="menu-item"]';
   const OBSERVER_OPTIONS = { childList: true, subtree: true };
   let brandingScheduled = false;
+  let legacyNavHiddenOnce = false;
 
   function createMesheryLogo(className, size) {
     const logo = document.createElement('img');
@@ -68,6 +72,128 @@
     return changed;
   }
 
+  function normalizePathname(pathname) {
+    const resolvedPathname = new URL(pathname, window.location.href).pathname;
+    const withoutIndex = resolvedPathname.replace(/\/index\.html$/, '/');
+    return withoutIndex === '/' ? withoutIndex : withoutIndex.replace(/\/+$/, '');
+  }
+
+  function getReportNavigationItems() {
+    if (!Array.isArray(window.mesheryReportNav)) {
+      return [];
+    }
+
+    return window.mesheryReportNav.filter((item) => item && item.href && item.label);
+  }
+
+  function createReportNavigation() {
+    const navItems = getReportNavigationItems();
+
+    if (!navItems.length) {
+      return null;
+    }
+
+    const nav = document.createElement('nav');
+    nav.id = CUSTOM_NAV_ID;
+    nav.className = 'meshery-report-nav';
+    nav.setAttribute('aria-label', 'Dashboard navigation');
+
+    const list = document.createElement('div');
+    list.className = 'meshery-report-nav__list';
+
+    const currentPath = normalizePathname(window.location.pathname);
+
+    navItems.forEach((item) => {
+      const link = document.createElement('a');
+      const itemPath = normalizePathname(item.href);
+
+      link.className = 'meshery-report-nav__link';
+      link.href = item.href;
+      link.textContent = item.label;
+
+      if (itemPath === currentPath) {
+        link.classList.add('meshery-report-nav__link--active');
+        link.setAttribute('aria-current', 'page');
+      }
+
+      list.appendChild(link);
+    });
+
+    nav.appendChild(list);
+    return nav;
+  }
+
+  function insertReportNavigation() {
+    if (document.getElementById(CUSTOM_NAV_ID)) {
+      return false;
+    }
+
+    const nav = createReportNavigation();
+
+    if (!nav) {
+      return false;
+    }
+
+    const appRoot = document.getElementById('app');
+
+    if (appRoot && appRoot.parentNode) {
+      appRoot.parentNode.insertBefore(nav, appRoot);
+    } else {
+      document.body.prepend(nav);
+    }
+
+    return true;
+  }
+
+  function hideLegacyReportMenu() {
+    if (legacyNavHiddenOnce) {
+      return false;
+    }
+
+    let changed = false;
+
+    document.querySelectorAll('button').forEach((button) => {
+      if (button.dataset.mesheryLegacyNavHidden === 'true') {
+        return;
+      }
+
+      if (normalizeText(button.textContent) !== LEGACY_NAV_BUTTON_TEXT) {
+        return;
+      }
+
+      button.dataset.mesheryLegacyNavHidden = 'true';
+      button.hidden = true;
+      button.setAttribute('aria-hidden', 'true');
+      button.style.display = 'none';
+      changed = true;
+    });
+
+    document.querySelectorAll('[role="complementary"], aside').forEach((panel) => {
+      if (panel.dataset.mesheryLegacyNavHidden === 'true') {
+        return;
+      }
+
+      const panelText = normalizeText(panel.textContent);
+      const isLegacyNavPanel = LEGACY_NAV_PANEL_TOKENS.every((token) => panelText.includes(token));
+
+      if (!isLegacyNavPanel) {
+        return;
+      }
+
+      panel.dataset.mesheryLegacyNavHidden = 'true';
+      panel.hidden = true;
+      panel.setAttribute('aria-hidden', 'true');
+      panel.style.display = 'none';
+      changed = true;
+    });
+
+    if (changed) {
+      legacyNavHiddenOnce = true;
+    }
+
+    return changed;
+  }
+
   function replaceLoaderLogo() {
     let changed = false;
 
@@ -110,6 +236,8 @@
   }
 
   function applyBranding() {
+    insertReportNavigation();
+    hideLegacyReportMenu();
     replacePoweredBy();
     replaceLoaderLogo();
     replaceSectionPickerLogos();
