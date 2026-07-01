@@ -1,0 +1,25 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: relationship_evaluation_properties.spec.js >> Relationship Evaluation Properties >> role-rolebinding-serviceaccount-edge-binding-permission-relationship >> evaluation idempotency
+- Location: tests/e2e/relationship_evaluation_properties.spec.js:266:11
+
+# Error details
+
+```
+Error: apiRequestContext.post: connect ECONNREFUSED ::1:9081
+Call log:
+  - → POST http://localhost:9081/api/meshmodels/relationships/evaluate
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.7827.55 Safari/537.36
+    - accept: */*
+    - accept-encoding: gzip,deflate,br
+    - content-type: application/json
+    - content-length: 2902
+    - cookie: meshery-provider=Local
+
+```

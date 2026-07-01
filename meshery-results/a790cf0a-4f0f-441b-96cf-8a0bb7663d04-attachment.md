@@ -1,0 +1,54 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: designConfig.spec.ts >> Design Configurator Tests >> should verify Design Configurator page elements
+- Location: tests/e2e/designConfig.spec.ts:146:7
+
+# Error details
+
+```
+Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:9081/configuration/designs/configurator?design_id=test-design
+Call log:
+  - navigating to "http://localhost:9081/configuration/designs/configurator?design_id=test-design", waiting until "load"
+
+```
+
+# Test source
+
+```ts
+  1  | export class DesignConfiguratorPage {
+  2  |   constructor(page) {
+  3  |     this.page = page;
+  4  | 
+  5  |     this.appBar = page.getByTestId('design-configurator-app-bar');
+  6  |     this.codeEditor = page.getByTestId('design-configurator-code-editor');
+  7  |     this.categorySelector = page.getByTestId('category-selector');
+  8  |     this.databaseCategory = page.getByTestId('Database');
+  9  |     this.modelSelector = page.getByTestId('model-selector');
+  10 |     this.modelAzure = page.getByTestId('azure-db-for-mysql');
+  11 |     this.modelContainer = page.getByTestId('model-component-list');
+  12 |     this.saveButton = page.getByTestId('design-configurator-save-design-btn');
+  13 |     this.updateButton = page.getByTestId('design-configurator-update-design-btn');
+  14 |   }
+  15 | 
+  16 |   async navigateTo(designId) {
+  17 |     const query = designId ? `?design_id=${designId}` : '';
+> 18 |     await this.page.goto(`/configuration/designs/configurator${query}`);
+     |                     ^ Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:9081/configuration/designs/configurator?design_id=test-design
+  19 |   }
+  20 | 
+  21 |   async saveDesign() {
+  22 |     await this.saveButton.click();
+  23 |   }
+  24 | 
+  25 |   async updateDesign() {
+  26 |     await this.updateButton.click();
+  27 |   }
+  28 | }
+  29 | 
+```
