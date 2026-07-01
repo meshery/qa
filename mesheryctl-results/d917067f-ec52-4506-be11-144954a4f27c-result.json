@@ -1,0 +1,25 @@
+{
+  "uuid": "d917067f-ec52-4506-be11-144954a4f27c",
+  "name": "mesheryctl model list --count return total numbers of models",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1782945343072,
+  "stop": 1782945343073,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 002-model/01-model-list.bats, line 13)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput (4 lines):\n  Error: Unable to connect to Meshery server at http://localhost:9081 (current context).\n  Please ensure that the Meshery server is running and accessible. You can try running 'mesheryctl system restart'.\n\n  For additional details see https://docs.meshery.io/reference/error-codes#ErrFailRequestCode-1090 | Short Description: Failed to make a request | Probable Cause: Meshery server is not reachable. | Suggested Remediation: Please ensure that the Meshery server is running and accessible. You can try running 'mesheryctl system restart'.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

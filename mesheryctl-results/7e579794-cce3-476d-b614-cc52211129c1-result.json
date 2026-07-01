@@ -1,0 +1,25 @@
+{
+  "uuid": "7e579794-cce3-476d-b614-cc52211129c1",
+  "name": "mesheryctl design apply -f invalid path shows error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782945343118,
+  "stop": 1782945343119,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 003-design/04-design-apply.bats, line 16)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput : Error: Post \"http://localhost:9081/api/pattern\": dial tcp [::1]:9081: connect: connection refused | Short Description: Failed to make a request | Probable Cause: Meshery server is not reachable. | Suggested Remediation: Please ensure that the Meshery server is running and accessible. You can try running 'mesheryctl system restart'.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

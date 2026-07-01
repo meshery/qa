@@ -1,0 +1,25 @@
+{
+  "uuid": "4d565405-ba5d-4536-8437-f36f46fbfe57",
+  "name": "mesheryctl model generate displays usage instructions when no file, filePath or URL is provided",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782945343117,
+  "stop": 1782945343118,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 002-model/05-model-view.bats, line 62)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput (6 lines):\n  Error: Unable to connect to Meshery server at http://localhost:9081 (current context).\n  Please ensure that the Meshery server is running and accessible. You can try running 'mesheryctl system restart'.\n\n  For additional details see https://docs.meshery.io/reference/error-codes#ErrFailRequestCode-1090 | Short Description: Failed to make a request | Probable Cause: Meshery server is not reachable. | Suggested Remediation: Please ensure that the Meshery server is running and accessible. You can try running 'mesheryctl system restart'.\n  false\n  Error: no matches found\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

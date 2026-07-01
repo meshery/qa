@@ -1,0 +1,25 @@
+{
+  "uuid": "7f5d591c-37ad-4e44-83f6-6f105c9c342c",
+  "name": "mesheryctl perf apply runs successfully with test-profile and valid URL",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1782945343118,
+  "stop": 1782945343119,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 004-perf/00-perf-apply.bats, line 13)\n  `assert_output --partial \"authentication token\"' failed\n\n-- output does not contain substring --\nsubstring : Unable to get URL for performing test\noutput    : Error: Get \"http://localhost:9081/api/performance/profiles?pagesize=25&page=0&search=dummy-test-profile\": dial tcp [::1]:9081: connect: connection refused | Short Description: Failed to make a request | Probable Cause: Meshery server is not reachable. | Suggested Remediation: Please ensure that the Meshery server is running and accessible. You can try running 'mesheryctl system restart'.\n--\n\n\n-- output does not contain substring --\nsubstring : authentication token\noutput    : Error: Get \"http://localhost:9081/api/performance/profiles?pagesize=25&page=0&search=dummy-test-profile\": dial tcp [::1]:9081: connect: connection refused | Short Description: Failed to make a request | Probable Cause: Meshery server is not reachable. | Suggested Remediation: Please ensure that the Meshery server is running and accessible. You can try running 'mesheryctl system restart'.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

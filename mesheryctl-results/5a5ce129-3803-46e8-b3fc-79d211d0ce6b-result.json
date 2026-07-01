@@ -1,0 +1,25 @@
+{
+  "uuid": "5a5ce129-3803-46e8-b3fc-79d211d0ce6b",
+  "name": "mesheryctl model import fails for invalid model artifact",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1782945343072,
+  "stop": 1782945343073,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 002-model/02-model-import.bats, line 38)\n  `assert_output --partial \"The archive may contain unsupported compression formats or features.\"' failed\n\n-- output does not contain substring --\nsubstring (1 lines):\n  The archive may contain unsupported compression formats or features.\noutput (4 lines):\n  Error: Unable to connect to Meshery server at http://localhost:9081 (current context).\n  Please ensure that the Meshery server is running and accessible. You can try running 'mesheryctl system restart'.\n\n  For additional details see https://docs.meshery.io/reference/error-codes#ErrFailRequestCode-1090 | Short Description: Failed to make a request | Probable Cause: Meshery server is not reachable. | Suggested Remediation: Please ensure that the Meshery server is running and accessible. You can try running 'mesheryctl system restart'.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

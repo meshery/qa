@@ -1,0 +1,25 @@
+{
+  "uuid": "6e85d5d7-203f-42bd-97ae-9825dba340fb",
+  "name": "given all requirements met when running mesheryctl connection list --status status then the conections of specified status is displayed",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1782945343151,
+  "stop": 1782945343152,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 007-connection/01-connection-create.bats, line 42)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput (2 lines):\n  Configuring Meshery to access Minikube...\n  Error: Unable to create a response from requestPost \"http://localhost:9081/api/system/kubernetes/contexts\": dial tcp [::1]:9081: connect: connection refused | Short Description: Failed to handle request | Probable Cause: Error occurred while generating a response | Suggested Remediation: Check your network connection and the status of Meshery Server via `mesheryctl system status`. | Short Description: Unable to get kubernetes contexts | Probable Cause: No kubernetes contexts found | Suggested Remediation: Ensure you have at least one valid context in your meshconfig file.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

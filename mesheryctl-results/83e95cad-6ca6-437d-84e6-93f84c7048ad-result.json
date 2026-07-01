@@ -1,0 +1,25 @@
+{
+  "uuid": "83e95cad-6ca6-437d-84e6-93f84c7048ad",
+  "name": "given no connection-id is provided as an argument when running mesheryctl connection view --output-format then a message error is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782945343152,
+  "stop": 1782945343153,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 007-connection/03-connection-view.bats, line 110)\n  `assert_output --partial \"Invalid connection ID\"' failed\n\n-- output does not contain substring --\nsubstring (1 lines):\n  Invalid connection ID\noutput (4 lines):\n  Error: Unable to connect to Meshery server at http://localhost:9081 (current context).\n  Please ensure that the Meshery server is running and accessible. You can try running 'mesheryctl system restart'.\n\n  For additional details see https://docs.meshery.io/reference/error-codes#ErrFailRequestCode-1090 | Short Description: Failed to make a request | Probable Cause: Meshery server is not reachable. | Suggested Remediation: Please ensure that the Meshery server is running and accessible. You can try running 'mesheryctl system restart'.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "uuid": "820bf4f1-c171-4cb5-997d-03c786419a40",
+  "name": "mesheryctl system token create fails without token name",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782945343072,
+  "stop": 1782945343073,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 001-system/06-system-dashboard.bats, line 37)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput (5 lines):\n  Meshery endpoint from current context is not reachable using the URL: http://localhost:9081/api/system/version\n\n  Checking if Meshery is running using the platform: kubernetes\n\n  Error: Short Description: Unable to discover an endpoint\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
