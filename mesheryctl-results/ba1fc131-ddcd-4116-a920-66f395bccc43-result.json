@@ -1,0 +1,46 @@
+{
+  "uuid": "ba1fc131-ddcd-4116-a920-66f395bccc43",
+  "name": "TestResultCmd/Server_Error_400",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/perf::TestResultCmd/Server_Error_400",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1783099188567,
+  "stop": 1783099188570,
+  "statusDetails": {
+    "message": "Error: Unable to display performance ProfileResponse Status Code 400. Server emitted an error: {} | Short Description: Failed response server error | Probable Cause: Invalid API call | Suggested Remediation: Check your network connection and the status of Meshery Server via `mesheryctl system status`. | Short Description: Error displaying performance | Probable Cause: Failed to fetch results for a specific profile | Suggested Remediation: Check your network connection and ensure Meshery is running ..\nSee https://docs.meshery.io/reference/mesheryctl/perf/result for usage details"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/perf"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestResultCmd/Server_Error_400"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
