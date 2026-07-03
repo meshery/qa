@@ -1,0 +1,25 @@
+{
+  "uuid": "e2b90e4f-66c9-4c78-9407-6f44fbb9ba44",
+  "name": "given an invalid connection-id is provided as an argument when running mesheryctl connection delete invalid-connection-id then an error message is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1783099108646,
+  "stop": 1783099108647,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 007-connection/04-connection-delete.bats, line 25)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput (2 lines):\n  Error: {\"error\":\"Failed to Save: .connection\",\"code\":\"meshery-server-1051\",\"severity\":\"ALERT\",\"probableCause\":[\"Provider Database could be down or not reachable\"],\"suggestedRemediation\":[\"Make sure provider is up and reachable\"],\"longDescription\":[\"Status Code: 500 .error while deleting connection: sql: no rows in result set | Short Description: Unable to update connection status | Probable Cause: Connection was already deleted.User might not have necessary privileges | Suggested Remediation: Try refreshing, you might be seeing stale data on the dashboard.Check if the user has necessary privileges\\n | Short Description: Unable to de-register Meshery Server from Remote Provider.sql: no rows in result set | Short Description: Unable to update connection status | Probable Cause: Connection was already deleted.User might not have necessary privileges | Suggested Remediation: Try refreshing, you might be seeing stale data on the dashboard.Check if the user has necessary privileges\\n | Probable Cause: Network connectivity to Remote Provider may not be available. Session might have expired; token could be invalid. | Suggested Remediation: Verify that the Remote Provider is available. Ensure that you have an active session / valid token.\"]}\n   | Short Description: Internal Server Error | Probable Cause: An unexpected error occurred on the server side | Suggested Remediation: Check the server logs using 'mesheryctl system logs' for more details and try again later\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
