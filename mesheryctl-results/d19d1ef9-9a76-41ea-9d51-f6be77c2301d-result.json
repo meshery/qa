@@ -1,0 +1,46 @@
+{
+  "uuid": "d19d1ef9-9a76-41ea-9d51-f6be77c2301d",
+  "name": "TestCreateWorkspace",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/workspaces::TestCreateWorkspace",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1783227289489,
+  "stop": 1783227289497,
+  "statusDetails": {
+    "message": "testing.go:542: Test 'given no flags provided when workspace create throw error' executed\n    testing.go:542: Test 'given missing flag orgId when workspace create throw error' executed\n    testing.go:542: Test 'given missing flag name when workspace create throw error' executed\n    testing.go:542: Test 'given missing flag description when workspace create then workspace is created with empty description' executed\n    testing.go:542: Test 'given missing name and orgId flags when workspace create then throw error' executed\n    testing.go:542: Test 'given an invalid organization Id when workspace create throw error' executed\n    testing.go:542: Test 'given all flags provided when workspace create then workspace is created' executed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/workspaces"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCreateWorkspace"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

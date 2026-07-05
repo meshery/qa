@@ -1,0 +1,46 @@
+{
+  "uuid": "3c3349c6-df05-4602-b7d1-6ef853fa6aac",
+  "name": "TestUndeployCmd/given_no_args_when_design_undeploy_then_usage_error_is_returned",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/design::TestUndeployCmd/given_no_args_when_design_undeploy_then_usage_error_is_returned",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1783227267067,
+  "stop": 1783227267067,
+  "statusDetails": {
+    "message": "Error: Unable to undeploy design due to empty path | Short Description: Undeploying design failed | Probable Cause: File path or design name not provided. | Suggested Remediation: Provide a file path/design name. \n\n%v.Usage: mesheryctl design undeploy -f [filepath]\nExample: mesheryctl design undeploy -f ./pattern.yml\nDescription: Undeploy design"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/design"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestUndeployCmd/given_no_args_when_design_undeploy_then_usage_error_is_returned"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
