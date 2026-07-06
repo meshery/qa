@@ -1,0 +1,46 @@
+{
+  "uuid": "02a26ec4-39db-4467-befe-78fdae46ee30",
+  "name": "TestProfileCmd",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/perf::TestProfileCmd",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1783310931669,
+  "stop": 1783310931830,
+  "statusDetails": {
+    "message": "testing.go:722: List perf test\n    testing.go:722: List perf test\n    testing.go:722: List perf test\n    testing.go:722: List perf test\n    testing.go:722: List perf test\n    testing.go:628: Test 'given no profiles found when profile then display no profiles message' executed\n    testing.go:628: Test 'given invalid output format when profile then throw error' executed\n    testing.go:628: Test 'given invalid API response when profile then throw error' executed\n    testing.go:628: Test 'given server error 400 when profile then throw error' executed\n    testing.go:628: Test 'given invalid authentication token when profile then throw error' executed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/perf"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProfileCmd"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
