@@ -1,0 +1,118 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e7]:
+        - link "logo" [ref=e9] [cursor=pointer]:
+          - /url: /
+          - paragraph [ref=e10]:
+            - img "logo" [ref=e12]
+        - generic [ref=e15]:
+          - combobox [ref=e16] [cursor=pointer]:
+            - img [ref=e18]
+            - generic [ref=e43]: Testing
+          - textbox: 47de1866-8915-4989-ab35-5765f4faf8be
+          - img
+          - group
+        - img [ref=e47] [cursor=pointer]
+        - generic [ref=e59]:
+          - button [ref=e60] [cursor=pointer]:
+            - img [ref=e61]
+          - generic "Profile" [ref=e63] [cursor=pointer]:
+            - img [ref=e64]
+    - main [ref=e66]:
+      - generic [ref=e67]:
+        - heading "Meshery Deployment Incompatible" [level=4] [ref=e68]
+        - generic [ref=e71]:
+          - generic [ref=e72]:
+            - img [ref=e73]
+            - generic [ref=e99]: Meshery upgrade required
+          - generic [ref=e100]:
+            - paragraph [ref=e101]:
+              - generic [ref=e102]:
+                - paragraph [ref=e103]: "Your version of Meshery is incompatible with Layer5 Cloud. You may upgrade your Meshery deployment by executing:"
+                - paragraph [ref=e104]:
+                  - code [ref=e105]: mesheryctl system update
+                - paragraph [ref=e106]:
+                  - text: For additional considerations when upgrading Meshery, see the
+                  - link "upgrade guide" [ref=e107] [cursor=pointer]:
+                    - /url: https://docs.meshery.io/installation/upgrades
+                  - text: .
+            - link "Install Meshery" [ref=e109] [cursor=pointer]:
+              - /url: https://docs.meshery.io/installation/upgrades
+      - generic [ref=e110]:
+        - generic [ref=e111]:
+          - generic [ref=e112]:
+            - heading "YOUR CURRENT SESSION" [level=5] [ref=e113]
+            - generic [ref=e114]:
+              - generic [ref=e115]:
+                - heading "Organization" [level=6] [ref=e116]
+                - generic [ref=e117]:
+                  - img [ref=e118]
+                  - generic [ref=e143]: Testing
+              - generic [ref=e144]:
+                - heading "Organization Role(s)" [level=6] [ref=e145]
+                - generic [ref=e148]: organization admin
+          - separator [ref=e149]
+          - generic [ref=e150]:
+            - heading "YOUR OPTIONS" [level=5] [ref=e151]
+            - group [ref=e153]:
+              - heading "Switch Organization" [level=6] [ref=e154]
+              - generic [ref=e157]:
+                - combobox [ref=e158] [cursor=pointer]:
+                  - img [ref=e159]
+                  - generic [ref=e184]: Testing
+                - textbox: 47de1866-8915-4989-ab35-5765f4faf8be
+                - img
+                - group
+        - img [ref=e186]
+      - generic [ref=e188]:
+        - link "Return to Dashboard" [ref=e189] [cursor=pointer]:
+          - /url: /
+        - button "Contact Us" [ref=e190] [cursor=pointer]
+      - paragraph [ref=e191]:
+        - text: For more help, please in
+        - link "discussion forum" [ref=e192] [cursor=pointer]:
+          - /url: https://discuss.meshery.io
+        - text: or in the
+        - link "Slack workspace" [ref=e193] [cursor=pointer]:
+          - /url: https://slack.layer5.io
+        - text: .
+    - navigation "Active Users (22)" [ref=e194]:
+      - generic [ref=e195]:
+        - heading "Active Users (22)" [level=6] [ref=e196]:
+          - text: Active Users
+          - paragraph [ref=e197]: (22)
+        - img [ref=e198]
+    - generic:
+      - button "Feedback" [ref=e200] [cursor=pointer]
+      - generic [ref=e202]:
+        - generic [ref=e203]:
+          - img [ref=e205]
+          - paragraph [ref=e208]: Feedback
+          - generic [ref=e209]:
+            - img [ref=e212]
+            - img [ref=e216] [cursor=pointer]
+        - generic [ref=e220]:
+          - generic [ref=e221]:
+            - button "Issue" [ref=e222] [cursor=pointer]:
+              - img [ref=e224]
+              - paragraph [ref=e226]: Issue
+            - button "Suggestion" [ref=e227] [cursor=pointer]:
+              - img [ref=e229]
+              - paragraph [ref=e235]: Suggestion
+            - button "Meet Request" [ref=e236] [cursor=pointer]:
+              - img [ref=e238]
+              - paragraph [ref=e243]: Meet Request
+          - textbox "I’m having an issue with..." [ref=e245]
+        - generic [ref=e247]:
+          - generic [ref=e248]:
+            - generic [ref=e249] [cursor=pointer]:
+              - checkbox [ref=e250]
+              - img [ref=e251]
+            - paragraph [ref=e253]: We may email you for more information or updates
+          - button "Send" [disabled]
+  - alert [ref=e254]
+```
