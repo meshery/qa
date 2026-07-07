@@ -1,0 +1,46 @@
+{
+  "uuid": "5eb6af27-d781-4659-8375-54c46c937e49",
+  "name": "TestDeleteCmd/given_nonexistent_design_ID_when_design_delete_then_error_is_thrown",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/design::TestDeleteCmd/given_nonexistent_design_ID_when_design_delete_then_error_is_thrown",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1783445252058,
+  "stop": 1783445252061,
+  "statusDetails": {
+    "message": "Error: No Design found with name, ID or at path: a12b3c4d-5e6f-4890-abcd-ef1234567890 | Short Description: Design Not Found | Probable Cause: Design with the given name, ID or path is not present | Suggested Remediation: Please check if the given design name or ID is present via 'mesheryctl design list' or provide a valid file path"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/design"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteCmd/given_nonexistent_design_ID_when_design_delete_then_error_is_thrown"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

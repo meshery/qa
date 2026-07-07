@@ -1,0 +1,46 @@
+{
+  "uuid": "d0174793-9382-4096-8834-1376e6a6ffed",
+  "name": "TestConnectionViewCmd/given_no_argument_provided_when_connection_view_then_throw_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/connections::TestConnectionViewCmd/given_no_argument_provided_when_connection_view_then_throw_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1783445248639,
+  "stop": 1783445248640,
+  "statusDetails": {
+    "message": "Error: connection name or ID isn't specified\nUsage: mesheryctl connection view --help' to see detailed help message | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/connections"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestConnectionViewCmd/given_no_argument_provided_when_connection_view_then_throw_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
