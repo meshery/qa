@@ -1,0 +1,46 @@
+{
+  "uuid": "c31b5e77-bf35-41f0-8c49-1606fc67873a",
+  "name": "TestUndeployCmd/given_invalid_file_path_when_design_undeploy_then_error_is_thrown",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/design::TestUndeployCmd/given_invalid_file_path_when_design_undeploy_then_error_is_thrown",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1783663670181,
+  "stop": 1783663670184,
+  "statusDetails": {
+    "message": "Error: open /invalid/path/design.yaml: no such file or directory | Short Description: File read error | Probable Cause: The provided file is not present or has an invalid path. | Suggested Remediation: To proceed, provide a valid file path with a valid file."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/design"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestUndeployCmd/given_invalid_file_path_when_design_undeploy_then_error_is_thrown"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
