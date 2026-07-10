@@ -1,0 +1,25 @@
+{
+  "uuid": "4c449a59-bf08-4444-976c-92c9a0cc4834",
+  "name": "given a non existing model-id is provided as an argument when running mesheryctl model delete non-existing-id then an error message is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1783663445157,
+  "stop": 1783663445158,
+  "statusDetails": {
+    "message": "(from function `assert_failure' in file /usr/lib/bats-assert/src/assert_failure.bash, line 66,\n in test file 002-model/07-model-delete.bats, line 25)\n  `assert_failure' failed\n\n-- command succeeded, but it was expected to fail --\noutput : No model(s) found with the name: 0000\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

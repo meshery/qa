@@ -1,0 +1,25 @@
+{
+  "uuid": "ac6fd186-aec7-4a6c-99e3-b69bfb43219b",
+  "name": "kubernetes connection broker diagnostics recover once NATS is reachable",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1783663445167,
+  "stop": 1783663445168,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 008-workspace/02-workspace-list.bats, line 32)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput (2 lines):\n  Error: {\"error\":\"unable to get result\",\"code\":\"meshery-server-1033\",\"severity\":\"ALERT\",\"probableCause\":[\"Result Identifier provided is not valid.Result did not persist in the database\"],\"suggestedRemediation\":[\"Make sure to provide the correct identifier for the result\"],\"longDescription\":[\"Status Code: 401 .failed to get workspaces | Short Description: Unable to fetch data from the Provider.Workspaces\"]}\n   | Short Description: Item Not Found | Probable Cause: The item you are searching for is not present. | Suggested Remediation: Check whether the item is present.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

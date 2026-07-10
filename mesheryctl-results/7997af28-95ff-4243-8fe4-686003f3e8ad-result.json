@@ -1,0 +1,25 @@
+{
+  "uuid": "7997af28-95ff-4243-8fe4-686003f3e8ad",
+  "name": "mesheryctl perf apply runs successfully with test-profile and valid URL",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1783663445163,
+  "stop": 1783663445164,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 004-perf/00-perf-apply.bats, line 13)\n  `assert_output --partial \"authentication token\"' failed\n\n-- output does not contain substring --\nsubstring (1 lines):\n  Unable to get URL for performing test\noutput (2 lines):\n  Error: {\"error\":\"unable to get: .performance profile\",\"code\":\"meshery-server-1032\",\"severity\":\"ALERT\",\"probableCause\":[\"Query parameter is not a part of the request\"],\"suggestedRemediation\":[\"Make sure to pass the query parameter in the request\"]}\n   | Short Description: Internal Server Error | Probable Cause: An unexpected error occurred on the server side | Suggested Remediation: Check the server logs using 'mesheryctl system logs' for more details and try again later\n--\n\n\n-- output does not contain substring --\nsubstring (1 lines):\n  authentication token\noutput (2 lines):\n  Error: {\"error\":\"unable to get: .performance profile\",\"code\":\"meshery-server-1032\",\"severity\":\"ALERT\",\"probableCause\":[\"Query parameter is not a part of the request\"],\"suggestedRemediation\":[\"Make sure to pass the query parameter in the request\"]}\n   | Short Description: Internal Server Error | Probable Cause: An unexpected error occurred on the server side | Suggested Remediation: Check the server logs using 'mesheryctl system logs' for more details and try again later\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

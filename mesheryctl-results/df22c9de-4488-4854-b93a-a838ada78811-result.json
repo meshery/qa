@@ -1,0 +1,25 @@
+{
+  "uuid": "df22c9de-4488-4854-b93a-a838ada78811",
+  "name": "mesheryctl design apply -f invalid path shows error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1783663445162,
+  "stop": 1783663445163,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 003-design/04-design-apply.bats, line 16)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput (2 lines):\n  Error: Response Status Code 400. Server emitted an error: {\"message\":\"user must be logged in to perform this operation\"}\n   | Short Description: Failed response server error | Probable Cause: Invalid API call | Suggested Remediation: Check your network connection and the status of Meshery Server via `mesheryctl system status`.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

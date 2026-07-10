@@ -1,0 +1,25 @@
+{
+  "uuid": "d7bd0870-d30d-4d62-b187-f0c107c074db",
+  "name": "given a valid context-name provided when running mesheryctl system context switch context-name then the current context is switched to specified context # skip Temporarily skipping",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1783663445168,
+  "stop": 1783663445169,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 999-system/01-system-context.bats, line 115)\n  `assert_output --partial \"provide exactly one context name\"' failed\n\n-- output does not contain substring --\nsubstring : provide exactly one context name\noutput    : Error: only one argument must be provided | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

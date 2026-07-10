@@ -1,0 +1,25 @@
+{
+  "uuid": "4b037a29-1872-4f63-8b6f-df8307efa8b6",
+  "name": "given all requirements met when running mesheryctl design list --count then the total numbers of designs is displayed",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1783663445158,
+  "stop": 1783663445159,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 003-design/03-design-list.bats, line 15)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput (2 lines):\n  Error: failed to fetch data for page 0: {\"error\":\"Unable to load your designs\",\"code\":\"meshery-server-1089\",\"severity\":\"ALERT\",\"probableCause\":[\"The remote provider is currently unreachable or returned an error..Your session has expired or your authentication token is no longer valid..Network connectivity between Meshery Server and the remote provider has been interrupted.\"],\"suggestedRemediation\":[\"Check your network connection and reload the page..Sign out and sign back in to refresh your session, then retry..Confirm that the configured remote provider is online.\"],\"longDescription\":[\"The server could not retrieve the list of designs. Underlying error: Status Code: 401 .unable to fetch designs | Short Description: Unable to fetch data from the Provider.designs\"]}\n   | Short Description: Internal Server Error | Probable Cause: An unexpected error occurred on the server side | Suggested Remediation: Check the server logs using 'mesheryctl system logs' for more details and try again later | Short Description: Failed to fetch paginated data from Meshery server. | Probable Cause: An error occurred while fetching paginated data from Meshery server. | Suggested Remediation: Please check if the server is running and the returned data is valid.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "uuid": "e242e000-e0a3-46fc-ae09-98f4c5be7a62",
+  "name": "mesheryctl model export handles discard flags correctly",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1783663445156,
+  "stop": 1783663445157,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 002-model/03-model-export.bats, line 51)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput (2 lines):\n  Error: {\"error\":\"model with name accurate version v1.7.0 has not been found\"}\n   | Short Description: Item Not Found | Probable Cause: The item you are searching for is not present. | Suggested Remediation: Check whether the item is present.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
