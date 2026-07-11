@@ -1,0 +1,46 @@
+{
+  "uuid": "ee769a0f-8740-441e-a146-bc8b3ec93e32",
+  "name": "TestGenerateErrorOutput/Given_no_input_flags,_when_generate_runs,_then_it_errors_with_missing_required_flag",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/relationships::TestGenerateErrorOutput/Given_no_input_flags,_when_generate_runs,_then_it_errors_with_missing_required_flag",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1783751162338,
+  "stop": 1783751162339,
+  "statusDetails": {
+    "message": "Error: at least one of the flags in the group [spreadsheet-id file] is required\nUsage:\n  relationship generate [flags]\n\nExamples:\n\n// Generate relationships documents from a CSV file\nmesheryctl relationship generate --file <path-to-relationships.csv>\n\n// Generate relationships documents with a custom output path\nmesheryctl relationship generate --file <path-to-relationships.csv> --output <path-to-output.json>\n\n// Generate relationships documents from a Google Spreadsheet\nmesheryctl relationship generate --spreadsheet-id [Spreadsheet ID] --spreadsheet-cred $CRED\n\n\nFlags:\n  -f, --file string               path to the relationships CSV file\n  -h, --help                      help for generate\n  -o, --output string             path to the output JSON file\n      --spreadsheet-cred string   base64 encoded credential to download the spreadsheet\n      --spreadsheet-id string     spreadsheet ID for the integration spreadsheet"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/relationships"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGenerateErrorOutput/Given_no_input_flags,_when_generate_runs,_then_it_errors_with_missing_required_flag"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

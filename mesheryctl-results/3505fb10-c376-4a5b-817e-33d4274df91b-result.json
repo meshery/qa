@@ -1,0 +1,46 @@
+{
+  "uuid": "3505fb10-c376-4a5b-817e-33d4274df91b",
+  "name": "TestViewModel/given_no_argument_provided_when_running_mesheryctl_model_view_then_an_error_message_is_displayed",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestViewModel/given_no_argument_provided_when_running_mesheryctl_model_view_then_an_error_message_is_displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1783751152684,
+  "stop": 1783751152684,
+  "statusDetails": {
+    "message": "Error: only one argument must be provided and needs to be enclosed by double quotes if it contains spaces (eg. \"model name\", modelName) | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestViewModel/given_no_argument_provided_when_running_mesheryctl_model_view_then_an_error_message_is_displayed"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

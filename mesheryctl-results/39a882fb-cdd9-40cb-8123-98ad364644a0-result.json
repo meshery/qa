@@ -1,0 +1,46 @@
+{
+  "uuid": "39a882fb-cdd9-40cb-8123-98ad364644a0",
+  "name": "TestComponentView",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/components::TestComponentView",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1783751141667,
+  "stop": 1783751141767,
+  "statusDetails": {
+    "message": "testing.go:442: List component test\n    testing.go:442: List component test\n    testing.go:442: List component test\n    testing.go:442: List component test\n    testing.go:442: List component test\n    testing.go:442: List component test\n    testing.go:442: List component test\n    testing.go:442: List component test"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/components"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestComponentView"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
