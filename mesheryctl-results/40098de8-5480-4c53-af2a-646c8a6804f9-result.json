@@ -1,0 +1,46 @@
+{
+  "uuid": "40098de8-5480-4c53-af2a-646c8a6804f9",
+  "name": "TestViewCmd",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/filter::TestViewCmd",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1784219727408,
+  "stop": 1784219727414,
+  "statusDetails": {
+    "message": "testing.go:442: List filter test\n    testing.go:442: List filter test\n    testing.go:542: Test 'Fetch Filter View for non existing filter' executed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/filter"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestViewCmd"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

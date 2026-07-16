@@ -1,0 +1,46 @@
+{
+  "uuid": "7b0b7d70-6a7b-4b04-86d7-9752e3f702f2",
+  "name": "TestResultCmd/Unmarshal_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/perf::TestResultCmd/Unmarshal_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1784219732362,
+  "stop": 1784219732365,
+  "statusDetails": {
+    "message": "Error: Unable to display performance ProfileFailed to unmarshal response body.json: cannot unmarshal string into Go struct field PerformanceResultsAPIResponse.pageSize of type uint | Short Description: Error unmarshalling response | Probable Cause: The JSON format from the response body is not valid. | Suggested Remediation: Ensure a valid JSON is provided for processing..\nSee https://docs.meshery.io/reference/mesheryctl/perf/result for usage details\n | Short Description: Error displaying performance | Probable Cause: Failed to fetch results for a specific profile | Suggested Remediation: Check your network connection and ensure Meshery is running ..\nSee https://docs.meshery.io/reference/mesheryctl/perf/result for usage details"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/perf"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestResultCmd/Unmarshal_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
