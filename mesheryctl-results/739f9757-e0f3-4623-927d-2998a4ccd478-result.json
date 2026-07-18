@@ -1,0 +1,46 @@
+{
+  "uuid": "739f9757-e0f3-4623-927d-2998a4ccd478",
+  "name": "TestRemoveMesh",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/adapter::TestRemoveMesh",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1784351209625,
+  "stop": 1784351209637,
+  "statusDetails": {
+    "message": "remove_test.go:142: Mesh Deploy test Passed\n    remove_test.go:142: Mesh Deploy test Passed\n    remove_test.go:142: Mesh Deploy test Passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/adapter"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestRemoveMesh"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
