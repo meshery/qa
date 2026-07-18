@@ -1,0 +1,25 @@
+{
+  "uuid": "21378f48-9577-4368-bdd3-a08375ea6a5b",
+  "name": "given no model-id provided as an argument when running mesheryctl model delete then an error message is displayed",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1784350901488,
+  "stop": 1784350901489,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 002-model/06-model-generate.bats, line 51)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput : Error: unknown flag: --register\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

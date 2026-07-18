@@ -1,0 +1,25 @@
+{
+  "uuid": "abbca2c1-4936-480c-be40-23d48565fd12",
+  "name": "mesheryctl model view supports YAML output",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1784350901488,
+  "stop": 1784350901489,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 002-model/05-model-view.bats, line 54)\n  `assert_success' failed\n\n-- command failed --\nstatus : 4\noutput : No model found with name or ID: amd-gpu\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

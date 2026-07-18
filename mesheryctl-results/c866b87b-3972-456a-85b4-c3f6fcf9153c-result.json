@@ -1,0 +1,25 @@
+{
+  "uuid": "c866b87b-3972-456a-85b4-c3f6fcf9153c",
+  "name": "mesheryctl model import fails for invalid files",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1784350901482,
+  "stop": 1784350901483,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 002-model/02-model-import.bats, line 22)\n  `assert_output --partial \"No component found in model provided. Models must have at least one component.\"' failed\n\n-- output does not contain substring --\nsubstring : No component found in model provided. Models must have at least one component.\noutput    : Error: Response Status Code 405. Server emitted an error:  | Short Description: Failed response server error | Probable Cause: Invalid API call | Suggested Remediation: Check your network connection and the status of Meshery Server via `mesheryctl system status`.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

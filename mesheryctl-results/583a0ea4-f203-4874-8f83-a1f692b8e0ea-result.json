@@ -1,0 +1,25 @@
+{
+  "uuid": "583a0ea4-f203-4874-8f83-a1f692b8e0ea",
+  "name": "mesheryctl model generate displays usage instructions when no file, filePath or URL is provided",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1784350901488,
+  "stop": 1784350901489,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 002-model/05-model-view.bats, line 62)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput (3 lines):\n  No model found with name or ID: amd-gpu\n  false\n  Error: no matches found\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

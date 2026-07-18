@@ -1,0 +1,25 @@
+{
+  "uuid": "fd410a06-debe-48ce-bb94-892eab13e520",
+  "name": "mesheryctl model import succeeds for URL of valid model as OCI artifact",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1784350901483,
+  "stop": 1784350901484,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 002-model/02-model-import.bats, line 59)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput : Error: Response Status Code 405. Server emitted an error:  | Short Description: Failed response server error | Probable Cause: Invalid API call | Suggested Remediation: Check your network connection and the status of Meshery Server via `mesheryctl system status`.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

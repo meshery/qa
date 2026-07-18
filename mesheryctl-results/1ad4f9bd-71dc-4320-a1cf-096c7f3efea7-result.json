@@ -1,0 +1,25 @@
+{
+  "uuid": "1ad4f9bd-71dc-4320-a1cf-096c7f3efea7",
+  "name": "mesheryctl model import fails for zip format",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1784350901482,
+  "stop": 1784350901483,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 002-model/02-model-import.bats, line 29)\n  `assert_output --partial \"The file 'model.json' could not be parsed due to invalid JSON syntax. Error details: The \\`schemaVersion\\` key is either empty or has an incorrect value.\"' failed\n\n-- output does not contain substring --\nsubstring : The file 'model.json' could not be parsed due to invalid JSON syntax. Error details: The `schemaVersion` key is either empty or has an incorrect value.\noutput    : Error: Response Status Code 405. Server emitted an error:  | Short Description: Failed response server error | Probable Cause: Invalid API call | Suggested Remediation: Check your network connection and the status of Meshery Server via `mesheryctl system status`.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
