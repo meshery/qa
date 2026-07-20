@@ -1,0 +1,46 @@
+{
+  "uuid": "95fd191b-bf11-4456-a483-71cbb53763b1",
+  "name": "TestProcessEvaluationResponse_NilPointerGuard/ReturnDiffOnly_option_populates_Design_from_Trace",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestProcessEvaluationResponse_NilPointerGuard/ReturnDiffOnly_option_populates_Design_from_Trace",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1784562940119,
+  "stop": 1784562940182,
+  "statusDetails": {
+    "message": "=== PAUSE TestProcessEvaluationResponse_NilPointerGuard/ReturnDiffOnly_option_populates_Design_from_Trace\n=== CONT  TestProcessEvaluationResponse_NilPointerGuard/ReturnDiffOnly_option_populates_Design_from_Trace\n\r\n2026/07/20 15:55:40 \u001b[31;1m/home/runner/go/pkg/mod/github.com/meshery/schemas@v1.3.34/models/v1beta1/connection/connection_helper.go:37 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.128ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"d00054ef-b87a-3cdc-315c-7110d050c573\" ORDER BY `connections`.`id` LIMIT 1\n\r\n2026/07/20 15:55:40 \u001b[31;1m/home/runner/go/pkg/mod/github.com/meshery/schemas@v1.3.34/models/v1beta1/model/model_helper.go:83 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.122ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `model_dbs` WHERE id = \"d71f7a9f-85c4-822b-830a-e4e62a73d05c\" and connection_id = \"d00054ef-b87a-3cdc-315c-7110d050c573\" ORDER BY `model_dbs`.`id` LIMIT 1\n\r\n2026/07/20 15:55:40 \u001b[31;1m/home/runner/go/pkg/mod/github.com/meshery/schemas@v1.3.34/models/v1beta1/category/category_helper.go:63 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.088ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `category_dbs` WHERE id = \"3514ec74-8381-c4eb-c822-89ad0ac66e39\" ORDER BY `category_dbs`.`id` LIMIT 1\n\r\n2026/07/20 15:55:40 \u001b[31;1m/home/runner/go/pkg/mod/github.com/meshery/schemas@v1.3.34/models/v1beta1/connection/connection_helper.go:37 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.146ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"d00054ef-b87a-3cdc-315c-7110d050c573\" ORDER BY `connections`.`id` LIMIT 1\n\r\n2026/07/20 15:55:40 \u001b[31;1m/home/runner/go/pkg/mod/github.com/meshery/schemas@v1.3.34/models/v1beta1/model/model_helper.go:83 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.151ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `model_dbs` WHERE id = \"d71f7a9f-85c4-822b-830a-e4e62a73d05c\" and connection_id = \"d00054ef-b87a-3cdc-315c-7110d050c573\" ORDER BY `model_dbs`.`id` LIMIT 1\n\r\n2026/07/20 15:55:40 \u001b[31;1m/home/runner/go/pkg/mod/github.com/meshery/schemas@v1.3.34/models/v1beta1/category/category_helper.go:63 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.106ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `category_dbs` WHERE id = \"3514ec74-8381-c4eb-c822-89ad0ac66e39\" ORDER BY `category_dbs`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProcessEvaluationResponse_NilPointerGuard/ReturnDiffOnly_option_populates_Design_from_Trace"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
