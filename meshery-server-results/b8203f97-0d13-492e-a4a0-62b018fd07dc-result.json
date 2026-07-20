@@ -1,0 +1,46 @@
+{
+  "uuid": "b8203f97-0d13-492e-a4a0-62b018fd07dc",
+  "name": "TestFlushMeshSyncResourcesForClusterRollsBackOnError",
+  "fullName": "github.com/meshery/meshery/server/models::TestFlushMeshSyncResourcesForClusterRollsBackOnError",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1784554145378,
+  "stop": 1784554145391,
+  "statusDetails": {
+    "message": "2026/07/20 13:29:05 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/k8s_context.go:677 \u001b[35;1mno such table: kubernetes_resource_object_meta\n\u001b[0m\u001b[33m[0.082ms] \u001b[34;1m[rows:0]\u001b[0m DELETE FROM `kubernetes_resource_object_meta` WHERE id IN (SELECT `id` FROM `kubernetes_resources` WHERE cluster_id = \"cluster-atomic\")"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestFlushMeshSyncResourcesForClusterRollsBackOnError"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
