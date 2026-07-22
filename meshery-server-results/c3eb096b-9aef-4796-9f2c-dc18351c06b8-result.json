@@ -1,0 +1,46 @@
+{
+  "uuid": "c3eb096b-9aef-4796-9f2c-dc18351c06b8",
+  "name": "TestProcessEvaluationResponse_NilPointerGuard/IsAnnotation_metadata_is_copied_to_hydrated_component",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestProcessEvaluationResponse_NilPointerGuard/IsAnnotation_metadata_is_copied_to_hydrated_component",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1784692722349,
+  "stop": 1784692722472,
+  "statusDetails": {
+    "message": "=== PAUSE TestProcessEvaluationResponse_NilPointerGuard/IsAnnotation_metadata_is_copied_to_hydrated_component\n=== CONT  TestProcessEvaluationResponse_NilPointerGuard/IsAnnotation_metadata_is_copied_to_hydrated_component\n\r\n2026/07/22 03:58:42 \u001b[31;1m/home/runner/go/pkg/mod/github.com/meshery/schemas@v1.3.35/models/v1beta1/connection/connection_helper.go:37 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.554ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"d00054ef-b87a-3cdc-315c-7110d050c573\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProcessEvaluationResponse_NilPointerGuard/IsAnnotation_metadata_is_copied_to_hydrated_component"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
