@@ -1,0 +1,46 @@
+{
+  "uuid": "d3bb9ec9-8d03-4ee0-a7ae-b63c5a911a7f",
+  "name": "TestDeleteEnvironment",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/environments::TestDeleteEnvironment",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1784822669671,
+  "stop": 1784822669676,
+  "statusDetails": {
+    "message": "testing.go:542: Test 'Delete environment without arguments' executed\n    testing.go:542: Test 'Delete environment successfully' executed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/environments"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteEnvironment"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

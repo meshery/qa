@@ -1,0 +1,46 @@
+{
+  "uuid": "2dacdf93-db7a-4d21-a114-287db7284fec",
+  "name": "TestDesignListCmd",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/design::TestDesignListCmd",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1784822665801,
+  "stop": 1784822665829,
+  "statusDetails": {
+    "message": "testing.go:442: List design test"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/design"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDesignListCmd"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

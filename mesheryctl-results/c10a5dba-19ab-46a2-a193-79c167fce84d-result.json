@@ -1,0 +1,46 @@
+{
+  "uuid": "c10a5dba-19ab-46a2-a193-79c167fce84d",
+  "name": "Test_importPattern_SendsCamelCaseFileName",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/design::Test_importPattern_SendsCamelCaseFileName",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1784822665799,
+  "stop": 1784822665801,
+  "statusDetails": {
+    "message": "import_test.go:75: Captured /api/pattern/import request body keys: [save file fileName name]\n    import_test.go:76: fileName field value: \"sampleDesign.golden\""
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/design"
+    },
+    {
+      "name": "subSuite",
+      "value": "Test_importPattern_SendsCamelCaseFileName"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
