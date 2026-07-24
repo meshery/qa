@@ -1,0 +1,46 @@
+{
+  "uuid": "49583b16-06a2-416a-9244-07a3f2d116b9",
+  "name": "TestDeleteCmd",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/design::TestDeleteCmd",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1784931947229,
+  "stop": 1784931947238,
+  "statusDetails": {
+    "message": "testing.go:628: Test 'given valid file when design delete then design is deleted' executed\n    testing.go:628: Test 'given invalid file path when design delete then error is thrown' executed\n    testing.go:628: Test 'given nonexistent design ID when design delete then error is thrown' executed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/design"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteCmd"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
