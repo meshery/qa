@@ -1,0 +1,25 @@
+{
+  "uuid": "6fb7f375-bcce-4980-a97d-a41f3f11064e",
+  "name": "given a valid context-name is provided as an argument when running mesheryctl system context create then the context is created",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1784943751314,
+  "stop": 1784943751315,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 009-diagnostics/00-controllers-diagnostics.bats, line 71)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput (2 lines):\n  Error: failed to fetch data for page 0: {\"error\":\"unable to get: .connections\",\"code\":\"meshery-server-1032\",\"severity\":\"ALERT\",\"probableCause\":[\"Query parameter is not a part of the request\"],\"suggestedRemediation\":[\"Make sure to pass the query parameter in the request\"]}\n   | Short Description: Internal Server Error | Probable Cause: An unexpected error occurred on the server side | Suggested Remediation: Check the server logs using 'mesheryctl system logs' for more details and try again later | Short Description: Failed to fetch paginated data from Meshery server. | Probable Cause: An error occurred while fetching paginated data from Meshery server. | Suggested Remediation: Please check if the server is running and the returned data is valid.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

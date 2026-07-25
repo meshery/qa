@@ -1,0 +1,25 @@
+{
+  "uuid": "a8944490-aeb8-4b93-b2f5-45b3c7966e11",
+  "name": "mesheryctl system dashboard fails when kubeconfig is missing",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1784943751310,
+  "stop": 1784943751311,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 001-system/03-system-checks.bats, line 49)\n  `assert_output --partial \"Meshery Broker is running\"' failed\n\n-- output does not contain substring --\nsubstring (1 lines):\n  Meshery Broker is running\noutput (6 lines):\n\n  Meshery Operators\n  --------------\n  ✓ Meshery Operator is running\n  ✓ Meshsync is running\n  !! Meshery Broker is not running\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
