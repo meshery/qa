@@ -1,0 +1,46 @@
+{
+  "uuid": "8a20e650-c32e-4504-83d7-f8f557f21e60",
+  "name": "TestProfileCmd/given_invalid_output_format_when_profile_then_throw_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/perf::TestProfileCmd/given_invalid_output_format_when_profile_then_throw_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1784943959947,
+  "stop": 1784943959947,
+  "statusDetails": {
+    "message": "Error: Provided output format \"invalid\" is invalid | Short Description: Invalid Output Format | Probable Cause: The specified output format is not supported | Suggested Remediation: Ensure using [json|yaml] as the output format"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/perf"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProfileCmd/given_invalid_output_format_when_profile_then_throw_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

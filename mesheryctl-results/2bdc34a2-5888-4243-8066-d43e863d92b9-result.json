@@ -1,0 +1,46 @@
+{
+  "uuid": "2bdc34a2-5888-4243-8066-d43e863d92b9",
+  "name": "TestGenerateDataOutput",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/relationships::TestGenerateDataOutput",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1784943966427,
+  "stop": 1784943966500,
+  "statusDetails": {
+    "message": "generate_test.go:211: Generate experimental relationship test for sheetdata validation has passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/relationships"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGenerateDataOutput"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
