@@ -86,6 +86,79 @@ Visit https://qa.meshery.io for the Meshery project quality assurance dashboard.
 
 <div>&nbsp;</div>
 
+## Cloning this repository (use a sparse clone)
+
+This repository is the QA dashboard's data store: it aggregates [Allure](https://allurereport.org/) test results from across the Meshery ecosystem. Every CI run commits fresh raw results and regenerated per-PR reports, so a full clone is **tens of gigabytes and grows continuously**. Almost none of that data is needed to work on the dashboard itself (its build scripts, styling, and report configuration).
+
+Unless you specifically need the historical test data, **clone sparsely**. You still get the full commit history and everything required to build the report, while skipping the multi-gigabyte result and report directories.
+
+The following directories hold generated test data and are safe to exclude (they are populated by `make *-results-sync` and `make report-build`):
+
+| Directory | Contents |
+| --- | --- |
+| `meshery-results/` | Raw Allure results for Meshery integration tests |
+| `meshery-server-results/` | Raw Allure results for Meshery Server Go unit tests |
+| `mesheryctl-results/` | Raw Allure results for `mesheryctl` tests |
+| `kanvas-results/` | Raw Allure results for Kanvas (extension) |
+| `remote-provider-results/` | Raw Allure results for the Remote Provider (extension) |
+| `pr-reports/` | Generated per-PR HTML reports (the largest contributor to repo size) |
+
+### Recommended: sparse clone that excludes test results
+
+```bash
+# 1. Blobless partial clone - fetches history metadata, not every file's contents
+git clone --no-checkout --filter=blob:none https://github.com/meshery/qa.git
+cd qa
+
+# 2. Check out everything EXCEPT the large test-result / report directories
+git sparse-checkout set --no-cone \
+  '/*' \
+  '!/meshery-results/' \
+  '!/meshery-server-results/' \
+  '!/mesheryctl-results/' \
+  '!/kanvas-results/' \
+  '!/remote-provider-results/' \
+  '!/pr-reports/'
+
+# 3. Populate the working tree
+git checkout master
+```
+
+This yields a working tree of a few hundred MB instead of tens of GB. `--filter=blob:none` makes it a [partial clone](https://git-scm.com/docs/partial-clone), so Git transparently fetches any excluded file on demand if you ever check one out - nothing is permanently lost, and `git log`/`git blame` keep working across the full history.
+
+### Already have a full clone?
+
+Apply the same sparse rules to an existing checkout to reclaim working-tree space (this prunes the working tree only; it does not shrink `.git`):
+
+```bash
+cd qa
+git sparse-checkout set --no-cone \
+  '/*' \
+  '!/meshery-results/' '!/meshery-server-results/' '!/mesheryctl-results/' \
+  '!/kanvas-results/' '!/remote-provider-results/' '!/pr-reports/'
+```
+
+### Need one of the excluded directories later?
+
+Re-include a directory at any time - for example, to bring back `meshery-results/`:
+
+```bash
+git sparse-checkout add '/meshery-results/'
+```
+
+Or restore the full working tree entirely:
+
+```bash
+git sparse-checkout disable
+```
+
+> Requires Git 2.25+ for `git sparse-checkout`; Git 2.27+ is recommended for partial-clone support.
+
+<p style="clear:both;">&nbsp;</p>
+
+
+<div>&nbsp;</div>
+
 ## Join the Meshery community!
 
 <a name="contributing"></a><a name="community"></a>
