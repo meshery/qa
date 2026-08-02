@@ -90,7 +90,7 @@ Allure results, selected by test labels:
 | Dashboard | all results (aggregate) |
 | Meshery | `project == "Meshery"` |
 | Mesheryctl | `project == "mesheryctl"` |
-| **Kubernetes Connections** | `epic == "Kubernetes Connections"` (UI + CLI connection tests, grouped by `client`) |
+| **Kubernetes Connections** | `epic == "Kubernetes Connections"`; results with no `epic` label also match via the Kubernetes `componentUnderTest` fallback (UI + CLI connection tests, grouped by `client`) |
 | Extension: Remote Provider Layer5 Cloud | `project == "Layer5Cloud"` |
 | Extension: Kanvas | `project == "Kanvas"` |
 
@@ -99,6 +99,10 @@ tests are tagged at their source (UI Playwright specs, CLI converters) with
 `epic="Kubernetes Connections"`, `componentUnderTest`, `testId` (`TC-<n>`), and
 `client` (`UI`|`CLI`), sourced from the Meshery Test Plan. Tagged tests still
 appear in their `project` report; the Connections report is an additional view.
+As a fallback, a result that carries no `epic` label at all is included when its
+`componentUnderTest` matches Kubernetes, so results predating the `epic`
+convention still appear; a result with a *different* `epic` value is not pulled
+in by the component fallback.
 
 <p style="clear:both;">&nbsp;</p>
 

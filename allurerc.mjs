@@ -23,14 +23,22 @@ const CONNECTIONS_EPIC = "Kubernetes Connections";
 // a fallback selector when a result predates the epic label.
 const CONNECTION_COMPONENTS = /kubernetes/i;
 
-// Select a result into the Connections report: prefer the explicit epic label,
-// fall back to componentUnderTest for results tagged before the epic convention.
-const isConnectionBehavior = (labels) =>
-  labels.some(({ name, value }) => name === "epic" && value === CONNECTIONS_EPIC) ||
-  labels.some(
+// Select a result into the Connections report: prefer the explicit epic label.
+// The componentUnderTest fallback applies ONLY to results that carry no epic
+// label at all (tagged before the epic convention) - a result with a different
+// epic value must not be pulled in just because its component is Kubernetes.
+const isConnectionBehavior = (labels) => {
+  const hasEpic = labels.some(({ name }) => name === "epic");
+  if (hasEpic) {
+    return labels.some(
+      ({ name, value }) => name === "epic" && value === CONNECTIONS_EPIC,
+    );
+  }
+  return labels.some(
     ({ name, value }) =>
       name === "componentUnderTest" && CONNECTION_COMPONENTS.test(value),
   );
+};
 
 export default defineConfig({
   name: "Meshery Quality Dashboard",

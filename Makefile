@@ -19,26 +19,29 @@ include build/Makefile.show-help.mk
 # Helpers
 # --------------------------------------------------
 
+# Wipe-and-replace the destination ONLY after the source is confirmed set and
+# present. Wiping first (unconditionally) meant a misconfigured/empty source var
+# still destroyed the committed destination results before the guard ran.
 define results-sync
-	@rm -rf $(2)
-	@mkdir -p $(2)
 	@if [ -n "$($(1))" ] && [ -d "$($(1))" ]; then \
 		echo "Copying results from $($(1)) → $(2)"; \
+		rm -rf $(2); \
+		mkdir -p $(2); \
 		cp -r "$($(1))"/* $(2)/ ; \
 	else \
-		echo "$(1) not set or directory does not exist, skipping"; \
+		echo "$(1) not set or directory does not exist, skipping (destination $(2) left intact)"; \
 	fi
 endef
 
 
 define results-sync-path
-	@rm -rf $(2)
-	@mkdir -p $(2)
 	@if [ -n "$(1)" ] && [ -d "$(1)" ]; then \
 		echo "Copying results from $(1) → $(2)"; \
+		rm -rf $(2); \
+		mkdir -p $(2); \
 		cp -r "$(1)"/* $(2)/ ; \
 	else \
-		echo "$(1) not set or directory does not exist, skipping"; \
+		echo "$(1) not set or directory does not exist, skipping (destination $(2) left intact)"; \
 	fi
 endef
 
@@ -103,7 +106,10 @@ report-build:
 	cp kanvas-results/* allure-results/ || true
 	cp meshery-results/* allure-results/ || true
 	cp meshery-server-results/* allure-results/ || true
-	cp mesheryctl-results/* allure-results/ || true
+	# NOTE: the legacy mesheryctl-results/ dir is intentionally NOT copied. Its
+	# results are frozen (both feeders now write to the split dirs below), so
+	# including it would merge stale pre-split results with current ones. The
+	# split dirs repopulate on the next CI run of each feeder.
 	cp mesheryctl-bats-results/* allure-results/ || true
 	cp mesheryctl-unit-results/* allure-results/ || true
 	cp remote-provider-results/* allure-results/ || true
