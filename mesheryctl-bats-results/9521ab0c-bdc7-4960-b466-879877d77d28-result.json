@@ -1,0 +1,49 @@
+{
+  "uuid": "9521ab0c-bdc7-4960-b466-879877d77d28",
+  "name": "given a valid connection-id is provided as an argument when running mesheryctl connection view --save then a details in default format is displayed",
+  "status": "skipped",
+  "stage": "finished",
+  "start": 1785709765086,
+  "stop": 1785709765087,
+  "statusDetails": {
+    "message": "No connection ID available"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "testId",
+      "value": "TC-1080"
+    },
+    {
+      "name": "tag",
+      "value": "TC-1080"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "Kubernetes Connection"
+    },
+    {
+      "name": "testGroup",
+      "value": "Connection Lifecycle"
+    },
+    {
+      "name": "epic",
+      "value": "Kubernetes Connections"
+    }
+  ]
+}

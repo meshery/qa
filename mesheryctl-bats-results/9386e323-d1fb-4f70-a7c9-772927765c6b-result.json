@@ -1,0 +1,47 @@
+{
+  "uuid": "9386e323-d1fb-4f70-a7c9-772927765c6b",
+  "name": "given more than one argument when running mesheryctl system config gke then an error message is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1785709765086,
+  "stop": 1785709765087,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "testId",
+      "value": "TC-1013"
+    },
+    {
+      "name": "tag",
+      "value": "TC-1013"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "Kubernetes Connection"
+    },
+    {
+      "name": "testGroup",
+      "value": "Connection Lifecycle"
+    },
+    {
+      "name": "epic",
+      "value": "Kubernetes Connections"
+    }
+  ]
+}

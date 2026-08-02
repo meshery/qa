@@ -1,0 +1,49 @@
+{
+  "uuid": "cd45d7c3-ad6b-4397-8fb7-16adf0e08bac",
+  "name": "given a non existing connection-id is provided as an argument when running mesheryctl connection delete non-existing-id then an error message is displayed",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1785709765086,
+  "stop": 1785709765087,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 007-connection/04-connection-delete.bats, line 25)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput (2 lines):\n  Error: {\"error\":\"Failed to Save: .connection\",\"code\":\"meshery-server-1051\",\"severity\":\"ALERT\",\"probableCause\":[\"Provider Database could be down or not reachable\"],\"suggestedRemediation\":[\"Make sure provider is up and reachable\"],\"longDescription\":[\"Status Code: 401 .error while deleting connection: {\\\"message\\\":\\\"user must be logged in to perform this operation\\\"}\\n | Short Description: Unable to de-register Meshery Server from Remote Provider.{\\\"message\\\":\\\"user must be logged in to perform this operation\\\"}\\n | Probable Cause: Network connectivity to Remote Provider may not be available. Session might have expired; token could be invalid. | Suggested Remediation: Verify that the Remote Provider is available. Ensure that you have an active session / valid token.\"]}\n   | Short Description: Internal Server Error | Probable Cause: An unexpected error occurred on the server side | Suggested Remediation: Check the server logs using 'mesheryctl system logs' for more details and try again later\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "testId",
+      "value": "TC-1066"
+    },
+    {
+      "name": "tag",
+      "value": "TC-1066"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "Kubernetes Connection"
+    },
+    {
+      "name": "testGroup",
+      "value": "Connection Lifecycle"
+    },
+    {
+      "name": "epic",
+      "value": "Kubernetes Connections"
+    }
+  ]
+}
