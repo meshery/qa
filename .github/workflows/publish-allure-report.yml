@@ -32,6 +32,11 @@ jobs:
     runs-on: ubuntu-24.04
     permissions:
       contents: write
+    env:
+      # Bounds for cap-history.sh so history.jsonl can never cross GitHub's
+      # 100 MB per-file push limit. Tune here without touching the script.
+      HISTORY_MAX_RUNS: "25"
+      HISTORY_MAX_BYTES: "94371840" # 90 MiB strict ceiling (< GitHub's 100 MB limit)
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v6.0.2
@@ -45,37 +50,19 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # Cap the committed seed BEFORE generating, so the report itself is built
+      # from a bounded trend history (see cap-history.sh for the why + bounds).
+      - name: Cap Allure trend history (seed)
+        run: bash ./cap-history.sh
+
       - name: Generate Allure Report 🔧
         run: make report-build
 
-      # Bound history.jsonl so it can never cross GitHub's 100 MB per-file push
-      # limit again. `allure generate` (historyPath: ./history.jsonl in
-      # allurerc.mjs) appends one run snapshot per line, oldest first, each
-      # carrying the full knownTestCaseIds set - so the file grows both per run
-      # and per test, and previously reached ~101 MB (83 runs) which made every
-      # publish push fail. Keep only the most recent runs, capped by BOTH a run
-      # count and a hard byte budget well under the limit; the byte budget also
-      # guards against a single run's snapshot ballooning as the test suite grows.
-      - name: Cap Allure trend history
-        run: |
-          set -euo pipefail
-          HIST=history.jsonl
-          if [ ! -f "$HIST" ]; then
-            echo "No $HIST to cap (fresh history)."
-            exit 0
-          fi
-          MAX_RUNS=25
-          MAX_BYTES=$((80 * 1024 * 1024))
-          before_lines=$(wc -l < "$HIST"); before_bytes=$(wc -c < "$HIST")
-          # 1) cap by run count - keep the last MAX_RUNS lines (newest are last)
-          tail -n "$MAX_RUNS" "$HIST" > "$HIST.capped"
-          # 2) cap by size - drop oldest remaining lines until under the budget
-          while [ "$(wc -c < "$HIST.capped")" -gt "$MAX_BYTES" ] && [ "$(wc -l < "$HIST.capped")" -gt 1 ]; do
-            tail -n +2 "$HIST.capped" > "$HIST.capped.tmp"
-            mv "$HIST.capped.tmp" "$HIST.capped"
-          done
-          mv "$HIST.capped" "$HIST"
-          echo "history.jsonl capped: ${before_lines} runs/${before_bytes}B -> $(wc -l < "$HIST") runs/$(wc -c < "$HIST")B"
+      # Cap again AFTER generating: `allure generate` appends this run's snapshot
+      # back to history.jsonl, so the file committed and pushed below must be
+      # re-bounded or it would creep back over GitHub's 100 MB push limit.
+      - name: Cap Allure trend history (post-generate)
+        run: bash ./cap-history.sh
 
       - name: Commit & push updated history
         uses: stefanzweifel/git-auto-commit-action@v7
