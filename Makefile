@@ -19,15 +19,23 @@ include build/Makefile.show-help.mk
 # Helpers
 # --------------------------------------------------
 
-# Wipe-and-replace the destination ONLY after the source is confirmed set and
-# present. Wiping first (unconditionally) meant a misconfigured/empty source var
-# still destroyed the committed destination results before the guard ran.
+# Replace the destination ONLY after the source is validated AND the copy has
+# fully succeeded. The copy lands in a temporary sibling dir first; the
+# destination is removed and swapped in only once that copy completes, so a
+# misconfigured source var, a mid-copy I/O error, or a disappearing source can
+# never leave the committed results half-deleted. An unset/missing source skips
+# entirely and leaves the destination intact. `cp -a "$src/."` copies directory
+# contents (and succeeds on an empty source) without relying on glob expansion.
 define results-sync
 	@if [ -n "$($(1))" ] && [ -d "$($(1))" ]; then \
 		echo "Copying results from $($(1)) → $(2)"; \
-		rm -rf $(2); \
-		mkdir -p $(2); \
-		cp -r "$($(1))"/* $(2)/ ; \
+		tmp="$(2).tmp.$$$$"; \
+		rm -rf "$$tmp"; mkdir -p "$$tmp"; \
+		if cp -a "$($(1))/." "$$tmp/"; then \
+			rm -rf $(2); mv "$$tmp" $(2); \
+		else \
+			echo "Copy failed; destination $(2) left intact"; rm -rf "$$tmp"; exit 1; \
+		fi; \
 	else \
 		echo "$(1) not set or directory does not exist, skipping (destination $(2) left intact)"; \
 	fi
@@ -37,9 +45,13 @@ endef
 define results-sync-path
 	@if [ -n "$(1)" ] && [ -d "$(1)" ]; then \
 		echo "Copying results from $(1) → $(2)"; \
-		rm -rf $(2); \
-		mkdir -p $(2); \
-		cp -r "$(1)"/* $(2)/ ; \
+		tmp="$(2).tmp.$$$$"; \
+		rm -rf "$$tmp"; mkdir -p "$$tmp"; \
+		if cp -a "$(1)/." "$$tmp/"; then \
+			rm -rf $(2); mv "$$tmp" $(2); \
+		else \
+			echo "Copy failed; destination $(2) left intact"; rm -rf "$$tmp"; exit 1; \
+		fi; \
 	else \
 		echo "$(1) not set or directory does not exist, skipping (destination $(2) left intact)"; \
 	fi
