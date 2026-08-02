@@ -1,0 +1,44 @@
+{
+  "uuid": "88f67e87-0a08-4e09-85a6-2746146fd22c",
+  "name": "TestConnectionDeleteCmd/given_a_non-existent_connectionID_provided_when_running_mesheryctl_connection_delete_then_an_error_message_is_displayed",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/connections::TestConnectionDeleteCmd/given_a_non-existent_connectionID_provided_when_running_mesheryctl_connection_delete_then_an_error_message_is_displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1785691271155,
+  "stop": 1785691271165,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/connections"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestConnectionDeleteCmd/given_a_non-existent_connectionID_provided_when_running_mesheryctl_connection_delete_then_an_error_message_is_displayed"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
