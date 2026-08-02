@@ -90,7 +90,7 @@ Allure results, selected by test labels:
 | Dashboard | all results (aggregate) |
 | Meshery | `project == "Meshery"` |
 | Mesheryctl | `project == "mesheryctl"` |
-| **Connection Lifecycle** | `testGroup == "Connection Lifecycle"` (Test Plan Test Group, col B); transitionally also matches the legacy `epic == "Kubernetes Connections"` / Kubernetes `componentUnderTest` fallback (UI + CLI connection tests, grouped by `client`) |
+| **Connection Lifecycle** | `testGroup == "Connection Lifecycle"` (Test Plan Test Group, col B); transitionally, results carrying **no** `testGroup` label also match the legacy `epic == "Kubernetes Connections"` / Kubernetes `componentUnderTest` fallback (UI + CLI connection tests, grouped by `client`) |
 | Extension: Remote Provider Layer5 Cloud | `project == "Layer5Cloud"` |
 | Extension: Kanvas | `project == "Kanvas"` |
 
@@ -103,13 +103,16 @@ its own report by keying a plugin's filter on its `testGroup` value. Tagged
 tests still appear in their `project` report; this is an additional
 cross-client (`UI`|`CLI`) lens.
 
-Transitionally, the filter also matches the legacy epic-based selector
-(`epic == "Kubernetes Connections"`, with a Kubernetes `componentUnderTest`
-fallback for results carrying no `epic` label) so the report stays populated
-with connection results emitted before the `testGroup` label existed. This
-fallback drops once every connection result carries `testGroup`. The report is
-published at https://qa.meshery.io/connections/ (the plugin key is kept stable
-so the URL is unchanged).
+Transitionally, a result that carries **no** `testGroup` label at all also
+matches the legacy epic-based selector (`epic == "Kubernetes Connections"`, with
+a Kubernetes `componentUnderTest` fallback for results carrying no `epic` label)
+so the report stays populated with connection results emitted before the
+`testGroup` label existed. A result that already carries a `testGroup` is
+authoritative - it is never pulled in by the legacy fallback even if its
+component looks like Kubernetes - so once every connection result carries
+`testGroup`, the fallback can be removed with no change in membership. The
+report is published at https://qa.meshery.io/connections/ (the plugin key is
+kept stable so the URL is unchanged).
 
 <p style="clear:both;">&nbsp;</p>
 

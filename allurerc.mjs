@@ -24,6 +24,13 @@ const isTestGroup = (labels, groupName) =>
     ({ name, value }) => name === "testGroup" && value === groupName,
   );
 
+const hasTestGroup = (labels) => labels.some(({ name }) => name === "testGroup");
+
+// Single source of truth for the Connection Lifecycle Test Group value - used
+// for both the report display name and the testGroup filter so the two cannot
+// drift apart.
+const CONNECTION_LIFECYCLE_GROUP = "Connection Lifecycle";
+
 // --- Transitional epic-based fallback (remove once all connection results
 // carry testGroup) -----------------------------------------------------------
 // Before this rename the connection report keyed on epic="Kubernetes
@@ -152,18 +159,22 @@ export default defineConfig({
     //
     // Transitional: the isConnectionBehavior (epic) fallback keeps the report
     // populated with connection results emitted before the testGroup label
-    // existed. Drop it once all connection results carry testGroup.
+    // existed. It applies ONLY to results carrying no testGroup label at all -
+    // a result that already carries a testGroup (of any value) is authoritative,
+    // so a different-group result must not be pulled in via the legacy epic/
+    // component heuristic. Drop the whole fallback once all connection results
+    // carry testGroup.
     connections: {
       import: "@allurereport/plugin-awesome",
       options: {
-        reportName: "Connection Lifecycle",
+        reportName: CONNECTION_LIFECYCLE_GROUP,
         singleFile: false,
         reportLanguage: "en",
         open: false,
         logo: "https://raw.githubusercontent.com/meshery-extensions/qa/refs/heads/master/.github/assets/images/meshery/icon-only/meshery-light-icon.svg",
         filter: ({ labels }) =>
-          isTestGroup(labels, "Connection Lifecycle") ||
-          isConnectionBehavior(labels),
+          isTestGroup(labels, CONNECTION_LIFECYCLE_GROUP) ||
+          (!hasTestGroup(labels) && isConnectionBehavior(labels)),
         // Group by client (UI vs CLI) first, then the suite hierarchy. The
         // awesome plugin (preciseTreeLabels) keeps only label names present on
         // at least one result, so results missing "client" fall back to the
