@@ -13,20 +13,34 @@ const PROJECTS = {
 const isProject = (labels, projectName) =>
   labels.find(({ name, value }) => name === "project" && value === projectName);
 
-// Behavior-scoped report keys. A Connections result is tagged at its source
-// (UI Playwright specs and CLI converters) with epic="Kubernetes Connections",
-// componentUnderTest (Test Plan col C), testId=TC-<n> (Test Plan col A), and
-// client (UI|CLI). See https://qa.meshery.io and the meshery test-tagging docs.
+// Test-Group-keyed report selector. The general report key is the `testGroup`
+// label, whose value is the Meshery Test Plan "Latest" tab Test Group (col B).
+// Every Test Group can drive its own filtered report by keying on this label;
+// "Connection Lifecycle" is the first consumer. Results are tagged at their
+// source (UI Playwright specs and CLI converters) - see the meshery
+// test-tagging docs and https://qa.meshery.io.
+const isTestGroup = (labels, groupName) =>
+  labels.some(
+    ({ name, value }) => name === "testGroup" && value === groupName,
+  );
+
+// --- Transitional epic-based fallback (remove once all connection results
+// carry testGroup) -----------------------------------------------------------
+// Before this rename the connection report keyed on epic="Kubernetes
+// Connections" plus a Kubernetes componentUnderTest fallback. Kept only so the
+// report is not empty for results emitted before the testGroup label existed;
+// drops once fresh runs of every connection test carry testGroup.
 const CONNECTIONS_EPIC = "Kubernetes Connections";
 
 // Matches componentUnderTest values that denote Kubernetes connection behavior.
 // Used as a fallback selector when a result predates the epic label.
 const CONNECTION_COMPONENT_RE = /kubernetes/i;
 
-// Select a result into the Connections report: prefer the explicit epic label.
-// The componentUnderTest fallback applies ONLY to results that carry no epic
-// label at all (tagged before the epic convention) - a result with a different
-// epic value must not be pulled in just because its component is Kubernetes.
+// Select a result into the connection report via the legacy epic label: prefer
+// the explicit epic label. The componentUnderTest fallback applies ONLY to
+// results that carry no epic label at all (tagged before the epic convention) -
+// a result with a different epic value must not be pulled in just because its
+// component is Kubernetes.
 const isConnectionBehavior = (labels) => {
   const hasEpic = labels.some(({ name }) => name === "epic");
   if (hasEpic) {
@@ -123,19 +137,33 @@ export default defineConfig({
         groupBy: ["parentSuite", "suite", "subSuite"],
       },
     },
-    // Cross-client behavior report: aggregates Kubernetes Connection tests from
-    // BOTH the UI (project=Meshery) and CLI (project=mesheryctl) pools. It keys
-    // on the epic label, NOT project, so it is an additional lens - connection
-    // tests still appear in the Meshery and Mesheryctl reports above.
+    // Test-Group-keyed report: a filtered view over one shared Allure pool,
+    // selected by the `testGroup` label (Test Plan col B). This "Connection
+    // Lifecycle" report aggregates the connection tests from BOTH the UI
+    // (project=Meshery) and CLI (project=mesheryctl) pools - it keys on
+    // testGroup, NOT project, so it is an additional lens; those tests still
+    // appear in the Meshery and Mesheryctl reports above. The same pattern
+    // generalizes to one filtered report per Test Group: add a plugin whose
+    // filter is isTestGroup(labels, "<Test Group>").
+    //
+    // The plugin key stays `connections` so the published report URL
+    // (https://qa.meshery.io/connections/) is unchanged; only the display name
+    // and filter change.
+    //
+    // Transitional: the isConnectionBehavior (epic) fallback keeps the report
+    // populated with connection results emitted before the testGroup label
+    // existed. Drop it once all connection results carry testGroup.
     connections: {
       import: "@allurereport/plugin-awesome",
       options: {
-        reportName: "Kubernetes Connections",
+        reportName: "Connection Lifecycle",
         singleFile: false,
         reportLanguage: "en",
         open: false,
         logo: "https://raw.githubusercontent.com/meshery-extensions/qa/refs/heads/master/.github/assets/images/meshery/icon-only/meshery-light-icon.svg",
-        filter: ({ labels }) => isConnectionBehavior(labels),
+        filter: ({ labels }) =>
+          isTestGroup(labels, "Connection Lifecycle") ||
+          isConnectionBehavior(labels),
         // Group by client (UI vs CLI) first, then the suite hierarchy. The
         // awesome plugin (preciseTreeLabels) keeps only label names present on
         // at least one result, so results missing "client" fall back to the

@@ -90,19 +90,26 @@ Allure results, selected by test labels:
 | Dashboard | all results (aggregate) |
 | Meshery | `project == "Meshery"` |
 | Mesheryctl | `project == "mesheryctl"` |
-| **Kubernetes Connections** | `epic == "Kubernetes Connections"`; results with no `epic` label also match via the Kubernetes `componentUnderTest` fallback (UI + CLI connection tests, grouped by `client`) |
+| **Connection Lifecycle** | `testGroup == "Connection Lifecycle"` (Test Plan Test Group, col B); transitionally also matches the legacy `epic == "Kubernetes Connections"` / Kubernetes `componentUnderTest` fallback (UI + CLI connection tests, grouped by `client`) |
 | Extension: Remote Provider Layer5 Cloud | `project == "Layer5Cloud"` |
 | Extension: Kanvas | `project == "Kanvas"` |
 
-The Kubernetes Connections report is a cross-client behavior lens: connection
-tests are tagged at their source (UI Playwright specs, CLI converters) with
-`epic="Kubernetes Connections"`, `componentUnderTest`, `testId` (`TC-<n>`), and
-`client` (`UI`|`CLI`), sourced from the Meshery Test Plan. Tagged tests still
-appear in their `project` report; the Connections report is an additional view.
-As a fallback, a result that carries no `epic` label at all is included when its
-`componentUnderTest` matches Kubernetes, so results predating the `epic`
-convention still appear; a result with a *different* `epic` value is not pulled
-in by the component fallback.
+The Connection Lifecycle report is a **Test-Group-keyed view**: each test is
+tagged at its source (UI Playwright specs, CLI converters) with a `testGroup`
+label whose value is the Meshery Test Plan "Latest" tab Test Group (column B).
+The report filters on `testGroup == "Connection Lifecycle"`. This pattern
+**generalizes to one filtered report per Test Group** - any Test Group can get
+its own report by keying a plugin's filter on its `testGroup` value. Tagged
+tests still appear in their `project` report; this is an additional
+cross-client (`UI`|`CLI`) lens.
+
+Transitionally, the filter also matches the legacy epic-based selector
+(`epic == "Kubernetes Connections"`, with a Kubernetes `componentUnderTest`
+fallback for results carrying no `epic` label) so the report stays populated
+with connection results emitted before the `testGroup` label existed. This
+fallback drops once every connection result carries `testGroup`. The report is
+published at https://qa.meshery.io/connections/ (the plugin key is kept stable
+so the URL is unchanged).
 
 <p style="clear:both;">&nbsp;</p>
 
