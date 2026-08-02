@@ -10,6 +10,8 @@ on:
       - "meshery-results/**"
       - "meshery-server-results/**"
       - "mesheryctl-results/**"
+      - "mesheryctl-bats-results/**"
+      - "mesheryctl-unit-results/**"
       - "remote-provider-results/**"
       - "allurerc.mjs"
   workflow_dispatch:

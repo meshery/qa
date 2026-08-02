@@ -13,6 +13,33 @@ const PROJECTS = {
 const isProject = (labels, projectName) =>
   labels.find(({ name, value }) => name === "project" && value === projectName);
 
+// Behavior-scoped report keys. A Connections result is tagged at its source
+// (UI Playwright specs and CLI converters) with epic="Kubernetes Connections",
+// componentUnderTest (Test Plan col C), testId=TC-<n> (Test Plan col A), and
+// client (UI|CLI). See https://qa.meshery.io and the meshery test-tagging docs.
+const CONNECTIONS_EPIC = "Kubernetes Connections";
+
+// Matches componentUnderTest values that denote Kubernetes connection behavior.
+// Used as a fallback selector when a result predates the epic label.
+const CONNECTION_COMPONENT_RE = /kubernetes/i;
+
+// Select a result into the Connections report: prefer the explicit epic label.
+// The componentUnderTest fallback applies ONLY to results that carry no epic
+// label at all (tagged before the epic convention) - a result with a different
+// epic value must not be pulled in just because its component is Kubernetes.
+const isConnectionBehavior = (labels) => {
+  const hasEpic = labels.some(({ name }) => name === "epic");
+  if (hasEpic) {
+    return labels.some(
+      ({ name, value }) => name === "epic" && value === CONNECTIONS_EPIC,
+    );
+  }
+  return labels.some(
+    ({ name, value }) =>
+      name === "componentUnderTest" && CONNECTION_COMPONENT_RE.test(value),
+  );
+};
+
 export default defineConfig({
   name: "Meshery Quality Dashboard",
   output: "./allure-report",
@@ -94,6 +121,26 @@ export default defineConfig({
         filter: ({ labels }) => isProject(labels, PROJECTS.KANVAS),
         // Suite-based hierarchy
         groupBy: ["parentSuite", "suite", "subSuite"],
+      },
+    },
+    // Cross-client behavior report: aggregates Kubernetes Connection tests from
+    // BOTH the UI (project=Meshery) and CLI (project=mesheryctl) pools. It keys
+    // on the epic label, NOT project, so it is an additional lens - connection
+    // tests still appear in the Meshery and Mesheryctl reports above.
+    connections: {
+      import: "@allurereport/plugin-awesome",
+      options: {
+        reportName: "Kubernetes Connections",
+        singleFile: false,
+        reportLanguage: "en",
+        open: false,
+        logo: "https://raw.githubusercontent.com/meshery-extensions/qa/refs/heads/master/.github/assets/images/meshery/icon-only/meshery-light-icon.svg",
+        filter: ({ labels }) => isConnectionBehavior(labels),
+        // Group by client (UI vs CLI) first, then the suite hierarchy. The
+        // awesome plugin (preciseTreeLabels) keeps only label names present on
+        // at least one result, so results missing "client" fall back to the
+        // suite/subSuite grouping automatically.
+        groupBy: ["client", "suite", "subSuite"],
       },
     },
 
