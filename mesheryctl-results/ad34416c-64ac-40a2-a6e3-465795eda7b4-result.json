@@ -1,0 +1,45 @@
+{
+  "uuid": "ad34416c-64ac-40a2-a6e3-465795eda7b4",
+  "name": "given all requirements are met, when running mesheryctl system check --operator then operators are shown in running state",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1785691071036,
+  "stop": 1785691071037,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 001-system/03-system-checks.bats, line 49)\n  `assert_output --partial \"Meshery Broker is running\"' failed\n\n-- output does not contain substring --\nsubstring (1 lines):\n  Meshery Broker is running\noutput (6 lines):\n\n  Meshery Operators\n  --------------\n  ✓ Meshery Operator is running\n  ✓ Meshsync is running\n  !! Meshery Broker is not running\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "testId",
+      "value": "TC-1034"
+    },
+    {
+      "name": "tag",
+      "value": "TC-1034"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "Kubernetes Connection"
+    },
+    {
+      "name": "epic",
+      "value": "Kubernetes Connections"
+    }
+  ]
+}

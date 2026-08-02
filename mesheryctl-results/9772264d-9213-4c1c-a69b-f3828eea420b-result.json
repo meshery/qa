@@ -1,0 +1,45 @@
+{
+  "uuid": "9772264d-9213-4c1c-a69b-f3828eea420b",
+  "name": "given valid type minikube is provided when running mesheryctl connection create --type minikube then a new connection is created",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1785691071038,
+  "stop": 1785691071039,
+  "statusDetails": {
+    "message": "(from function `fail' in file /usr/lib/bats-support/src/error.bash, line 40,\n in test file 007-connection/01-connection-create.bats, line 55)\n  `[ -n \"$CONNECTION_ID\" ] || fail \"connection create did not emit a connection_id line\"' failed\nconnection create did not emit a connection_id line"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "testId",
+      "value": "TC-1013"
+    },
+    {
+      "name": "tag",
+      "value": "TC-1013"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "Kubernetes Connection"
+    },
+    {
+      "name": "epic",
+      "value": "Kubernetes Connections"
+    }
+  ]
+}

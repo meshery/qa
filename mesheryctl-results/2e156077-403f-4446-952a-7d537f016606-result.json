@@ -1,0 +1,29 @@
+{
+  "uuid": "2e156077-403f-4446-952a-7d537f016606",
+  "name": "mesheryctl design delete removes the associate design",
+  "status": "skipped",
+  "stage": "finished",
+  "start": 1785691071037,
+  "stop": 1785691071038,
+  "statusDetails": {
+    "message": "Design ID file not found (import test may have failed)"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    }
+  ]
+}

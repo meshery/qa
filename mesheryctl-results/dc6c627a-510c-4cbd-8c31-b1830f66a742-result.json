@@ -1,0 +1,45 @@
+{
+  "uuid": "dc6c627a-510c-4cbd-8c31-b1830f66a742",
+  "name": "given no argument is provided when running mesheryctl connection view connection-id --output-format then a message error is displayed",
+  "status": "skipped",
+  "stage": "finished",
+  "start": 1785691071038,
+  "stop": 1785691071039,
+  "statusDetails": {
+    "message": "No connection ID available"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "testId",
+      "value": "TC-1080"
+    },
+    {
+      "name": "tag",
+      "value": "TC-1080"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "Kubernetes Connection"
+    },
+    {
+      "name": "epic",
+      "value": "Kubernetes Connections"
+    }
+  ]
+}
