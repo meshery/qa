@@ -45,7 +45,7 @@ endef
 # --------------------------------------------------
 # Targets
 # --------------------------------------------------
-.PHONY: report-generate meshery-results-sync meshery-server-results-sync mesheryctl-results-sync report-open report
+.PHONY: report-generate meshery-results-sync meshery-server-results-sync mesheryctl-results-sync mesheryctl-bats-results-sync mesheryctl-unit-results-sync report-open report
 
 ## Sync Meshery Test Results
 meshery-results-sync: 
@@ -57,10 +57,22 @@ meshery-server-results-sync:
 	@echo "Syncing Server Go Unit Test Results..."
 	$(call results-sync,MESHERY_SERVER_RESULTS_PATH,meshery-server-results)
 
-## Sync mesheryctl Test Results
+## Sync mesheryctl Test Results (DEPRECATED - shared by BATS e2e and go unit
+## feeders, which clobbered each other since results-sync wipes its target.
+## Kept as a back-compat alias; new feeders use the split targets below.)
 mesheryctl-results-sync:
 	@echo "Syncing mesheryctl Test Results..."
 	$(call results-sync,MESHERYCTL_RESULTS_PATH,mesheryctl-results)
+
+## Sync mesheryctl BATS e2e Test Results
+mesheryctl-bats-results-sync:
+	@echo "Syncing mesheryctl BATS e2e Test Results..."
+	$(call results-sync,MESHERYCTL_BATS_RESULTS_PATH,mesheryctl-bats-results)
+
+## Sync mesheryctl Go unit Test Results
+mesheryctl-unit-results-sync:
+	@echo "Syncing mesheryctl Go unit Test Results..."
+	$(call results-sync,MESHERYCTL_UNIT_RESULTS_PATH,mesheryctl-unit-results)
 
 ## Generic sync - make project-results-sync RESULTS_DIR=path/to/results PROJECT=myproject
 project-results-sync:
@@ -92,6 +104,8 @@ report-build:
 	cp meshery-results/* allure-results/ || true
 	cp meshery-server-results/* allure-results/ || true
 	cp mesheryctl-results/* allure-results/ || true
+	cp mesheryctl-bats-results/* allure-results/ || true
+	cp mesheryctl-unit-results/* allure-results/ || true
 	cp remote-provider-results/* allure-results/ || true
 	npm run report:generate
 
