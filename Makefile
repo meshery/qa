@@ -32,7 +32,7 @@ define results-sync
 		tmp="$(2).tmp.$$$$"; \
 		rm -rf "$$tmp"; mkdir -p "$$tmp"; \
 		if cp -a "$($(1))/." "$$tmp/"; then \
-			rm -rf $(2); mv "$$tmp" $(2); \
+			rm -rf "$(2)"; mv "$$tmp" "$(2)"; \
 		else \
 			echo "Copy failed; destination $(2) left intact"; rm -rf "$$tmp"; exit 1; \
 		fi; \
@@ -48,7 +48,7 @@ define results-sync-path
 		tmp="$(2).tmp.$$$$"; \
 		rm -rf "$$tmp"; mkdir -p "$$tmp"; \
 		if cp -a "$(1)/." "$$tmp/"; then \
-			rm -rf $(2); mv "$$tmp" $(2); \
+			rm -rf "$(2)"; mv "$$tmp" "$(2)"; \
 		else \
 			echo "Copy failed; destination $(2) left intact"; rm -rf "$$tmp"; exit 1; \
 		fi; \
