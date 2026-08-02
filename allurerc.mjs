@@ -19,9 +19,9 @@ const isProject = (labels, projectName) =>
 // client (UI|CLI). See https://qa.meshery.io and the meshery test-tagging docs.
 const CONNECTIONS_EPIC = "Kubernetes Connections";
 
-// componentUnderTest values that denote Kubernetes connection behavior. Used as
-// a fallback selector when a result predates the epic label.
-const CONNECTION_COMPONENTS = /kubernetes/i;
+// Matches componentUnderTest values that denote Kubernetes connection behavior.
+// Used as a fallback selector when a result predates the epic label.
+const CONNECTION_COMPONENT_RE = /kubernetes/i;
 
 // Select a result into the Connections report: prefer the explicit epic label.
 // The componentUnderTest fallback applies ONLY to results that carry no epic
@@ -36,7 +36,7 @@ const isConnectionBehavior = (labels) => {
   }
   return labels.some(
     ({ name, value }) =>
-      name === "componentUnderTest" && CONNECTION_COMPONENTS.test(value),
+      name === "componentUnderTest" && CONNECTION_COMPONENT_RE.test(value),
   );
 };
 
