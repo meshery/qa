@@ -1,0 +1,25 @@
+{
+  "uuid": "f480341a-11f6-47f0-a57b-9f1c369f3127",
+  "name": "given all requirements met when running mesheryctl connection list --pagesize size then the conections of specified size is displayed",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1785642744535,
+  "stop": 1785642744536,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 007-connection/02-connection-list.bats, line 18)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput (2 lines):\n  Error: failed to fetch data for page 0: {\"error\":\"unable to get: .connections\",\"code\":\"meshery-server-1032\",\"severity\":\"ALERT\",\"probableCause\":[\"Query parameter is not a part of the request\"],\"suggestedRemediation\":[\"Make sure to pass the query parameter in the request\"]}\n   | Short Description: Internal Server Error | Probable Cause: An unexpected error occurred on the server side | Suggested Remediation: Check the server logs using 'mesheryctl system logs' for more details and try again later | Short Description: Failed to fetch paginated data from Meshery server. | Probable Cause: An error occurred while fetching paginated data from Meshery server. | Suggested Remediation: Please check if the server is running and the returned data is valid.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
