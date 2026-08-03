@@ -1,0 +1,23 @@
+(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,
+ in test file 001-system/03-system-checks.bats, line 49)
+  `assert_output --partial "Meshery Broker is running"' failed
+
+-- output does not contain substring --
+substring (1 lines):
+  Meshery Broker is running
+output (6 lines):
+
+  Meshery Operators
+  --------------
+  ✓ Meshery Operator is running
+  ✓ Meshsync is running
+  !! Meshery Broker is not running
+--
+
+Last output:
+
+Meshery Operators
+--------------
+✓ Meshery Operator is running
+✓ Meshsync is running
+!! Meshery Broker is not running

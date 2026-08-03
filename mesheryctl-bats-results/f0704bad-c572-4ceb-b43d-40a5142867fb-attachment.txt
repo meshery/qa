@@ -1,0 +1,11 @@
+(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,
+ in test file 008-workspace/01-workspace-create.bats, line 14)
+  `assert_output --partial "Invalid value for --orgId 'foo': must be a valid UUID"' failed
+
+-- output does not contain substring --
+substring : Invalid value for --orgId 'foo': must be a valid UUID
+output    : Error: Invalid value for --orgid 'foo': must be a valid UUID, Invalid value for --name '' | Short Description: Invalid flag(s) provided | Probable Cause: The value for one or more flags provided is invalid. | Suggested Remediation: Provide valid flag value and try again.
+--
+
+Last output:
+Error: Invalid value for --orgid 'foo': must be a valid UUID, Invalid value for --name '' | Short Description: Invalid flag(s) provided | Probable Cause: The value for one or more flags provided is invalid. | Suggested Remediation: Provide valid flag value and try again.

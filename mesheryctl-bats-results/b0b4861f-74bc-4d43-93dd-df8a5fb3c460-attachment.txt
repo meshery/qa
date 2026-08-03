@@ -1,0 +1,11 @@
+(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,
+ in test file 999-system/01-system-context.bats, line 115)
+  `assert_output --partial "provide exactly one context name"' failed
+
+-- output does not contain substring --
+substring : provide exactly one context name
+output    : Error: only one argument must be provided | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed
+--
+
+Last output:
+Error: only one argument must be provided | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed

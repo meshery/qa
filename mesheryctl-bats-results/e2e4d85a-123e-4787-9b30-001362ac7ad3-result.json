@@ -1,0 +1,64 @@
+{
+  "uuid": "e2e4d85a-123e-4787-9b30-001362ac7ad3",
+  "name": "given all requirements met when running mesheryctl connection list then header of total number of connections followed by a list are displayed",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1785735118619,
+  "stop": 1785735118620,
+  "statusDetails": {
+    "message": "`assert_success' failed",
+    "trace": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 007-connection/02-connection-list.bats, line 32)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput (2 lines):\n  Error: failed to fetch data for page 0: {\"error\":\"unable to get: .connections\",\"code\":\"meshery-server-1032\",\"severity\":\"ALERT\",\"probableCause\":[\"Query parameter is not a part of the request\"],\"suggestedRemediation\":[\"Make sure to pass the query parameter in the request\"]}\n   | Short Description: Internal Server Error | Probable Cause: An unexpected error occurred on the server side | Suggested Remediation: Check the server logs using 'mesheryctl system logs' for more details and try again later | Short Description: Failed to fetch paginated data from Meshery server. | Probable Cause: An error occurred while fetching paginated data from Meshery server. | Suggested Remediation: Please check if the server is running and the returned data is valid.\n--\n\nLast output:\nError: failed to fetch data for page 0: {\"error\":\"unable to get: .connections\",\"code\":\"meshery-server-1032\",\"severity\":\"ALERT\",\"probableCause\":[\"Query parameter is not a part of the request\"],\"suggestedRemediation\":[\"Make sure to pass the query parameter in the request\"]}\n | Short Description: Internal Server Error | Probable Cause: An unexpected error occurred on the server side | Suggested Remediation: Check the server logs using 'mesheryctl system logs' for more details and try again later | Short Description: Failed to fetch paginated data from Meshery server. | Probable Cause: An error occurred while fetching paginated data from Meshery server. | Suggested Remediation: Please check if the server is running and the returned data is valid."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "testId",
+      "value": "TC-1076"
+    },
+    {
+      "name": "tag",
+      "value": "TC-1076"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "Kubernetes Connection"
+    },
+    {
+      "name": "testGroup",
+      "value": "Connection Lifecycle"
+    },
+    {
+      "name": "epic",
+      "value": "Kubernetes Connections"
+    }
+  ],
+  "links": [
+    {
+      "name": "Test Plan TC-1076",
+      "url": "https://docs.google.com/spreadsheets/d/13Ir4gfaKoAX9r8qYjAFFl_U9ntke4X5ndREY1T7bnVs/edit?gid=838298230#gid=838298230&range=A298",
+      "type": "tms"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "CLI output (bats)",
+      "source": "e2e4d85a-123e-4787-9b30-001362ac7ad3-attachment.txt",
+      "type": "text/plain"
+    }
+  ]
+}

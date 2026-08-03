@@ -1,0 +1,11 @@
+(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,
+ in test file 002-model/06-model-generate.bats, line 21)
+  `assert_output --partial "invalid URL"' failed
+
+-- output does not contain substring --
+substring : invalid URL
+output    : Error: open invalid-url: no such file or directory | Short Description: error reading directory | Probable Cause: Directory does not exist at the location invalid-url.Insufficient permissions | Suggested Remediation: Verify that directory exist at the provided location.Verify sufficient directory read permission.
+--
+
+Last output:
+Error: open invalid-url: no such file or directory | Short Description: error reading directory | Probable Cause: Directory does not exist at the location invalid-url.Insufficient permissions | Suggested Remediation: Verify that directory exist at the provided location.Verify sufficient directory read permission.

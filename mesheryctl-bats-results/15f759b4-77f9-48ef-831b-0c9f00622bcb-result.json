@@ -1,0 +1,37 @@
+{
+  "uuid": "15f759b4-77f9-48ef-831b-0c9f00622bcb",
+  "name": "mesheryctl design apply applies design file",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1785735118618,
+  "stop": 1785735118619,
+  "statusDetails": {
+    "message": "`assert_success' failed",
+    "trace": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 003-design/04-design-apply.bats, line 16)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput (2 lines):\n  Error: Response Status Code 400. Server emitted an error: {\"message\":\"user must be logged in to perform this operation\"}\n   | Short Description: Failed response server error | Probable Cause: Invalid API call | Suggested Remediation: Check your network connection and the status of Meshery Server via `mesheryctl system status`.\n--\n\nLast output:\nError: Response Status Code 400. Server emitted an error: {\"message\":\"user must be logged in to perform this operation\"}\n | Short Description: Failed response server error | Probable Cause: Invalid API call | Suggested Remediation: Check your network connection and the status of Meshery Server via `mesheryctl system status`."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "CLI output (bats)",
+      "source": "15f759b4-77f9-48ef-831b-0c9f00622bcb-attachment.txt",
+      "type": "text/plain"
+    }
+  ]
+}

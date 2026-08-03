@@ -1,0 +1,11 @@
+(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,
+ in test file 002-model/05-model-view.bats, line 31)
+  `assert_output --partial "Error: model name isn't specified"' failed
+
+-- output does not contain substring --
+substring : Error: model name isn't specified
+output    : Error: only one argument must be provided and needs to be enclosed by double quotes if it contains spaces (eg. "model name", modelName) | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed
+--
+
+Last output:
+Error: only one argument must be provided and needs to be enclosed by double quotes if it contains spaces (eg. "model name", modelName) | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed

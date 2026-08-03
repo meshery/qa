@@ -1,0 +1,11 @@
+(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,
+ in test file 002-model/06-model-generate.bats, line 26)
+  `assert_success' failed
+
+-- command failed --
+status : 1
+output : Error: open /home/runner/work/meshery/meshery/mesheryctl/tests/e2e/002-model/fixtures/valid-model: no such file or directory | Short Description: error reading directory | Probable Cause: Directory does not exist at the location /home/runner/work/meshery/meshery/mesheryctl/tests/e2e/002-model/fixtures/valid-model.Insufficient permissions | Suggested Remediation: Verify that directory exist at the provided location.Verify sufficient directory read permission.
+--
+
+Last output:
+Error: open /home/runner/work/meshery/meshery/mesheryctl/tests/e2e/002-model/fixtures/valid-model: no such file or directory | Short Description: error reading directory | Probable Cause: Directory does not exist at the location /home/runner/work/meshery/meshery/mesheryctl/tests/e2e/002-model/fixtures/valid-model.Insufficient permissions | Suggested Remediation: Verify that directory exist at the provided location.Verify sufficient directory read permission.

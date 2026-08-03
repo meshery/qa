@@ -1,0 +1,49 @@
+(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,
+ in test file 001-system/03-system-checks.bats, line 20)
+  `assert_output --partial "$CHECK_MESHERY_OPERATORS_HEADER"' failed
+
+-- output does not contain substring --
+substring (1 lines):
+  Meshery Operators
+output (19 lines):
+
+  Kubernetes API
+  --------------
+  ✓ can initialize Kubernetes client
+  ✓ can query the Kubernetes API
+
+  Kubernetes Version
+  --------------
+  ✓ running the minimum Kubernetes version
+  ✓ running the minimum kubectl version
+
+  Meshery Version
+  --------------
+  !! failed to check Meshery Server version. try starting Meshery with `mesheryctl system start`
+  !! CLI is not up-to-date (stable-)
+
+  Meshery Components
+  --------------
+  Error: Get "http://localhost:9081/api/system/sync": dial tcp [::1]:9081: connect: connection refused | Short Description: Failed to make a request | Probable Cause: Meshery server is not reachable. | Suggested Remediation: Please ensure that the Meshery server is running and accessible. You can try running 'mesheryctl system restart'.
+--
+
+Last output:
+
+Kubernetes API
+--------------
+✓ can initialize Kubernetes client
+✓ can query the Kubernetes API
+
+Kubernetes Version
+--------------
+✓ running the minimum Kubernetes version
+✓ running the minimum kubectl version
+
+Meshery Version
+--------------
+!! failed to check Meshery Server version. try starting Meshery with `mesheryctl system start`
+!! CLI is not up-to-date (stable-)
+
+Meshery Components
+--------------
+Error: Get "http://localhost:9081/api/system/sync": dial tcp [::1]:9081: connect: connection refused | Short Description: Failed to make a request | Probable Cause: Meshery server is not reachable. | Suggested Remediation: Please ensure that the Meshery server is running and accessible. You can try running 'mesheryctl system restart'.

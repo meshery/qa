@@ -1,0 +1,19 @@
+(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,
+ in test file 002-model/02-model-import.bats, line 14)
+  `assert_output --partial "Error: [ file | filepath | URL ] isn't specified"' failed
+
+-- output does not contain substring --
+substring (1 lines):
+  Error: [ file | filepath | URL ] isn't specified
+output (4 lines):
+  Error: either --file [ file | filepath | URL ] or an argument must be specified
+
+  Usage: mesheryctl model import [ file | filePath | URL ]
+  Run 'mesheryctl model import --help' to see detailed help message | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed
+--
+
+Last output:
+Error: either --file [ file | filepath | URL ] or an argument must be specified
+
+Usage: mesheryctl model import [ file | filePath | URL ]
+Run 'mesheryctl model import --help' to see detailed help message | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed

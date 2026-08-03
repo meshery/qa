@@ -1,0 +1,11 @@
+(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,
+ in test file 002-model/06-model-generate.bats, line 51)
+  `assert_success' failed
+
+-- command failed --
+status : 1
+output : Error: unknown flag: --register
+--
+
+Last output:
+Error: unknown flag: --register

@@ -1,0 +1,15 @@
+(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,
+ in test file 999-system/01-system-context.bats, line 135)
+  `assert_output --partial "provide a context name to delete"' failed
+
+-- output does not contain substring --
+substring (1 lines):
+  provide a context name to delete
+output (2 lines):
+  Error: only one argument must be provided
+  Usage: mesheryctl system context delete [context name] | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed
+--
+
+Last output:
+Error: only one argument must be provided
+Usage: mesheryctl system context delete [context name] | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed

@@ -1,0 +1,19 @@
+(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,
+ in test file 002-model/07-model-delete.bats, line 17)
+  `assert_output --partial "[ model-id ] is required"' failed
+
+-- output does not contain substring --
+substring (1 lines):
+  [ model-id ] is required
+output (4 lines):
+  Error: [ model-id | model-name ] is required
+
+  Usage: mesheryctl model delete [model-id | model-name]
+  Run 'mesheryctl model delete --help' to see detailed help message | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed
+--
+
+Last output:
+Error: [ model-id | model-name ] is required
+
+Usage: mesheryctl model delete [model-id | model-name]
+Run 'mesheryctl model delete --help' to see detailed help message | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed

@@ -1,0 +1,10 @@
+(from function `assert_failure' in file /usr/lib/bats-assert/src/assert_failure.bash, line 66,
+ in test file 002-model/07-model-delete.bats, line 25)
+  `assert_failure' failed
+
+-- command succeeded, but it was expected to fail --
+output : No model(s) found with the name: 0000
+--
+
+Last output:
+No model(s) found with the name: 0000

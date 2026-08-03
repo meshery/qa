@@ -1,0 +1,64 @@
+{
+  "uuid": "0a94d28c-3cf0-4899-af71-b03c9b1ec4ca",
+  "name": "given valid type minikube is provided when running mesheryctl connection create --type minikube then a new connection is created",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1785735118619,
+  "stop": 1785735118620,
+  "statusDetails": {
+    "message": "`[ -n \"$CONNECTION_ID\" ] || fail \"connection create did not emit a connection_id line\"' failed",
+    "trace": "(from function `fail' in file /usr/lib/bats-support/src/error.bash, line 40,\n in test file 007-connection/01-connection-create.bats, line 55)\n  `[ -n \"$CONNECTION_ID\" ] || fail \"connection create did not emit a connection_id line\"' failed\nconnection create did not emit a connection_id line\nLast output:\nConfiguring Meshery to access Minikube...\nToken set in context minikube\nMinikube connection created."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "testId",
+      "value": "TC-1013"
+    },
+    {
+      "name": "tag",
+      "value": "TC-1013"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "Kubernetes Connection"
+    },
+    {
+      "name": "testGroup",
+      "value": "Connection Lifecycle"
+    },
+    {
+      "name": "epic",
+      "value": "Kubernetes Connections"
+    }
+  ],
+  "links": [
+    {
+      "name": "Test Plan TC-1013",
+      "url": "https://docs.google.com/spreadsheets/d/13Ir4gfaKoAX9r8qYjAFFl_U9ntke4X5ndREY1T7bnVs/edit?gid=838298230#gid=838298230&range=A235",
+      "type": "tms"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "CLI output (bats)",
+      "source": "0a94d28c-3cf0-4899-af71-b03c9b1ec4ca-attachment.txt",
+      "type": "text/plain"
+    }
+  ]
+}

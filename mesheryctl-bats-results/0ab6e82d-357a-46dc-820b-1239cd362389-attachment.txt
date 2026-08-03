@@ -1,0 +1,11 @@
+(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,
+ in test file 002-model/07-model-delete.bats, line 44)
+  `assert_success' failed
+
+-- command failed --
+status : 5
+output : jq: parse error: Invalid numeric literal at line 1, column 2
+--
+
+Last output:
+jq: parse error: Invalid numeric literal at line 1, column 2

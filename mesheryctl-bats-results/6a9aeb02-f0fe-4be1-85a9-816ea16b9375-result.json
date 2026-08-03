@@ -1,0 +1,56 @@
+{
+  "uuid": "6a9aeb02-f0fe-4be1-85a9-816ea16b9375",
+  "name": "given a valid connection-id is provided as an argument when running meshery connection view connection-id then the connection details in default format is displayed",
+  "status": "skipped",
+  "stage": "finished",
+  "start": 1785735118619,
+  "stop": 1785735118620,
+  "statusDetails": {
+    "message": "No connection ID available"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "testId",
+      "value": "TC-1080"
+    },
+    {
+      "name": "tag",
+      "value": "TC-1080"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "Kubernetes Connection"
+    },
+    {
+      "name": "testGroup",
+      "value": "Connection Lifecycle"
+    },
+    {
+      "name": "epic",
+      "value": "Kubernetes Connections"
+    }
+  ],
+  "links": [
+    {
+      "name": "Test Plan TC-1080",
+      "url": "https://docs.google.com/spreadsheets/d/13Ir4gfaKoAX9r8qYjAFFl_U9ntke4X5ndREY1T7bnVs/edit?gid=838298230#gid=838298230&range=A302",
+      "type": "tms"
+    }
+  ]
+}
