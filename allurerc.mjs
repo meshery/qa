@@ -26,10 +26,18 @@ const isTestGroup = (labels, groupName) =>
 
 const hasTestGroup = (labels) => labels.some(({ name }) => name === "testGroup");
 
-// Single source of truth for the Connection Lifecycle Test Group value - used
-// for both the report display name and the testGroup filter so the two cannot
-// drift apart.
+// The Connection Lifecycle Test Group VALUE - this is the `testGroup` label
+// value the tests emit (Test Plan "Latest" tab, col B), so it is the report's
+// FILTER key and MUST match the value tagged at the source (UI specs + CLI
+// converter). Do NOT change it to rename the report - the display name is a
+// separate constant below.
 const CONNECTION_LIFECYCLE_GROUP = "Connection Lifecycle";
+
+// The connection report's DISPLAY name, decoupled from the filter key above so
+// the report can be renamed without breaking the testGroup match. The
+// "Meshery: " prefix is intentional - see the connections plugin block below
+// for the nesting rationale (kept in one place to avoid drift).
+const CONNECTION_REPORT_NAME = "Meshery: Connections Lifecycle";
 
 // --- Transitional epic-based fallback (remove once all connection results
 // carry testGroup) -----------------------------------------------------------
@@ -155,7 +163,16 @@ export default defineConfig({
     //
     // The plugin key stays `connections` so the published report URL
     // (https://qa.meshery.io/connections/) is unchanged; only the display name
-    // and filter change.
+    // changes (reportName = CONNECTION_REPORT_NAME, "Meshery: Connections
+    // Lifecycle"). The filter (isTestGroup "Connection Lifecycle") is unchanged.
+    //
+    // Nesting: the "Meshery: " prefix presents this as a Meshery report in the
+    // dashboard's report picker. Allure 3 reports are flat peer plugins (the
+    // config `plugins` map has no parent/child relation, and the awesome
+    // plugin's only hierarchy is intra-report `groupBy`), so a name prefix is
+    // the supported way to signal that this is a subset of the main Meshery
+    // report; true report-under-report nesting is not available without folding
+    // these results into the Meshery report and losing the standalone URL.
     //
     // Transitional: the isConnectionBehavior (epic) fallback keeps the report
     // populated with connection results emitted before the testGroup label
@@ -167,7 +184,7 @@ export default defineConfig({
     connections: {
       import: "@allurereport/plugin-awesome",
       options: {
-        reportName: CONNECTION_LIFECYCLE_GROUP,
+        reportName: CONNECTION_REPORT_NAME,
         singleFile: false,
         reportLanguage: "en",
         open: false,
