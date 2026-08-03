@@ -35,11 +35,8 @@ const CONNECTION_LIFECYCLE_GROUP = "Connection Lifecycle";
 
 // The connection report's DISPLAY name, decoupled from the filter key above so
 // the report can be renamed without breaking the testGroup match. The
-// "Meshery: " prefix presents it as a Meshery report in the dashboard's report
-// picker (lightweight nesting under the main Meshery report) - Allure 3 reports
-// are flat peer plugins with no parent/child nesting in the config, so the
-// prefix is the supported way to signal the relationship. See the connections
-// plugin block below.
+// "Meshery: " prefix is intentional - see the connections plugin block below
+// for the nesting rationale (kept in one place to avoid drift).
 const CONNECTION_REPORT_NAME = "Meshery: Connections Lifecycle";
 
 // --- Transitional epic-based fallback (remove once all connection results
