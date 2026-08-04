@@ -1,0 +1,46 @@
+{
+  "uuid": "aaffb466-7a9d-49a5-b231-0216988663d3",
+  "name": "TestRunProviderWithNoCmdOrFlag",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/system::TestRunProviderWithNoCmdOrFlag",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1785873255006,
+  "stop": 1785873255006,
+  "statusDetails": {
+    "message": "provider_test.go:80: expected response please specify a flag or subcommand. Use 'mesheryctl system provider --help' to display user guide.\n        \n        See https://docs.meshery.io/reference/references/mesheryctl/system/provider for usage details\n         and actual response please specify a flag or subcommand. Use 'mesheryctl system provider --help' to display user guide.\n        \n        See https://docs.meshery.io/reference/mesheryctl/system/provider for usage details\n         don't match"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/system"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestRunProviderWithNoCmdOrFlag"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
