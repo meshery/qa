@@ -1,0 +1,11 @@
+(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,
+ in test file 002-model/07-model-delete.bats, line 50)
+  `assert_output --partial "has been deleted"' failed
+
+-- output does not contain substring --
+substring : has been deleted
+output    : No model(s) found with the name: Error: 4 items matched, which requires an interactive selection, but mesheryctl is not attached to a terminal | Short Description: Ambiguous match, and no terminal to resolve it on | Probable Cause: The command is running in a script, pipeline or CI job where stdin or stdout is redirected | Suggested Remediation: Identify the item by its unique ID instead of its name.Narrow the search so exactly one item matches
+--
+
+Last output:
+No model(s) found with the name: Error: 4 items matched, which requires an interactive selection, but mesheryctl is not attached to a terminal | Short Description: Ambiguous match, and no terminal to resolve it on | Probable Cause: The command is running in a script, pipeline or CI job where stdin or stdout is redirected | Suggested Remediation: Identify the item by its unique ID instead of its name.Narrow the search so exactly one item matches

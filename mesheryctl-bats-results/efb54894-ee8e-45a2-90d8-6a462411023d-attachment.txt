@@ -1,0 +1,36 @@
+(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,
+ in test file 003-design/03-design-list.bats, line 17)
+  `assert_line --regexp "$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN"' failed
+
+-- no output line matches regular expression --
+regexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$
+output (13 lines):
+  Total number of designs: 70781
+  Page: 1
+  DESIGN ID                             OWNER     NAME              CREATED     UPDATED
+  ebb5ea26-aef3-4c31-8ea0-60ef147eadea  dea82811                    08-04-2026  08-04-2026
+  6c8593ba-0ff8-454a-86f3-611c52631970  dea82811  nginx             08-04-2026  08-04-2026
+  df408a84-a8a8-4a9d-85b3-8747cf611e12  dea82811  nginx             08-04-2026  08-04-2026
+  6c359b2f-b2cb-442c-9c14-df49899d92d3  9c07fdba  nginx-demo        08-04-2026  08-04-2026
+  5e705ec8-e66f-486e-abb1-f4a4c9209a70  0362145e  demo              08-03-2026  08-04-2026
+  1f35f8bd-fc60-43c7-991b-348c761b9610  23b7aecb  nginx             08-04-2026  08-04-2026
+  1dcd8c84-ea68-4dd2-a0bf-63127842668e  23b7aecb  nginx             08-04-2026  08-04-2026
+  b1387dd2-e5cb-4719-aadb-c6d8fe3b5387  23b7aecb  undefined (Copy)  08-04-2026  08-04-2026
+  4526d598-8e94-4a6b-9936-fa051a48d3b6  dea82811                    08-04-2026  08-04-2026
+  784c26cf-dcc1-4b7a-87dc-832550472329  dea82811  nginx             08-04-2026  08-04-2026
+--
+
+Last output:
+Total number of designs: 70781
+Page: 1
+DESIGN ID                             OWNER     NAME              CREATED     UPDATED
+ebb5ea26-aef3-4c31-8ea0-60ef147eadea  dea82811                    08-04-2026  08-04-2026
+6c8593ba-0ff8-454a-86f3-611c52631970  dea82811  nginx             08-04-2026  08-04-2026
+df408a84-a8a8-4a9d-85b3-8747cf611e12  dea82811  nginx             08-04-2026  08-04-2026
+6c359b2f-b2cb-442c-9c14-df49899d92d3  9c07fdba  nginx-demo        08-04-2026  08-04-2026
+5e705ec8-e66f-486e-abb1-f4a4c9209a70  0362145e  demo              08-03-2026  08-04-2026
+1f35f8bd-fc60-43c7-991b-348c761b9610  23b7aecb  nginx             08-04-2026  08-04-2026
+1dcd8c84-ea68-4dd2-a0bf-63127842668e  23b7aecb  nginx             08-04-2026  08-04-2026
+b1387dd2-e5cb-4719-aadb-c6d8fe3b5387  23b7aecb  undefined (Copy)  08-04-2026  08-04-2026
+4526d598-8e94-4a6b-9936-fa051a48d3b6  dea82811                    08-04-2026  08-04-2026
+784c26cf-dcc1-4b7a-87dc-832550472329  dea82811  nginx             08-04-2026  08-04-2026
