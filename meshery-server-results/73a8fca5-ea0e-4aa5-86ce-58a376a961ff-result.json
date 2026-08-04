@@ -1,0 +1,46 @@
+{
+  "uuid": "73a8fca5-ea0e-4aa5-86ce-58a376a961ff",
+  "name": "TestSeedConnectionsCanonicalPickSurvivesRegistrantGrowth",
+  "fullName": "github.com/meshery/meshery/server/models::TestSeedConnectionsCanonicalPickSurvivesRegistrantGrowth",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1785873336575,
+  "stop": 1785873336988,
+  "statusDetails": {
+    "message": "2026/08/04 19:55:36 \u001b[31;1m/home/runner/go/pkg/mod/github.com/meshery/schemas@v1.3.37/models/v1beta1/connection/connection_helper.go:37 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.199ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"8c9393f8-a4a5-8cbe-1f1d-98c9c0e9c37f\" ORDER BY `connections`.`id` LIMIT 1\n\r\n2026/08/04 19:55:36 \u001b[31;1m/home/runner/go/pkg/mod/github.com/meshery/schemas@v1.3.37/models/v1beta1/model/model_helper.go:83 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.104ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `model_dbs` WHERE id = \"800935d7-4f76-27fc-be85-6ad845c82fe9\" and connection_id = \"8c9393f8-a4a5-8cbe-1f1d-98c9c0e9c37f\" ORDER BY `model_dbs`.`id` LIMIT 1\n\r\n2026/08/04 19:55:36 \u001b[31;1m/home/runner/go/pkg/mod/github.com/meshery/schemas@v1.3.37/models/v1beta1/category/category_helper.go:63 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.088ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `category_dbs` WHERE id = \"9ca27d0d-66ce-42a9-8c85-6236563f2ddb\" ORDER BY `category_dbs`.`id` LIMIT 1\n\r\n2026/08/04 19:55:36 \u001b[31;1m/home/runner/go/pkg/mod/github.com/meshery/schemas@v1.3.37/models/v1beta1/connection/connection_helper.go:37 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.122ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"50bef83c-dad7-9977-952c-099321286a6a\" ORDER BY `connections`.`id` LIMIT 1\n\r\n2026/08/04 19:55:36 \u001b[31;1m/home/runner/go/pkg/mod/github.com/meshery/schemas@v1.3.37/models/v1beta1/model/model_helper.go:83 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.088ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `model_dbs` WHERE id = \"bf3c59bc-5bae-6b75-3a14-640b0b06959c\" and connection_id = \"50bef83c-dad7-9977-952c-099321286a6a\" ORDER BY `model_dbs`.`id` LIMIT 1\n\r\n2026/08/04 19:55:36 \u001b[31;1m/home/runner/go/pkg/mod/github.com/meshery/schemas@v1.3.37/models/v1beta1/category/category_helper.go:63 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.081ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `category_dbs` WHERE id = \"ab1bb485-f9f9-69f5-8dee-d92053529c37\" ORDER BY `category_dbs`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSeedConnectionsCanonicalPickSurvivesRegistrantGrowth"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
