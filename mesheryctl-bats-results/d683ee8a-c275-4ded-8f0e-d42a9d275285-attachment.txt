@@ -1,0 +1,36 @@
+(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,
+ in test file 003-design/03-design-list.bats, line 17)
+  `assert_line --regexp "$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN"' failed
+
+-- no output line matches regular expression --
+regexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$
+output (13 lines):
+  Total number of designs: 70849
+  Page: 1
+  DESIGN ID                             OWNER     NAME                      CREATED     UPDATED
+  f354b8f2-2efe-4d58-b639-6bf3462bafc5  dea82811  nginx                     08-06-2026  08-06-2026
+  42bb624a-b0e0-46af-bf88-fd92e5974d15  dea82811  nginx                     08-05-2026  08-05-2026
+  5b02c40e-348e-4e9c-abcf-8190960dc73d  dea82811                            08-05-2026  08-05-2026
+  a357223b-40dd-4d01-b00b-9fb47f02abce  dea82811  nginx                     08-05-2026  08-05-2026
+  bc04612a-e1ed-4773-8c9a-8e638da8bed3  dea82811                            08-05-2026  08-05-2026
+  49009358-8f77-4f1b-bd80-95f390bc40d7  dea82811  nginx                     08-05-2026  08-05-2026
+  d02e0105-fc59-4b5e-8360-3dbf7bbe44ea  dea82811                            08-05-2026  08-05-2026
+  16ff1a45-314d-4e68-80b6-40fa199919f0  dea82811  nginx                     08-05-2026  08-05-2026
+  2237307f-66a4-4949-ac2d-6f080f87f644  dea82811                            08-05-2026  08-05-2026
+  f48c5123-79eb-4edc-a507-be325b985e42  747b2dc2  Ghost-Level NGINX Design  08-05-2026  08-05-2026
+--
+
+Last output:
+Total number of designs: 70849
+Page: 1
+DESIGN ID                             OWNER     NAME                      CREATED     UPDATED
+f354b8f2-2efe-4d58-b639-6bf3462bafc5  dea82811  nginx                     08-06-2026  08-06-2026
+42bb624a-b0e0-46af-bf88-fd92e5974d15  dea82811  nginx                     08-05-2026  08-05-2026
+5b02c40e-348e-4e9c-abcf-8190960dc73d  dea82811                            08-05-2026  08-05-2026
+a357223b-40dd-4d01-b00b-9fb47f02abce  dea82811  nginx                     08-05-2026  08-05-2026
+bc04612a-e1ed-4773-8c9a-8e638da8bed3  dea82811                            08-05-2026  08-05-2026
+49009358-8f77-4f1b-bd80-95f390bc40d7  dea82811  nginx                     08-05-2026  08-05-2026
+d02e0105-fc59-4b5e-8360-3dbf7bbe44ea  dea82811                            08-05-2026  08-05-2026
+16ff1a45-314d-4e68-80b6-40fa199919f0  dea82811  nginx                     08-05-2026  08-05-2026
+2237307f-66a4-4949-ac2d-6f080f87f644  dea82811                            08-05-2026  08-05-2026
+f48c5123-79eb-4edc-a507-be325b985e42  747b2dc2  Ghost-Level NGINX Design  08-05-2026  08-05-2026
