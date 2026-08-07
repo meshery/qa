@@ -1,0 +1,46 @@
+{
+  "uuid": "d4c2827b-34ca-4f17-b98c-ef78cd60c45f",
+  "name": "TestCreateEnvironment/given_missing_flag_orgId_when_environment_create_then_throw_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/environments::TestCreateEnvironment/given_missing_flag_orgId_when_environment_create_then_throw_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1786111513601,
+  "stop": 1786111513601,
+  "statusDetails": {
+    "message": "Error: Invalid value for --orgId '' | Short Description: Invalid flag(s) provided | Probable Cause: The value for one or more flags provided is invalid. | Suggested Remediation: Provide valid flag value and try again."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/environments"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCreateEnvironment/given_missing_flag_orgId_when_environment_create_then_throw_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
