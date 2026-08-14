@@ -1,0 +1,36 @@
+(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,
+ in test file 003-design/03-design-list.bats, line 17)
+  `assert_line --regexp "$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN"' failed
+
+-- no output line matches regular expression --
+regexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$
+output (13 lines):
+  Total number of designs: 71061
+  Page: 1
+  DESIGN ID                             OWNER     NAME             CREATED     UPDATED
+  a886dde2-5eb2-4ba3-b64b-037045a78ab5  dea82811  nginx            08-14-2026  08-14-2026
+  774ef6a0-0a53-49cf-a1a0-6061dd0cd8dd  dea82811  nginx            08-14-2026  08-14-2026
+  e0dbb3ae-699b-462e-b136-691968862df9  dea82811  nginx            08-14-2026  08-14-2026
+  f18f7a5b-9530-4b28-8507-eb60a6d5b755  dea82811                   08-14-2026  08-14-2026
+  0e59ea32-d1b3-437c-8f5f-8a585902fec9  dea82811  nginx            08-14-2026  08-14-2026
+  cd070a5a-9984-450c-8ac1-96777df69e02  dea82811                   08-14-2026  08-14-2026
+  70d64b16-30f4-4be9-a4ce-c67861e149d8  1e4381fa  Untitled Design  08-14-2026  08-14-2026
+  67fb9be4-dacc-4cfd-b694-e90485885661  dea82811  nginx            08-14-2026  08-14-2026
+  388db5ce-60b3-4d73-b808-277bf4f38b8c  dea82811                   08-14-2026  08-14-2026
+  487db8ac-1a45-4b46-a45d-4cc1e221c5ec  dea82811  nginx            08-14-2026  08-14-2026
+--
+
+Last output:
+Total number of designs: 71061
+Page: 1
+DESIGN ID                             OWNER     NAME             CREATED     UPDATED
+a886dde2-5eb2-4ba3-b64b-037045a78ab5  dea82811  nginx            08-14-2026  08-14-2026
+774ef6a0-0a53-49cf-a1a0-6061dd0cd8dd  dea82811  nginx            08-14-2026  08-14-2026
+e0dbb3ae-699b-462e-b136-691968862df9  dea82811  nginx            08-14-2026  08-14-2026
+f18f7a5b-9530-4b28-8507-eb60a6d5b755  dea82811                   08-14-2026  08-14-2026
+0e59ea32-d1b3-437c-8f5f-8a585902fec9  dea82811  nginx            08-14-2026  08-14-2026
+cd070a5a-9984-450c-8ac1-96777df69e02  dea82811                   08-14-2026  08-14-2026
+70d64b16-30f4-4be9-a4ce-c67861e149d8  1e4381fa  Untitled Design  08-14-2026  08-14-2026
+67fb9be4-dacc-4cfd-b694-e90485885661  dea82811  nginx            08-14-2026  08-14-2026
+388db5ce-60b3-4d73-b808-277bf4f38b8c  dea82811                   08-14-2026  08-14-2026
+487db8ac-1a45-4b46-a45d-4cc1e221c5ec  dea82811  nginx            08-14-2026  08-14-2026

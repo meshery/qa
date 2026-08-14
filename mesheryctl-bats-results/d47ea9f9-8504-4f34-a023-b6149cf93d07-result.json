@@ -1,0 +1,56 @@
+{
+  "uuid": "d47ea9f9-8504-4f34-a023-b6149cf93d07",
+  "name": "given a valid connection name is provided when running mesheryctl connection view name then the connection details are displayed",
+  "status": "skipped",
+  "stage": "finished",
+  "start": 1786749928953,
+  "stop": 1786749928954,
+  "statusDetails": {
+    "message": "connection name 'minikube' is not unique (matched 91); by-name resolution would prompt"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "testId",
+      "value": "TC-1080"
+    },
+    {
+      "name": "tag",
+      "value": "TC-1080"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "Kubernetes Connection"
+    },
+    {
+      "name": "testGroup",
+      "value": "Connection Lifecycle"
+    },
+    {
+      "name": "epic",
+      "value": "Kubernetes Connections"
+    }
+  ],
+  "links": [
+    {
+      "name": "Test Plan TC-1080",
+      "url": "https://docs.google.com/spreadsheets/d/13Ir4gfaKoAX9r8qYjAFFl_U9ntke4X5ndREY1T7bnVs/edit?gid=838298230#gid=838298230&range=A302",
+      "type": "tms"
+    }
+  ]
+}

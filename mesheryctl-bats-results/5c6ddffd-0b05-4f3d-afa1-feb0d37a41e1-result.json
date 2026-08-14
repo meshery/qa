@@ -1,0 +1,37 @@
+{
+  "uuid": "5c6ddffd-0b05-4f3d-afa1-feb0d37a41e1",
+  "name": "mesheryctl model export includes version when specified",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1786749928950,
+  "stop": 1786749928951,
+  "statusDetails": {
+    "message": "`assert_success' failed",
+    "trace": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 002-model/03-model-export.bats, line 51)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput (2 lines):\n  Error: {\"error\":\"model with name accurate version v1.7.0 has not been found\"}\n   | Short Description: Item Not Found | Probable Cause: The item you are searching for is not present. | Suggested Remediation: Check whether the item is present.\n--\n\nLast output:\nError: {\"error\":\"model with name accurate version v1.7.0 has not been found\"}\n | Short Description: Item Not Found | Probable Cause: The item you are searching for is not present. | Suggested Remediation: Check whether the item is present."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "CLI output (bats)",
+      "source": "5c6ddffd-0b05-4f3d-afa1-feb0d37a41e1-attachment.txt",
+      "type": "text/plain"
+    }
+  ]
+}

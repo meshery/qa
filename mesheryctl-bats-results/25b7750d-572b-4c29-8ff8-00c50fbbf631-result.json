@@ -1,0 +1,54 @@
+{
+  "uuid": "25b7750d-572b-4c29-8ff8-00c50fbbf631",
+  "name": "given no subcommand when running mesheryctl system config then an error message is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1786749928954,
+  "stop": 1786749928955,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "testId",
+      "value": "TC-1013"
+    },
+    {
+      "name": "tag",
+      "value": "TC-1013"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "Kubernetes Connection"
+    },
+    {
+      "name": "testGroup",
+      "value": "Connection Lifecycle"
+    },
+    {
+      "name": "epic",
+      "value": "Kubernetes Connections"
+    }
+  ],
+  "links": [
+    {
+      "name": "Test Plan TC-1013",
+      "url": "https://docs.google.com/spreadsheets/d/13Ir4gfaKoAX9r8qYjAFFl_U9ntke4X5ndREY1T7bnVs/edit?gid=838298230#gid=838298230&range=A235",
+      "type": "tms"
+    }
+  ]
+}
