@@ -1,0 +1,46 @@
+{
+  "uuid": "aac82559-25f8-4664-b597-f1d5bfd4aeeb",
+  "name": "TestMain",
+  "fullName": "github.com/meshery/meshery/server/cmd::TestMain",
+  "status": "skipped",
+  "stage": "finished",
+  "start": 1786745716958,
+  "stop": 1786745716959,
+  "statusDetails": {
+    "message": "main_test.go:9: Skipping test in short mode."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/cmd"
+    },
+    {
+      "name": "suite",
+      "value": "server/cmd"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestMain"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

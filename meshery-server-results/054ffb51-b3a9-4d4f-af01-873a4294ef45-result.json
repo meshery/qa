@@ -1,0 +1,46 @@
+{
+  "uuid": "054ffb51-b3a9-4d4f-af01-873a4294ef45",
+  "name": "TestK8sHealthzHandler_ExtensionInfo",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestK8sHealthzHandler_ExtensionInfo",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1786745801955,
+  "stop": 1786745801956,
+  "statusDetails": {
+    "message": "k8s_healthz_handler_test.go:255: Extension check response (non-verbose): ok\n    k8s_healthz_handler_test.go:271: Extension check response (verbose): [+]capabilities ok\n        [i]extension extension package not found\n        healthz check passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestK8sHealthzHandler_ExtensionInfo"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
