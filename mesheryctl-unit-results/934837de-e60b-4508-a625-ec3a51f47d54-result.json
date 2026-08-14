@@ -1,0 +1,46 @@
+{
+  "uuid": "934837de-e60b-4508-a625-ec3a51f47d54",
+  "name": "TestContextAddUppercaseCmd",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/system::TestContextAddUppercaseCmd",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1786712204430,
+  "stop": 1786712204438,
+  "statusDetails": {
+    "message": "context_test.go:414: CreateUppercaseContextCmd test Passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/system"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContextAddUppercaseCmd"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
