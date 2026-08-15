@@ -1,0 +1,37 @@
+{
+  "uuid": "d929058e-bd8b-4d7c-adcd-b367839b032a",
+  "name": "given a valid model-id is provided as an argument when running mesheryctl model delete then the model is deleted successfully",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1786751580594,
+  "stop": 1786751580595,
+  "statusDetails": {
+    "message": "`assert_output --partial \"has been deleted\"' failed",
+    "trace": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 002-model/07-model-delete.bats, line 50)\n  `assert_output --partial \"has been deleted\"' failed\n\n-- output does not contain substring --\nsubstring : has been deleted\noutput    : No model(s) found with the name: Error: 4 items matched, which requires an interactive selection, but mesheryctl is not attached to a terminal | Short Description: Ambiguous match, and no terminal to resolve it on | Probable Cause: The command is running in a script, pipeline or CI job where stdin or stdout is redirected | Suggested Remediation: Identify the item by its unique ID instead of its name.Narrow the search so exactly one item matches\n--\n\nLast output:\nNo model(s) found with the name: Error: 4 items matched, which requires an interactive selection, but mesheryctl is not attached to a terminal | Short Description: Ambiguous match, and no terminal to resolve it on | Probable Cause: The command is running in a script, pipeline or CI job where stdin or stdout is redirected | Suggested Remediation: Identify the item by its unique ID instead of its name.Narrow the search so exactly one item matches"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "CLI output (bats)",
+      "source": "d929058e-bd8b-4d7c-adcd-b367839b032a-attachment.txt",
+      "type": "text/plain"
+    }
+  ]
+}
