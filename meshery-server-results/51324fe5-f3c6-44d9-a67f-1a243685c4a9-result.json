@@ -1,0 +1,46 @@
+{
+  "uuid": "51324fe5-f3c6-44d9-a67f-1a243685c4a9",
+  "name": "TestBasedOnDatabaseContentMeshSyncIntegration",
+  "fullName": "github.com/meshery/meshery/server/integration-tests/meshsync::TestBasedOnDatabaseContentMeshSyncIntegration",
+  "status": "skipped",
+  "stage": "finished",
+  "start": 1786751634020,
+  "stop": 1786751634021,
+  "statusDetails": {
+    "message": "integration_test.go:21: skipping integration test"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/integration-tests"
+    },
+    {
+      "name": "suite",
+      "value": "server/integration-tests/meshsync"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestBasedOnDatabaseContentMeshSyncIntegration"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
