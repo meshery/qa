@@ -1,0 +1,36 @@
+(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,
+ in test file 003-design/03-design-list.bats, line 17)
+  `assert_line --regexp "$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN"' failed
+
+-- no output line matches regular expression --
+regexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$
+output (13 lines):
+  Total number of designs: 71249
+  Page: 1
+  DESIGN ID                             OWNER     NAME                                            CREATED     UPDATED
+  dcdbcce6-c67c-4879-a16e-d4f09a9df271  dea82811  nginx                                           08-18-2026  08-18-2026
+  1814da98-45f6-461d-8616-9a1107efb704  aeec7399  uth-log-monitoring-architecture                 08-18-2026  08-18-2026
+  c43a48b3-ed21-408b-ba9d-d2d61576a5da  aeec7399  uth-log-monitoring-architecture                 08-18-2026  08-18-2026
+  e8dbe8ef-4316-4b26-94eb-9ab1dc61efc8  15a74466  Kubernetes AI Application Design                08-18-2026  08-18-2026
+  d37d1fb4-84ee-4eed-9ced-11aed0190134  2eb76274  understanding persistent storage in kubernetes  08-18-2026  08-18-2026
+  496f8c65-edea-4705-bb37-1f9c53a9e124  2eb76274  Architectural Diagramming (Copy)                08-18-2026  08-18-2026
+  c0055741-aa22-42fc-aae8-77db500ff897  2eb76274  Example: Configure a Kubernetes Pod (Copy)      08-18-2026  08-18-2026
+  ce1e09ff-c477-4aa5-aaf6-8d45aecb2449  52b9b6b7  ali-hello-world-nginx                           08-18-2026  08-18-2026
+  b5ff3f6a-4aaa-4230-ae68-5f122257620b  cc61406c  Cloud-Native Application Architecture           08-18-2026  08-18-2026
+  7be550ed-f77b-4fbb-9096-6345cbdcf76f  87822d01  Kubernetes Application Architecture             08-18-2026  08-18-2026
+--
+
+Last output:
+Total number of designs: 71249
+Page: 1
+DESIGN ID                             OWNER     NAME                                            CREATED     UPDATED
+dcdbcce6-c67c-4879-a16e-d4f09a9df271  dea82811  nginx                                           08-18-2026  08-18-2026
+1814da98-45f6-461d-8616-9a1107efb704  aeec7399  uth-log-monitoring-architecture                 08-18-2026  08-18-2026
+c43a48b3-ed21-408b-ba9d-d2d61576a5da  aeec7399  uth-log-monitoring-architecture                 08-18-2026  08-18-2026
+e8dbe8ef-4316-4b26-94eb-9ab1dc61efc8  15a74466  Kubernetes AI Application Design                08-18-2026  08-18-2026
+d37d1fb4-84ee-4eed-9ced-11aed0190134  2eb76274  understanding persistent storage in kubernetes  08-18-2026  08-18-2026
+496f8c65-edea-4705-bb37-1f9c53a9e124  2eb76274  Architectural Diagramming (Copy)                08-18-2026  08-18-2026
+c0055741-aa22-42fc-aae8-77db500ff897  2eb76274  Example: Configure a Kubernetes Pod (Copy)      08-18-2026  08-18-2026
+ce1e09ff-c477-4aa5-aaf6-8d45aecb2449  52b9b6b7  ali-hello-world-nginx                           08-18-2026  08-18-2026
+b5ff3f6a-4aaa-4230-ae68-5f122257620b  cc61406c  Cloud-Native Application Architecture           08-18-2026  08-18-2026
+7be550ed-f77b-4fbb-9096-6345cbdcf76f  87822d01  Kubernetes Application Architecture             08-18-2026  08-18-2026
