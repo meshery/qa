@@ -1,0 +1,46 @@
+{
+  "uuid": "d828bdc8-b7ac-44b0-abbf-bb95d994c721",
+  "name": "TestUndeployCmd",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/design::TestUndeployCmd",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1787330290636,
+  "stop": 1787330290653,
+  "statusDetails": {
+    "message": "testing.go:799: Test 'given valid file when design undeploy then design is undeployed' executed\n    testing.go:799: Test 'given invalid file path when design undeploy then error is thrown' executed\n    testing.go:799: Test 'given no args when design undeploy then usage error is returned' executed\n    testing.go:799: Test 'given nonexistent design provided when design undeploy then error is thrown' executed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/design"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestUndeployCmd"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
