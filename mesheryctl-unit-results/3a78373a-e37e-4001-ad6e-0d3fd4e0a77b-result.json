@@ -1,0 +1,46 @@
+{
+  "uuid": "3a78373a-e37e-4001-ad6e-0d3fd4e0a77b",
+  "name": "TestComponentView/given_multiple_component_name_is_provided_when_running_component_view_then_throw_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/components::TestComponentView/given_multiple_component_name_is_provided_when_running_component_view_then_throw_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1787333202962,
+  "stop": 1787333202965,
+  "statusDetails": {
+    "message": "Error: Only one argument must be provided and needs to be enclosed by double quotes if it contains spaces (eg. \"model name\", modelName)\nUsage: mesheryctl component view [component-name | component-id]\nRun 'mesheryctl component view --help' to see detailed help message | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/components"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestComponentView/given_multiple_component_name_is_provided_when_running_component_view_then_throw_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
