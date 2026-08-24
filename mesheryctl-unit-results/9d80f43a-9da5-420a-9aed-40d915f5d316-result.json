@@ -1,0 +1,46 @@
+{
+  "uuid": "9d80f43a-9da5-420a-9aed-40d915f5d316",
+  "name": "TestDesignView/given_invalid_output_format_when_design_view_then_error_is_returned",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/design::TestDesignView/given_invalid_output_format_when_design_view_then_error_is_returned",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1787596206843,
+  "stop": 1787596206844,
+  "statusDetails": {
+    "message": "Error: Output format 'invalid' is not supported.  | Short Description: The output format 'invalid' is not supported.  | Probable Cause: An unsupported output format was requested.  | Suggested Remediation: Specify a supported output format. Choices are 'json' or 'yaml'."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/design"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDesignView/given_invalid_output_format_when_design_view_then_error_is_returned"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
