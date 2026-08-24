@@ -1,0 +1,46 @@
+{
+  "uuid": "c0ab9f97-c25f-4385-9a63-faf69faa0929",
+  "name": "TestSeedConnectionsToleratesMissingDependencies",
+  "fullName": "github.com/meshery/meshery/server/models::TestSeedConnectionsToleratesMissingDependencies",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1787596130804,
+  "stop": 1787596131184,
+  "statusDetails": {
+    "message": "2026/08/24 18:28:51 \u001b[31;1m/home/runner/go/pkg/mod/github.com/meshery/schemas@v1.3.37/models/v1beta1/connection/connection_helper.go:37 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.231ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"8c9393f8-a4a5-8cbe-1f1d-98c9c0e9c37f\" ORDER BY `connections`.`id` LIMIT 1\n\r\n2026/08/24 18:28:51 \u001b[31;1m/home/runner/go/pkg/mod/github.com/meshery/schemas@v1.3.37/models/v1beta1/model/model_helper.go:83 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.095ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `model_dbs` WHERE id = \"800935d7-4f76-27fc-be85-6ad845c82fe9\" and connection_id = \"8c9393f8-a4a5-8cbe-1f1d-98c9c0e9c37f\" ORDER BY `model_dbs`.`id` LIMIT 1\n\r\n2026/08/24 18:28:51 \u001b[31;1m/home/runner/go/pkg/mod/github.com/meshery/schemas@v1.3.37/models/v1beta1/category/category_helper.go:63 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.082ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `category_dbs` WHERE id = \"9ca27d0d-66ce-42a9-8c85-6236563f2ddb\" ORDER BY `category_dbs`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSeedConnectionsToleratesMissingDependencies"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
