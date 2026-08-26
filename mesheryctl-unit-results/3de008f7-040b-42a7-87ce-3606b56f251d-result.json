@@ -1,0 +1,46 @@
+{
+  "uuid": "3de008f7-040b-42a7-87ce-3606b56f251d",
+  "name": "TestApplyPurgePlanRefusesPathOutsideModelsDir",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/registry::TestApplyPurgePlanRefusesPathOutsideModelsDir",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1787710421761,
+  "stop": 1787710421762,
+  "statusDetails": {
+    "message": "/tmp/TestApplyPurgePlanRefusesPathOutsideModelsDir4098568457/001/sentinel does not resolve within /tmp/TestApplyPurgePlanRefusesPathOutsideModelsDir4098568457/001/models, so it was left untouched | Short Description: refusing to remove path outside of the models directory: /tmp/TestApplyPurgePlanRefusesPathOutsideModelsDir4098568457/001/sentinel | Probable Cause: A model version directory name escapes the models directory.The models directory layout was modified while the purge was running | Suggested Remediation: Inspect the models directory for unexpected entries.Re-run mesheryctl registry purge from the root of a meshery/meshery fork"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/registry"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestApplyPurgePlanRefusesPathOutsideModelsDir"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
