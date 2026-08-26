@@ -1,0 +1,46 @@
+{
+  "uuid": "334fba80-220c-42e8-9e3d-057c176e5147",
+  "name": "TestK8sHealthzHandler/Healthy_-_capabilities_loaded",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestK8sHealthzHandler/Healthy_-_capabilities_loaded",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1787718373544,
+  "stop": 1787718373545,
+  "statusDetails": {
+    "message": "k8s_healthz_handler_test.go:163: Response body: ok"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestK8sHealthzHandler/Healthy_-_capabilities_loaded"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
