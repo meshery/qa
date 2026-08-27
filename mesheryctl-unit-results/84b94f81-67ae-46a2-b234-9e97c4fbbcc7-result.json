@@ -1,0 +1,46 @@
+{
+  "uuid": "84b94f81-67ae-46a2-b234-9e97c4fbbcc7",
+  "name": "TestDesignView",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/design::TestDesignView",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1787857383845,
+  "stop": 1787857383869,
+  "statusDetails": {
+    "message": "testing.go:799: Test 'given name provided when design view then design is displayed' executed\n    testing.go:799: Test 'given id provided when design view then design is displayed' executed\n    testing.go:799: Test 'given no name or ID specified when design view then error is thrown' executed\n    testing.go:799: Test 'given nonexistent design provided when design view then error is thrown' executed\n    testing.go:799: Test 'given invalid output format when design view then error is returned' executed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/design"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDesignView"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
