@@ -1,0 +1,37 @@
+{
+  "uuid": "f14855c2-ef40-4bb5-838b-39dffc113d7a",
+  "name": "mesheryctl design view with nonexistent design throws an error",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1787944632363,
+  "stop": 1787944632364,
+  "statusDetails": {
+    "message": "`assert_output --partial \"not found\"' failed",
+    "trace": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 003-design/02-design-view.bats, line 38)\n  `assert_output --partial \"not found\"' failed\n\n-- output does not contain substring --\nsubstring : not found\noutput    : Error: No Design found with name, ID or at path: nonexistent-design | Short Description: Design Not Found | Probable Cause: Design with the given name, ID or path is not present | Suggested Remediation: Please check if the given design name or ID is present via 'mesheryctl design list' or provide a valid file path\n--\n\nLast output:\nError: No Design found with name, ID or at path: nonexistent-design | Short Description: Design Not Found | Probable Cause: Design with the given name, ID or path is not present | Suggested Remediation: Please check if the given design name or ID is present via 'mesheryctl design list' or provide a valid file path"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "CLI output (bats)",
+      "source": "f14855c2-ef40-4bb5-838b-39dffc113d7a-attachment.txt",
+      "type": "text/plain"
+    }
+  ]
+}

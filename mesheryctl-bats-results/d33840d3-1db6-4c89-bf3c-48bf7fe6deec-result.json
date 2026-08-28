@@ -1,0 +1,37 @@
+{
+  "uuid": "d33840d3-1db6-4c89-bf3c-48bf7fe6deec",
+  "name": "given no context-name provided when running mesheryctl system context switch then an error message is displayed",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1787944632366,
+  "stop": 1787944632367,
+  "statusDetails": {
+    "message": "`assert_output --partial \"provide exactly one context name\"' failed",
+    "trace": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 999-system/01-system-context.bats, line 115)\n  `assert_output --partial \"provide exactly one context name\"' failed\n\n-- output does not contain substring --\nsubstring : provide exactly one context name\noutput    : Error: only one argument must be provided | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed\n--\n\nLast output:\nError: only one argument must be provided | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "CLI output (bats)",
+      "source": "d33840d3-1db6-4c89-bf3c-48bf7fe6deec-attachment.txt",
+      "type": "text/plain"
+    }
+  ]
+}
