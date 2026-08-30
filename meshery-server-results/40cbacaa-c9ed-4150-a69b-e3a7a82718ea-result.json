@@ -1,0 +1,46 @@
+{
+  "uuid": "40cbacaa-c9ed-4150-a69b-e3a7a82718ea",
+  "name": "TestPrometheusClientForConnectionCredentialShapes/legacy_string_shape",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestPrometheusClientForConnectionCredentialShapes/legacy_string_shape",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1788092742599,
+  "stop": 1788092742604,
+  "statusDetails": {
+    "message": "2026/08/30 12:25:42 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:168 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.100ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"4dc01389-8697-4c6c-bd1c-c5edc8fe6de5\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPrometheusClientForConnectionCredentialShapes/legacy_string_shape"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
