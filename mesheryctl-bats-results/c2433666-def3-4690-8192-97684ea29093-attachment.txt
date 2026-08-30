@@ -1,0 +1,36 @@
+(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,
+ in test file 003-design/03-design-list.bats, line 17)
+  `assert_line --regexp "$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN"' failed
+
+-- no output line matches regular expression --
+regexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$
+output (13 lines):
+  Total number of designs: 71554
+  Page: 1
+  DESIGN ID                             OWNER     NAME                                            CREATED     UPDATED
+  71fbad3b-30a7-4010-9a85-98063edd9db1  dea82811  nginx                                           08-30-2026  08-30-2026
+  f51bb8ff-58db-4b13-ab54-cd9fa120ff36  9e95f123  my-first-k8s-design                             08-30-2026  08-30-2026
+  964f3b39-48d0-421a-943e-7e4b4acc30d0  b8771d96  nnaaaa                                          08-30-2026  08-30-2026
+  419f81e2-de74-43ce-975b-d12bf5e29281  b8771d96  nnaaaa                                          08-30-2026  08-30-2026
+  3b7c37e0-8213-408a-b1be-8894edb1b114  4fc9e70c  demo-design                                     08-30-2026  08-30-2026
+  6f95b8a6-81b3-4f07-aedc-1b744176dc19  5c8a1227  simple-3tier-app                                08-26-2026  08-30-2026
+  c9c48a22-b103-4e24-8c92-f353e97782a7  fdb069df  Saketh-Kubernetes-First-Design-copy             08-30-2026  08-30-2026
+  f6d593a4-19d6-4527-9e4f-5c221680244f  fdb069df  Saketh-Kubernetes-First-Design                  08-30-2026  08-30-2026
+  0001a44c-d6fa-4f30-bcc4-1981a671e5b8  fdb069df  understanding persistent storage in kubernetes  08-30-2026  08-30-2026
+  9ff88858-8a60-4d0c-b903-6db62b39bdd9  fdb069df  Example: Understanding Relationships (Copy)     08-30-2026  08-30-2026
+--
+
+Last output:
+Total number of designs: 71554
+Page: 1
+DESIGN ID                             OWNER     NAME                                            CREATED     UPDATED
+71fbad3b-30a7-4010-9a85-98063edd9db1  dea82811  nginx                                           08-30-2026  08-30-2026
+f51bb8ff-58db-4b13-ab54-cd9fa120ff36  9e95f123  my-first-k8s-design                             08-30-2026  08-30-2026
+964f3b39-48d0-421a-943e-7e4b4acc30d0  b8771d96  nnaaaa                                          08-30-2026  08-30-2026
+419f81e2-de74-43ce-975b-d12bf5e29281  b8771d96  nnaaaa                                          08-30-2026  08-30-2026
+3b7c37e0-8213-408a-b1be-8894edb1b114  4fc9e70c  demo-design                                     08-30-2026  08-30-2026
+6f95b8a6-81b3-4f07-aedc-1b744176dc19  5c8a1227  simple-3tier-app                                08-26-2026  08-30-2026
+c9c48a22-b103-4e24-8c92-f353e97782a7  fdb069df  Saketh-Kubernetes-First-Design-copy             08-30-2026  08-30-2026
+f6d593a4-19d6-4527-9e4f-5c221680244f  fdb069df  Saketh-Kubernetes-First-Design                  08-30-2026  08-30-2026
+0001a44c-d6fa-4f30-bcc4-1981a671e5b8  fdb069df  understanding persistent storage in kubernetes  08-30-2026  08-30-2026
+9ff88858-8a60-4d0c-b903-6db62b39bdd9  fdb069df  Example: Understanding Relationships (Copy)     08-30-2026  08-30-2026
