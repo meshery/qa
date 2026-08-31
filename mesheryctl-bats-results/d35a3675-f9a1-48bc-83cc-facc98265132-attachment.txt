@@ -1,0 +1,931 @@
+(from function `assert_failure' in file /usr/lib/bats-assert/src/assert_failure.bash, line 66,
+ in test file 002-model/02-model-import.bats, line 36)
+  `assert_failure' failed
+
+-- command succeeded, but it was expected to fail --
+output (461 lines):
+  [1mSUMMARY[0m: Imported model argo-cd, d259b542713198342eebe1be5b52558e05d88b5cef61e99bd0107975b1786e66, oci-layout, ._kccna24-test-oci.tar, 01c69be409796b7ea25831d4c458e36db0e10cfb5f150b8deaffbf5ca607d9a7, b7bd3b0dcd4eae44386cd5e7c1960bf74c0c23cfbde0d31354b9d3166ec6f942, dabc62dbaac29974c4d5ea118b9c8eac5bcf6d148cd359c5e6aca0cb45b684ff, .dockerignore, Dockerfile, ._apache-shardingsphere-test-oci.tar, 04715653e51c7851015dab2aca5db0a3b6a661529c4c2c0ce1d987e96cd06fc9, test.rego, 6cd371b1848fd96de02d4c608513e72aba6462a32f9c7697cb3f3d98b8cbfcfd, a7242ee17aa407e3b0b3253653782e742db224b4836c9ce7a687f882e9054409, index.json, manifest.json, model.rego, Conference Logo.json, model.json, 9f5b5f46dd64496639001e60637672bcf61e136f62ed7f615712a1416170f6ff, 82caab8a60bdcb5a88f9a52ddb43ba4165a5107b1bf14e757bb9f1febd938c84, de4d3c2d35b6188dc7dd686878af4c1485cefcb55906b1096eac817c67846ab4, 62ef1235556acf39aff2f5b1a2833d2a45e49ace66a4e734c1167209c1dddae4, b969aa15c1664987c6dab443ab5d0a737cf6977d68b26175f7c773054a56e34d (47 components and 12 relationships), encountered error for 23 entities (23 unknown entities)
+
+  [1mMODEL[0m: argo-cd
+
+  COMPONENT          VERSION
+  Chaos Test         v1.0.0
+  Compute Node Test  v1.0.0
+  Chaos Test         v1.0.0
+  Compute Node Test  v1.0.0
+  Chaos Test         v1.0.0
+  Compute Node Test  v1.0.0
+  Chaos Test         v1.0.0
+  Compute Node Test  v1.0.0
+  Chaos Test         v1.0.0
+  Compute Node Test  v1.0.0
+  Chaos Test         v1.0.0
+  Compute Node Test  v1.0.0
+  Chaos Test         v1.0.0
+  Compute Node Test  v1.0.0
+  App Project        v1.0.0
+  Application        v1.0.0
+  Application Set    v1.0.0
+  Argo CD Extension  v1.0.0
+  App Project        v1.0.0
+  Application        v1.0.0
+  Application Set    v1.0.0
+  Conference Logo    v1.0.0
+  Conference Logo    v1.0.0
+  Conference Logo    v1.0.0
+  Conference Logo    v1.0.0
+  Chaos Test         v1.0.0
+  Compute Node Test  v1.0.0
+  Chaos Test         v1.0.0
+  Compute Node Test  v1.0.0
+  App Project        v1.0.0
+  Application        v1.0.0
+  Application Set    v1.0.0
+  Argo CD Extension  v1.0.0
+  App Project        v1.0.0
+  Application        v1.0.0
+  Application Set    v1.0.0
+  Chaos Test         v1.0.0
+  Compute Node Test  v1.0.0
+  Chaos Test         v1.0.0
+  Compute Node Test  v1.0.0
+  App Project        v1.0.0
+  Application        v1.0.0
+  Application Set    v1.0.0
+  Argo CD Extension  v1.0.0
+  App Project        v1.0.0
+  Application        v1.0.0
+  Application Set    v1.0.0
+
+    [1mRELATIONSHIPS:[0m Kind of hierarchical, sub type inventory and type parent
+  FROM        TO
+  AppProject  Application
+  AppProject  ApplicationSet
+
+  [1mMODEL[0m: d259b542713198342eebe1be5b52558e05d88b5cef61e99bd0107975b1786e66
+
+  [1mERROR[0m: Error encountered while importing model d259b542713198342eebe1be5b52558e05d88b5cef61e99bd0107975b1786e66:
+      The file 'd259b542713198342eebe1be5b52558e05d88b5cef61e99bd0107975b1786e66' could not be used for the operation 'import' because the extension '' is not supported. The system is designed to handle files with the following extensions for this operation: .json, .tar.gz, .yml, .yaml, .tar, .tar.tgz, .gz, .tgz.
+
+      Ensure that you are importing an existing model.
+      Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+    [1mPROBABLE CAUSE[0m:
+    - The file extension does not match any of the supported formats for this operation.
+    - The file may have been saved with an incorrect or unsupported extension.
+    - The operation may have specific requirements for file types that are not met by this file.
+
+    [1mSUGGESTED REMEDIATION[0m:
+    - Ensure the file is saved with one of the supported extensions for this operation.
+    - Convert the file to a supported format before attempting the operation.
+    - Check the documentation or requirements for the operation to verify the supported file types.
+
+  [1mMODEL[0m: oci-layout
+
+  [1mERROR[0m: Error encountered while importing model oci-layout:
+      The file 'oci-layout' could not be used for the operation 'import' because the extension '' is not supported. The system is designed to handle files with the following extensions for this operation: .yml, .yaml, .tar, .tar.tgz, .gz, .tgz, .json, .tar.gz.
+
+      Ensure that you are importing an existing model.
+      Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+    [1mPROBABLE CAUSE[0m:
+    - The file extension does not match any of the supported formats for this operation.
+    - The file may have been saved with an incorrect or unsupported extension.
+    - The operation may have specific requirements for file types that are not met by this file.
+
+    [1mSUGGESTED REMEDIATION[0m:
+    - Ensure the file is saved with one of the supported extensions for this operation.
+    - Convert the file to a supported format before attempting the operation.
+    - Check the documentation or requirements for the operation to verify the supported file types.
+
+  [1mMODEL[0m: 01c69be409796b7ea25831d4c458e36db0e10cfb5f150b8deaffbf5ca607d9a7
+
+  [1mERROR[0m: Error encountered while importing model 01c69be409796b7ea25831d4c458e36db0e10cfb5f150b8deaffbf5ca607d9a7:
+      The file '01c69be409796b7ea25831d4c458e36db0e10cfb5f150b8deaffbf5ca607d9a7' could not be used for the operation 'import' because the extension '' is not supported. The system is designed to handle files with the following extensions for this operation: .yaml, .tar, .tar.tgz, .gz, .tgz, .json, .tar.gz, .yml.
+
+      Ensure that you are importing an existing model.
+      Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+    [1mPROBABLE CAUSE[0m:
+    - The file extension does not match any of the supported formats for this operation.
+    - The file may have been saved with an incorrect or unsupported extension.
+    - The operation may have specific requirements for file types that are not met by this file.
+
+    [1mSUGGESTED REMEDIATION[0m:
+    - Ensure the file is saved with one of the supported extensions for this operation.
+    - Convert the file to a supported format before attempting the operation.
+    - Check the documentation or requirements for the operation to verify the supported file types.
+
+  [1mMODEL[0m: b7bd3b0dcd4eae44386cd5e7c1960bf74c0c23cfbde0d31354b9d3166ec6f942
+
+  [1mERROR[0m: Error encountered while importing model b7bd3b0dcd4eae44386cd5e7c1960bf74c0c23cfbde0d31354b9d3166ec6f942:
+      The file 'b7bd3b0dcd4eae44386cd5e7c1960bf74c0c23cfbde0d31354b9d3166ec6f942' could not be used for the operation 'import' because the extension '' is not supported. The system is designed to handle files with the following extensions for this operation: .tar.tgz, .gz, .tgz, .json, .tar.gz, .yml, .yaml, .tar.
+
+      Ensure that you are importing an existing model.
+      Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+    [1mPROBABLE CAUSE[0m:
+    - The file extension does not match any of the supported formats for this operation.
+    - The file may have been saved with an incorrect or unsupported extension.
+    - The operation may have specific requirements for file types that are not met by this file.
+
+    [1mSUGGESTED REMEDIATION[0m:
+    - Ensure the file is saved with one of the supported extensions for this operation.
+    - Convert the file to a supported format before attempting the operation.
+    - Check the documentation or requirements for the operation to verify the supported file types.
+
+  [1mMODEL[0m: dabc62dbaac29974c4d5ea118b9c8eac5bcf6d148cd359c5e6aca0cb45b684ff
+
+  [1mERROR[0m: Error encountered while importing model dabc62dbaac29974c4d5ea118b9c8eac5bcf6d148cd359c5e6aca0cb45b684ff:
+      The file 'dabc62dbaac29974c4d5ea118b9c8eac5bcf6d148cd359c5e6aca0cb45b684ff' could not be used for the operation 'import' because the extension '' is not supported. The system is designed to handle files with the following extensions for this operation: .gz, .tgz, .json, .tar.gz, .yml, .yaml, .tar, .tar.tgz.
+
+      Ensure that you are importing an existing model.
+      Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+    [1mPROBABLE CAUSE[0m:
+    - The file extension does not match any of the supported formats for this operation.
+    - The file may have been saved with an incorrect or unsupported extension.
+    - The operation may have specific requirements for file types that are not met by this file.
+
+    [1mSUGGESTED REMEDIATION[0m:
+    - Ensure the file is saved with one of the supported extensions for this operation.
+    - Convert the file to a supported format before attempting the operation.
+    - Check the documentation or requirements for the operation to verify the supported file types.
+
+  [1mMODEL[0m: Dockerfile
+
+  [1mERROR[0m: Error encountered while importing model Dockerfile:
+      The file 'Dockerfile' could not be used for the operation 'import' because the extension '' is not supported. The system is designed to handle files with the following extensions for this operation: .yml, .yaml, .tar, .tar.tgz, .gz, .tgz, .json, .tar.gz.
+
+      Ensure that you are importing an existing model.
+      Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+    [1mPROBABLE CAUSE[0m:
+    - The file extension does not match any of the supported formats for this operation.
+    - The file may have been saved with an incorrect or unsupported extension.
+    - The operation may have specific requirements for file types that are not met by this file.
+
+    [1mSUGGESTED REMEDIATION[0m:
+    - Ensure the file is saved with one of the supported extensions for this operation.
+    - Convert the file to a supported format before attempting the operation.
+    - Check the documentation or requirements for the operation to verify the supported file types.
+
+  [1mMODEL[0m: 04715653e51c7851015dab2aca5db0a3b6a661529c4c2c0ce1d987e96cd06fc9
+
+  [1mERROR[0m: Error encountered while importing model 04715653e51c7851015dab2aca5db0a3b6a661529c4c2c0ce1d987e96cd06fc9:
+      The file '04715653e51c7851015dab2aca5db0a3b6a661529c4c2c0ce1d987e96cd06fc9' could not be used for the operation 'import' because the extension '' is not supported. The system is designed to handle files with the following extensions for this operation: .yml, .yaml, .tar, .tar.tgz, .gz, .tgz, .json, .tar.gz.
+
+      Ensure that you are importing an existing model.
+      Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+    [1mPROBABLE CAUSE[0m:
+    - The file extension does not match any of the supported formats for this operation.
+    - The file may have been saved with an incorrect or unsupported extension.
+    - The operation may have specific requirements for file types that are not met by this file.
+
+    [1mSUGGESTED REMEDIATION[0m:
+    - Ensure the file is saved with one of the supported extensions for this operation.
+    - Convert the file to a supported format before attempting the operation.
+    - Check the documentation or requirements for the operation to verify the supported file types.
+
+  [1mMODEL[0m: 6cd371b1848fd96de02d4c608513e72aba6462a32f9c7697cb3f3d98b8cbfcfd
+
+  [1mERROR[0m: Error encountered while importing model 6cd371b1848fd96de02d4c608513e72aba6462a32f9c7697cb3f3d98b8cbfcfd:
+      The file '6cd371b1848fd96de02d4c608513e72aba6462a32f9c7697cb3f3d98b8cbfcfd' could not be used for the operation 'import' because the extension '' is not supported. The system is designed to handle files with the following extensions for this operation: .yml, .yaml, .tar, .tar.tgz, .gz, .tgz, .json, .tar.gz.
+
+      Ensure that you are importing an existing model.
+      Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+    [1mPROBABLE CAUSE[0m:
+    - The file extension does not match any of the supported formats for this operation.
+    - The file may have been saved with an incorrect or unsupported extension.
+    - The operation may have specific requirements for file types that are not met by this file.
+
+    [1mSUGGESTED REMEDIATION[0m:
+    - Ensure the file is saved with one of the supported extensions for this operation.
+    - Convert the file to a supported format before attempting the operation.
+    - Check the documentation or requirements for the operation to verify the supported file types.
+
+  [1mMODEL[0m: a7242ee17aa407e3b0b3253653782e742db224b4836c9ce7a687f882e9054409
+
+  [1mERROR[0m: Error encountered while importing model a7242ee17aa407e3b0b3253653782e742db224b4836c9ce7a687f882e9054409:
+      The file 'a7242ee17aa407e3b0b3253653782e742db224b4836c9ce7a687f882e9054409' could not be used for the operation 'import' because the extension '' is not supported. The system is designed to handle files with the following extensions for this operation: .tar.gz, .yml, .yaml, .tar, .tar.tgz, .gz, .tgz, .json.
+
+      Ensure that you are importing an existing model.
+      Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+    [1mPROBABLE CAUSE[0m:
+    - The file extension does not match any of the supported formats for this operation.
+    - The file may have been saved with an incorrect or unsupported extension.
+    - The operation may have specific requirements for file types that are not met by this file.
+
+    [1mSUGGESTED REMEDIATION[0m:
+    - Ensure the file is saved with one of the supported extensions for this operation.
+    - Convert the file to a supported format before attempting the operation.
+    - Check the documentation or requirements for the operation to verify the supported file types.
+
+  [1mMODEL[0m: 9f5b5f46dd64496639001e60637672bcf61e136f62ed7f615712a1416170f6ff
+
+  [1mERROR[0m: Error encountered while importing model 9f5b5f46dd64496639001e60637672bcf61e136f62ed7f615712a1416170f6ff:
+      The file '9f5b5f46dd64496639001e60637672bcf61e136f62ed7f615712a1416170f6ff' could not be used for the operation 'import' because the extension '' is not supported. The system is designed to handle files with the following extensions for this operation: .tar, .tar.tgz, .gz, .tgz, .json, .tar.gz, .yml, .yaml.
+
+      Ensure that you are importing an existing model.
+      Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+    [1mPROBABLE CAUSE[0m:
+    - The file extension does not match any of the supported formats for this operation.
+    - The file may have been saved with an incorrect or unsupported extension.
+    - The operation may have specific requirements for file types that are not met by this file.
+
+    [1mSUGGESTED REMEDIATION[0m:
+    - Ensure the file is saved with one of the supported extensions for this operation.
+    - Convert the file to a supported format before attempting the operation.
+    - Check the documentation or requirements for the operation to verify the supported file types.
+
+  [1mMODEL[0m: 82caab8a60bdcb5a88f9a52ddb43ba4165a5107b1bf14e757bb9f1febd938c84
+
+  [1mERROR[0m: Error encountered while importing model 82caab8a60bdcb5a88f9a52ddb43ba4165a5107b1bf14e757bb9f1febd938c84:
+      The file '82caab8a60bdcb5a88f9a52ddb43ba4165a5107b1bf14e757bb9f1febd938c84' could not be used for the operation 'import' because the extension '' is not supported. The system is designed to handle files with the following extensions for this operation: .tar, .tar.tgz, .gz, .tgz, .json, .tar.gz, .yml, .yaml.
+
+      Ensure that you are importing an existing model.
+      Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+    [1mPROBABLE CAUSE[0m:
+    - The file extension does not match any of the supported formats for this operation.
+    - The file may have been saved with an incorrect or unsupported extension.
+    - The operation may have specific requirements for file types that are not met by this file.
+
+    [1mSUGGESTED REMEDIATION[0m:
+    - Ensure the file is saved with one of the supported extensions for this operation.
+    - Convert the file to a supported format before attempting the operation.
+    - Check the documentation or requirements for the operation to verify the supported file types.
+
+  [1mMODEL[0m: de4d3c2d35b6188dc7dd686878af4c1485cefcb55906b1096eac817c67846ab4
+
+  [1mERROR[0m: Error encountered while importing model de4d3c2d35b6188dc7dd686878af4c1485cefcb55906b1096eac817c67846ab4:
+      The file 'de4d3c2d35b6188dc7dd686878af4c1485cefcb55906b1096eac817c67846ab4' could not be used for the operation 'import' because the extension '' is not supported. The system is designed to handle files with the following extensions for this operation: .yml, .yaml, .tar, .tar.tgz, .gz, .tgz, .json, .tar.gz.
+
+      Ensure that you are importing an existing model.
+      Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+    [1mPROBABLE CAUSE[0m:
+    - The file extension does not match any of the supported formats for this operation.
+    - The file may have been saved with an incorrect or unsupported extension.
+    - The operation may have specific requirements for file types that are not met by this file.
+
+    [1mSUGGESTED REMEDIATION[0m:
+    - Ensure the file is saved with one of the supported extensions for this operation.
+    - Convert the file to a supported format before attempting the operation.
+    - Check the documentation or requirements for the operation to verify the supported file types.
+
+  [1mMODEL[0m: 62ef1235556acf39aff2f5b1a2833d2a45e49ace66a4e734c1167209c1dddae4
+
+  [1mERROR[0m: Error encountered while importing model 62ef1235556acf39aff2f5b1a2833d2a45e49ace66a4e734c1167209c1dddae4:
+      The file '62ef1235556acf39aff2f5b1a2833d2a45e49ace66a4e734c1167209c1dddae4' could not be used for the operation 'import' because the extension '' is not supported. The system is designed to handle files with the following extensions for this operation: .json, .tar.gz, .yml, .yaml, .tar, .tar.tgz, .gz, .tgz.
+
+      Ensure that you are importing an existing model.
+      Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+    [1mPROBABLE CAUSE[0m:
+    - The file extension does not match any of the supported formats for this operation.
+    - The file may have been saved with an incorrect or unsupported extension.
+    - The operation may have specific requirements for file types that are not met by this file.
+
+    [1mSUGGESTED REMEDIATION[0m:
+    - Ensure the file is saved with one of the supported extensions for this operation.
+    - Convert the file to a supported format before attempting the operation.
+    - Check the documentation or requirements for the operation to verify the supported file types.
+
+  [1mMODEL[0m: b969aa15c1664987c6dab443ab5d0a737cf6977d68b26175f7c773054a56e34d
+
+  [1mERROR[0m: Error encountered while importing model b969aa15c1664987c6dab443ab5d0a737cf6977d68b26175f7c773054a56e34d:
+      The file 'b969aa15c1664987c6dab443ab5d0a737cf6977d68b26175f7c773054a56e34d' could not be used for the operation 'import' because the extension '' is not supported. The system is designed to handle files with the following extensions for this operation: .tar.gz, .yml, .yaml, .tar, .tar.tgz, .gz, .tgz, .json.
+
+      Ensure that you are importing an existing model.
+      Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+    [1mPROBABLE CAUSE[0m:
+    - The file extension does not match any of the supported formats for this operation.
+    - The file may have been saved with an incorrect or unsupported extension.
+    - The operation may have specific requirements for file types that are not met by this file.
+
+    [1mSUGGESTED REMEDIATION[0m:
+    - Ensure the file is saved with one of the supported extensions for this operation.
+    - Convert the file to a supported format before attempting the operation.
+    - Check the documentation or requirements for the operation to verify the supported file types.
+
+  [1mERROR[0m: Error encountered while importing model ._kccna24-test-oci.tar:
+      An error occurred while attempting to extract the TAR archive '._kccna24-test-oci.tar'. Error details: invalid character '\x00' looking for beginning of value | Short Description: Unmarshal unknown error:  | Probable Cause: Invalid object format | Suggested Remediation: Make sure to input a valid JSON object
+
+      Ensure that you are importing an existing model.
+      Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+    [1mPROBABLE CAUSE[0m:
+    - The archive may be non OCI compliant.
+    - The archive may have been created with a different tool or version that is incompatible.
+
+    [1mSUGGESTED REMEDIATION[0m:
+    - Make sure the archive is OCI compliant. Meshery Models should be OCI compliant archive.
+    - Ensure the archive is created using a compatible tool (eg: ORAS) and version that follows OCI standards.
+
+  [1mERROR[0m: Error encountered while importing model .dockerignore:
+      The file '.dockerignore' could not be used for the operation 'import' because the extension '.dockerignore' is not supported. The system is designed to handle files with the following extensions for this operation: .yml, .yaml, .tar, .tar.tgz, .gz, .tgz, .json, .tar.gz.
+
+      Ensure that you are importing an existing model.
+      Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+    [1mPROBABLE CAUSE[0m:
+    - The file extension does not match any of the supported formats for this operation.
+    - The file may have been saved with an incorrect or unsupported extension.
+    - The operation may have specific requirements for file types that are not met by this file.
+
+    [1mSUGGESTED REMEDIATION[0m:
+    - Ensure the file is saved with one of the supported extensions for this operation.
+    - Convert the file to a supported format before attempting the operation.
+    - Check the documentation or requirements for the operation to verify the supported file types.
+
+  [1mERROR[0m: Error encountered while importing model ._apache-shardingsphere-test-oci.tar:
+      An error occurred while attempting to extract the TAR archive '._apache-shardingsphere-test-oci.tar'. Error details: invalid character '\x00' looking for beginning of value | Short Description: Unmarshal unknown error:  | Probable Cause: Invalid object format | Suggested Remediation: Make sure to input a valid JSON object
+
+      Ensure that you are importing an existing model.
+      Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+    [1mPROBABLE CAUSE[0m:
+    - The archive may be non OCI compliant.
+    - The archive may have been created with a different tool or version that is incompatible.
+
+    [1mSUGGESTED REMEDIATION[0m:
+    - Make sure the archive is OCI compliant. Meshery Models should be OCI compliant archive.
+    - Ensure the archive is created using a compatible tool (eg: ORAS) and version that follows OCI standards.
+
+  [1mERROR[0m: Error encountered while importing model test.rego:
+      The file 'test.rego' could not be used for the operation 'import' because the extension '.rego' is not supported. The system is designed to handle files with the following extensions for this operation: .gz, .tgz, .json, .tar.gz, .yml, .yaml, .tar, .tar.tgz.
+
+      Ensure that you are importing an existing model.
+      Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+    [1mPROBABLE CAUSE[0m:
+    - The file extension does not match any of the supported formats for this operation.
+    - The file may have been saved with an incorrect or unsupported extension.
+    - The operation may have specific requirements for file types that are not met by this file.
+
+    [1mSUGGESTED REMEDIATION[0m:
+    - Ensure the file is saved with one of the supported extensions for this operation.
+    - Convert the file to a supported format before attempting the operation.
+    - Check the documentation or requirements for the operation to verify the supported file types.
+
+  [1mERROR[0m: Error encountered while importing model index.json:
+      The file 'index.json' could not be parsed due to invalid JSON syntax. Error details: The `schemaVersion` key is either empty or has an incorrect value. | Short Description: Invalid schema version | Probable Cause: The schema is not of type 'relationship', 'component', 'model' , 'policy'. | Suggested Remediation: Verify that `schemaVersion` key should be either `relationships.meshery.io`, `component.meshery.io`, `model.meshery.io` or `policy.meshery.io`.
+
+      Ensure that you are importing an existing model.
+      Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+    [1mPROBABLE CAUSE[0m:
+    - The JSON file may contain syntax errors, such as missing commas, curly braces, or square brackets.
+    - The file may have been corrupted or improperly edited.
+    - Special characters or escape sequences may not have been properly formatted.
+    - The JSON does not conform to the Meshery model schema.
+
+    [1mSUGGESTED REMEDIATION[0m:
+    - Review the JSON syntax in the file and correct any errors.
+    - Use a JSON validator or linter to identify and fix issues.
+    - Ensure the file adheres to the JSON specification (e.g., double quotes for keys and strings).
+    - Check for common issues like trailing commas or unescaped special characters.
+    - Ensure the JSON conforms to the Meshery model schema. You can refer to the following documentation for more details: https://docs.meshery.io/project/contributing/contributing-models
+
+  [1mERROR[0m: Error encountered while importing model manifest.json:
+      The file 'manifest.json' could not be parsed due to invalid JSON syntax. Error details: json: cannot unmarshal array into Go value of type map[string]interface {} | Short Description: Unmarshal unknown error:  | Probable Cause: Invalid object format | Suggested Remediation: Make sure to input a valid JSON object
+
+      Ensure that you are importing an existing model.
+      Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+    [1mPROBABLE CAUSE[0m:
+    - The JSON file may contain syntax errors, such as missing commas, curly braces, or square brackets.
+    - The file may have been corrupted or improperly edited.
+    - Special characters or escape sequences may not have been properly formatted.
+    - The JSON does not conform to the Meshery model schema.
+
+    [1mSUGGESTED REMEDIATION[0m:
+    - Review the JSON syntax in the file and correct any errors.
+    - Use a JSON validator or linter to identify and fix issues.
+    - Ensure the file adheres to the JSON specification (e.g., double quotes for keys and strings).
+    - Check for common issues like trailing commas or unescaped special characters.
+    - Ensure the JSON conforms to the Meshery model schema. You can refer to the following documentation for more details: https://docs.meshery.io/project/contributing/contributing-models
+
+  [1mERROR[0m: Error encountered while importing model model.rego:
+      The file 'model.rego' could not be used for the operation 'import' because the extension '.rego' is not supported. The system is designed to handle files with the following extensions for this operation: .yml, .yaml, .tar, .tar.tgz, .gz, .tgz, .json, .tar.gz.
+
+      Ensure that you are importing an existing model.
+      Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+    [1mPROBABLE CAUSE[0m:
+    - The file extension does not match any of the supported formats for this operation.
+    - The file may have been saved with an incorrect or unsupported extension.
+    - The operation may have specific requirements for file types that are not met by this file.
+
+    [1mSUGGESTED REMEDIATION[0m:
+    - Ensure the file is saved with one of the supported extensions for this operation.
+    - Convert the file to a supported format before attempting the operation.
+    - Check the documentation or requirements for the operation to verify the supported file types.
+
+  [1mERROR[0m: Error encountered while importing model Conference Logo.json:
+      The file 'Conference Logo.json' could not be parsed due to invalid JSON syntax. Error details: The `schemaVersion` key is either empty or has an incorrect value. | Short Description: Invalid schema version | Probable Cause: The schema is not of type 'relationship', 'component', 'model' , 'policy'. | Suggested Remediation: Verify that `schemaVersion` key should be either `relationships.meshery.io`, `component.meshery.io`, `model.meshery.io` or `policy.meshery.io`.
+
+      Ensure that you are importing an existing model.
+      Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+    [1mPROBABLE CAUSE[0m:
+    - The JSON file may contain syntax errors, such as missing commas, curly braces, or square brackets.
+    - The file may have been corrupted or improperly edited.
+    - Special characters or escape sequences may not have been properly formatted.
+    - The JSON does not conform to the Meshery model schema.
+
+    [1mSUGGESTED REMEDIATION[0m:
+    - Review the JSON syntax in the file and correct any errors.
+    - Use a JSON validator or linter to identify and fix issues.
+    - Ensure the file adheres to the JSON specification (e.g., double quotes for keys and strings).
+    - Check for common issues like trailing commas or unescaped special characters.
+    - Ensure the JSON conforms to the Meshery model schema. You can refer to the following documentation for more details: https://docs.meshery.io/project/contributing/contributing-models
+
+  [1mERROR[0m: Error encountered while importing model model.json:
+      The file 'model.json' could not be parsed due to invalid JSON syntax. Error details: The `schemaVersion` key is either empty or has an incorrect value. | Short Description: Invalid schema version | Probable Cause: The schema is not of type 'relationship', 'component', 'model' , 'policy'. | Suggested Remediation: Verify that `schemaVersion` key should be either `relationships.meshery.io`, `component.meshery.io`, `model.meshery.io` or `policy.meshery.io`.
+
+      Ensure that you are importing an existing model.
+      Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+    [1mPROBABLE CAUSE[0m:
+    - The JSON file may contain syntax errors, such as missing commas, curly braces, or square brackets.
+    - The file may have been corrupted or improperly edited.
+    - Special characters or escape sequences may not have been properly formatted.
+    - The JSON does not conform to the Meshery model schema.
+
+    [1mSUGGESTED REMEDIATION[0m:
+    - Review the JSON syntax in the file and correct any errors.
+    - Use a JSON validator or linter to identify and fix issues.
+    - Ensure the file adheres to the JSON specification (e.g., double quotes for keys and strings).
+    - Check for common issues like trailing commas or unescaped special characters.
+    - Ensure the JSON conforms to the Meshery model schema. You can refer to the following documentation for more details: https://docs.meshery.io/project/contributing/contributing-models
+--
+
+Last output:
+[1mSUMMARY[0m: Imported model argo-cd, d259b542713198342eebe1be5b52558e05d88b5cef61e99bd0107975b1786e66, oci-layout, ._kccna24-test-oci.tar, 01c69be409796b7ea25831d4c458e36db0e10cfb5f150b8deaffbf5ca607d9a7, b7bd3b0dcd4eae44386cd5e7c1960bf74c0c23cfbde0d31354b9d3166ec6f942, dabc62dbaac29974c4d5ea118b9c8eac5bcf6d148cd359c5e6aca0cb45b684ff, .dockerignore, Dockerfile, ._apache-shardingsphere-test-oci.tar, 04715653e51c7851015dab2aca5db0a3b6a661529c4c2c0ce1d987e96cd06fc9, test.rego, 6cd371b1848fd96de02d4c608513e72aba6462a32f9c7697cb3f3d98b8cbfcfd, a7242ee17aa407e3b0b3253653782e742db224b4836c9ce7a687f882e9054409, index.json, manifest.json, model.rego, Conference Logo.json, model.json, 9f5b5f46dd64496639001e60637672bcf61e136f62ed7f615712a1416170f6ff, 82caab8a60bdcb5a88f9a52ddb43ba4165a5107b1bf14e757bb9f1febd938c84, de4d3c2d35b6188dc7dd686878af4c1485cefcb55906b1096eac817c67846ab4, 62ef1235556acf39aff2f5b1a2833d2a45e49ace66a4e734c1167209c1dddae4, b969aa15c1664987c6dab443ab5d0a737cf6977d68b26175f7c773054a56e34d (47 components and 12 relationships), encountered error for 23 entities (23 unknown entities)
+
+[1mMODEL[0m: argo-cd
+
+COMPONENT          VERSION
+Chaos Test         v1.0.0
+Compute Node Test  v1.0.0
+Chaos Test         v1.0.0
+Compute Node Test  v1.0.0
+Chaos Test         v1.0.0
+Compute Node Test  v1.0.0
+Chaos Test         v1.0.0
+Compute Node Test  v1.0.0
+Chaos Test         v1.0.0
+Compute Node Test  v1.0.0
+Chaos Test         v1.0.0
+Compute Node Test  v1.0.0
+Chaos Test         v1.0.0
+Compute Node Test  v1.0.0
+App Project        v1.0.0
+Application        v1.0.0
+Application Set    v1.0.0
+Argo CD Extension  v1.0.0
+App Project        v1.0.0
+Application        v1.0.0
+Application Set    v1.0.0
+Conference Logo    v1.0.0
+Conference Logo    v1.0.0
+Conference Logo    v1.0.0
+Conference Logo    v1.0.0
+Chaos Test         v1.0.0
+Compute Node Test  v1.0.0
+Chaos Test         v1.0.0
+Compute Node Test  v1.0.0
+App Project        v1.0.0
+Application        v1.0.0
+Application Set    v1.0.0
+Argo CD Extension  v1.0.0
+App Project        v1.0.0
+Application        v1.0.0
+Application Set    v1.0.0
+Chaos Test         v1.0.0
+Compute Node Test  v1.0.0
+Chaos Test         v1.0.0
+Compute Node Test  v1.0.0
+App Project        v1.0.0
+Application        v1.0.0
+Application Set    v1.0.0
+Argo CD Extension  v1.0.0
+App Project        v1.0.0
+Application        v1.0.0
+Application Set    v1.0.0
+
+  [1mRELATIONSHIPS:[0m Kind of hierarchical, sub type inventory and type parent
+FROM        TO
+AppProject  Application
+AppProject  ApplicationSet
+
+[1mMODEL[0m: d259b542713198342eebe1be5b52558e05d88b5cef61e99bd0107975b1786e66
+
+[1mERROR[0m: Error encountered while importing model d259b542713198342eebe1be5b52558e05d88b5cef61e99bd0107975b1786e66:
+    The file 'd259b542713198342eebe1be5b52558e05d88b5cef61e99bd0107975b1786e66' could not be used for the operation 'import' because the extension '' is not supported. The system is designed to handle files with the following extensions for this operation: .json, .tar.gz, .yml, .yaml, .tar, .tar.tgz, .gz, .tgz.
+
+    Ensure that you are importing an existing model.
+    Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+  [1mPROBABLE CAUSE[0m:
+  - The file extension does not match any of the supported formats for this operation.
+  - The file may have been saved with an incorrect or unsupported extension.
+  - The operation may have specific requirements for file types that are not met by this file.
+
+  [1mSUGGESTED REMEDIATION[0m:
+  - Ensure the file is saved with one of the supported extensions for this operation.
+  - Convert the file to a supported format before attempting the operation.
+  - Check the documentation or requirements for the operation to verify the supported file types.
+
+[1mMODEL[0m: oci-layout
+
+[1mERROR[0m: Error encountered while importing model oci-layout:
+    The file 'oci-layout' could not be used for the operation 'import' because the extension '' is not supported. The system is designed to handle files with the following extensions for this operation: .yml, .yaml, .tar, .tar.tgz, .gz, .tgz, .json, .tar.gz.
+
+    Ensure that you are importing an existing model.
+    Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+  [1mPROBABLE CAUSE[0m:
+  - The file extension does not match any of the supported formats for this operation.
+  - The file may have been saved with an incorrect or unsupported extension.
+  - The operation may have specific requirements for file types that are not met by this file.
+
+  [1mSUGGESTED REMEDIATION[0m:
+  - Ensure the file is saved with one of the supported extensions for this operation.
+  - Convert the file to a supported format before attempting the operation.
+  - Check the documentation or requirements for the operation to verify the supported file types.
+
+[1mMODEL[0m: 01c69be409796b7ea25831d4c458e36db0e10cfb5f150b8deaffbf5ca607d9a7
+
+[1mERROR[0m: Error encountered while importing model 01c69be409796b7ea25831d4c458e36db0e10cfb5f150b8deaffbf5ca607d9a7:
+    The file '01c69be409796b7ea25831d4c458e36db0e10cfb5f150b8deaffbf5ca607d9a7' could not be used for the operation 'import' because the extension '' is not supported. The system is designed to handle files with the following extensions for this operation: .yaml, .tar, .tar.tgz, .gz, .tgz, .json, .tar.gz, .yml.
+
+    Ensure that you are importing an existing model.
+    Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+  [1mPROBABLE CAUSE[0m:
+  - The file extension does not match any of the supported formats for this operation.
+  - The file may have been saved with an incorrect or unsupported extension.
+  - The operation may have specific requirements for file types that are not met by this file.
+
+  [1mSUGGESTED REMEDIATION[0m:
+  - Ensure the file is saved with one of the supported extensions for this operation.
+  - Convert the file to a supported format before attempting the operation.
+  - Check the documentation or requirements for the operation to verify the supported file types.
+
+[1mMODEL[0m: b7bd3b0dcd4eae44386cd5e7c1960bf74c0c23cfbde0d31354b9d3166ec6f942
+
+[1mERROR[0m: Error encountered while importing model b7bd3b0dcd4eae44386cd5e7c1960bf74c0c23cfbde0d31354b9d3166ec6f942:
+    The file 'b7bd3b0dcd4eae44386cd5e7c1960bf74c0c23cfbde0d31354b9d3166ec6f942' could not be used for the operation 'import' because the extension '' is not supported. The system is designed to handle files with the following extensions for this operation: .tar.tgz, .gz, .tgz, .json, .tar.gz, .yml, .yaml, .tar.
+
+    Ensure that you are importing an existing model.
+    Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+  [1mPROBABLE CAUSE[0m:
+  - The file extension does not match any of the supported formats for this operation.
+  - The file may have been saved with an incorrect or unsupported extension.
+  - The operation may have specific requirements for file types that are not met by this file.
+
+  [1mSUGGESTED REMEDIATION[0m:
+  - Ensure the file is saved with one of the supported extensions for this operation.
+  - Convert the file to a supported format before attempting the operation.
+  - Check the documentation or requirements for the operation to verify the supported file types.
+
+[1mMODEL[0m: dabc62dbaac29974c4d5ea118b9c8eac5bcf6d148cd359c5e6aca0cb45b684ff
+
+[1mERROR[0m: Error encountered while importing model dabc62dbaac29974c4d5ea118b9c8eac5bcf6d148cd359c5e6aca0cb45b684ff:
+    The file 'dabc62dbaac29974c4d5ea118b9c8eac5bcf6d148cd359c5e6aca0cb45b684ff' could not be used for the operation 'import' because the extension '' is not supported. The system is designed to handle files with the following extensions for this operation: .gz, .tgz, .json, .tar.gz, .yml, .yaml, .tar, .tar.tgz.
+
+    Ensure that you are importing an existing model.
+    Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+  [1mPROBABLE CAUSE[0m:
+  - The file extension does not match any of the supported formats for this operation.
+  - The file may have been saved with an incorrect or unsupported extension.
+  - The operation may have specific requirements for file types that are not met by this file.
+
+  [1mSUGGESTED REMEDIATION[0m:
+  - Ensure the file is saved with one of the supported extensions for this operation.
+  - Convert the file to a supported format before attempting the operation.
+  - Check the documentation or requirements for the operation to verify the supported file types.
+
+[1mMODEL[0m: Dockerfile
+
+[1mERROR[0m: Error encountered while importing model Dockerfile:
+    The file 'Dockerfile' could not be used for the operation 'import' because the extension '' is not supported. The system is designed to handle files with the following extensions for this operation: .yml, .yaml, .tar, .tar.tgz, .gz, .tgz, .json, .tar.gz.
+
+    Ensure that you are importing an existing model.
+    Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+  [1mPROBABLE CAUSE[0m:
+  - The file extension does not match any of the supported formats for this operation.
+  - The file may have been saved with an incorrect or unsupported extension.
+  - The operation may have specific requirements for file types that are not met by this file.
+
+  [1mSUGGESTED REMEDIATION[0m:
+  - Ensure the file is saved with one of the supported extensions for this operation.
+  - Convert the file to a supported format before attempting the operation.
+  - Check the documentation or requirements for the operation to verify the supported file types.
+
+[1mMODEL[0m: 04715653e51c7851015dab2aca5db0a3b6a661529c4c2c0ce1d987e96cd06fc9
+
+[1mERROR[0m: Error encountered while importing model 04715653e51c7851015dab2aca5db0a3b6a661529c4c2c0ce1d987e96cd06fc9:
+    The file '04715653e51c7851015dab2aca5db0a3b6a661529c4c2c0ce1d987e96cd06fc9' could not be used for the operation 'import' because the extension '' is not supported. The system is designed to handle files with the following extensions for this operation: .yml, .yaml, .tar, .tar.tgz, .gz, .tgz, .json, .tar.gz.
+
+    Ensure that you are importing an existing model.
+    Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+  [1mPROBABLE CAUSE[0m:
+  - The file extension does not match any of the supported formats for this operation.
+  - The file may have been saved with an incorrect or unsupported extension.
+  - The operation may have specific requirements for file types that are not met by this file.
+
+  [1mSUGGESTED REMEDIATION[0m:
+  - Ensure the file is saved with one of the supported extensions for this operation.
+  - Convert the file to a supported format before attempting the operation.
+  - Check the documentation or requirements for the operation to verify the supported file types.
+
+[1mMODEL[0m: 6cd371b1848fd96de02d4c608513e72aba6462a32f9c7697cb3f3d98b8cbfcfd
+
+[1mERROR[0m: Error encountered while importing model 6cd371b1848fd96de02d4c608513e72aba6462a32f9c7697cb3f3d98b8cbfcfd:
+    The file '6cd371b1848fd96de02d4c608513e72aba6462a32f9c7697cb3f3d98b8cbfcfd' could not be used for the operation 'import' because the extension '' is not supported. The system is designed to handle files with the following extensions for this operation: .yml, .yaml, .tar, .tar.tgz, .gz, .tgz, .json, .tar.gz.
+
+    Ensure that you are importing an existing model.
+    Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+  [1mPROBABLE CAUSE[0m:
+  - The file extension does not match any of the supported formats for this operation.
+  - The file may have been saved with an incorrect or unsupported extension.
+  - The operation may have specific requirements for file types that are not met by this file.
+
+  [1mSUGGESTED REMEDIATION[0m:
+  - Ensure the file is saved with one of the supported extensions for this operation.
+  - Convert the file to a supported format before attempting the operation.
+  - Check the documentation or requirements for the operation to verify the supported file types.
+
+[1mMODEL[0m: a7242ee17aa407e3b0b3253653782e742db224b4836c9ce7a687f882e9054409
+
+[1mERROR[0m: Error encountered while importing model a7242ee17aa407e3b0b3253653782e742db224b4836c9ce7a687f882e9054409:
+    The file 'a7242ee17aa407e3b0b3253653782e742db224b4836c9ce7a687f882e9054409' could not be used for the operation 'import' because the extension '' is not supported. The system is designed to handle files with the following extensions for this operation: .tar.gz, .yml, .yaml, .tar, .tar.tgz, .gz, .tgz, .json.
+
+    Ensure that you are importing an existing model.
+    Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+  [1mPROBABLE CAUSE[0m:
+  - The file extension does not match any of the supported formats for this operation.
+  - The file may have been saved with an incorrect or unsupported extension.
+  - The operation may have specific requirements for file types that are not met by this file.
+
+  [1mSUGGESTED REMEDIATION[0m:
+  - Ensure the file is saved with one of the supported extensions for this operation.
+  - Convert the file to a supported format before attempting the operation.
+  - Check the documentation or requirements for the operation to verify the supported file types.
+
+[1mMODEL[0m: 9f5b5f46dd64496639001e60637672bcf61e136f62ed7f615712a1416170f6ff
+
+[1mERROR[0m: Error encountered while importing model 9f5b5f46dd64496639001e60637672bcf61e136f62ed7f615712a1416170f6ff:
+    The file '9f5b5f46dd64496639001e60637672bcf61e136f62ed7f615712a1416170f6ff' could not be used for the operation 'import' because the extension '' is not supported. The system is designed to handle files with the following extensions for this operation: .tar, .tar.tgz, .gz, .tgz, .json, .tar.gz, .yml, .yaml.
+
+    Ensure that you are importing an existing model.
+    Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+  [1mPROBABLE CAUSE[0m:
+  - The file extension does not match any of the supported formats for this operation.
+  - The file may have been saved with an incorrect or unsupported extension.
+  - The operation may have specific requirements for file types that are not met by this file.
+
+  [1mSUGGESTED REMEDIATION[0m:
+  - Ensure the file is saved with one of the supported extensions for this operation.
+  - Convert the file to a supported format before attempting the operation.
+  - Check the documentation or requirements for the operation to verify the supported file types.
+
+[1mMODEL[0m: 82caab8a60bdcb5a88f9a52ddb43ba4165a5107b1bf14e757bb9f1febd938c84
+
+[1mERROR[0m: Error encountered while importing model 82caab8a60bdcb5a88f9a52ddb43ba4165a5107b1bf14e757bb9f1febd938c84:
+    The file '82caab8a60bdcb5a88f9a52ddb43ba4165a5107b1bf14e757bb9f1febd938c84' could not be used for the operation 'import' because the extension '' is not supported. The system is designed to handle files with the following extensions for this operation: .tar, .tar.tgz, .gz, .tgz, .json, .tar.gz, .yml, .yaml.
+
+    Ensure that you are importing an existing model.
+    Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+  [1mPROBABLE CAUSE[0m:
+  - The file extension does not match any of the supported formats for this operation.
+  - The file may have been saved with an incorrect or unsupported extension.
+  - The operation may have specific requirements for file types that are not met by this file.
+
+  [1mSUGGESTED REMEDIATION[0m:
+  - Ensure the file is saved with one of the supported extensions for this operation.
+  - Convert the file to a supported format before attempting the operation.
+  - Check the documentation or requirements for the operation to verify the supported file types.
+
+[1mMODEL[0m: de4d3c2d35b6188dc7dd686878af4c1485cefcb55906b1096eac817c67846ab4
+
+[1mERROR[0m: Error encountered while importing model de4d3c2d35b6188dc7dd686878af4c1485cefcb55906b1096eac817c67846ab4:
+    The file 'de4d3c2d35b6188dc7dd686878af4c1485cefcb55906b1096eac817c67846ab4' could not be used for the operation 'import' because the extension '' is not supported. The system is designed to handle files with the following extensions for this operation: .yml, .yaml, .tar, .tar.tgz, .gz, .tgz, .json, .tar.gz.
+
+    Ensure that you are importing an existing model.
+    Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+  [1mPROBABLE CAUSE[0m:
+  - The file extension does not match any of the supported formats for this operation.
+  - The file may have been saved with an incorrect or unsupported extension.
+  - The operation may have specific requirements for file types that are not met by this file.
+
+  [1mSUGGESTED REMEDIATION[0m:
+  - Ensure the file is saved with one of the supported extensions for this operation.
+  - Convert the file to a supported format before attempting the operation.
+  - Check the documentation or requirements for the operation to verify the supported file types.
+
+[1mMODEL[0m: 62ef1235556acf39aff2f5b1a2833d2a45e49ace66a4e734c1167209c1dddae4
+
+[1mERROR[0m: Error encountered while importing model 62ef1235556acf39aff2f5b1a2833d2a45e49ace66a4e734c1167209c1dddae4:
+    The file '62ef1235556acf39aff2f5b1a2833d2a45e49ace66a4e734c1167209c1dddae4' could not be used for the operation 'import' because the extension '' is not supported. The system is designed to handle files with the following extensions for this operation: .json, .tar.gz, .yml, .yaml, .tar, .tar.tgz, .gz, .tgz.
+
+    Ensure that you are importing an existing model.
+    Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+  [1mPROBABLE CAUSE[0m:
+  - The file extension does not match any of the supported formats for this operation.
+  - The file may have been saved with an incorrect or unsupported extension.
+  - The operation may have specific requirements for file types that are not met by this file.
+
+  [1mSUGGESTED REMEDIATION[0m:
+  - Ensure the file is saved with one of the supported extensions for this operation.
+  - Convert the file to a supported format before attempting the operation.
+  - Check the documentation or requirements for the operation to verify the supported file types.
+
+[1mMODEL[0m: b969aa15c1664987c6dab443ab5d0a737cf6977d68b26175f7c773054a56e34d
+
+[1mERROR[0m: Error encountered while importing model b969aa15c1664987c6dab443ab5d0a737cf6977d68b26175f7c773054a56e34d:
+    The file 'b969aa15c1664987c6dab443ab5d0a737cf6977d68b26175f7c773054a56e34d' could not be used for the operation 'import' because the extension '' is not supported. The system is designed to handle files with the following extensions for this operation: .tar.gz, .yml, .yaml, .tar, .tar.tgz, .gz, .tgz, .json.
+
+    Ensure that you are importing an existing model.
+    Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+  [1mPROBABLE CAUSE[0m:
+  - The file extension does not match any of the supported formats for this operation.
+  - The file may have been saved with an incorrect or unsupported extension.
+  - The operation may have specific requirements for file types that are not met by this file.
+
+  [1mSUGGESTED REMEDIATION[0m:
+  - Ensure the file is saved with one of the supported extensions for this operation.
+  - Convert the file to a supported format before attempting the operation.
+  - Check the documentation or requirements for the operation to verify the supported file types.
+
+[1mERROR[0m: Error encountered while importing model ._kccna24-test-oci.tar:
+    An error occurred while attempting to extract the TAR archive '._kccna24-test-oci.tar'. Error details: invalid character '\x00' looking for beginning of value | Short Description: Unmarshal unknown error:  | Probable Cause: Invalid object format | Suggested Remediation: Make sure to input a valid JSON object
+
+    Ensure that you are importing an existing model.
+    Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+  [1mPROBABLE CAUSE[0m:
+  - The archive may be non OCI compliant.
+  - The archive may have been created with a different tool or version that is incompatible.
+
+  [1mSUGGESTED REMEDIATION[0m:
+  - Make sure the archive is OCI compliant. Meshery Models should be OCI compliant archive.
+  - Ensure the archive is created using a compatible tool (eg: ORAS) and version that follows OCI standards.
+
+[1mERROR[0m: Error encountered while importing model .dockerignore:
+    The file '.dockerignore' could not be used for the operation 'import' because the extension '.dockerignore' is not supported. The system is designed to handle files with the following extensions for this operation: .yml, .yaml, .tar, .tar.tgz, .gz, .tgz, .json, .tar.gz.
+
+    Ensure that you are importing an existing model.
+    Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+  [1mPROBABLE CAUSE[0m:
+  - The file extension does not match any of the supported formats for this operation.
+  - The file may have been saved with an incorrect or unsupported extension.
+  - The operation may have specific requirements for file types that are not met by this file.
+
+  [1mSUGGESTED REMEDIATION[0m:
+  - Ensure the file is saved with one of the supported extensions for this operation.
+  - Convert the file to a supported format before attempting the operation.
+  - Check the documentation or requirements for the operation to verify the supported file types.
+
+[1mERROR[0m: Error encountered while importing model ._apache-shardingsphere-test-oci.tar:
+    An error occurred while attempting to extract the TAR archive '._apache-shardingsphere-test-oci.tar'. Error details: invalid character '\x00' looking for beginning of value | Short Description: Unmarshal unknown error:  | Probable Cause: Invalid object format | Suggested Remediation: Make sure to input a valid JSON object
+
+    Ensure that you are importing an existing model.
+    Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+  [1mPROBABLE CAUSE[0m:
+  - The archive may be non OCI compliant.
+  - The archive may have been created with a different tool or version that is incompatible.
+
+  [1mSUGGESTED REMEDIATION[0m:
+  - Make sure the archive is OCI compliant. Meshery Models should be OCI compliant archive.
+  - Ensure the archive is created using a compatible tool (eg: ORAS) and version that follows OCI standards.
+
+[1mERROR[0m: Error encountered while importing model test.rego:
+    The file 'test.rego' could not be used for the operation 'import' because the extension '.rego' is not supported. The system is designed to handle files with the following extensions for this operation: .gz, .tgz, .json, .tar.gz, .yml, .yaml, .tar, .tar.tgz.
+
+    Ensure that you are importing an existing model.
+    Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+  [1mPROBABLE CAUSE[0m:
+  - The file extension does not match any of the supported formats for this operation.
+  - The file may have been saved with an incorrect or unsupported extension.
+  - The operation may have specific requirements for file types that are not met by this file.
+
+  [1mSUGGESTED REMEDIATION[0m:
+  - Ensure the file is saved with one of the supported extensions for this operation.
+  - Convert the file to a supported format before attempting the operation.
+  - Check the documentation or requirements for the operation to verify the supported file types.
+
+[1mERROR[0m: Error encountered while importing model index.json:
+    The file 'index.json' could not be parsed due to invalid JSON syntax. Error details: The `schemaVersion` key is either empty or has an incorrect value. | Short Description: Invalid schema version | Probable Cause: The schema is not of type 'relationship', 'component', 'model' , 'policy'. | Suggested Remediation: Verify that `schemaVersion` key should be either `relationships.meshery.io`, `component.meshery.io`, `model.meshery.io` or `policy.meshery.io`.
+
+    Ensure that you are importing an existing model.
+    Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+  [1mPROBABLE CAUSE[0m:
+  - The JSON file may contain syntax errors, such as missing commas, curly braces, or square brackets.
+  - The file may have been corrupted or improperly edited.
+  - Special characters or escape sequences may not have been properly formatted.
+  - The JSON does not conform to the Meshery model schema.
+
+  [1mSUGGESTED REMEDIATION[0m:
+  - Review the JSON syntax in the file and correct any errors.
+  - Use a JSON validator or linter to identify and fix issues.
+  - Ensure the file adheres to the JSON specification (e.g., double quotes for keys and strings).
+  - Check for common issues like trailing commas or unescaped special characters.
+  - Ensure the JSON conforms to the Meshery model schema. You can refer to the following documentation for more details: https://docs.meshery.io/project/contributing/contributing-models
+
+[1mERROR[0m: Error encountered while importing model manifest.json:
+    The file 'manifest.json' could not be parsed due to invalid JSON syntax. Error details: json: cannot unmarshal array into Go value of type map[string]interface {} | Short Description: Unmarshal unknown error:  | Probable Cause: Invalid object format | Suggested Remediation: Make sure to input a valid JSON object
+
+    Ensure that you are importing an existing model.
+    Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+  [1mPROBABLE CAUSE[0m:
+  - The JSON file may contain syntax errors, such as missing commas, curly braces, or square brackets.
+  - The file may have been corrupted or improperly edited.
+  - Special characters or escape sequences may not have been properly formatted.
+  - The JSON does not conform to the Meshery model schema.
+
+  [1mSUGGESTED REMEDIATION[0m:
+  - Review the JSON syntax in the file and correct any errors.
+  - Use a JSON validator or linter to identify and fix issues.
+  - Ensure the file adheres to the JSON specification (e.g., double quotes for keys and strings).
+  - Check for common issues like trailing commas or unescaped special characters.
+  - Ensure the JSON conforms to the Meshery model schema. You can refer to the following documentation for more details: https://docs.meshery.io/project/contributing/contributing-models
+
+[1mERROR[0m: Error encountered while importing model model.rego:
+    The file 'model.rego' could not be used for the operation 'import' because the extension '.rego' is not supported. The system is designed to handle files with the following extensions for this operation: .yml, .yaml, .tar, .tar.tgz, .gz, .tgz, .json, .tar.gz.
+
+    Ensure that you are importing an existing model.
+    Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+  [1mPROBABLE CAUSE[0m:
+  - The file extension does not match any of the supported formats for this operation.
+  - The file may have been saved with an incorrect or unsupported extension.
+  - The operation may have specific requirements for file types that are not met by this file.
+
+  [1mSUGGESTED REMEDIATION[0m:
+  - Ensure the file is saved with one of the supported extensions for this operation.
+  - Convert the file to a supported format before attempting the operation.
+  - Check the documentation or requirements for the operation to verify the supported file types.
+
+[1mERROR[0m: Error encountered while importing model Conference Logo.json:
+    The file 'Conference Logo.json' could not be parsed due to invalid JSON syntax. Error details: The `schemaVersion` key is either empty or has an incorrect value. | Short Description: Invalid schema version | Probable Cause: The schema is not of type 'relationship', 'component', 'model' , 'policy'. | Suggested Remediation: Verify that `schemaVersion` key should be either `relationships.meshery.io`, `component.meshery.io`, `model.meshery.io` or `policy.meshery.io`.
+
+    Ensure that you are importing an existing model.
+    Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+  [1mPROBABLE CAUSE[0m:
+  - The JSON file may contain syntax errors, such as missing commas, curly braces, or square brackets.
+  - The file may have been corrupted or improperly edited.
+  - Special characters or escape sequences may not have been properly formatted.
+  - The JSON does not conform to the Meshery model schema.
+
+  [1mSUGGESTED REMEDIATION[0m:
+  - Review the JSON syntax in the file and correct any errors.
+  - Use a JSON validator or linter to identify and fix issues.
+  - Ensure the file adheres to the JSON specification (e.g., double quotes for keys and strings).
+  - Check for common issues like trailing commas or unescaped special characters.
+  - Ensure the JSON conforms to the Meshery model schema. You can refer to the following documentation for more details: https://docs.meshery.io/project/contributing/contributing-models
+
+[1mERROR[0m: Error encountered while importing model model.json:
+    The file 'model.json' could not be parsed due to invalid JSON syntax. Error details: The `schemaVersion` key is either empty or has an incorrect value. | Short Description: Invalid schema version | Probable Cause: The schema is not of type 'relationship', 'component', 'model' , 'policy'. | Suggested Remediation: Verify that `schemaVersion` key should be either `relationships.meshery.io`, `component.meshery.io`, `model.meshery.io` or `policy.meshery.io`.
+
+    Ensure that you are importing an existing model.
+    Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+  [1mPROBABLE CAUSE[0m:
+  - The JSON file may contain syntax errors, such as missing commas, curly braces, or square brackets.
+  - The file may have been corrupted or improperly edited.
+  - Special characters or escape sequences may not have been properly formatted.
+  - The JSON does not conform to the Meshery model schema.
+
+  [1mSUGGESTED REMEDIATION[0m:
+  - Review the JSON syntax in the file and correct any errors.
+  - Use a JSON validator or linter to identify and fix issues.
+  - Ensure the file adheres to the JSON specification (e.g., double quotes for keys and strings).
+  - Check for common issues like trailing commas or unescaped special characters.
+  - Ensure the JSON conforms to the Meshery model schema. You can refer to the following documentation for more details: https://docs.meshery.io/project/contributing/contributing-models

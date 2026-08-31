@@ -1,0 +1,37 @@
+{
+  "uuid": "c4c2d90a-ae79-4a54-9acd-16a078de645b",
+  "name": "given an invalid url as an argument when running mesheryctl system context create --url invalid-url then an error message is displayed",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1788176781901,
+  "stop": 1788176781902,
+  "statusDetails": {
+    "message": "`assert_output --partial \"invalid URI\"' failed",
+    "trace": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 999-system/01-system-context.bats, line 49)\n  `assert_output --partial \"invalid URI\"' failed\n\n-- output does not contain substring --\nsubstring : invalid URI\noutput    : Error: Invalid value for --url 'invalid' | Short Description: Invalid flag(s) provided | Probable Cause: The value for one or more flags provided is invalid. | Suggested Remediation: Provide valid flag value and try again.\n--\n\nLast output:\nError: Invalid value for --url 'invalid' | Short Description: Invalid flag(s) provided | Probable Cause: The value for one or more flags provided is invalid. | Suggested Remediation: Provide valid flag value and try again."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "CLI output (bats)",
+      "source": "c4c2d90a-ae79-4a54-9acd-16a078de645b-attachment.txt",
+      "type": "text/plain"
+    }
+  ]
+}

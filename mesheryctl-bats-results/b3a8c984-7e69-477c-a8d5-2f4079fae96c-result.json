@@ -1,0 +1,37 @@
+{
+  "uuid": "b3a8c984-7e69-477c-a8d5-2f4079fae96c",
+  "name": "mesheryctl model generate skips registration with --register flag",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1788176781900,
+  "stop": 1788176781901,
+  "statusDetails": {
+    "message": "`assert_success' failed",
+    "trace": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 002-model/06-model-generate.bats, line 51)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput : Error: unknown flag: --register\n--\n\nLast output:\nError: unknown flag: --register"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "CLI output (bats)",
+      "source": "b3a8c984-7e69-477c-a8d5-2f4079fae96c-attachment.txt",
+      "type": "text/plain"
+    }
+  ]
+}
