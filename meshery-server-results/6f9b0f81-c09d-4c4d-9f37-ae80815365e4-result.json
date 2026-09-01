@@ -1,0 +1,46 @@
+{
+  "uuid": "6f9b0f81-c09d-4c4d-9f37-ae80815365e4",
+  "name": "TestGetPerformanceProfilesPropagatesQueryError",
+  "fullName": "github.com/meshery/meshery/server/models::TestGetPerformanceProfilesPropagatesQueryError",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1788220547322,
+  "stop": 1788220547323,
+  "statusDetails": {
+    "message": "2026/08/31 23:55:47 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/performance_profile_persister.go:64 \u001b[35;1mno such table: performance_profiles\n\u001b[0m\u001b[33m[0.043ms] \u001b[34;1m[rows:0]\u001b[0m SELECT count(*) FROM `performance_profiles`"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGetPerformanceProfilesPropagatesQueryError"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
