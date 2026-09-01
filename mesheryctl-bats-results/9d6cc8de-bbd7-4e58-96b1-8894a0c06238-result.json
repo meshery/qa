@@ -1,0 +1,37 @@
+{
+  "uuid": "9d6cc8de-bbd7-4e58-96b1-8894a0c06238",
+  "name": "given no context-name as an argument when running mesheryctl system context create then the error message displays",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1788221800525,
+  "stop": 1788221800526,
+  "statusDetails": {
+    "message": "`assert_output --partial \"provide a context name\"' failed",
+    "trace": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 999-system/01-system-context.bats, line 33)\n  `assert_output --partial \"provide a context name\"' failed\n\n-- output does not contain substring --\nsubstring (1 lines):\n  provide a context name\noutput (2 lines):\n  Error: only one argument must be provided\n  Usage: mesheryctl system context create [context-name] | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed\n--\n\nLast output:\nError: only one argument must be provided\nUsage: mesheryctl system context create [context-name] | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "CLI output (bats)",
+      "source": "9d6cc8de-bbd7-4e58-96b1-8894a0c06238-attachment.txt",
+      "type": "text/plain"
+    }
+  ]
+}

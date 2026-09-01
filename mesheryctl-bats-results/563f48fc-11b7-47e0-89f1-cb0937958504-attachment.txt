@@ -1,0 +1,36 @@
+(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,
+ in test file 003-design/03-design-list.bats, line 17)
+  `assert_line --regexp "$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN"' failed
+
+-- no output line matches regular expression --
+regexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$
+output (13 lines):
+  Total number of designs: 71588
+  Page: 1
+  DESIGN ID                             OWNER     NAME                        CREATED     UPDATED
+  b492fdf2-0b34-43cb-b3e1-695d473b4988  dea82811  nginx                       09-01-2026  09-01-2026
+  6d31523c-483a-42a3-9fd4-8ea1bef4b2c3  dea82811  nginx                       08-31-2026  09-01-2026
+  15d02741-86ad-4394-9376-c1e0fbdf3535  dea82811                              08-31-2026  08-31-2026
+  94225f45-050b-4494-ae44-61f652fded03  dea82811  nginx                       08-31-2026  08-31-2026
+  01383235-4efe-4e1a-847e-db2c20e8ceb9  dea82811                              08-31-2026  08-31-2026
+  c7eb4a84-33d2-4151-bf51-740947f65ebc  7c5ed771  NGINX Gaius                 08-31-2026  08-31-2026
+  83ed6ca8-4103-4bfa-9938-eddfb0da0d0c  6e352584  Web-AI Powered Application  08-31-2026  08-31-2026
+  11f9713b-a298-4c98-8ba7-4b1ce6e63b00  7bb9405a  Ali                         08-31-2026  08-31-2026
+  9c2015da-2f0a-4d69-b761-b27b20e6fd60  7bb9405a  Ali                         08-31-2026  08-31-2026
+  67c4f1de-5838-49c3-841d-cc7eba9da3de  290cf634  TEST GITOPS                 08-31-2026  08-31-2026
+--
+
+Last output:
+Total number of designs: 71588
+Page: 1
+DESIGN ID                             OWNER     NAME                        CREATED     UPDATED
+b492fdf2-0b34-43cb-b3e1-695d473b4988  dea82811  nginx                       09-01-2026  09-01-2026
+6d31523c-483a-42a3-9fd4-8ea1bef4b2c3  dea82811  nginx                       08-31-2026  09-01-2026
+15d02741-86ad-4394-9376-c1e0fbdf3535  dea82811                              08-31-2026  08-31-2026
+94225f45-050b-4494-ae44-61f652fded03  dea82811  nginx                       08-31-2026  08-31-2026
+01383235-4efe-4e1a-847e-db2c20e8ceb9  dea82811                              08-31-2026  08-31-2026
+c7eb4a84-33d2-4151-bf51-740947f65ebc  7c5ed771  NGINX Gaius                 08-31-2026  08-31-2026
+83ed6ca8-4103-4bfa-9938-eddfb0da0d0c  6e352584  Web-AI Powered Application  08-31-2026  08-31-2026
+11f9713b-a298-4c98-8ba7-4b1ce6e63b00  7bb9405a  Ali                         08-31-2026  08-31-2026
+9c2015da-2f0a-4d69-b761-b27b20e6fd60  7bb9405a  Ali                         08-31-2026  08-31-2026
+67c4f1de-5838-49c3-841d-cc7eba9da3de  290cf634  TEST GITOPS                 08-31-2026  08-31-2026
