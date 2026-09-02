@@ -1,0 +1,46 @@
+{
+  "uuid": "fb3c4cbe-56bc-41b6-b968-e3415aaa056e",
+  "name": "TestListCmd/List_filters_with_invalid_page_number",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/filter::TestListCmd/List_filters_with_invalid_page_number",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1788375224891,
+  "stop": 1788375224892,
+  "statusDetails": {
+    "message": "Error: Invalid value for --page '0' | Short Description: Invalid flag(s) provided | Probable Cause: The value for one or more flags provided is invalid. | Suggested Remediation: Provide valid flag value and try again."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/filter"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestListCmd/List_filters_with_invalid_page_number"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
