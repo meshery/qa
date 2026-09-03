@@ -1,0 +1,46 @@
+{
+  "uuid": "ba525f09-39fd-4569-b734-b962396af763",
+  "name": "TestListCmd/List_filters_with_invalid_page_size",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/filter::TestListCmd/List_filters_with_invalid_page_size",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1788462627274,
+  "stop": 1788462627274,
+  "statusDetails": {
+    "message": "Error: Invalid value for --pageSize '0' | Short Description: Invalid flag(s) provided | Probable Cause: The value for one or more flags provided is invalid. | Suggested Remediation: Provide valid flag value and try again."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/filter"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestListCmd/List_filters_with_invalid_page_size"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
