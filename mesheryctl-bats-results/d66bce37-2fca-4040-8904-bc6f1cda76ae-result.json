@@ -1,0 +1,45 @@
+{
+  "uuid": "d66bce37-2fca-4040-8904-bc6f1cda76ae",
+  "name": "mesheryctl model generate succeeds with valid URL and template",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1789189759951,
+  "stop": 1789189759952,
+  "statusDetails": {
+    "message": "`assert_success' failed",
+    "trace": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 002-model/06-model-generate.bats, line 26)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput : Error: open /home/runner/work/meshery/meshery/mesheryctl/tests/e2e/002-model/fixtures/valid-model: no such file or directory | Short Description: error reading directory | Probable Cause: Directory does not exist at the location /home/runner/work/meshery/meshery/mesheryctl/tests/e2e/002-model/fixtures/valid-model.Insufficient permissions | Suggested Remediation: Verify that directory exist at the provided location.Verify sufficient directory read permission.\n--\n\nLast output:\nError: open /home/runner/work/meshery/meshery/mesheryctl/tests/e2e/002-model/fixtures/valid-model: no such file or directory | Short Description: error reading directory | Probable Cause: Directory does not exist at the location /home/runner/work/meshery/meshery/mesheryctl/tests/e2e/002-model/fixtures/valid-model.Insufficient permissions | Suggested Remediation: Verify that directory exist at the provided location.Verify sufficient directory read permission."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "Model"
+    },
+    {
+      "name": "testGroup",
+      "value": "Model Generate"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "CLI output (bats)",
+      "source": "d66bce37-2fca-4040-8904-bc6f1cda76ae-attachment.txt",
+      "type": "text/plain"
+    }
+  ]
+}
