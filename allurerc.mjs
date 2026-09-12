@@ -124,6 +124,21 @@ export default defineConfig({
         filter: ({ labels }) => isProject(labels, PROJECTS.MESHERYCTL),
       },
     },
+    // BATS end-to-end results are a subset of the Mesheryctl project report.
+    // Match the source converter's framework label to exclude Go unit tests.
+    "mesheryctl-bats": {
+      import: "@allurereport/plugin-awesome",
+      options: {
+        reportName: "Mesheryctl: BATS End-to-End Tests",
+        singleFile: false,
+        reportLanguage: "en",
+        open: false,
+        logo: "https://raw.githubusercontent.com/meshery-extensions/qa/refs/heads/master/.github/assets/images/meshery/icon-only/meshery-light-icon.svg",
+        filter: ({ labels }) =>
+          isProject(labels, PROJECTS.MESHERYCTL) &&
+          labels.some(({ name, value }) => name === "framework" && value === "bats"),
+      },
+    },
     // EXTENSION POINT (see https://docs.meshery.io/extensibility)
     // OPEN AN ISSUE TO ADD TEST RESULTS FROM YOUR EXTENSION HERE.
     // EXTENSION POINT

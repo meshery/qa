@@ -90,9 +90,20 @@ Allure results, selected by test labels:
 | Dashboard | all results (aggregate) |
 | Meshery | `project == "Meshery"` |
 | Mesheryctl | `project == "mesheryctl"` |
+| Mesheryctl: BATS End-to-End Tests | `project == "mesheryctl"` and `framework == "bats"` |
 | **Connection Lifecycle** | `testGroup == "Connection Lifecycle"` (Test Plan Test Group, col B); transitionally, results carrying **no** `testGroup` label also match the legacy `epic == "Kubernetes Connections"` / Kubernetes `componentUnderTest` fallback (UI + CLI connection tests, grouped by `client`) |
 | Extension: Remote Provider Layer5 Cloud | `project == "Layer5Cloud"` |
 | Extension: Kanvas | `project == "Kanvas"` |
+
+The **Mesheryctl: BATS End-to-End Tests** report is published at
+https://qa.meshery.io/mesheryctl-bats/. It selects the Bash/BATS results emitted
+by `mesheryctl/bats-to-allure.js`, excluding Go unit tests. The existing
+Mesheryctl report continues to include both test types.
+
+The existing `mesheryctl-e2e.yaml` workflow in `meshery/meshery` converts BATS
+TAP output to Allure results and publishes them to `mesheryctl-bats-results/`
+on eligible push runs. `make report-build` already includes that directory,
+so this report needs no additional test run or result-sync workflow.
 
 The Connection Lifecycle report is a **Test-Group-keyed view**: each test is
 tagged at its source (UI Playwright specs, CLI converters) with a `testGroup`
