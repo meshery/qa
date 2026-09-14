@@ -1,0 +1,46 @@
+{
+  "uuid": "1d8b754d-42d1-4ccf-ac49-eae22120d781",
+  "name": "TestGrafanaClientForConnectionCredentialShapes/anonymous_credential",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestGrafanaClientForConnectionCredentialShapes/anonymous_credential",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1789422594208,
+  "stop": 1789422594212,
+  "statusDetails": {
+    "message": "2026/09/14 21:49:54 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:168 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.069ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"3ee030d4-119f-4994-846f-f8473ef747ed\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGrafanaClientForConnectionCredentialShapes/anonymous_credential"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
