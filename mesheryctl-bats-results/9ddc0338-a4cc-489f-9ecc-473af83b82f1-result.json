@@ -1,0 +1,27 @@
+{
+  "uuid": "9ddc0338-a4cc-489f-9ecc-473af83b82f1",
+  "name": "given an invalid orgId is provided as an argument when running mesheryctl workspace list --orgId invalid-orgid then the error message is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1789435174513,
+  "stop": 1789435174514,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    }
+  ]
+}
