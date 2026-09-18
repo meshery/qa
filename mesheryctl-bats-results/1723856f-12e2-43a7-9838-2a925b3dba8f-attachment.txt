@@ -1,0 +1,36 @@
+(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,
+ in test file 003-design/03-design-list.bats, line 17)
+  `assert_line --regexp "$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN"' failed
+
+-- no output line matches regular expression --
+regexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$
+output (13 lines):
+  Total number of designs: 72169
+  Page: 1
+  DESIGN ID                             OWNER     NAME                   CREATED     UPDATED
+  ce67f69d-2974-4c3f-8528-23ab2221e81c  dea82811  nginx                  09-18-2026  09-18-2026
+  ae96ef6c-c578-4e2b-918b-af60b9ffa563  95d5b9ca  DesignDemo             09-18-2026  09-18-2026
+  fd8c2d62-8f74-4ae1-8ec2-17f99fefed51  a5eb9e0a  Checkout Architecture  09-18-2026  09-18-2026
+  3ace4c03-ea5d-4380-a7a8-ed5ab288c618  a5eb9e0a  Checkout Architecture  09-18-2026  09-18-2026
+  8bef6b5b-2bed-4288-8b34-eca99ef70908  a5eb9e0a  ns-test (scratch)      09-18-2026  09-18-2026
+  d250e015-59d7-46e2-991b-d3b2c59c0a42  a5eb9e0a  Checkout Architecture  09-18-2026  09-18-2026
+  b538827d-37dc-44e2-8c92-cacccae88095  21d9e627  Untitled Design        09-18-2026  09-18-2026
+  82c7d187-14f0-4487-a23f-be3b50632f40  a5eb9e0a  Checkout Architecture  09-18-2026  09-18-2026
+  25cd1fc0-4551-494f-a79a-c3062e3314df  a5eb9e0a  Checkout Architecture  09-18-2026  09-18-2026
+  225c5360-41b2-47eb-82fd-052b774940f2  a5eb9e0a  Checkout Architecture  09-18-2026  09-18-2026
+--
+
+Last output:
+Total number of designs: 72169
+Page: 1
+DESIGN ID                             OWNER     NAME                   CREATED     UPDATED
+ce67f69d-2974-4c3f-8528-23ab2221e81c  dea82811  nginx                  09-18-2026  09-18-2026
+ae96ef6c-c578-4e2b-918b-af60b9ffa563  95d5b9ca  DesignDemo             09-18-2026  09-18-2026
+fd8c2d62-8f74-4ae1-8ec2-17f99fefed51  a5eb9e0a  Checkout Architecture  09-18-2026  09-18-2026
+3ace4c03-ea5d-4380-a7a8-ed5ab288c618  a5eb9e0a  Checkout Architecture  09-18-2026  09-18-2026
+8bef6b5b-2bed-4288-8b34-eca99ef70908  a5eb9e0a  ns-test (scratch)      09-18-2026  09-18-2026
+d250e015-59d7-46e2-991b-d3b2c59c0a42  a5eb9e0a  Checkout Architecture  09-18-2026  09-18-2026
+b538827d-37dc-44e2-8c92-cacccae88095  21d9e627  Untitled Design        09-18-2026  09-18-2026
+82c7d187-14f0-4487-a23f-be3b50632f40  a5eb9e0a  Checkout Architecture  09-18-2026  09-18-2026
+25cd1fc0-4551-494f-a79a-c3062e3314df  a5eb9e0a  Checkout Architecture  09-18-2026  09-18-2026
+225c5360-41b2-47eb-82fd-052b774940f2  a5eb9e0a  Checkout Architecture  09-18-2026  09-18-2026

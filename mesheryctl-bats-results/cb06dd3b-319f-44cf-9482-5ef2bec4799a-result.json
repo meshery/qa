@@ -1,0 +1,35 @@
+{
+  "uuid": "cb06dd3b-319f-44cf-9482-5ef2bec4799a",
+  "name": "given no search query when mesheryctl component search is run then an invalid argument error is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1789736568452,
+  "stop": 1789736568453,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "Component"
+    },
+    {
+      "name": "testGroup",
+      "value": "Component Search"
+    }
+  ]
+}
