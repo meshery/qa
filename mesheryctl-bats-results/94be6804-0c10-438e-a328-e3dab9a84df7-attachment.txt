@@ -1,0 +1,51 @@
+(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,
+ in test file 002-model/02-model-import.bats, line 30)
+  `assert_output --partial "The file 'test.svg' could not be used for the operation 'import' because the extension '.svg' is not supported."' failed
+
+-- output does not contain substring --
+substring (1 lines):
+  The file 'test.svg' could not be used for the operation 'import' because the extension '.svg' is not supported.
+output (20 lines):
+
+  [1mERROR[0m: Error encountered while importing model model.json:
+      The file 'model.json' could not be parsed due to invalid JSON syntax. Error details: The `schemaVersion` key is either empty or has an incorrect value. | Short Description: Invalid schema version | Probable Cause: The schema is not of type 'relationship', 'component', 'model' , 'policy'. | Suggested Remediation: Verify that `schemaVersion` key should be either `relationships.meshery.io`, `component.meshery.io`, `model.meshery.io` or `policy.meshery.io`.
+
+      Ensure that you are importing an existing model.
+      Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+    [1mPROBABLE CAUSE[0m:
+    - The JSON file may contain syntax errors, such as missing commas, curly braces, or square brackets.
+    - The file may have been corrupted or improperly edited.
+    - Special characters or escape sequences may not have been properly formatted.
+    - The JSON does not conform to the Meshery model schema.
+
+    [1mSUGGESTED REMEDIATION[0m:
+    - Review the JSON syntax in the file and correct any errors.
+    - Use a JSON validator or linter to identify and fix issues.
+    - Ensure the file adheres to the JSON specification (e.g., double quotes for keys and strings).
+    - Check for common issues like trailing commas or unescaped special characters.
+    - Ensure the JSON conforms to the Meshery model schema. You can refer to the following documentation for more details: https://docs.meshery.io/project/contributing/contributing-models
+  Error: No valid component or relationship found in the Model provided. A Model can be only imported if it contains at least one valid Component or Relationship. | Short Description: No valid component or relationship found in the model provided | Probable Cause: Provided components or relationships might have incorrect format.Folder structure might be incorrect | Suggested Remediation: Know about Meshery Models and Importing instructions here: https://docs.meshery.io/guides/configuration-management/importing-models
+--
+
+Last output:
+
+[1mERROR[0m: Error encountered while importing model model.json:
+    The file 'model.json' could not be parsed due to invalid JSON syntax. Error details: The `schemaVersion` key is either empty or has an incorrect value. | Short Description: Invalid schema version | Probable Cause: The schema is not of type 'relationship', 'component', 'model' , 'policy'. | Suggested Remediation: Verify that `schemaVersion` key should be either `relationships.meshery.io`, `component.meshery.io`, `model.meshery.io` or `policy.meshery.io`.
+
+    Ensure that you are importing an existing model.
+    Create a new model to import or find an existing model in the Meshery ]8;;https://meshery.io/catalog/models\catalog]8;;\.
+
+  [1mPROBABLE CAUSE[0m:
+  - The JSON file may contain syntax errors, such as missing commas, curly braces, or square brackets.
+  - The file may have been corrupted or improperly edited.
+  - Special characters or escape sequences may not have been properly formatted.
+  - The JSON does not conform to the Meshery model schema.
+
+  [1mSUGGESTED REMEDIATION[0m:
+  - Review the JSON syntax in the file and correct any errors.
+  - Use a JSON validator or linter to identify and fix issues.
+  - Ensure the file adheres to the JSON specification (e.g., double quotes for keys and strings).
+  - Check for common issues like trailing commas or unescaped special characters.
+  - Ensure the JSON conforms to the Meshery model schema. You can refer to the following documentation for more details: https://docs.meshery.io/project/contributing/contributing-models
+Error: No valid component or relationship found in the Model provided. A Model can be only imported if it contains at least one valid Component or Relationship. | Short Description: No valid component or relationship found in the model provided | Probable Cause: Provided components or relationships might have incorrect format.Folder structure might be incorrect | Suggested Remediation: Know about Meshery Models and Importing instructions here: https://docs.meshery.io/guides/configuration-management/importing-models

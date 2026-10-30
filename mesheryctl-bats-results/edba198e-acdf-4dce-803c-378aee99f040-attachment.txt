@@ -1,0 +1,36 @@
+(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,
+ in test file 003-design/03-design-list.bats, line 17)
+  `assert_line --regexp "$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN"' failed
+
+-- no output line matches regular expression --
+regexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$
+output (13 lines):
+  Total number of designs: 51076
+  Page: 1
+  DESIGN ID                             OWNER     NAME                                   CREATED     UPDATED
+  c8f73574-537e-48a5-81a0-f347bc903ce6  dea82811  nginx                                  10-30-2026  10-30-2026
+  b304db7a-0d0d-4a4b-8e1d-cf6d578229d7  f82bb462  Meshery Ingress TLS with cert-manager  10-29-2026  10-29-2026
+  58ebc85f-306e-4893-8c76-33cef6ecd77e  f82bb462  Cert manager (addon)                   10-29-2026  10-29-2026
+  290ab5f9-95b8-4542-97ad-97676d71b8fb  f82bb462  Meshery Ingress TLS with cert-manager  10-29-2026  10-29-2026
+  68339dc5-09d0-4b85-8c4d-df172a24c160  615854dc  -app                                   10-29-2026  10-29-2026
+  a17406a0-61d0-4d4a-b581-324da12b3ffc  615854dc  -app                                   10-29-2026  10-29-2026
+  d606b846-050d-4876-b95c-5c520d78ce84  1dbf4b83  Yoshita Kubernetes Getting Started     10-29-2026  10-29-2026
+  6ceb642b-8f0c-444d-8347-dad1273114d7  79fbe373  Patrick-First-Design                   10-29-2026  10-29-2026
+  97caf543-34b3-4502-aa96-dcf864c9dd85  79fbe373  Untitled Design                        10-29-2026  10-29-2026
+  4dd2a9a6-019c-459a-9b57-0ff339f91f0e  f90c5756  Aryan - First Meshery Design           10-29-2026  10-29-2026
+--
+
+Last output:
+Total number of designs: 51076
+Page: 1
+DESIGN ID                             OWNER     NAME                                   CREATED     UPDATED
+c8f73574-537e-48a5-81a0-f347bc903ce6  dea82811  nginx                                  10-30-2026  10-30-2026
+b304db7a-0d0d-4a4b-8e1d-cf6d578229d7  f82bb462  Meshery Ingress TLS with cert-manager  10-29-2026  10-29-2026
+58ebc85f-306e-4893-8c76-33cef6ecd77e  f82bb462  Cert manager (addon)                   10-29-2026  10-29-2026
+290ab5f9-95b8-4542-97ad-97676d71b8fb  f82bb462  Meshery Ingress TLS with cert-manager  10-29-2026  10-29-2026
+68339dc5-09d0-4b85-8c4d-df172a24c160  615854dc  -app                                   10-29-2026  10-29-2026
+a17406a0-61d0-4d4a-b581-324da12b3ffc  615854dc  -app                                   10-29-2026  10-29-2026
+d606b846-050d-4876-b95c-5c520d78ce84  1dbf4b83  Yoshita Kubernetes Getting Started     10-29-2026  10-29-2026
+6ceb642b-8f0c-444d-8347-dad1273114d7  79fbe373  Patrick-First-Design                   10-29-2026  10-29-2026
+97caf543-34b3-4502-aa96-dcf864c9dd85  79fbe373  Untitled Design                        10-29-2026  10-29-2026
+4dd2a9a6-019c-459a-9b57-0ff339f91f0e  f90c5756  Aryan - First Meshery Design           10-29-2026  10-29-2026
