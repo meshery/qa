@@ -1,0 +1,46 @@
+{
+  "uuid": "301a2ef9-1cb1-45d6-b667-cb30e7d9720d",
+  "name": "TestConnectionViewNoSaveWithBrokenHome",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/connections::TestConnectionViewNoSaveWithBrokenHome",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1793325666640,
+  "stop": 1793325666640,
+  "statusDetails": {
+    "message": "id: 11111111-1111-1111-1111-111111111111\nname: minikube\ndescription: null\nurl: null\ncredentialId: 00000000-9c7a-d4ce-4aab-111111111111\ntype: platform\nsubType: orchestrator\nkind: kubernetes\nmodelReference: null\nmetadata:\n    deployment_type: \"\"\n    version: v1.34.0\nstatus: connected\ncreatedAt: 2026-02-01T10:01:03.577292Z\nupdatedAt: 2026-02-01T10:04:43.869192Z\ndeletedAt: null\nschemaVersion: \"\"\nstyles: null"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/connections"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestConnectionViewNoSaveWithBrokenHome"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
