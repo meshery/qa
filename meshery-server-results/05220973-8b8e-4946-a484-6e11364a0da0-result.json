@@ -1,0 +1,46 @@
+{
+  "uuid": "05220973-8b8e-4946-a484-6e11364a0da0",
+  "name": "TestPostLoginRedirect_LocationNeverLeavesTheOrigin///evil.example/pretend-login",
+  "fullName": "github.com/meshery/meshery/server/models::TestPostLoginRedirect_LocationNeverLeavesTheOrigin///evil.example/pretend-login",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1793472837200,
+  "stop": 1793472837201,
+  "statusDetails": {
+    "message": "=== PAUSE TestPostLoginRedirect_LocationNeverLeavesTheOrigin///evil.example/pretend-login\n=== CONT  TestPostLoginRedirect_LocationNeverLeavesTheOrigin///evil.example/pretend-login"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPostLoginRedirect_LocationNeverLeavesTheOrigin///evil.example/pretend-login"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

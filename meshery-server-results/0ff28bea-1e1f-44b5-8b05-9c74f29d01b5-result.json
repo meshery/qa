@@ -1,0 +1,46 @@
+{
+  "uuid": "0ff28bea-1e1f-44b5-8b05-9c74f29d01b5",
+  "name": "TestPrometheusClientForConnectionCredentialShapes/canonical_shape_is_anonymous",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestPrometheusClientForConnectionCredentialShapes/canonical_shape_is_anonymous",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1793472766255,
+  "stop": 1793472766265,
+  "statusDetails": {
+    "message": "2026/10/31 18:52:46 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:168 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.077ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"aa19b2a6-762a-4ecb-bb1e-d949dff3190e\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPrometheusClientForConnectionCredentialShapes/canonical_shape_is_anonymous"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
