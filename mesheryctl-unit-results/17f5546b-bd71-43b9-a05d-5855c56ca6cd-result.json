@@ -1,0 +1,46 @@
+{
+  "uuid": "17f5546b-bd71-43b9-a05d-5855c56ca6cd",
+  "name": "TestRelationshipViewSaveCreatesFileWithExtension",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/relationships::TestRelationshipViewSaveCreatesFileWithExtension",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1793475086139,
+  "stop": 1793475086146,
+  "statusDetails": {
+    "message": "{\n  \"id\": \"aaaabbbb-cccc-dddd-eeee-111122223333\",\n  \"evaluationQuery\": null,\n  \"kind\": \"edge\",\n  \"metadata\": {\n    \"description\": \"A relationship that defines network edges between components.\"\n  },\n  \"model\": {\n    \"displayName\": \"\",\n    \"id\": \"00000000-0000-0000-0000-000000000000\",\n    \"model\": {\n      \"version\": \"\"\n    },\n    \"name\": \"kubernetes\",\n    \"registrant\": {\n      \"kind\": \"\"\n    },\n    \"version\": \"\"\n  },\n  \"schemaVersion\": \"\",\n  \"subType\": \"Mount\",\n  \"status\": null,\n  \"type\": \"network\",\n  \"version\": \"v1.0.0\"\n}"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/relationships"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestRelationshipViewSaveCreatesFileWithExtension"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
