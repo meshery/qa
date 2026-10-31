@@ -1,0 +1,46 @@
+{
+  "uuid": "9a05f0a1-4192-4102-afe6-76c7f50b3428",
+  "name": "TestProfileCmd/given_page_0_when_profile_then_throw_invalid_flag_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/perf::TestProfileCmd/given_page_0_when_profile_then_throw_invalid_flag_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1793472760547,
+  "stop": 1793472760547,
+  "statusDetails": {
+    "message": "Error: invalid value for --page '0' | Short Description: Invalid flag(s) provided | Probable Cause: The value for one or more flags provided is invalid. | Suggested Remediation: Provide valid flag value and try again."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/perf"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProfileCmd/given_page_0_when_profile_then_throw_invalid_flag_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

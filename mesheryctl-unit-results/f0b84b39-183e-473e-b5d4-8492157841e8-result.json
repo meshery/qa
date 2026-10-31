@@ -1,0 +1,46 @@
+{
+  "uuid": "f0b84b39-183e-473e-b5d4-8492157841e8",
+  "name": "TestFilterViewSaveCreatesFileWithExtension",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/filter::TestFilterViewSaveCreatesFileWithExtension",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1793472753171,
+  "stop": 1793472753174,
+  "statusDetails": {
+    "message": "{\n  \"id\": \"957fbc9b-a655-4892-823d-375102a9587c\",\n  \"name\": \"KumaTest\",\n  \"filterFile\": null,\n  \"owner\": \"24187768-ce8a-41f0-be74-c537c8e41adc\",\n  \"location\": {\n    \"branch\": \"\",\n    \"host\": \"\",\n    \"path\": \"\",\n    \"type\": \"local\"\n  },\n  \"visibility\": \"public\",\n  \"catalogData\": {},\n  \"filterResource\": \"test filter resource\",\n  \"updatedAt\": \"2021-06-26T15:22:41.759711Z\",\n  \"createdAt\": \"2021-06-26T15:22:41.759701Z\"\n}"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/filter"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestFilterViewSaveCreatesFileWithExtension"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
