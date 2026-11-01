@@ -1,0 +1,36 @@
+(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,
+ in test file 003-design/03-design-list.bats, line 17)
+  `assert_line --regexp "$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN"' failed
+
+-- no output line matches regular expression --
+regexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$
+output (13 lines):
+  Total number of designs: 51122
+  Page: 1
+  DESIGN ID                             OWNER     NAME                                        CREATED     UPDATED
+  cc2280f8-9707-4a3d-9f3f-5e8f25bc5389  dea82811  nginx                                       11-01-2026  11-01-2026
+  05a623e4-01ca-4430-967e-df3ba42d9185  7eaf16d5  custom                                      11-01-2026  11-01-2026
+  7ebf7fc1-dcce-429a-b5fd-a75a8305a554  b2caaccd  rabbitculture                               10-25-2026  11-01-2026
+  01dababf-d274-4067-9ef4-b167c5141880  bc7fbe6e  Kubernetes Web Service Troubleshooting Lab  10-31-2026  10-31-2026
+  88f8dd63-6186-4a7e-8c28-86c1ecf921c1  dea82811  nginx                                       10-31-2026  10-31-2026
+  da6299da-c588-4a7e-860f-916899b7f26b  dea82811                                              10-31-2026  10-31-2026
+  d6dac719-3f3b-4a5c-8fa9-46487c6b6d0e  dea82811  nginx                                       10-31-2026  10-31-2026
+  de933936-6bb0-4165-9bca-474838f18cf1  dea82811                                              10-31-2026  10-31-2026
+  e5e32ff8-6baa-4198-b297-80ce0a95f961  dea82811  nginx                                       10-31-2026  10-31-2026
+  001c951a-d659-44cd-9154-865e61d75c33  dea82811  nginx                                       10-31-2026  10-31-2026
+--
+
+Last output:
+Total number of designs: 51122
+Page: 1
+DESIGN ID                             OWNER     NAME                                        CREATED     UPDATED
+cc2280f8-9707-4a3d-9f3f-5e8f25bc5389  dea82811  nginx                                       11-01-2026  11-01-2026
+05a623e4-01ca-4430-967e-df3ba42d9185  7eaf16d5  custom                                      11-01-2026  11-01-2026
+7ebf7fc1-dcce-429a-b5fd-a75a8305a554  b2caaccd  rabbitculture                               10-25-2026  11-01-2026
+01dababf-d274-4067-9ef4-b167c5141880  bc7fbe6e  Kubernetes Web Service Troubleshooting Lab  10-31-2026  10-31-2026
+88f8dd63-6186-4a7e-8c28-86c1ecf921c1  dea82811  nginx                                       10-31-2026  10-31-2026
+da6299da-c588-4a7e-860f-916899b7f26b  dea82811                                              10-31-2026  10-31-2026
+d6dac719-3f3b-4a5c-8fa9-46487c6b6d0e  dea82811  nginx                                       10-31-2026  10-31-2026
+de933936-6bb0-4165-9bca-474838f18cf1  dea82811                                              10-31-2026  10-31-2026
+e5e32ff8-6baa-4198-b297-80ce0a95f961  dea82811  nginx                                       10-31-2026  10-31-2026
+001c951a-d659-44cd-9154-865e61d75c33  dea82811  nginx                                       10-31-2026  10-31-2026
