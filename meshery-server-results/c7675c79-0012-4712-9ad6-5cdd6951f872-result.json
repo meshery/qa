@@ -1,0 +1,46 @@
+{
+  "uuid": "c7675c79-0012-4712-9ad6-5cdd6951f872",
+  "name": "TestCatalogAlignment",
+  "fullName": "github.com/meshery/meshery/server/policies::TestCatalogAlignment",
+  "status": "skipped",
+  "stage": "finished",
+  "start": 1793606526630,
+  "stop": 1793606526630,
+  "statusDetails": {
+    "message": "catalog_alignment_test.go:764: skipping catalog alignment test in short mode"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCatalogAlignment"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
