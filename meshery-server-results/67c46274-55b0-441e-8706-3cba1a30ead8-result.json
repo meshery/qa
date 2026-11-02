@@ -1,0 +1,46 @@
+{
+  "uuid": "67c46274-55b0-441e-8706-3cba1a30ead8",
+  "name": "TestPrometheusClientForConnectionCredentialShapes/legacy_double-nested_shape_is_anonymous",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestPrometheusClientForConnectionCredentialShapes/legacy_double-nested_shape_is_anonymous",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1793599373295,
+  "stop": 1793599373300,
+  "statusDetails": {
+    "message": "2026/11/02 06:02:53 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:168 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.101ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"a47b84b8-aec3-47ac-aaba-1a21427dc563\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPrometheusClientForConnectionCredentialShapes/legacy_double-nested_shape_is_anonymous"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
