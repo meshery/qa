@@ -1,0 +1,46 @@
+{
+  "uuid": "99086142-1231-4fde-a68d-a5225c0df050",
+  "name": "TestPostLoginRedirect_LocationNeverLeavesTheOrigin/http://kanvas.new//evil.example/pretend-login",
+  "fullName": "github.com/meshery/meshery/server/models::TestPostLoginRedirect_LocationNeverLeavesTheOrigin/http://kanvas.new//evil.example/pretend-login",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1793602384551,
+  "stop": 1793602384554,
+  "statusDetails": {
+    "message": "=== PAUSE TestPostLoginRedirect_LocationNeverLeavesTheOrigin/http://kanvas.new//evil.example/pretend-login\n=== CONT  TestPostLoginRedirect_LocationNeverLeavesTheOrigin/http://kanvas.new//evil.example/pretend-login"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPostLoginRedirect_LocationNeverLeavesTheOrigin/http://kanvas.new//evil.example/pretend-login"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
