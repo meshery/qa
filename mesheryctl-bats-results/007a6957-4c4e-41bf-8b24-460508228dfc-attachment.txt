@@ -1,0 +1,36 @@
+(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,
+ in test file 003-design/03-design-list.bats, line 17)
+  `assert_line --regexp "$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN"' failed
+
+-- no output line matches regular expression --
+regexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$
+output (13 lines):
+  Total number of designs: 51233
+  Page: 1
+  DESIGN ID                             OWNER     NAME                                CREATED     UPDATED
+  9bf8888f-8654-4412-98b3-2ea51b6eae93  dea82811  nginx                               11-04-2026  11-04-2026
+  68bd59d8-79fd-4b85-9125-78786127aa56  dea82811  nginx                               11-04-2026  11-04-2026
+  61469c17-bd12-4f27-b9a3-af0c71fe2af1  dea82811                                      11-04-2026  11-04-2026
+  c8de3fc1-e76c-4bef-806d-0cc7c4c7c7c1  45fa25df  harshil-design                      11-04-2026  11-04-2026
+  db6a59a2-d173-4a45-922e-7de0352a1e41  02e67824  My First Cloud-Native Architecture  11-04-2026  11-04-2026
+  b3b19ca2-5f84-406f-b106-588682339538  ad7c09a9  To do                               11-04-2026  11-04-2026
+  23e4bac7-74a8-4bbf-9abf-ecbc242aba74  02e67824  My First Cloud-Native Architecture  11-01-2026  11-04-2026
+  d3105ad4-d430-4f2d-9bc3-998b265379bb  778a99f1  Untitled Design                     11-04-2026  11-04-2026
+  7018bbd4-d7ab-400e-a426-7df61521d53c  615854dc  -app                                11-04-2026  11-04-2026
+  dc1288bc-e765-49d8-a4c9-5a3f39cdc878  96cd6a37  Untitled Design                     11-04-2026  11-04-2026
+--
+
+Last output:
+Total number of designs: 51233
+Page: 1
+DESIGN ID                             OWNER     NAME                                CREATED     UPDATED
+9bf8888f-8654-4412-98b3-2ea51b6eae93  dea82811  nginx                               11-04-2026  11-04-2026
+68bd59d8-79fd-4b85-9125-78786127aa56  dea82811  nginx                               11-04-2026  11-04-2026
+61469c17-bd12-4f27-b9a3-af0c71fe2af1  dea82811                                      11-04-2026  11-04-2026
+c8de3fc1-e76c-4bef-806d-0cc7c4c7c7c1  45fa25df  harshil-design                      11-04-2026  11-04-2026
+db6a59a2-d173-4a45-922e-7de0352a1e41  02e67824  My First Cloud-Native Architecture  11-04-2026  11-04-2026
+b3b19ca2-5f84-406f-b106-588682339538  ad7c09a9  To do                               11-04-2026  11-04-2026
+23e4bac7-74a8-4bbf-9abf-ecbc242aba74  02e67824  My First Cloud-Native Architecture  11-01-2026  11-04-2026
+d3105ad4-d430-4f2d-9bc3-998b265379bb  778a99f1  Untitled Design                     11-04-2026  11-04-2026
+7018bbd4-d7ab-400e-a426-7df61521d53c  615854dc  -app                                11-04-2026  11-04-2026
+dc1288bc-e765-49d8-a4c9-5a3f39cdc878  96cd6a37  Untitled Design                     11-04-2026  11-04-2026
