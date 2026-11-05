@@ -1,0 +1,36 @@
+(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,
+ in test file 003-design/03-design-list.bats, line 17)
+  `assert_line --regexp "$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN"' failed
+
+-- no output line matches regular expression --
+regexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$
+output (13 lines):
+  Total number of designs: 51250
+  Page: 1
+  DESIGN ID                             OWNER     NAME            CREATED     UPDATED
+  d0122bb3-a65a-4af6-9ae9-ed68f494242d  dea82811  nginx           11-05-2026  11-05-2026
+  3af406ef-8c99-44a3-8fba-02ecb0bd41c3  dea82811  nginx           11-05-2026  11-05-2026
+  d2bc84c2-c29c-4fc8-9750-a5225f5cc2c5  dea82811                  11-05-2026  11-05-2026
+  19381870-7678-400a-88a9-676ed2ca7b74  dea82811  nginx           11-05-2026  11-05-2026
+  28b2659b-c4d3-4cf5-b693-d635e2b42305  dea82811                  11-05-2026  11-05-2026
+  9521722a-f5fc-4c53-a3ae-ac13e031f49e  dea82811  nginx           11-05-2026  11-05-2026
+  c6a8a244-33f8-42ee-b2e2-d0ca4c16638b  dea82811                  11-05-2026  11-05-2026
+  87904eb5-dff5-4fa1-bbba-daff54f15e12  dea82811  nginx           11-05-2026  11-05-2026
+  856e16ad-31b6-4655-8e89-380cb6bf734a  dea82811                  11-05-2026  11-05-2026
+  80d1cd67-6d1e-49a2-8ff9-70167d692770  c8eb184a  aws-infra-copy  11-05-2026  11-05-2026
+--
+
+Last output:
+Total number of designs: 51250
+Page: 1
+DESIGN ID                             OWNER     NAME            CREATED     UPDATED
+d0122bb3-a65a-4af6-9ae9-ed68f494242d  dea82811  nginx           11-05-2026  11-05-2026
+3af406ef-8c99-44a3-8fba-02ecb0bd41c3  dea82811  nginx           11-05-2026  11-05-2026
+d2bc84c2-c29c-4fc8-9750-a5225f5cc2c5  dea82811                  11-05-2026  11-05-2026
+19381870-7678-400a-88a9-676ed2ca7b74  dea82811  nginx           11-05-2026  11-05-2026
+28b2659b-c4d3-4cf5-b693-d635e2b42305  dea82811                  11-05-2026  11-05-2026
+9521722a-f5fc-4c53-a3ae-ac13e031f49e  dea82811  nginx           11-05-2026  11-05-2026
+c6a8a244-33f8-42ee-b2e2-d0ca4c16638b  dea82811                  11-05-2026  11-05-2026
+87904eb5-dff5-4fa1-bbba-daff54f15e12  dea82811  nginx           11-05-2026  11-05-2026
+856e16ad-31b6-4655-8e89-380cb6bf734a  dea82811                  11-05-2026  11-05-2026
+80d1cd67-6d1e-49a2-8ff9-70167d692770  c8eb184a  aws-infra-copy  11-05-2026  11-05-2026
