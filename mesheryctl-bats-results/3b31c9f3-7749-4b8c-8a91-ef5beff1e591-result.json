@@ -1,0 +1,35 @@
+{
+  "uuid": "3b31c9f3-7749-4b8c-8a91-ef5beff1e591",
+  "name": "given a URL without a template when running mesheryctl model generate then an error message is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1793913504832,
+  "stop": 1793913504833,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "Model"
+    },
+    {
+      "name": "testGroup",
+      "value": "Model Generate"
+    }
+  ]
+}
