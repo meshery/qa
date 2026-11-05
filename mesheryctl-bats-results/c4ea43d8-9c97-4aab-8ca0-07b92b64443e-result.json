@@ -1,0 +1,29 @@
+{
+  "uuid": "c4ea43d8-9c97-4aab-8ca0-07b92b64443e",
+  "name": "given an invalid system when running mesheryctl registry publish then an error is displayed",
+  "status": "skipped",
+  "stage": "finished",
+  "start": 1793874306835,
+  "stop": 1793874306836,
+  "statusDetails": {
+    "message": "Spreadsheet credentials not configured"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    }
+  ]
+}
