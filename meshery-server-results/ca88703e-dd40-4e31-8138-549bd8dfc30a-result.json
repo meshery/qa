@@ -1,0 +1,46 @@
+{
+  "uuid": "ca88703e-dd40-4e31-8138-549bd8dfc30a",
+  "name": "TestGetMeshSyncResourceByID_NotFound",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestGetMeshSyncResourceByID_NotFound",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1793963662972,
+  "stop": 1793963662989,
+  "statusDetails": {
+    "message": "2026/11/06 11:14:22 \u001b[31;1m/home/runner/work/meshery/meshery/server/handlers/meshsync_handler.go:468 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.166ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `kubernetes_resources` WHERE kubernetes_resources.id = \"7032a322-e33f-4319-9deb-cf781ca681ab\" ORDER BY `kubernetes_resources`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGetMeshSyncResourceByID_NotFound"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

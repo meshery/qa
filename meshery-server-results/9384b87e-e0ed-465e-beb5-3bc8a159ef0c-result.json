@@ -1,0 +1,46 @@
+{
+  "uuid": "9384b87e-e0ed-465e-beb5-3bc8a159ef0c",
+  "name": "TestBindingIdentificationFullPipeline",
+  "fullName": "github.com/meshery/meshery/server/policies::TestBindingIdentificationFullPipeline",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1793963676776,
+  "stop": 1793963676781,
+  "statusDetails": {
+    "message": "patching_test.go:721: Found: kind=edge type=binding subType=permission status=approved"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestBindingIdentificationFullPipeline"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
