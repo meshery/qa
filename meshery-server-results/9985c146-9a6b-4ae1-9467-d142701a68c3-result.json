@@ -1,0 +1,46 @@
+{
+  "uuid": "9985c146-9a6b-4ae1-9467-d142701a68c3",
+  "name": "TestPostLoginHost/configured_server_url_wins_over_inbound_host",
+  "fullName": "github.com/meshery/meshery/server/models::TestPostLoginHost/configured_server_url_wins_over_inbound_host",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1793935439604,
+  "stop": 1793935439608,
+  "statusDetails": {
+    "message": "=== PAUSE TestPostLoginHost/configured_server_url_wins_over_inbound_host\n=== CONT  TestPostLoginHost/configured_server_url_wins_over_inbound_host"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPostLoginHost/configured_server_url_wins_over_inbound_host"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
