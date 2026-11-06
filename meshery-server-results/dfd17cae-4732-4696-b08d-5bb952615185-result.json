@@ -1,0 +1,46 @@
+{
+  "uuid": "dfd17cae-4732-4696-b08d-5bb952615185",
+  "name": "TestResolveProviderName/enforced_default_wins_over_header_when_cookie_empty",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestResolveProviderName/enforced_default_wins_over_header_when_cookie_empty",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1793949897277,
+  "stop": 1793949897279,
+  "statusDetails": {
+    "message": "=== PAUSE TestResolveProviderName/enforced_default_wins_over_header_when_cookie_empty\n=== CONT  TestResolveProviderName/enforced_default_wins_over_header_when_cookie_empty"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestResolveProviderName/enforced_default_wins_over_header_when_cookie_empty"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
