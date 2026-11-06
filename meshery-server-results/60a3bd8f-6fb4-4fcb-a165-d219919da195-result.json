@@ -1,0 +1,46 @@
+{
+  "uuid": "60a3bd8f-6fb4-4fcb-a165-d219919da195",
+  "name": "TestExportModel_Concurrent",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestExportModel_Concurrent",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794001878855,
+  "stop": 1794001878991,
+  "statusDetails": {
+    "message": "2026/11/06 21:51:18 \u001b[31;1m/home/runner/go/pkg/mod/github.com/meshery/schemas@v1.3.37/models/v1beta1/connection/connection_helper.go:37 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.227ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"2bcd8dba-91a1-3b89-8916-bd6ed5bc758b\" ORDER BY `connections`.`id` LIMIT 1\n\r\n2026/11/06 21:51:18 \u001b[31;1m/home/runner/go/pkg/mod/github.com/meshery/schemas@v1.3.37/models/v1beta1/model/model_helper.go:83 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.174ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `model_dbs` WHERE id = \"863ea856-7e25-f9cd-b34d-e0f5bfef8101\" and connection_id = \"2bcd8dba-91a1-3b89-8916-bd6ed5bc758b\" ORDER BY `model_dbs`.`id` LIMIT 1\n\r\n2026/11/06 21:51:18 \u001b[31;1m/home/runner/go/pkg/mod/github.com/meshery/schemas@v1.3.37/models/v1beta1/category/category_helper.go:63 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.127ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `category_dbs` WHERE id = \"3514ec74-8381-c4eb-c822-89ad0ac66e39\" ORDER BY `category_dbs`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestExportModel_Concurrent"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
