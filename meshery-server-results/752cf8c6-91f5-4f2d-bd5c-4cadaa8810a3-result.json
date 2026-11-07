@@ -1,0 +1,46 @@
+{
+  "uuid": "752cf8c6-91f5-4f2d-bd5c-4cadaa8810a3",
+  "name": "TestRelationshipEvaluationScenarios/namespace_cannot_be_parent_of_namespace",
+  "fullName": "github.com/meshery/meshery/server/policies::TestRelationshipEvaluationScenarios/namespace_cannot_be_parent_of_namespace",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794051144220,
+  "stop": 1794051144427,
+  "statusDetails": {
+    "message": "rego_test.go:341: Result for \"namespace_cannot_be_parent_of_namespace\" (design: namespace_parent_inline): true"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestRelationshipEvaluationScenarios/namespace_cannot_be_parent_of_namespace"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
