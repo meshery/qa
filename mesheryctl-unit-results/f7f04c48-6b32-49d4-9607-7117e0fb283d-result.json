@@ -1,0 +1,46 @@
+{
+  "uuid": "f7f04c48-6b32-49d4-9607-7117e0fb283d",
+  "name": "TestFilterCmd",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/filter::TestFilterCmd",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794053224638,
+  "stop": 1794053224643,
+  "statusDetails": {
+    "message": "testing.go:713: Test 'Filter command with no args' executed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/filter"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestFilterCmd"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
