@@ -1,0 +1,46 @@
+{
+  "uuid": "29726322-3a23-4508-a405-ea67ed532e58",
+  "name": "TestListModel",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestListModel",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794070026924,
+  "stop": 1794070026930,
+  "statusDetails": {
+    "message": "testing.go:613: List model test\n    testing.go:613: List model test\n    testing.go:613: List model test\n    testing.go:613: List model test\n    testing.go:613: List model test\n    testing.go:613: List model test"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestListModel"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
