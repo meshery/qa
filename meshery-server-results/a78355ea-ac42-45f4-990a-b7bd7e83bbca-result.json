@@ -1,0 +1,46 @@
+{
+  "uuid": "a78355ea-ac42-45f4-990a-b7bd7e83bbca",
+  "name": "TestDeleteConnectionStopsProbingTheDeletedConnection",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestDeleteConnectionStopsProbingTheDeletedConnection",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794047061387,
+  "stop": 1794047061916,
+  "statusDetails": {
+    "message": "2026/11/07 10:24:21 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:168 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.157ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"929bd88d-70a2-44a5-aa6c-56770d815675\" ORDER BY `connections`.`id` LIMIT 1\n\r\n2026/11/07 10:24:21 \u001b[31;1m/home/runner/work/meshery/meshery/server/handlers/middlewares.go:547 \u001b[35;1mno such table: kubernetes_resources\n\u001b[0m\u001b[33m[0.230ms] \u001b[34;1m[rows:0]\u001b[0m SELECT `kubernetes_resources`.`id`,`kubernetes_resources`.`api_version`,`kubernetes_resources`.`kind`,`kubernetes_resources`.`model`,`kubernetes_resources`.`cluster_id`,`kubernetes_resources`.`pattern_resource`,`kubernetes_resources`.`component_metadata`,`kubernetes_resources`.`immutable`,`kubernetes_resources`.`data`,`kubernetes_resources`.`binary_data`,`kubernetes_resources`.`string_data`,`kubernetes_resources`.`type` FROM `kubernetes_resources` JOIN kubernetes_resource_object_meta ON kubernetes_resource_object_meta.id = kubernetes_resources.id WHERE kubernetes_resources.cluster_id IN (NULL) AND `kubernetes_resources`.`kind` = \"Service\" AND (lower(kubernetes_resource_object_meta.name) LIKE \"%grafana%\" OR lower(kubernetes_resource_object_meta.name) LIKE \"%prometheus%\")\n\r\n2026/11/07 10:24:21 \u001b[31;1m/home/runner/work/meshery/meshery/server/handlers/middlewares.go:547 \u001b[35;1mno such table: kubernetes_resources\n\u001b[0m\u001b[33m[0.121ms] \u001b[34;1m[rows:0]\u001b[0m SELECT `kubernetes_resources`.`id`,`kubernetes_resources`.`api_version`,`kubernetes_resources`.`kind`,`kubernetes_resources`.`model`,`kubernetes_resources`.`cluster_id`,`kubernetes_resources`.`pattern_resource`,`kubernetes_resources`.`component_metadata`,`kubernetes_resources`.`immutable`,`kubernetes_resources`.`data`,`kubernetes_resources`.`binary_data`,`kubernetes_resources`.`string_data`,`kubernetes_resources`.`type` FROM `kubernetes_resources` JOIN kubernetes_resource_object_meta ON kubernetes_resource_object_meta.id = kubernetes_resources.id WHERE kubernetes_resources.cluster_id IN (NULL) AND `kubernetes_resources`.`kind` = \"Service\" AND (lower(kubernetes_resource_object_meta.name) LIKE \"%grafana%\" OR lower(kubernetes_resource_object_meta.name) LIKE \"%prometheus%\")\n\r\n2026/11/07 10:24:21 \u001b[31;1m/home/runner/work/meshery/meshery/server/handlers/middlewares.go:547 \u001b[35;1mno such table: kubernetes_resources\n\u001b[0m\u001b[33m[0.144ms] \u001b[34;1m[rows:0]\u001b[0m SELECT `kubernetes_resources`.`id`,`kubernetes_resources`.`api_version`,`kubernetes_resources`.`kind`,`kubernetes_resources`.`model`,`kubernetes_resources`.`cluster_id`,`kubernetes_resources`.`pattern_resource`,`kubernetes_resources`.`component_metadata`,`kubernetes_resources`.`immutable`,`kubernetes_resources`.`data`,`kubernetes_resources`.`binary_data`,`kubernetes_resources`.`string_data`,`kubernetes_resources`.`type` FROM `kubernetes_resources` JOIN kubernetes_resource_object_meta ON kubernetes_resource_object_meta.id = kubernetes_resources.id WHERE kubernetes_resources.cluster_id IN (NULL) AND `kubernetes_resources`.`kind` = \"Service\" AND (lower(kubernetes_resource_object_meta.name) LIKE \"%grafana%\" OR lower(kubernetes_resource_object_meta.name) LIKE \"%prometheus%\")"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteConnectionStopsProbingTheDeletedConnection"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
