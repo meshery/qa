@@ -1,0 +1,36 @@
+(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,
+ in test file 003-design/03-design-list.bats, line 17)
+  `assert_line --regexp "$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN"' failed
+
+-- no output line matches regular expression --
+regexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$
+output (13 lines):
+  Total number of designs: 51358
+  Page: 1
+  DESIGN ID                             OWNER     NAME               CREATED     UPDATED
+  d2964f9c-ebb0-4c8b-9594-cfbc4a1669cf  dea82811  nginx              11-07-2026  11-07-2026
+  eab8ff0d-d2dc-441e-9ece-001040717ab8  dea82811  nginx              11-07-2026  11-07-2026
+  204c0b36-99a3-4cac-b5aa-7de4cdfc2e9d  dea82811  nginx              11-07-2026  11-07-2026
+  03397972-6da4-4196-a52f-161203c79ef8  31c69433  SmartNote Design   11-03-2026  11-07-2026
+  57c2fd75-7240-4a3d-8ebb-2074da106f81  79fd9bbd  Untitled Design    11-07-2026  11-07-2026
+  ad792329-9e08-4379-a253-bb28f7689d72  dea82811  Untitled Design    05-05-2026  11-07-2026
+  2504312c-ad67-4e6e-9690-2a3b585b35cb  a6b9964a  Simple 2-Tier App  11-07-2026  11-07-2026
+  afda5ee2-efa9-4546-978f-f2b3e1aaf5f5  dea82811  nginx              11-07-2026  11-07-2026
+  2cf9946b-30f7-4d96-8456-f62d4381a869  dea82811  nginx              11-07-2026  11-07-2026
+  af57e21d-88be-44cd-95b8-f4670daf68ba  dea82811  nginx              11-07-2026  11-07-2026
+--
+
+Last output:
+Total number of designs: 51358
+Page: 1
+DESIGN ID                             OWNER     NAME               CREATED     UPDATED
+d2964f9c-ebb0-4c8b-9594-cfbc4a1669cf  dea82811  nginx              11-07-2026  11-07-2026
+eab8ff0d-d2dc-441e-9ece-001040717ab8  dea82811  nginx              11-07-2026  11-07-2026
+204c0b36-99a3-4cac-b5aa-7de4cdfc2e9d  dea82811  nginx              11-07-2026  11-07-2026
+03397972-6da4-4196-a52f-161203c79ef8  31c69433  SmartNote Design   11-03-2026  11-07-2026
+57c2fd75-7240-4a3d-8ebb-2074da106f81  79fd9bbd  Untitled Design    11-07-2026  11-07-2026
+ad792329-9e08-4379-a253-bb28f7689d72  dea82811  Untitled Design    05-05-2026  11-07-2026
+2504312c-ad67-4e6e-9690-2a3b585b35cb  a6b9964a  Simple 2-Tier App  11-07-2026  11-07-2026
+afda5ee2-efa9-4546-978f-f2b3e1aaf5f5  dea82811  nginx              11-07-2026  11-07-2026
+2cf9946b-30f7-4d96-8456-f62d4381a869  dea82811  nginx              11-07-2026  11-07-2026
+af57e21d-88be-44cd-95b8-f4670daf68ba  dea82811  nginx              11-07-2026  11-07-2026
