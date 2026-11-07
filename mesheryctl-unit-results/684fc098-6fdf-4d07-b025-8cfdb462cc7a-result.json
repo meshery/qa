@@ -1,0 +1,46 @@
+{
+  "uuid": "684fc098-6fdf-4d07-b025-8cfdb462cc7a",
+  "name": "TestAskForInputInvalidThenValid",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestAskForInputInvalidThenValid",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794078754443,
+  "stop": 1794078754443,
+  "statusDetails": {
+    "message": "Prompt [data1 data2]: Invalid response \"nope\". Allowed responses: [data1 data2]\nPrompt [data1 data2]:"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestAskForInputInvalidThenValid"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
