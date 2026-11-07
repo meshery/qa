@@ -1,0 +1,46 @@
+{
+  "uuid": "f6ccf25b-6076-44e6-ab1d-6ca35f3fdaf1",
+  "name": "TestProcessConnectionRegistrationRegistersKindsWithoutVerifyAction",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestProcessConnectionRegistrationRegistersKindsWithoutVerifyAction",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794074591014,
+  "stop": 1794074591270,
+  "statusDetails": {
+    "message": "2026/11/07 18:03:11 \u001b[32m/home/runner/work/meshery/meshery/server/handlers/connections_register_test.go:33 \u001b[33mSLOW SQL >= 200ms\n\u001b[0m\u001b[31;1m[219.923ms] \u001b[33m[rows:0]\u001b[35m CREATE TABLE `events` (`acted_upon` text,`action` text,`category` text,`created_at` datetime,`deleted_at` datetime,`description` text,`id` text,`metadata` blob,`operation_id` text,`severity` text,`status` text,`system_id` text,`updated_at` datetime,`owner` text,`idempotency_key` text,`correlation_key` text,`occurrence_count` integer,`first_seen_at` datetime,`last_seen_at` datetime,`resolved_at` datetime,`source` text,`type` text,`specversion` text,`trace_id` text,`parent_id` text,PRIMARY KEY (`id`))\u001b[0m"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProcessConnectionRegistrationRegistersKindsWithoutVerifyAction"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
