@@ -1,0 +1,46 @@
+{
+  "uuid": "d11342de-1684-4e0d-a140-d9942291a36a",
+  "name": "TestDeleteCmd/given_multiple_positional_arguments_when_design_delete_then_error_is_thrown",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/design::TestDeleteCmd/given_multiple_positional_arguments_when_design_delete_then_error_is_thrown",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794071695882,
+  "stop": 1794071695883,
+  "statusDetails": {
+    "message": "Error: expected at most one positional argument, got 2 | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/design"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteCmd/given_multiple_positional_arguments_when_design_delete_then_error_is_thrown"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
