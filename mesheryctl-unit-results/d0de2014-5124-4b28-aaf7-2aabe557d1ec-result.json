@@ -1,0 +1,46 @@
+{
+  "uuid": "d0de2014-5124-4b28-aaf7-2aabe557d1ec",
+  "name": "TestWaitForResponseOnEventStream/deploy/operation_fails",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/adapter::TestWaitForResponseOnEventStream/deploy/operation_fails",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794158397682,
+  "stop": 1794158397685,
+  "statusDetails": {
+    "message": "error during resp.Body read:EOF"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/adapter"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWaitForResponseOnEventStream/deploy/operation_fails"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
