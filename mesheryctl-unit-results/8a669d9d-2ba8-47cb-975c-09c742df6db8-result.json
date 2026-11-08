@@ -1,0 +1,46 @@
+{
+  "uuid": "8a669d9d-2ba8-47cb-975c-09c742df6db8",
+  "name": "TestContextListCmd",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/system::TestContextListCmd",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794128244284,
+  "stop": 1794128244285,
+  "statusDetails": {
+    "message": "context_test.go:144: ListContextCmd test passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/system"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContextListCmd"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
