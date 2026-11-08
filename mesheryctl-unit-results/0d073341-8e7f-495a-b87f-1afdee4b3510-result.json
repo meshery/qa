@@ -1,0 +1,46 @@
+{
+  "uuid": "0d073341-8e7f-495a-b87f-1afdee4b3510",
+  "name": "TestModelBuild",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestModelBuild",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794150101168,
+  "stop": 1794150101336,
+  "statusDetails": {
+    "message": "build_test.go:113: removed created dirs and files\n    build_test.go:113: removed created dirs and files\n    build_test.go:113: removed created dirs and files\n    build_test.go:113: removed created dirs and files"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestModelBuild"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "uuid": "ef7a1f5e-04bc-48cf-bbf2-48f6143f74b7",
+  "name": "TestImportCmdRemoteURLRejectsName",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/filter::TestImportCmdRemoteURLRejectsName",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794150094038,
+  "stop": 1794150094039,
+  "statusDetails": {
+    "message": "Error: --name is only supported for local filter file imports"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/filter"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestImportCmdRemoteURLRejectsName"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
