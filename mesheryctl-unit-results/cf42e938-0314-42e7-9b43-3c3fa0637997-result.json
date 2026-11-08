@@ -1,0 +1,46 @@
+{
+  "uuid": "cf42e938-0314-42e7-9b43-3c3fa0637997",
+  "name": "TestApplyCmd/No_profiles_found_with_given_name",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/perf::TestApplyCmd/No_profiles_found_with_given_name",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794170104300,
+  "stop": 1794170104302,
+  "statusDetails": {
+    "message": "Error: Unable to get URL for performing test | Short Description: No URL | Probable Cause: No URL provided for performing tests | Suggested Remediation: Provide a test URL.\nSee https://docs.meshery.io/reference/mesheryctl/perf/apply for usage details"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/perf"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestApplyCmd/No_profiles_found_with_given_name"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

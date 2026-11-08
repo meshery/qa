@@ -1,0 +1,46 @@
+{
+  "uuid": "93a03a6d-f0c6-49da-84ee-5eacc373dd80",
+  "name": "TestConnectionViewSaveCreatesFile",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/connections::TestConnectionViewSaveCreatesFile",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794170089486,
+  "stop": 1794170089490,
+  "statusDetails": {
+    "message": "id: 11111111-1111-1111-1111-111111111111\nname: minikube\ncredentialId: 00000000-9c7a-d4ce-4aab-111111111111\ntype: platform\nsubType: orchestrator\nkind: kubernetes\nmodelReference: null\nmetadata:\n    deployment_type: \"\"\n    version: v1.34.0\nstatus: connected\ncreatedAt: 2026-02-01T10:01:03.577292Z\nupdatedAt: 2026-02-01T10:04:43.869192Z\ndeletedAt: null\nschemaVersion: \"\"\nstyles: null\norganizationId: 00000000-0000-0000-0000-000000000000"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/connections"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestConnectionViewSaveCreatesFile"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
