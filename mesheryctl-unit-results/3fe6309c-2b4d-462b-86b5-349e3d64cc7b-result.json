@@ -1,0 +1,46 @@
+{
+  "uuid": "3fe6309c-2b4d-462b-86b5-349e3d64cc7b",
+  "name": "TestConnectionViewSaveWithUppercaseOutputFormat",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/connections::TestConnectionViewSaveWithUppercaseOutputFormat",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794105307057,
+  "stop": 1794105307059,
+  "statusDetails": {
+    "message": "{\n  \"id\": \"11111111-1111-1111-1111-111111111111\",\n  \"name\": \"minikube\",\n  \"credentialId\": \"00000000-9c7a-d4ce-4aab-111111111111\",\n  \"type\": \"platform\",\n  \"subType\": \"orchestrator\",\n  \"kind\": \"kubernetes\",\n  \"modelReference\": null,\n  \"metadata\": {\n    \"deployment_type\": \"\",\n    \"version\": \"v1.34.0\"\n  },\n  \"status\": \"connected\",\n  \"owner\": null,\n  \"createdAt\": \"2026-02-01T10:01:03.577292Z\",\n  \"updatedAt\": \"2026-02-01T10:04:43.869192Z\",\n  \"deletedAt\": null,\n  \"schemaVersion\": \"\",\n  \"styles\": null,\n  \"organizationId\": \"00000000-0000-0000-0000-000000000000\"\n}"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/connections"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestConnectionViewSaveWithUppercaseOutputFormat"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
