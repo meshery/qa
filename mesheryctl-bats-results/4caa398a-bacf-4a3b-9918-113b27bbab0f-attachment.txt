@@ -1,0 +1,36 @@
+(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,
+ in test file 003-design/03-design-list.bats, line 17)
+  `assert_line --regexp "$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN"' failed
+
+-- no output line matches regular expression --
+regexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$
+output (13 lines):
+  Total number of designs: 51371
+  Page: 1
+  DESIGN ID                             OWNER     NAME                                            CREATED     UPDATED
+  26a32ec4-7013-40e4-bbf3-d84132d9cdc4  dea82811  nginx                                           11-08-2026  11-08-2026
+  6bb92884-2d08-4f3f-9113-ac56b2f4c205  a6b9964a  2-Tier App                                      11-08-2026  11-08-2026
+  b78642ff-09c6-4cf4-986f-5b45ecb21261  9f028c69  TestImport                                      11-08-2026  11-08-2026
+  513c4a51-7a1e-4320-9fae-5a056a029093  9f028c69  testdesign                                      11-07-2026  11-07-2026
+  2171e7d1-f741-49b2-8537-2b9eefaefe3b  dea82811  nginx                                           11-07-2026  11-07-2026
+  c24e13b0-8b89-48ea-9b3e-f1bbd15271a4  dea82811  nginx                                           11-07-2026  11-07-2026
+  c5f90780-de4a-4152-ace8-280a0e93bd90  dea82811  nginx                                           11-07-2026  11-07-2026
+  c94a11b4-5b21-44d1-86fe-406f5e4b77f6  dea82811  nginx                                           11-07-2026  11-07-2026
+  582ff875-ab6c-4075-a323-74c307f77a04  fe2a9a74  Production-Ready-K8s-Web-App-HPA-NetworkPolicy  11-06-2026  11-07-2026
+  5ea03c6f-1310-4efd-bd7c-b7f1bee3389f  dea82811  nginx                                           11-07-2026  11-07-2026
+--
+
+Last output:
+Total number of designs: 51371
+Page: 1
+DESIGN ID                             OWNER     NAME                                            CREATED     UPDATED
+26a32ec4-7013-40e4-bbf3-d84132d9cdc4  dea82811  nginx                                           11-08-2026  11-08-2026
+6bb92884-2d08-4f3f-9113-ac56b2f4c205  a6b9964a  2-Tier App                                      11-08-2026  11-08-2026
+b78642ff-09c6-4cf4-986f-5b45ecb21261  9f028c69  TestImport                                      11-08-2026  11-08-2026
+513c4a51-7a1e-4320-9fae-5a056a029093  9f028c69  testdesign                                      11-07-2026  11-07-2026
+2171e7d1-f741-49b2-8537-2b9eefaefe3b  dea82811  nginx                                           11-07-2026  11-07-2026
+c24e13b0-8b89-48ea-9b3e-f1bbd15271a4  dea82811  nginx                                           11-07-2026  11-07-2026
+c5f90780-de4a-4152-ace8-280a0e93bd90  dea82811  nginx                                           11-07-2026  11-07-2026
+c94a11b4-5b21-44d1-86fe-406f5e4b77f6  dea82811  nginx                                           11-07-2026  11-07-2026
+582ff875-ab6c-4075-a323-74c307f77a04  fe2a9a74  Production-Ready-K8s-Web-App-HPA-NetworkPolicy  11-06-2026  11-07-2026
+5ea03c6f-1310-4efd-bd7c-b7f1bee3389f  dea82811  nginx                                           11-07-2026  11-07-2026

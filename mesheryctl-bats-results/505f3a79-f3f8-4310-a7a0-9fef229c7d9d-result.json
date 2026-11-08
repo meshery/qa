@@ -1,0 +1,35 @@
+{
+  "uuid": "505f3a79-f3f8-4310-a7a0-9fef229c7d9d",
+  "name": "mesheryctl system token list displays available tokens",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794105183539,
+  "stop": 1794105183540,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "System"
+    },
+    {
+      "name": "testGroup",
+      "value": "Token Management"
+    }
+  ]
+}
