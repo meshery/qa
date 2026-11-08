@@ -1,0 +1,44 @@
+{
+  "uuid": "e984c764-8446-44ca-8255-c24645467a6f",
+  "name": "TestDryRun_UndeployNotFoundSuppression/does_not_suppress_non-404_error_on_delete_dry-run",
+  "fullName": "github.com/meshery/meshery/server/models/pattern/patterns/k8s::TestDryRun_UndeployNotFoundSuppression/does_not_suppress_non-404_error_on_delete_dry-run",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794150150713,
+  "stop": 1794150150714,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models/pattern/patterns/k8s"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDryRun_UndeployNotFoundSuppression/does_not_suppress_non-404_error_on_delete_dry-run"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
