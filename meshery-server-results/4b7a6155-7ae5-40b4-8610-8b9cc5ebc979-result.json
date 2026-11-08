@@ -1,0 +1,46 @@
+{
+  "uuid": "4b7a6155-7ae5-40b4-8610-8b9cc5ebc979",
+  "name": "TestWorkspacePersisterAddTeamToWorkspace_Deduplication",
+  "fullName": "github.com/meshery/meshery/server/models::TestWorkspacePersisterAddTeamToWorkspace_Deduplication",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794162426980,
+  "stop": 1794162426983,
+  "statusDetails": {
+    "message": "2026/11/08 18:27:06 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/workspace_persister.go:745 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.088ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `workspaces_teams_mappings` WHERE workspace_id = \"11fd52e2-fdec-4885-a619-f2b5954fb1d2\" AND team_id = \"b495409f-2419-4b73-baf2-6da0c15d9c7c\" ORDER BY `workspaces_teams_mappings`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWorkspacePersisterAddTeamToWorkspace_Deduplication"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
