@@ -1,0 +1,46 @@
+{
+  "uuid": "dce01a14-740c-4d2b-99bd-5237c3423068",
+  "name": "TestExportModel",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestExportModel",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794097332839,
+  "stop": 1794097332845,
+  "statusDetails": {
+    "message": "testing.go:713: Test 'given no argument when model export then throw error' executed\n    testing.go:713: Test 'given an invalid output format when model export then throw error' executed\n    testing.go:713: Test 'given an invalid output type when model export then throw error' executed\n    testing.go:713: Test 'given an invalid version when model export then throw error' executed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestExportModel"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
