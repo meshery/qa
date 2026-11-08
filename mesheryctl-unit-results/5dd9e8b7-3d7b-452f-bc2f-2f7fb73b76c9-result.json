@@ -1,0 +1,46 @@
+{
+  "uuid": "5dd9e8b7-3d7b-452f-bc2f-2f7fb73b76c9",
+  "name": "TestViewWorkspace",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/workspaces::TestViewWorkspace",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794145310146,
+  "stop": 1794145310158,
+  "statusDetails": {
+    "message": "testing.go:713: Test 'given no arguments when running workspace view then return error' executed\n    testing.go:713: Test 'given too many arguments when running workspace view then return error' executed\n    testing.go:713: Test 'given valid workspace ID when running workspace view then display workspace details' executed\n    testing.go:713: Test 'given workspace name without orgId when running workspace view then return error' executed\n    testing.go:713: Test 'given invalid output format flag when running workspace view then return error' executed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/workspaces"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestViewWorkspace"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
