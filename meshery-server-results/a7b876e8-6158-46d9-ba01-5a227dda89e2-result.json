@@ -1,0 +1,46 @@
+{
+  "uuid": "a7b876e8-6158-46d9-ba01-5a227dda89e2",
+  "name": "TestUpdateConnectionByIDExistingIsUpdated",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestUpdateConnectionByIDExistingIsUpdated",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794255773899,
+  "stop": 1794255773913,
+  "statusDetails": {
+    "message": "2026/11/09 20:22:53 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:169 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.139ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"60b6ab9f-9a38-4073-8ad0-97d08b0b6d34\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestUpdateConnectionByIDExistingIsUpdated"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
