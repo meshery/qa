@@ -1,0 +1,36 @@
+(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,
+ in test file 003-design/03-design-list.bats, line 17)
+  `assert_line --regexp "$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN"' failed
+
+-- no output line matches regular expression --
+regexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$
+output (13 lines):
+  Total number of designs: 51422
+  Page: 1
+  DESIGN ID                             OWNER     NAME                              CREATED     UPDATED
+  5b117aaf-42ad-40c8-912e-36c1e5102a0b  dea82811  nginx                             11-09-2026  11-09-2026
+  51dd7cae-77a8-4c0c-b434-933c5b5ccbbd  098f6d76  Untitled Design                   11-09-2026  11-09-2026
+  d04ab0d0-3579-4676-a16c-d86ef27a717d  4bcad5a8  Understanding Relationships-copy  11-09-2026  11-09-2026
+  11c27e2d-7354-4eff-a7f1-4e6a65fe1e3b  33a3b5d2  Portable Ai Interface gateway     11-09-2026  11-09-2026
+  387eaaf9-d368-4bb5-b248-8a2dd039a9c2  dea82811  nginx                             11-09-2026  11-09-2026
+  e4c0b8e5-be0b-4aa5-8ad3-ddbdbe22019c  dea82811  nginx                             11-09-2026  11-09-2026
+  7ace2a17-94e9-456b-80b7-7b8f6c0c925c  dea82811  nginx                             11-09-2026  11-09-2026
+  33996480-9300-48a7-b9de-cb73adba7e5e  dea82811  nginx                             11-09-2026  11-09-2026
+  bf179dc1-38e8-4301-94fb-27f933b4264d  b2caaccd  rabbitculture                     11-09-2026  11-09-2026
+  7ebf7fc1-dcce-429a-b5fd-a75a8305a554  b2caaccd  rabbitculture                     10-25-2026  11-09-2026
+--
+
+Last output:
+Total number of designs: 51422
+Page: 1
+DESIGN ID                             OWNER     NAME                              CREATED     UPDATED
+5b117aaf-42ad-40c8-912e-36c1e5102a0b  dea82811  nginx                             11-09-2026  11-09-2026
+51dd7cae-77a8-4c0c-b434-933c5b5ccbbd  098f6d76  Untitled Design                   11-09-2026  11-09-2026
+d04ab0d0-3579-4676-a16c-d86ef27a717d  4bcad5a8  Understanding Relationships-copy  11-09-2026  11-09-2026
+11c27e2d-7354-4eff-a7f1-4e6a65fe1e3b  33a3b5d2  Portable Ai Interface gateway     11-09-2026  11-09-2026
+387eaaf9-d368-4bb5-b248-8a2dd039a9c2  dea82811  nginx                             11-09-2026  11-09-2026
+e4c0b8e5-be0b-4aa5-8ad3-ddbdbe22019c  dea82811  nginx                             11-09-2026  11-09-2026
+7ace2a17-94e9-456b-80b7-7b8f6c0c925c  dea82811  nginx                             11-09-2026  11-09-2026
+33996480-9300-48a7-b9de-cb73adba7e5e  dea82811  nginx                             11-09-2026  11-09-2026
+bf179dc1-38e8-4301-94fb-27f933b4264d  b2caaccd  rabbitculture                     11-09-2026  11-09-2026
+7ebf7fc1-dcce-429a-b5fd-a75a8305a554  b2caaccd  rabbitculture                     10-25-2026  11-09-2026
