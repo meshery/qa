@@ -1,0 +1,46 @@
+{
+  "uuid": "9d5864a5-a023-4cbe-84ac-fb051fecd1d4",
+  "name": "TestUpdateCmd_InvalidCredentials",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/registry::TestUpdateCmd_InvalidCredentials",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794260157911,
+  "stop": 1794260157912,
+  "statusDetails": {
+    "message": "invalid character '\\u008a' looking for beginning of value | Short Description: Invalid JWT credentials | Probable Cause: Invalid JWT credentials | Suggested Remediation: Make sure to provide valid JWT credentials | Short Description: error updating registry at .models | Probable Cause: Provided spreadsheet ID is incorrect.Provided credential is incorrect | Suggested Remediation: Ensure correct spreadsheet ID is provided.Ensure correct credential is used"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/registry"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestUpdateCmd_InvalidCredentials"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
