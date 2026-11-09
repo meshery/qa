@@ -1,0 +1,29 @@
+{
+  "uuid": "f6e23144-6a31-4d35-afa0-f29de032e49a",
+  "name": "given an invalid output format when running mesheryctl registry publish website then an error is displayed",
+  "status": "skipped",
+  "stage": "finished",
+  "start": 1794255610079,
+  "stop": 1794255610080,
+  "statusDetails": {
+    "message": "Spreadsheet credentials not configured"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    }
+  ]
+}
