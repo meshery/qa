@@ -1,0 +1,46 @@
+{
+  "uuid": "e413adce-2478-44ea-9174-6482d2e28cb0",
+  "name": "TestDeleteMeshSyncResource_Success",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestDeleteMeshSyncResource_Success",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794247708627,
+  "stop": 1794247708639,
+  "statusDetails": {
+    "message": "2026/11/09 18:08:28 \u001b[31;1m/home/runner/work/meshery/meshery/server/handlers/meshsync_handler_test.go:232 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.093ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `kubernetes_resources` WHERE id = \"a004e31a-4ad9-497e-b588-4cbc31a7f6e2\" ORDER BY `kubernetes_resources`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteMeshSyncResource_Success"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
