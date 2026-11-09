@@ -1,0 +1,46 @@
+{
+  "uuid": "1b6ba0c3-ebcd-4cb5-83d1-967baf6d69a5",
+  "name": "TestAskForConfirmation/stdin_closed_without_an_answer_returns_an_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestAskForConfirmation/stdin_closed_without_an_answer_returns_an_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794247689615,
+  "stop": 1794247689615,
+  "statusDetails": {
+    "message": "question? [y/n]?"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestAskForConfirmation/stdin_closed_without_an_answer_returns_an_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
