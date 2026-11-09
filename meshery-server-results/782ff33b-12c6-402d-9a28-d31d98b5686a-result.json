@@ -1,0 +1,46 @@
+{
+  "uuid": "782ff33b-12c6-402d-9a28-d31d98b5686a",
+  "name": "TestPersistEventConcurrentIdempotencyKeyRecordsOnce",
+  "fullName": "github.com/meshery/meshery/server/models::TestPersistEventConcurrentIdempotencyKeyRecordsOnce",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794267466300,
+  "stop": 1794267466352,
+  "statusDetails": {
+    "message": "2026/11/09 23:37:46 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/event_idempotency.go:49 \u001b[35;1mUNIQUE constraint failed: event_idempotency_bindings.owner, event_idempotency_bindings.idempotency_key\n\u001b[0m\u001b[33m[0.078ms] \u001b[34;1m[rows:0]\u001b[0m INSERT INTO `event_idempotency_bindings` (`owner`,`idempotency_key`,`event_id`,`created_at`) VALUES (\"37f46bf2-7f44-4d57-9656-a8b53ba759b3\",\"run-1\",\"da98b1cc-ebf3-47cc-9e04-73e9ec84129f\",\"2026-11-09 23:37:46.347\")\n\r\n2026/11/09 23:37:46 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/event_idempotency.go:49 \u001b[35;1mUNIQUE constraint failed: event_idempotency_bindings.owner, event_idempotency_bindings.idempotency_key\n\u001b[0m\u001b[33m[0.066ms] \u001b[34;1m[rows:0]\u001b[0m INSERT INTO `event_idempotency_bindings` (`owner`,`idempotency_key`,`event_id`,`created_at`) VALUES (\"37f46bf2-7f44-4d57-9656-a8b53ba759b3\",\"run-1\",\"31aba62c-1df1-45f3-96d0-41d70c4cc393\",\"2026-11-09 23:37:46.347\")\n\r\n2026/11/09 23:37:46 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/event_idempotency.go:49 \u001b[35;1mUNIQUE constraint failed: event_idempotency_bindings.owner, event_idempotency_bindings.idempotency_key\n\u001b[0m\u001b[33m[0.065ms] \u001b[34;1m[rows:0]\u001b[0m INSERT INTO `event_idempotency_bindings` (`owner`,`idempotency_key`,`event_id`,`created_at`) VALUES (\"37f46bf2-7f44-4d57-9656-a8b53ba759b3\",\"run-1\",\"f707edf6-fb7b-4248-94c4-2809bfcbb660\",\"2026-11-09 23:37:46.348\")\n\r\n2026/11/09 23:37:46 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/event_idempotency.go:49 \u001b[35;1mUNIQUE constraint failed: event_idempotency_bindings.owner, event_idempotency_bindings.idempotency_key\n\u001b[0m\u001b[33m[0.069ms] \u001b[34;1m[rows:0]\u001b[0m INSERT INTO `event_idempotency_bindings` (`owner`,`idempotency_key`,`event_id`,`created_at`) VALUES (\"37f46bf2-7f44-4d57-9656-a8b53ba759b3\",\"run-1\",\"76b29b3d-a47b-4a1b-8ebc-7fc1bf3a6e4d\",\"2026-11-09 23:37:46.349\")\n\r\n2026/11/09 23:37:46 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/event_idempotency.go:49 \u001b[35;1mUNIQUE constraint failed: event_idempotency_bindings.owner, event_idempotency_bindings.idempotency_key\n\u001b[0m\u001b[33m[0.060ms] \u001b[34;1m[rows:0]\u001b[0m INSERT INTO `event_idempotency_bindings` (`owner`,`idempotency_key`,`event_id`,`created_at`) VALUES (\"37f46bf2-7f44-4d57-9656-a8b53ba759b3\",\"run-1\",\"5a29ed7b-cc21-4bf0-bc54-61d9d7db2fb8\",\"2026-11-09 23:37:46.349\")\n\r\n2026/11/09 23:37:46 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/event_idempotency.go:49 \u001b[35;1mUNIQUE constraint failed: event_idempotency_bindings.owner, event_idempotency_bindings.idempotency_key\n\u001b[0m\u001b[33m[0.093ms] \u001b[34;1m[rows:0]\u001b[0m INSERT INTO `event_idempotency_bindings` (`owner`,`idempotency_key`,`event_id`,`created_at`) VALUES (\"37f46bf2-7f44-4d57-9656-a8b53ba759b3\",\"run-1\",\"f28fa614-3266-4e64-88de-e943c9401782\",\"2026-11-09 23:37:46.35\")"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPersistEventConcurrentIdempotencyKeyRecordsOnce"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
