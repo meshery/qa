@@ -1,0 +1,46 @@
+{
+  "uuid": "e684e6a7-8dc7-4f08-aedc-c3ef04da5d16",
+  "name": "TestRelationshipEvaluationScenarios/eval_rules_match_values_equal",
+  "fullName": "github.com/meshery/meshery/server/policies::TestRelationshipEvaluationScenarios/eval_rules_match_values_equal",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794254096718,
+  "stop": 1794254096871,
+  "statusDetails": {
+    "message": "rego_test.go:341: Result for \"eval_rules_match_values_equal\" (design: inline): true"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestRelationshipEvaluationScenarios/eval_rules_match_values_equal"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
