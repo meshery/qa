@@ -1,0 +1,46 @@
+{
+  "uuid": "dd4647a9-f898-4e09-89eb-c60a68b1b2ac",
+  "name": "TestDeleteCmd/given_several_profiles_with_the_exact_name_when_delete_with_yes_then_throw_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/perf::TestDeleteCmd/given_several_profiles_with_the_exact_name_when_delete_with_yes_then_throw_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794222465054,
+  "stop": 1794222465055,
+  "statusDetails": {
+    "message": "Error: 2 profiles are named 'istio-test'; run without --yes to choose one | Short Description: Invalid flag(s) provided | Probable Cause: The value for one or more flags provided is invalid. | Suggested Remediation: Provide valid flag value and try again."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/perf"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteCmd/given_several_profiles_with_the_exact_name_when_delete_with_yes_then_throw_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
