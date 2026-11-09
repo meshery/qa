@@ -1,0 +1,46 @@
+{
+  "uuid": "f2e3f929-76c4-440a-8182-d3625362833f",
+  "name": "TestInstallprereqDocker_BodyClosed",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestInstallprereqDocker_BodyClosed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794258618712,
+  "stop": 1794258618714,
+  "statusDetails": {
+    "message": "time=\"2026-11-09T21:10:18Z\" level=info msg=\"Attempting Docker-Compose installation...\""
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestInstallprereqDocker_BodyClosed"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
