@@ -1,0 +1,46 @@
+{
+  "uuid": "41627798-e46e-4658-8d2b-94d9c12ea94f",
+  "name": "TestPerfCmd/Invalid_command",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/perf::TestPerfCmd/Invalid_command",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794239422956,
+  "stop": 1794239422956,
+  "statusDetails": {
+    "message": "Error: unknown command \"invalid\" for \"perf\"\nRun 'perf --help' for usage."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/perf"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPerfCmd/Invalid_command"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
