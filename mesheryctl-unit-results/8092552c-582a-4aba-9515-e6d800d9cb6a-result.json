@@ -1,0 +1,46 @@
+{
+  "uuid": "8092552c-582a-4aba-9515-e6d800d9cb6a",
+  "name": "TestCreateEnvironment/given_invalid_organization_ID_when_environment_create_then_throw_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/environments::TestCreateEnvironment/given_invalid_organization_ID_when_environment_create_then_throw_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794216474279,
+  "stop": 1794216474280,
+  "statusDetails": {
+    "message": "Error: Invalid value for --orgid 'invalid-org-id': must be a valid UUID | Short Description: Invalid flag(s) provided | Probable Cause: The value for one or more flags provided is invalid. | Suggested Remediation: Provide valid flag value and try again."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/environments"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCreateEnvironment/given_invalid_organization_ID_when_environment_create_then_throw_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
