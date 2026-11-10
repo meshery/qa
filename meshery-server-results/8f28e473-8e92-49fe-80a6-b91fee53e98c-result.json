@@ -1,0 +1,46 @@
+{
+  "uuid": "8f28e473-8e92-49fe-80a6-b91fee53e98c",
+  "name": "TestBehaviorAlignment/identify_relationships",
+  "fullName": "github.com/meshery/meshery/server/policies::TestBehaviorAlignment/identify_relationships",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794286024624,
+  "stop": 1794286024896,
+  "statusDetails": {
+    "message": "bench_test.go:478: Go identified 0 new relationships, OPA identified 0"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestBehaviorAlignment/identify_relationships"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "uuid": "24d5e248-ce69-4404-819e-d44d267ad4dc",
+  "name": "TestWasmEngineMatchesNativeOnFixture",
+  "fullName": "github.com/meshery/meshery/server/policies::TestWasmEngineMatchesNativeOnFixture",
+  "status": "skipped",
+  "stage": "finished",
+  "start": 1794286059243,
+  "stop": 1794286059243,
+  "statusDetails": {
+    "message": "wasm_diff_test.go:119: policy_engine.wasm not built; run `make wasm-engine` first"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWasmEngineMatchesNativeOnFixture"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

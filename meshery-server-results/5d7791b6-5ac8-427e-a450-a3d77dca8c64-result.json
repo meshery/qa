@@ -1,0 +1,46 @@
+{
+  "uuid": "5d7791b6-5ac8-427e-a450-a3d77dca8c64",
+  "name": "TestSaveMesheryPattern_DatabaseErrorIsMeshKitError",
+  "fullName": "github.com/meshery/meshery/server/models::TestSaveMesheryPattern_DatabaseErrorIsMeshKitError",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794286011661,
+  "stop": 1794286011667,
+  "statusDetails": {
+    "message": "2026/11/10 04:46:51 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_pattern_persister.go:280 \u001b[35;1msql: database is closed\n\u001b[0m\u001b[33m[0.029ms] \u001b[34;1m[rows:0]\u001b[0m SELECT count(*) FROM `meshery_patterns` WHERE id = \"03b53cbf-7c00-48cb-b864-843be9f0932d\""
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSaveMesheryPattern_DatabaseErrorIsMeshKitError"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
