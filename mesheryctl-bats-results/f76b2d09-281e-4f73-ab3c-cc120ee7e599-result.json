@@ -1,0 +1,35 @@
+{
+  "uuid": "f76b2d09-281e-4f73-ab3c-cc120ee7e599",
+  "name": "given a non existing model-id is provided as an argument when running mesheryctl model delete non-existing-id then an error message is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794309506827,
+  "stop": 1794309506828,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "Model"
+    },
+    {
+      "name": "testGroup",
+      "value": "Model Delete"
+    }
+  ]
+}
