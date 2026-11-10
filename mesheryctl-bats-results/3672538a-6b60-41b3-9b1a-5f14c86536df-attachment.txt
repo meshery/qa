@@ -1,0 +1,38 @@
+(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,
+ in test file 003-design/03-design-list.bats, line 17)
+  `assert_line --regexp "$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN"' failed
+
+-- no output line matches regular expression --
+regexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$
+output (14 lines):
+  Total number of designs: 51486
+  Page: 1
+  DESIGN ID                             OWNER     NAME                                        CREATED     UPDATED
+  82c41625-8ff6-4f27-beff-08177bf76301  dea82811  nginx                                       11-10-2026  11-10-2026
+  4544beaf-08f3-4a82-aa72-972d21acb172  83fb1885  three-tier-webapp-shikhar                   11-10-2026  11-10-2026
+  d45eb000-5418-43f9-87e8-607e2a336514  dea82811  nginx                                       11-10-2026  11-10-2026
+  af1387bb-321e-44e2-a95b-bc439d22172e  dea82811  nginx                                       11-10-2026  11-10-2026
+  701df738-f7e9-485a-8b3b-8277f2be1fad  dea82811  nginx                                       11-10-2026  11-10-2026
+  c78025d8-3060-4926-bde3-d637d3ca1bb1  dea82811  nginx                                       11-10-2026  11-10-2026
+  b26edda6-7d52-46ad-aaed-15600fe2e838  92709e20  Untitled Design                             11-10-2026  11-10-2026
+  92d896cc-fd61-4b1c-8a12-415e165d4f94  6b34ad6c  Ledger — Reference Deployment Architecture  11-10-2026  11-10-2026
+  c2a6fb65-2544-4971-826d-6e43b5b50679  6b34ad6c  three-tier-app                              11-10-2026  11-10-2026
+  6b5acb51-82fc-4e50-9754-32262498a425  542a3641  Three-Tier Web Application with Persistent  11-01-2026  11-10-2026
+                                                  PostgreSQL
+--
+
+Last output:
+Total number of designs: 51486
+Page: 1
+DESIGN ID                             OWNER     NAME                                        CREATED     UPDATED
+82c41625-8ff6-4f27-beff-08177bf76301  dea82811  nginx                                       11-10-2026  11-10-2026
+4544beaf-08f3-4a82-aa72-972d21acb172  83fb1885  three-tier-webapp-shikhar                   11-10-2026  11-10-2026
+d45eb000-5418-43f9-87e8-607e2a336514  dea82811  nginx                                       11-10-2026  11-10-2026
+af1387bb-321e-44e2-a95b-bc439d22172e  dea82811  nginx                                       11-10-2026  11-10-2026
+701df738-f7e9-485a-8b3b-8277f2be1fad  dea82811  nginx                                       11-10-2026  11-10-2026
+c78025d8-3060-4926-bde3-d637d3ca1bb1  dea82811  nginx                                       11-10-2026  11-10-2026
+b26edda6-7d52-46ad-aaed-15600fe2e838  92709e20  Untitled Design                             11-10-2026  11-10-2026
+92d896cc-fd61-4b1c-8a12-415e165d4f94  6b34ad6c  Ledger — Reference Deployment Architecture  11-10-2026  11-10-2026
+c2a6fb65-2544-4971-826d-6e43b5b50679  6b34ad6c  three-tier-app                              11-10-2026  11-10-2026
+6b5acb51-82fc-4e50-9754-32262498a425  542a3641  Three-Tier Web Application with Persistent  11-01-2026  11-10-2026
+                                                PostgreSQL
