@@ -1,0 +1,46 @@
+{
+  "uuid": "f1fd3c8d-5a23-4bb0-863c-f760b8884e73",
+  "name": "TestUndeployCmd/given_URL_when_design_undeploy_then_error_is_thrown",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/design::TestUndeployCmd/given_URL_when_design_undeploy_then_error_is_thrown",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794335078175,
+  "stop": 1794335078177,
+  "statusDetails": {
+    "message": "Error: URLs are not currently supported | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/design"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestUndeployCmd/given_URL_when_design_undeploy_then_error_is_thrown"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
