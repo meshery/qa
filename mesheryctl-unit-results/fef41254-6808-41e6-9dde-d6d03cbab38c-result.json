@@ -1,0 +1,46 @@
+{
+  "uuid": "fef41254-6808-41e6-9dde-d6d03cbab38c",
+  "name": "TestListComponent/list_components_with_extra_positional_argument_triggers_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/components::TestListComponent/list_components_with_extra_positional_argument_triggers_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794300210817,
+  "stop": 1794300210818,
+  "statusDetails": {
+    "message": "Error: too many arguments specified\n\nUsage: mesheryctl component list\nRun 'mesheryctl component list --help' to see detailed help message | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/components"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestListComponent/list_components_with_extra_positional_argument_triggers_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
