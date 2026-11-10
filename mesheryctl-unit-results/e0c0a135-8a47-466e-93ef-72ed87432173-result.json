@@ -1,0 +1,46 @@
+{
+  "uuid": "e0c0a135-8a47-466e-93ef-72ed87432173",
+  "name": "TestExportModel/given_no_argument_when_model_export_then_throw_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestExportModel/given_no_argument_when_model_export_then_throw_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794333714878,
+  "stop": 1794333714878,
+  "statusDetails": {
+    "message": "Error: Please provide a model name. Usage: mesheryctl model export [model-name]\nRun 'mesheryctl model export --help' to see detailed help message | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestExportModel/given_no_argument_when_model_export_then_throw_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

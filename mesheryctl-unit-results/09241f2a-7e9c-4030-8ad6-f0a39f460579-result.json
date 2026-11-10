@@ -1,0 +1,46 @@
+{
+  "uuid": "09241f2a-7e9c-4030-8ad6-f0a39f460579",
+  "name": "TestWaitForResponseOnEventStream/validate/operation_fails",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/adapter::TestWaitForResponseOnEventStream/validate/operation_fails",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1794333701288,
+  "stop": 1794333701293,
+  "statusDetails": {
+    "message": "==================\nWARNING: DATA RACE\nRead at 0x000009109f00 by goroutine 42:\n  github.com/meshery/meshery/mesheryctl/internal/cli/root/adapter.waitForValidateResponse.func2()\n      /home/runner/work/meshery/meshery/mesheryctl/internal/cli/root/adapter/adapter.go:358 +0x36b\n\nPrevious write at 0x000009109f00 by goroutine 43:\n  github.com/meshery/meshery/mesheryctl/pkg/utils.SetupMeshkitLoggerTesting()\n      /home/runner/work/meshery/meshery/mesheryctl/pkg/utils/testing.go:368 +0x1f4\n  github.com/meshery/meshery/mesheryctl/internal/cli/root/adapter.TestWaitForResponseOnEventStream.func1()\n      /home/runner/work/meshery/meshery/mesheryctl/internal/cli/root/adapter/event_stream_test.go:97 +0xc5\n  testing.tRunner()\n      /opt/hostedtoolcache/go/1.26.4/x64/src/testing/testing.go:2036 +0x21c\n  testing.(*T).Run.gowrap1()\n      /opt/hostedtoolcache/go/1.26.4/x64/src/testing/testing.go:2101 +0x38\n\nGoroutine 42 (running) created at:\n  github.com/meshery/meshery/mesheryctl/internal/cli/root/adapter.waitForValidateResponse()\n      /home/runner/work/meshery/meshery/mesheryctl/internal/cli/root/adapter/adapter.go:351 +0x5aa\n  github.com/meshery/meshery/mesheryctl/internal/cli/root/adapter.TestWaitForResponseOnEventStream.func1.1()\n      /home/runner/work/meshery/meshery/mesheryctl/internal/cli/root/adapter/event_stream_test.go:107 +0x5e\n  github.com/meshery/meshery/mesheryctl/internal/cli/root/adapter.waitWithDeadline.func1()\n      /home/runner/work/meshery/meshery/mesheryctl/internal/cli/root/adapter/event_stream_test.go:33 +0x33\n\nGoroutine 43 (running) created at:\n  testing.(*T).Run()\n      /opt/hostedtoolcache/go/1.26.4/x64/src/testing/testing.go:2101 +0xb12\n  github.com/meshery/meshery/mesheryctl/internal/cli/root/adapter.TestWaitForResponseOnEventStream()\n      /home/runner/work/meshery/meshery/mesheryctl/internal/cli/root/adapter/event_stream_test.go:94 +0x6e4\n  testing.tRunner()\n      /opt/hostedtoolcache/go/1.26.4/x64/src/testing/testing.go:2036 +0x21c\n  testing.(*T).Run.gowrap1()\n      /opt/hostedtoolcache/go/1.26.4/x64/src/testing/testing.go:2101 +0x38\n==================\nerror during resp.Body read:EOF\n    testing.go:1712: race detected during execution of test"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/adapter"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWaitForResponseOnEventStream/validate/operation_fails"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
