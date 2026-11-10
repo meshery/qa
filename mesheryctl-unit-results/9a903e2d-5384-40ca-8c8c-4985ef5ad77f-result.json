@@ -1,0 +1,46 @@
+{
+  "uuid": "9a903e2d-5384-40ca-8c8c-4985ef5ad77f",
+  "name": "TestApplyCmd/Run_Test_with_Existing_profile_with_Invalid_URL",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/perf::TestApplyCmd/Run_Test_with_Existing_profile_with_Invalid_URL",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794329950927,
+  "stop": 1794329950933,
+  "statusDetails": {
+    "message": "Error: Invalid URL for performing test | Short Description: Invalid URL | Probable Cause: Invalid test URL provided | Suggested Remediation: Input a valid test URL.\nSee https://docs.meshery.io/reference/mesheryctl/perf/apply for usage details"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/perf"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestApplyCmd/Run_Test_with_Existing_profile_with_Invalid_URL"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
