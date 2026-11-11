@@ -1,0 +1,46 @@
+{
+  "uuid": "86276c7b-c3c3-41ed-b6f9-a64bfc2e9016",
+  "name": "TestApplyCmd/given_both_design_name_and_file_flag_when_design_apply_then_error_is_returned",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/design::TestApplyCmd/given_both_design_name_and_file_flag_when_design_apply_then_error_is_returned",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794416428159,
+  "stop": 1794416428159,
+  "statusDetails": {
+    "message": "Error: cannot specify both a design name and the --file flag | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/design"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestApplyCmd/given_both_design_name_and_file_flag_when_design_apply_then_error_is_returned"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
