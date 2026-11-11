@@ -1,0 +1,46 @@
+{
+  "uuid": "cb23ab47-902d-4510-85eb-3e9ce22aa002",
+  "name": "TestUpdateConnectionByIDNonKubernetesStatusRecordsNoErrorEvent",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestUpdateConnectionByIDNonKubernetesStatusRecordsNoErrorEvent",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794422017459,
+  "stop": 1794422017471,
+  "statusDetails": {
+    "message": "2026/11/11 18:33:37 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:169 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.123ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"0b060a41-038e-4a97-bdff-564ba1ce7805\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestUpdateConnectionByIDNonKubernetesStatusRecordsNoErrorEvent"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

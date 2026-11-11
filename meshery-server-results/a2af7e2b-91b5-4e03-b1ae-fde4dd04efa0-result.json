@@ -1,0 +1,46 @@
+{
+  "uuid": "a2af7e2b-91b5-4e03-b1ae-fde4dd04efa0",
+  "name": "TestProcessConnectionRegistration_KubernetesKindWithoutContextReturnsGetContextError",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestProcessConnectionRegistration_KubernetesKindWithoutContextReturnsGetContextError",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794421956348,
+  "stop": 1794421956370,
+  "statusDetails": {
+    "message": "2026/11/11 18:32:36 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:99 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.131ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"f827f330-412c-4b35-a161-600ffcd554b3\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/11 18:32:36 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:103 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.193ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE connection_id = \"f827f330-412c-4b35-a161-600ffcd554b3\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/11 18:32:36 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:99 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.099ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"f827f330412c4b35a161600ffcd554b3\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/11 18:32:36 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:103 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.098ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE connection_id = \"f827f330412c4b35a161600ffcd554b3\" ORDER BY `k8s_contexts`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProcessConnectionRegistration_KubernetesKindWithoutContextReturnsGetContextError"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
