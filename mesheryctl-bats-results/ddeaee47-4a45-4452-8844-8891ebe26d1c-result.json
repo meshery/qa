@@ -1,0 +1,37 @@
+{
+  "uuid": "ddeaee47-4a45-4452-8844-8891ebe26d1c",
+  "name": "given all requirements met when running mesheryctl design list --page 1 then the total numbers of designs and a list of designs are displayed",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1794427127897,
+  "stop": 1794427127898,
+  "statusDetails": {
+    "message": "`assert_line --regexp \"$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN\"' failed",
+    "trace": "(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,\n in test file 003-design/03-design-list.bats, line 17)\n  `assert_line --regexp \"$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN\"' failed\n\n-- no output line matches regular expression --\nregexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$\noutput (13 lines):\n  Total number of designs: 51547\n  Page: 1\n  DESIGN ID                             OWNER     NAME                 CREATED     UPDATED\n  c5fc5d13-d7b6-4a56-aae8-d4a0c7613622  dea82811  nginx                11-11-2026  11-11-2026\n  7ad1bf19-edbe-4c2f-b7ca-0344c63a54a2  dea82811  nginx                11-11-2026  11-11-2026\n  0b059d2e-ad70-4922-8cd7-5c159b4dc040  dea82811  nginx                11-11-2026  11-11-2026\n  5f95c67a-19fd-4771-9ad1-42d271ebcfce  dea82811  nginx                11-11-2026  11-11-2026\n  ec83e467-0b67-4ce7-a372-1141a22b8879  7dde79fb  discourse-17.0.1     11-11-2026  11-11-2026\n  74867de9-5cc0-4e7d-afa5-b1abd7b76821  090e7114  autoscaling-demo     11-11-2026  11-11-2026\n  b7421c95-56fc-44a6-8dcd-898eb20fc2fd  b8d685bb  my-meshery-pattern   11-11-2026  11-11-2026\n  2f221772-1932-4195-b650-76ae36b9f258  23af69b2  my-cloud-native-app  11-11-2026  11-11-2026\n  06270da8-afdb-41a0-a34f-e3cb387c9fab  7dde79fb  discourse-17.0.1     11-11-2026  11-11-2026\n  9b8d6d76-cc03-4eee-bbeb-8bd3b6eea4e7  090e7114  Untitled Design      11-11-2026  11-11-2026\n--\n\nLast output:\nTotal number of designs: 51547\nPage: 1\nDESIGN ID                             OWNER     NAME                 CREATED     UPDATED\nc5fc5d13-d7b6-4a56-aae8-d4a0c7613622  dea82811  nginx                11-11-2026  11-11-2026\n7ad1bf19-edbe-4c2f-b7ca-0344c63a54a2  dea82811  nginx                11-11-2026  11-11-2026\n0b059d2e-ad70-4922-8cd7-5c159b4dc040  dea82811  nginx                11-11-2026  11-11-2026\n5f95c67a-19fd-4771-9ad1-42d271ebcfce  dea82811  nginx                11-11-2026  11-11-2026\nec83e467-0b67-4ce7-a372-1141a22b8879  7dde79fb  discourse-17.0.1     11-11-2026  11-11-2026\n74867de9-5cc0-4e7d-afa5-b1abd7b76821  090e7114  autoscaling-demo     11-11-2026  11-11-2026\nb7421c95-56fc-44a6-8dcd-898eb20fc2fd  b8d685bb  my-meshery-pattern   11-11-2026  11-11-2026\n2f221772-1932-4195-b650-76ae36b9f258  23af69b2  my-cloud-native-app  11-11-2026  11-11-2026\n06270da8-afdb-41a0-a34f-e3cb387c9fab  7dde79fb  discourse-17.0.1     11-11-2026  11-11-2026\n9b8d6d76-cc03-4eee-bbeb-8bd3b6eea4e7  090e7114  Untitled Design      11-11-2026  11-11-2026"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "CLI output (bats)",
+      "source": "ddeaee47-4a45-4452-8844-8891ebe26d1c-attachment.txt",
+      "type": "text/plain"
+    }
+  ]
+}
