@@ -1,0 +1,46 @@
+{
+  "uuid": "1eeaeaf5-11e4-4015-be0a-256c58399f57",
+  "name": "TestEnvironmentConnectionUnlistedAfterRemoval",
+  "fullName": "github.com/meshery/meshery/server/models::TestEnvironmentConnectionUnlistedAfterRemoval",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794379341855,
+  "stop": 1794379341957,
+  "statusDetails": {
+    "message": "2026/11/11 06:42:21 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:169 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.182ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"12f2ade3-a0bd-445d-a6f4-90f175c157db\" ORDER BY `connections`.`id` LIMIT 1\n\r\n2026/11/11 06:42:21 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/environment_persister.go:329 \u001b[35;1mno such column: connections.type\n\u001b[0m\u001b[33m[0.152ms] \u001b[34;1m[rows:1]\u001b[0m SELECT connections.name, connections.id, connections.metadata, connections.status, connections.type, connections.sub_type, connections.created_at, connections.updated_at, connections.deleted_at, connections.kind, connections.user_id FROM `environment_connection_mappings` JOIN connections ON connections.id = environment_connection_mappings.connection_id WHERE environment_connection_mappings.environment_id = \"376d3b24-a04f-40f2-8924-d3b8f90a19ed\" ORDER BY connections.updated_at desc LIMIT 10\n\r\n2026/11/11 06:42:21 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/environment_persister.go:329 \u001b[35;1mno such column: connections.type\n\u001b[0m\u001b[33m[0.115ms] \u001b[34;1m[rows:1]\u001b[0m SELECT connections.name, connections.id, connections.metadata, connections.status, connections.type, connections.sub_type, connections.created_at, connections.updated_at, connections.deleted_at, connections.kind, connections.user_id FROM `environment_connection_mappings` JOIN connections ON connections.id = environment_connection_mappings.connection_id WHERE environment_connection_mappings.environment_id = \"376d3b24-a04f-40f2-8924-d3b8f90a19ed\" ORDER BY connections.updated_at desc LIMIT 10"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestEnvironmentConnectionUnlistedAfterRemoval"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
