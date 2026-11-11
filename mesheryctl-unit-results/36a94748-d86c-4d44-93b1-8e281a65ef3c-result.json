@@ -1,0 +1,46 @@
+{
+  "uuid": "36a94748-d86c-4d44-93b1-8e281a65ef3c",
+  "name": "TestPreflightCmdIntegration",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/system::TestPreflightCmdIntegration",
+  "status": "skipped",
+  "stage": "finished",
+  "start": 1794367322030,
+  "stop": 1794367322030,
+  "statusDetails": {
+    "message": "check_test.go:19: skipping integration test"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/system"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPreflightCmdIntegration"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
