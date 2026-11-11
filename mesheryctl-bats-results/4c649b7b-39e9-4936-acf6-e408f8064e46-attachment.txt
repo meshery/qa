@@ -1,0 +1,36 @@
+(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,
+ in test file 003-design/03-design-list.bats, line 17)
+  `assert_line --regexp "$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN"' failed
+
+-- no output line matches regular expression --
+regexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$
+output (13 lines):
+  Total number of designs: 51514
+  Page: 1
+  DESIGN ID                             OWNER     NAME                        CREATED     UPDATED
+  37223db5-22ce-4ceb-be33-adf63a2cccca  dea82811  nginx                       11-11-2026  11-11-2026
+  376af447-9757-4564-bc8c-25cf3a4eb7ed  dea82811  nginx                       11-11-2026  11-11-2026
+  0c59dc0a-0748-4c48-9a10-d12a785014aa  dea82811  nginx                       11-11-2026  11-11-2026
+  b664a61b-8c61-4658-be5c-d40309976a53  f8c2c69b  Untitled Design             11-11-2026  11-11-2026
+  fdbe6697-c2a1-44dc-9df2-66f4739e0b0f  9f028c69  wordpress-mysql-deployment  11-10-2026  11-11-2026
+  ad792329-9e08-4379-a253-bb28f7689d72  dea82811  Untitled Design             05-05-2026  11-11-2026
+  4544beaf-08f3-4a82-aa72-972d21acb172  83fb1885  three-tier-webapp-shikhar   11-10-2026  11-11-2026
+  03397972-6da4-4196-a52f-161203c79ef8  31c69433  SmartNote Design            11-03-2026  11-11-2026
+  7d1e3b23-cbef-45b4-9cf7-d9ef470b2a6a  dea82811  nginx                       11-11-2026  11-11-2026
+  91ceb1c4-79bc-4f1c-8808-ab365bad0da7  dea82811  nginx                       11-11-2026  11-11-2026
+--
+
+Last output:
+Total number of designs: 51514
+Page: 1
+DESIGN ID                             OWNER     NAME                        CREATED     UPDATED
+37223db5-22ce-4ceb-be33-adf63a2cccca  dea82811  nginx                       11-11-2026  11-11-2026
+376af447-9757-4564-bc8c-25cf3a4eb7ed  dea82811  nginx                       11-11-2026  11-11-2026
+0c59dc0a-0748-4c48-9a10-d12a785014aa  dea82811  nginx                       11-11-2026  11-11-2026
+b664a61b-8c61-4658-be5c-d40309976a53  f8c2c69b  Untitled Design             11-11-2026  11-11-2026
+fdbe6697-c2a1-44dc-9df2-66f4739e0b0f  9f028c69  wordpress-mysql-deployment  11-10-2026  11-11-2026
+ad792329-9e08-4379-a253-bb28f7689d72  dea82811  Untitled Design             05-05-2026  11-11-2026
+4544beaf-08f3-4a82-aa72-972d21acb172  83fb1885  three-tier-webapp-shikhar   11-10-2026  11-11-2026
+03397972-6da4-4196-a52f-161203c79ef8  31c69433  SmartNote Design            11-03-2026  11-11-2026
+7d1e3b23-cbef-45b4-9cf7-d9ef470b2a6a  dea82811  nginx                       11-11-2026  11-11-2026
+91ceb1c4-79bc-4f1c-8808-ab365bad0da7  dea82811  nginx                       11-11-2026  11-11-2026
