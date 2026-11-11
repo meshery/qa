@@ -1,0 +1,36 @@
+(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,
+ in test file 003-design/03-design-list.bats, line 17)
+  `assert_line --regexp "$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN"' failed
+
+-- no output line matches regular expression --
+regexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$
+output (13 lines):
+  Total number of designs: 51509
+  Page: 1
+  DESIGN ID                             OWNER     NAME                        CREATED     UPDATED
+  b5ff4535-2e00-4122-8807-d7ba830e4b30  dea82811  nginx                       11-11-2026  11-11-2026
+  faafb384-c749-4853-88f6-1e9aec01c2ab  dea82811  nginx                       11-11-2026  11-11-2026
+  f61be667-9685-467a-bcc3-58188f1dc7d5  dea82811  nginx                       11-11-2026  11-11-2026
+  31077d10-54a9-496a-b284-0eb676b4802f  e11d7242  devanshu-nginx-baseline     11-11-2026  11-11-2026
+  1c2110b8-d9d8-46f3-b45c-116b1a7a8228  dea82811  nginx                       11-11-2026  11-11-2026
+  5acb6769-8790-430f-a822-d814c7bfd187  dea82811  nginx                       11-11-2026  11-11-2026
+  03b7e2d3-32ca-43b9-b139-9d7648071732  dea82811  nginx                       11-11-2026  11-11-2026
+  38498827-988a-401c-a6eb-887f5c5b8d5b  dea82811  nginx                       11-11-2026  11-11-2026
+  fdbe6697-c2a1-44dc-9df2-66f4739e0b0f  9f028c69  wordpress-mysql-deployment  11-10-2026  11-11-2026
+  7d946003-9ac6-4316-aaf5-abfe06e24833  dea82811  nginx                       11-10-2026  11-10-2026
+--
+
+Last output:
+Total number of designs: 51509
+Page: 1
+DESIGN ID                             OWNER     NAME                        CREATED     UPDATED
+b5ff4535-2e00-4122-8807-d7ba830e4b30  dea82811  nginx                       11-11-2026  11-11-2026
+faafb384-c749-4853-88f6-1e9aec01c2ab  dea82811  nginx                       11-11-2026  11-11-2026
+f61be667-9685-467a-bcc3-58188f1dc7d5  dea82811  nginx                       11-11-2026  11-11-2026
+31077d10-54a9-496a-b284-0eb676b4802f  e11d7242  devanshu-nginx-baseline     11-11-2026  11-11-2026
+1c2110b8-d9d8-46f3-b45c-116b1a7a8228  dea82811  nginx                       11-11-2026  11-11-2026
+5acb6769-8790-430f-a822-d814c7bfd187  dea82811  nginx                       11-11-2026  11-11-2026
+03b7e2d3-32ca-43b9-b139-9d7648071732  dea82811  nginx                       11-11-2026  11-11-2026
+38498827-988a-401c-a6eb-887f5c5b8d5b  dea82811  nginx                       11-11-2026  11-11-2026
+fdbe6697-c2a1-44dc-9df2-66f4739e0b0f  9f028c69  wordpress-mysql-deployment  11-10-2026  11-11-2026
+7d946003-9ac6-4316-aaf5-abfe06e24833  dea82811  nginx                       11-10-2026  11-10-2026
