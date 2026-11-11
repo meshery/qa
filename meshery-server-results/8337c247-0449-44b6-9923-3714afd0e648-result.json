@@ -1,0 +1,46 @@
+{
+  "uuid": "8337c247-0449-44b6-9923-3714afd0e648",
+  "name": "TestGetCRDsFromManifest_InvalidOrEmpty/empty_string",
+  "fullName": "github.com/meshery/meshery/server/models/meshmodel/core::TestGetCRDsFromManifest_InvalidOrEmpty/empty_string",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794419629143,
+  "stop": 1794419629143,
+  "statusDetails": {
+    "message": "invalid JSON for file \"\": unexpected end of JSON input"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models/meshmodel/core"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGetCRDsFromManifest_InvalidOrEmpty/empty_string"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

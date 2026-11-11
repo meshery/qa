@@ -1,0 +1,46 @@
+{
+  "uuid": "6c788837-7268-40f5-9c03-58ae8f2c7847",
+  "name": "TestProcessConnectionRegistrationReturnsErrorWhenRegistryLookupFails",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestProcessConnectionRegistrationReturnsErrorWhenRegistryLookupFails",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794419553757,
+  "stop": 1794419553768,
+  "statusDetails": {
+    "message": "2026/11/11 17:52:33 \u001b[31;1m/home/runner/go/pkg/mod/github.com/meshery/meshkit@v1.0.29/models/meshmodel/registry/v1beta1/component_filter.go:133 \u001b[35;1msql: database is closed\n\u001b[0m\u001b[33m[0.085ms] \u001b[34;1m[rows:0]\u001b[0m SELECT count(*) FROM `component_definition_dbs` JOIN model_dbs ON component_definition_dbs.model_id = model_dbs.id JOIN category_dbs ON model_dbs.category_id = category_dbs.id JOIN connections ON connections.id = model_dbs.connection_id WHERE component_definition_dbs.status = \"enabled\" AND component_definition_dbs.component->>'kind'  = \"githubConnection\"\n\r\n2026/11/11 17:52:33 \u001b[31;1m/home/runner/go/pkg/mod/github.com/meshery/meshkit@v1.0.29/models/meshmodel/registry/v1beta1/component_filter.go:140 \u001b[35;1msql: database is closed\n\u001b[0m\u001b[33m[0.015ms] \u001b[34;1m[rows:0]\u001b[0m"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProcessConnectionRegistrationReturnsErrorWhenRegistryLookupFails"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
