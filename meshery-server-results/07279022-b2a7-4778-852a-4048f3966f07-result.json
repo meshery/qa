@@ -1,0 +1,46 @@
+{
+  "uuid": "07279022-b2a7-4778-852a-4048f3966f07",
+  "name": "TestDeleteModel_NotFound",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestDeleteModel_NotFound",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794387988878,
+  "stop": 1794387988886,
+  "statusDetails": {
+    "message": "2026/11/11 09:06:28 \u001b[31;1m/home/runner/work/meshery/meshery/server/handlers/component_handler.go:1637 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.159ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `model_dbs` WHERE id = \"86abb1b2-6649-48cd-a69e-5e3103c23f51\" ORDER BY `model_dbs`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteModel_NotFound"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
