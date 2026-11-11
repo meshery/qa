@@ -1,0 +1,46 @@
+{
+  "uuid": "32396734-2f39-40ad-9fd7-bed9e33fc38c",
+  "name": "TestGetCRDsFromManifest_InvalidOrEmpty/malformed_json",
+  "fullName": "github.com/meshery/meshery/server/models/meshmodel/core::TestGetCRDsFromManifest_InvalidOrEmpty/malformed_json",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794417670920,
+  "stop": 1794417670920,
+  "statusDetails": {
+    "message": "invalid JSON for file \"\": invalid character 'b' looking for beginning of object key string"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models/meshmodel/core"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGetCRDsFromManifest_InvalidOrEmpty/malformed_json"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
