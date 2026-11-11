@@ -1,0 +1,36 @@
+(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,
+ in test file 003-design/03-design-list.bats, line 17)
+  `assert_line --regexp "$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN"' failed
+
+-- no output line matches regular expression --
+regexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$
+output (13 lines):
+  Total number of designs: 51548
+  Page: 1
+  DESIGN ID                             OWNER     NAME                 CREATED     UPDATED
+  11299f1c-ff45-43fb-8af7-adee19207f24  dea82811  nginx                11-11-2026  11-11-2026
+  ec83e467-0b67-4ce7-a372-1141a22b8879  7dde79fb  discourse-17.0.1     11-11-2026  11-11-2026
+  7ad1bf19-edbe-4c2f-b7ca-0344c63a54a2  dea82811  nginx                11-11-2026  11-11-2026
+  b592db6b-33b5-4fc6-b0e7-0b49e81cfe67  dea82811  nginx                11-11-2026  11-11-2026
+  0d35a6c7-bd5b-4550-822e-16ae918d8fd0  dea82811  nginx                11-11-2026  11-11-2026
+  c5fc5d13-d7b6-4a56-aae8-d4a0c7613622  dea82811  nginx                11-11-2026  11-11-2026
+  74867de9-5cc0-4e7d-afa5-b1abd7b76821  090e7114  autoscaling-demo     11-11-2026  11-11-2026
+  b7421c95-56fc-44a6-8dcd-898eb20fc2fd  b8d685bb  my-meshery-pattern   11-11-2026  11-11-2026
+  2f221772-1932-4195-b650-76ae36b9f258  23af69b2  my-cloud-native-app  11-11-2026  11-11-2026
+  06270da8-afdb-41a0-a34f-e3cb387c9fab  7dde79fb  discourse-17.0.1     11-11-2026  11-11-2026
+--
+
+Last output:
+Total number of designs: 51548
+Page: 1
+DESIGN ID                             OWNER     NAME                 CREATED     UPDATED
+11299f1c-ff45-43fb-8af7-adee19207f24  dea82811  nginx                11-11-2026  11-11-2026
+ec83e467-0b67-4ce7-a372-1141a22b8879  7dde79fb  discourse-17.0.1     11-11-2026  11-11-2026
+7ad1bf19-edbe-4c2f-b7ca-0344c63a54a2  dea82811  nginx                11-11-2026  11-11-2026
+b592db6b-33b5-4fc6-b0e7-0b49e81cfe67  dea82811  nginx                11-11-2026  11-11-2026
+0d35a6c7-bd5b-4550-822e-16ae918d8fd0  dea82811  nginx                11-11-2026  11-11-2026
+c5fc5d13-d7b6-4a56-aae8-d4a0c7613622  dea82811  nginx                11-11-2026  11-11-2026
+74867de9-5cc0-4e7d-afa5-b1abd7b76821  090e7114  autoscaling-demo     11-11-2026  11-11-2026
+b7421c95-56fc-44a6-8dcd-898eb20fc2fd  b8d685bb  my-meshery-pattern   11-11-2026  11-11-2026
+2f221772-1932-4195-b650-76ae36b9f258  23af69b2  my-cloud-native-app  11-11-2026  11-11-2026
+06270da8-afdb-41a0-a34f-e3cb387c9fab  7dde79fb  discourse-17.0.1     11-11-2026  11-11-2026

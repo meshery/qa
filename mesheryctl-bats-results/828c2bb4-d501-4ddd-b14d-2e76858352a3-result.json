@@ -1,0 +1,35 @@
+{
+  "uuid": "828c2bb4-d501-4ddd-b14d-2e76858352a3",
+  "name": "given all requirements are met, when running mesheryctl system check --preflight then required sections and prerequisites result are displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794432545350,
+  "stop": 1794432545351,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "System"
+    },
+    {
+      "name": "testGroup",
+      "value": "System Checks"
+    }
+  ]
+}
