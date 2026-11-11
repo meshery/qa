@@ -1,0 +1,36 @@
+(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,
+ in test file 003-design/03-design-list.bats, line 17)
+  `assert_line --regexp "$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN"' failed
+
+-- no output line matches regular expression --
+regexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$
+output (13 lines):
+  Total number of designs: 51521
+  Page: 1
+  DESIGN ID                             OWNER     NAME                                            CREATED     UPDATED
+  a21a4879-4f80-4ab2-a101-6e340af0cc80  e915fe11  STRATOS : Geo-Distributed AI Workload Platform  10-31-2026  11-11-2026
+  b0add06d-3d15-4ece-97e6-760e04fa5b57  dea82811  nginx                                           11-11-2026  11-11-2026
+  56027102-c490-4cb9-b3d1-080b2642b747  dea82811  nginx                                           11-11-2026  11-11-2026
+  138b966f-f857-4ebe-8b20-1d29d84cf0dd  dea82811  nginx                                           11-11-2026  11-11-2026
+  6cb1f752-1d08-44d6-98d7-20229facf86a  1e3a2749  RaaS                                            11-11-2026  11-11-2026
+  82661f5e-254f-4940-b567-3cc1c6eb886f  1e3a2749  Untitled Design                                 11-11-2026  11-11-2026
+  e14f2b02-c10a-49df-a04a-2e12e44e19ac  dea82811  nginx                                           11-10-2026  11-11-2026
+  9117549b-deb8-455f-8c74-6e314b611e6c  393b5a8f  My First Cloud Native Design                    11-11-2026  11-11-2026
+  5b48d804-1d01-433c-8842-e653189ac6f8  dea82811  nginx                                           11-11-2026  11-11-2026
+  8c3de93e-a12a-47fb-92f5-0e93ce2de832  dea82811  nginx                                           11-11-2026  11-11-2026
+--
+
+Last output:
+Total number of designs: 51521
+Page: 1
+DESIGN ID                             OWNER     NAME                                            CREATED     UPDATED
+a21a4879-4f80-4ab2-a101-6e340af0cc80  e915fe11  STRATOS : Geo-Distributed AI Workload Platform  10-31-2026  11-11-2026
+b0add06d-3d15-4ece-97e6-760e04fa5b57  dea82811  nginx                                           11-11-2026  11-11-2026
+56027102-c490-4cb9-b3d1-080b2642b747  dea82811  nginx                                           11-11-2026  11-11-2026
+138b966f-f857-4ebe-8b20-1d29d84cf0dd  dea82811  nginx                                           11-11-2026  11-11-2026
+6cb1f752-1d08-44d6-98d7-20229facf86a  1e3a2749  RaaS                                            11-11-2026  11-11-2026
+82661f5e-254f-4940-b567-3cc1c6eb886f  1e3a2749  Untitled Design                                 11-11-2026  11-11-2026
+e14f2b02-c10a-49df-a04a-2e12e44e19ac  dea82811  nginx                                           11-10-2026  11-11-2026
+9117549b-deb8-455f-8c74-6e314b611e6c  393b5a8f  My First Cloud Native Design                    11-11-2026  11-11-2026
+5b48d804-1d01-433c-8842-e653189ac6f8  dea82811  nginx                                           11-11-2026  11-11-2026
+8c3de93e-a12a-47fb-92f5-0e93ce2de832  dea82811  nginx                                           11-11-2026  11-11-2026
