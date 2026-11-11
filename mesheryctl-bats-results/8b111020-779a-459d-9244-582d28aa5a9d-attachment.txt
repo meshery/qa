@@ -1,0 +1,36 @@
+(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,
+ in test file 003-design/03-design-list.bats, line 17)
+  `assert_line --regexp "$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN"' failed
+
+-- no output line matches regular expression --
+regexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$
+output (13 lines):
+  Total number of designs: 51502
+  Page: 1
+  DESIGN ID                             OWNER     NAME                        CREATED     UPDATED
+  3a4d408c-eae7-44b5-add3-959881b532cc  dea82811  nginx                       11-11-2026  11-11-2026
+  fdbe6697-c2a1-44dc-9df2-66f4739e0b0f  9f028c69  wordpress-mysql-deployment  11-10-2026  11-11-2026
+  7d946003-9ac6-4316-aaf5-abfe06e24833  dea82811  nginx                       11-10-2026  11-10-2026
+  2785d0c9-0d14-4295-b10a-8b66a5f32a13  dea82811  nginx                       11-10-2026  11-10-2026
+  3f8934da-2cf5-4504-a325-f60fab090ecc  dea82811  nginx                       11-10-2026  11-10-2026
+  37f44336-fac5-4340-b706-7098e6bf4117  dea82811  nginx                       11-10-2026  11-10-2026
+  c8c0d28b-327b-4c63-840d-e737e5fa341a  dea82811  nginx                       11-10-2026  11-10-2026
+  af223597-f9e5-4054-acbf-35c050022fc2  dea82811  nginx                       11-10-2026  11-10-2026
+  8f238d52-7dd1-40bf-92f4-c2082e88c605  dea82811  nginx                       11-10-2026  11-10-2026
+  dcfc5b54-1fdb-45a9-a769-d6a9ade4d294  dea82811  nginx                       11-10-2026  11-10-2026
+--
+
+Last output:
+Total number of designs: 51502
+Page: 1
+DESIGN ID                             OWNER     NAME                        CREATED     UPDATED
+3a4d408c-eae7-44b5-add3-959881b532cc  dea82811  nginx                       11-11-2026  11-11-2026
+fdbe6697-c2a1-44dc-9df2-66f4739e0b0f  9f028c69  wordpress-mysql-deployment  11-10-2026  11-11-2026
+7d946003-9ac6-4316-aaf5-abfe06e24833  dea82811  nginx                       11-10-2026  11-10-2026
+2785d0c9-0d14-4295-b10a-8b66a5f32a13  dea82811  nginx                       11-10-2026  11-10-2026
+3f8934da-2cf5-4504-a325-f60fab090ecc  dea82811  nginx                       11-10-2026  11-10-2026
+37f44336-fac5-4340-b706-7098e6bf4117  dea82811  nginx                       11-10-2026  11-10-2026
+c8c0d28b-327b-4c63-840d-e737e5fa341a  dea82811  nginx                       11-10-2026  11-10-2026
+af223597-f9e5-4054-acbf-35c050022fc2  dea82811  nginx                       11-10-2026  11-10-2026
+8f238d52-7dd1-40bf-92f4-c2082e88c605  dea82811  nginx                       11-10-2026  11-10-2026
+dcfc5b54-1fdb-45a9-a769-d6a9ade4d294  dea82811  nginx                       11-10-2026  11-10-2026
