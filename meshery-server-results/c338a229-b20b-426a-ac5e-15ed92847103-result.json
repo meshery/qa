@@ -1,0 +1,46 @@
+{
+  "uuid": "c338a229-b20b-426a-ac5e-15ed92847103",
+  "name": "TestUpdateConnectionByIDUnknownIDIsNotFound",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestUpdateConnectionByIDUnknownIDIsNotFound",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794401000693,
+  "stop": 1794401000702,
+  "statusDetails": {
+    "message": "2026/11/11 12:43:20 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:303 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.125ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"a552a46c-fc14-46e5-8781-dc88c71df885\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestUpdateConnectionByIDUnknownIDIsNotFound"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

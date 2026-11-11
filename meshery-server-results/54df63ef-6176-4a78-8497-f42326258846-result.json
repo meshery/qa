@@ -1,0 +1,46 @@
+{
+  "uuid": "54df63ef-6176-4a78-8497-f42326258846",
+  "name": "TestRegistrationAuthMiddleware/remote_selector_requires_auth_and_does_not_reach_handler",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestRegistrationAuthMiddleware/remote_selector_requires_auth_and_does_not_reach_handler",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794401000551,
+  "stop": 1794401000552,
+  "statusDetails": {
+    "message": "=== PAUSE TestRegistrationAuthMiddleware/remote_selector_requires_auth_and_does_not_reach_handler\n=== CONT  TestRegistrationAuthMiddleware/remote_selector_requires_auth_and_does_not_reach_handler"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestRegistrationAuthMiddleware/remote_selector_requires_auth_and_does_not_reach_handler"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
