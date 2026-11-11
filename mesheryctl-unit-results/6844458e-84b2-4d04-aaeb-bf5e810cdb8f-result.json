@@ -1,0 +1,46 @@
+{
+  "uuid": "6844458e-84b2-4d04-aaeb-bf5e810cdb8f",
+  "name": "TestList/List_registered_relationships_with_a_negative_--pagesize",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/relationships::TestList/List_registered_relationships_with_a_negative_--pagesize",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794422009493,
+  "stop": 1794422009496,
+  "statusDetails": {
+    "message": "Error: Invalid value for --pagesize '-1' | Short Description: Invalid flag(s) provided | Probable Cause: The value for one or more flags provided is invalid. | Suggested Remediation: Provide valid flag value and try again."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/relationships"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestList/List_registered_relationships_with_a_negative_--pagesize"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
