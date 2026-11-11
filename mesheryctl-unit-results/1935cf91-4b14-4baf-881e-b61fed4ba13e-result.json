@@ -1,0 +1,46 @@
+{
+  "uuid": "1935cf91-4b14-4baf-881e-b61fed4ba13e",
+  "name": "TestWaitForResponseOnEventStream/deploy/stream_ends_without_a_result",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/adapter::TestWaitForResponseOnEventStream/deploy/stream_ends_without_a_result",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794421241369,
+  "stop": 1794421241373,
+  "statusDetails": {
+    "message": "error during resp.Body read:EOF"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/adapter"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWaitForResponseOnEventStream/deploy/stream_ends_without_a_result"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
