@@ -1,0 +1,46 @@
+{
+  "uuid": "a57087e2-76a8-41fe-95c6-6782311f2c1e",
+  "name": "TestListOrganizations/given_extra_positional_arguments_when_organization_list_then_throw_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/organizations::TestListOrganizations/given_extra_positional_arguments_when_organization_list_then_throw_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794400945590,
+  "stop": 1794400945590,
+  "statusDetails": {
+    "message": "Error: too many arguments specified\n\nUsage: mesheryctl organization list\nRun 'mesheryctl organization list --help' to see detailed help message | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/organizations"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestListOrganizations/given_extra_positional_arguments_when_organization_list_then_throw_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

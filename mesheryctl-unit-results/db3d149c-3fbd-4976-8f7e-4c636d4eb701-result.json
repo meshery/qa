@@ -1,0 +1,46 @@
+{
+  "uuid": "db3d149c-3fbd-4976-8f7e-4c636d4eb701",
+  "name": "TestApplyCmd/Server_rejects_the_test_run",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/perf::TestApplyCmd/Server_rejects_the_test_run",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794400946445,
+  "stop": 1794400946448,
+  "statusDetails": {
+    "message": "Error: Response Status Code 400. Server emitted an error: invalid load test URL\n\n | Short Description: Failed response server error | Probable Cause: Invalid API call | Suggested Remediation: Check your network connection and the status of Meshery Server via `mesheryctl system status`."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/perf"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestApplyCmd/Server_rejects_the_test_run"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

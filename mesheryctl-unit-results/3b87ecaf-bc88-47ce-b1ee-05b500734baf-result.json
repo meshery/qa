@@ -1,0 +1,46 @@
+{
+  "uuid": "3b87ecaf-bc88-47ce-b1ee-05b500734baf",
+  "name": "TestDeleteCmd",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/design::TestDeleteCmd",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794400936119,
+  "stop": 1794400936139,
+  "statusDetails": {
+    "message": "testing.go:799: Test 'given valid file when design delete then design is deleted' executed\n    testing.go:799: Test 'given valid file as positional argument when design delete then design is deleted' executed\n    testing.go:799: Test 'given valid relative file as positional argument when design delete then design is deleted' executed\n    testing.go:799: Test 'given invalid file path when design delete then error is thrown' executed\n    testing.go:799: Test 'given mistyped file path positionally when server unreachable then file read error is thrown' executed\n    testing.go:799: Test 'given nonexistent design ID when design delete then error is thrown' executed\n    testing.go:799: Test 'given no arguments when design delete then error is thrown' executed\n    testing.go:799: Test 'given empty positional argument when design delete then error is thrown' executed\n    testing.go:799: Test 'given whitespace positional argument when design delete then error is thrown' executed\n    testing.go:799: Test 'given multiple positional arguments when design delete then error is thrown' executed\n    testing.go:799: Test 'given both positional argument and -f flag when design delete then error is thrown' executed\n    testing.go:799: Test 'given empty file flag when design delete then error is thrown' executed\n    testing.go:799: Test 'given ID prefix shared by two designs when design delete then ambiguity error is thrown and nothing is deleted' executed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/design"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteCmd"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
