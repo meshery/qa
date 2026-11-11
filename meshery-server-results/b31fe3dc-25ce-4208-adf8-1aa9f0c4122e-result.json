@@ -1,0 +1,46 @@
+{
+  "uuid": "b31fe3dc-25ce-4208-adf8-1aa9f0c4122e",
+  "name": "TestDeleteConnectionCleansUpEnvironmentMappings",
+  "fullName": "github.com/meshery/meshery/server/models::TestDeleteConnectionCleansUpEnvironmentMappings",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794367427678,
+  "stop": 1794367427752,
+  "statusDetails": {
+    "message": "2026/11/11 03:23:47 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:169 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.172ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"cf26495b-2a0e-4779-b526-ac19c24ea3b0\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteConnectionCleansUpEnvironmentMappings"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

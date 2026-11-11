@@ -1,0 +1,46 @@
+{
+  "uuid": "17150462-acb2-478f-8612-13e5a9469d64",
+  "name": "TestPersistEventRetryByIDBindsItsIdempotencyKey/uncorrelated",
+  "fullName": "github.com/meshery/meshery/server/models::TestPersistEventRetryByIDBindsItsIdempotencyKey/uncorrelated",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794367429535,
+  "stop": 1794367429577,
+  "statusDetails": {
+    "message": "2026/11/11 03:23:49 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/events_persister.go:139 \u001b[35;1mUNIQUE constraint failed: events.id\n\u001b[0m\u001b[33m[0.220ms] \u001b[34;1m[rows:0]\u001b[0m INSERT INTO `events` (`acted_upon`,`action`,`category`,`created_at`,`deleted_at`,`description`,`id`,`metadata`,`operation_id`,`severity`,`status`,`system_id`,`updated_at`,`owner`,`idempotency_key`,`correlation_key`,`occurrence_count`,`first_seen_at`,`last_seen_at`,`resolved_at`,`source`,`type`,`specversion`,`trace_id`,`parent_id`) VALUES (\"00000000-0000-0000-0000-000000000000\",\"run\",\"perf\",\"2026-11-11 03:23:49.574\",NULL,\"run\",\"d92447b5-34f2-414d-a6bd-88a987857e9e\",NULL,\"db5c4fb6-0415-42e8-a533-f0ac493751cc\",\"informational\",\"unread\",\"00000000-0000-0000-0000-000000000000\",\"2026-11-11 03:23:49.575\",\"cf16e42d-cf6e-4b2d-822f-5efac4991d1f\",\"retry-1\",NULL,NULL,NULL,NULL,NULL,\"meshery-server\",NULL,NULL,NULL,NULL)"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPersistEventRetryByIDBindsItsIdempotencyKey/uncorrelated"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
