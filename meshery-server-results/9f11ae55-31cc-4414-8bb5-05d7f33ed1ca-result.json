@@ -1,0 +1,46 @@
+{
+  "uuid": "9f11ae55-31cc-4414-8bb5-05d7f33ed1ca",
+  "name": "TestIdentifyInventoryAdditions_SkipsWhenParentAlreadyPresent",
+  "fullName": "github.com/meshery/meshery/server/policies::TestIdentifyInventoryAdditions_SkipsWhenParentAlreadyPresent",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794402103024,
+  "stop": 1794402128254,
+  "statusDetails": {
+    "message": "=== PAUSE TestIdentifyInventoryAdditions_SkipsWhenParentAlreadyPresent\n=== CONT  TestIdentifyInventoryAdditions_SkipsWhenParentAlreadyPresent"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestIdentifyInventoryAdditions_SkipsWhenParentAlreadyPresent"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
