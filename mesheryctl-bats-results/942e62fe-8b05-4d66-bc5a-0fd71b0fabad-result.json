@@ -1,0 +1,35 @@
+{
+  "uuid": "942e62fe-8b05-4d66-bc5a-0fd71b0fabad",
+  "name": "given a valid CSV directory when running mesheryctl model generate then the model is generated",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794501942290,
+  "stop": 1794501942291,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "Model"
+    },
+    {
+      "name": "testGroup",
+      "value": "Model Generate"
+    }
+  ]
+}
