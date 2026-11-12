@@ -1,0 +1,46 @@
+{
+  "uuid": "22cd7d8c-7197-44df-abc9-caed3b9561ad",
+  "name": "TestUpdateConnectionByIDFallsBackToPersistedKind",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestUpdateConnectionByIDFallsBackToPersistedKind",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794521525509,
+  "stop": 1794521525524,
+  "statusDetails": {
+    "message": "2026/11/12 22:12:05 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:169 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.126ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"a60c5ecf-1b1e-40b8-94be-e6c605c70302\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestUpdateConnectionByIDFallsBackToPersistedKind"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
