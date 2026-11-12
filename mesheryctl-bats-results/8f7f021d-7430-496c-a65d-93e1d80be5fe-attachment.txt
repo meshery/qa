@@ -1,0 +1,36 @@
+(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,
+ in test file 003-design/03-design-list.bats, line 17)
+  `assert_line --regexp "$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN"' failed
+
+-- no output line matches regular expression --
+regexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$
+output (13 lines):
+  Total number of designs: 51664
+  Page: 1
+  DESIGN ID                             OWNER     NAME                             CREATED     UPDATED
+  91ca2943-e593-4a28-9f5e-a4ae1343334f  dea82811  nginx                            11-12-2026  11-12-2026
+  436ea26b-abe5-4583-bce2-f152323d470f  dea82811  nginx                            11-12-2026  11-12-2026
+  524e0982-b445-4def-a2ef-a5d2f1fb1665  dea82811  nginx                            11-12-2026  11-12-2026
+  c15ac573-cf3d-408b-81ed-9694136293c9  4a192e57  Untitled Design                  11-12-2026  11-12-2026
+  b9505c7b-6030-44c7-9ab9-4e3ea923d3b1  adcf9259  Untitled Design                  11-12-2026  11-12-2026
+  6b23f684-4946-4253-a3a9-fd46032a5618  ed5feede  kubecon-shivay-design-with-logo  11-12-2026  11-12-2026
+  27940c92-ee03-487c-8204-e773273c0e3b  090e7114  Untitled Design                  11-12-2026  11-12-2026
+  bf179dc1-38e8-4301-94fb-27f933b4264d  b2caaccd  rabbitculture                    11-09-2026  11-12-2026
+  80d1cd67-6d1e-49a2-8ff9-70167d692770  c8eb184a  aws-infra-copy                   11-05-2026  11-12-2026
+  6dbab8a7-d393-4b2b-8865-530e96fc941c  94d6b5cc  Test design                      11-12-2026  11-12-2026
+--
+
+Last output:
+Total number of designs: 51664
+Page: 1
+DESIGN ID                             OWNER     NAME                             CREATED     UPDATED
+91ca2943-e593-4a28-9f5e-a4ae1343334f  dea82811  nginx                            11-12-2026  11-12-2026
+436ea26b-abe5-4583-bce2-f152323d470f  dea82811  nginx                            11-12-2026  11-12-2026
+524e0982-b445-4def-a2ef-a5d2f1fb1665  dea82811  nginx                            11-12-2026  11-12-2026
+c15ac573-cf3d-408b-81ed-9694136293c9  4a192e57  Untitled Design                  11-12-2026  11-12-2026
+b9505c7b-6030-44c7-9ab9-4e3ea923d3b1  adcf9259  Untitled Design                  11-12-2026  11-12-2026
+6b23f684-4946-4253-a3a9-fd46032a5618  ed5feede  kubecon-shivay-design-with-logo  11-12-2026  11-12-2026
+27940c92-ee03-487c-8204-e773273c0e3b  090e7114  Untitled Design                  11-12-2026  11-12-2026
+bf179dc1-38e8-4301-94fb-27f933b4264d  b2caaccd  rabbitculture                    11-09-2026  11-12-2026
+80d1cd67-6d1e-49a2-8ff9-70167d692770  c8eb184a  aws-infra-copy                   11-05-2026  11-12-2026
+6dbab8a7-d393-4b2b-8865-530e96fc941c  94d6b5cc  Test design                      11-12-2026  11-12-2026
