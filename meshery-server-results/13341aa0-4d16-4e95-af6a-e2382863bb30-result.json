@@ -1,0 +1,46 @@
+{
+  "uuid": "13341aa0-4d16-4e95-af6a-e2382863bb30",
+  "name": "TestProcessConnectionRegistration_KubernetesKindFullLifecycleFromSaveK8sContext",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestProcessConnectionRegistration_KubernetesKindFullLifecycleFromSaveK8sContext",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794441410648,
+  "stop": 1794441410702,
+  "statusDetails": {
+    "message": "2026/11/11 23:56:50 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/events_persister.go:139 \u001b[35;1mattempt to write a readonly database\n\u001b[0m\u001b[33m[3.520ms] \u001b[34;1m[rows:0]\u001b[0m INSERT INTO `events` (`acted_upon`,`action`,`category`,`created_at`,`deleted_at`,`description`,`id`,`metadata`,`operation_id`,`severity`,`status`,`system_id`,`updated_at`,`owner`,`idempotency_key`,`correlation_key`,`occurrence_count`,`first_seen_at`,`last_seen_at`,`resolved_at`,`source`,`type`,`specversion`,`trace_id`,`parent_id`) VALUES (\"00000000-0000-0000-0000-000000000000\",\"register\",\"connection\",\"2026-11-11 23:56:50.642\",NULL,\"Unable to ping kubernetes context remote-k8s at https://127.0.0.1:1\",\"b5be9314-f96e-44e7-a4fa-ced7de1e77b1\",\"{\"\"error\"\":{\"\"Code\"\":\"\"meshery-server-1304\"\",\"\"Severity\"\":2,\"\"ShortDescription\"\":[\"\"Error communicating with the Kubernetes API server.\"\"],\"\"LongDescription\"\":[\"\"Meshery Server did not get an answer from the cluster's API server.\"\",\"\"API server: https://127.0.0.1:1\"\",\"\"Get \\\"\"https://127.0.0.1:1/livez?timeout=1s\\\"\": dial tcp 127.0.0.1:1: connect: connection refused\"\"],\"\"ProbableCause\"\":[\"\"The Kubernetes API server is not reachable.\"\",\"\"Credentials are invalid.\"\",\"\"The cluster's serving certificate is not trusted by Meshery Server.\"\"],\"\"SuggestedRemediation\"\":[\"\"Verify network connectivity and Kubernetes API responsiveness between Meshery Server and your cluster.\"\",\"\"Once the cause is fixed, reconnect the cluster's connection from Connections, or wait for Meshery Server to discover it again.\"\",\"\"Ensure client credential is not expired and is properly formed.\"\",\"\"Remove the cluster credential and enable 'insecure-skip-tls-verify'.\"\"],\"\"AdditionalInfo\"\":null,\"\"Causes\"\":[{\"\"id\"\":\"\"api-server-unreachable\"\",\"\"description\"\":\"\"The Kubernetes API server is not reachable.\"\",\"\"remediations\"\":[{\"\"id\"\":\"\"check-network\"\",\"\"description\"\":\"\"Verify network connectivity and Kubernetes API responsiveness between Meshery Server and your cluster.\"\",\"\"actionPolicy\"\":\"\"manual\"\"},{\"\"id\"\":\"\"retry-connection\"\",\"\"description\"\":\"\"Once the cause is fixed, reconnect the cluster's connection from Connections, or wait for Meshery Server to discover it again.\"\",\"\"actionPolicy\"\":\"\"manual\"\"}]},{\"\"id\"\":\"\"credentials-rejected\"\",\"\"description\"\":\"\"Credentials are invalid.\"\",\"\"remediations\"\":[{\"\"id\"\":\"\"renew-credential\"\",\"\"description\"\":\"\"Ensure client credential is not expired and is properly formed.\"\",\"\"actionPolicy\"\":\"\"manual\"\"},{\"\"id\"\":\"\"retry-connection\"\",\"\"description\"\":\"\"Once the cause is fixed, reconnect the cluster's connection from Connections, or wait for Meshery Server to discover it again.\"\",\"\"actionPolicy\"\":\"\"manual\"\"}]},{\"\"id\"\":\"\"certificate-untrusted\"\",\"\"description\"\":\"\"The cluster's serving certificate is not trusted by Meshery Server.\"\",\"\"remediations\"\":[{\"\"id\"\":\"\"skip-tls-verify\"\",\"\"description\"\":\"\"Remove the cluster credential and enable 'insecure-skip-tls-verify'.\"\",\"\"actionPolicy\"\":\"\"manual\"\"},{\"\"id\"\":\"\"retry-connection\"\",\"\"description\"\":\"\"Once the cause is fixed, reconnect the cluster's connection from Connections, or wait for Meshery Server to discover it again.\"\",\"\"actionPolicy\"\":\"\"manual\"\"}]}]}}\",\"20b62a50-7fb3-45de-9cc2-d64c58673859\",\"error\",\"unread\",\"414cbe6f-76b1-4635-9b18-056e98b2d5c5\",\"2026-11-11 23:56:50.646\",\"bc4b45fe-da08-4f2f-a1d8-a6cbae782b23\",NULL,NULL,NULL,NULL,NULL,NULL,\"meshery-server\",NULL,NULL,NULL,NULL)\n\r\n2026/11/11 23:56:50 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:169 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.224ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"2e927819-b1d0-b344-cc5d-6f947db9b6e4\" ORDER BY `connections`.`id` LIMIT 1\n\r\n2026/11/11 23:56:50 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:84 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.157ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"2e927819b1d0b344cc5d6f947db9b6e4\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/11 23:56:50 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:99 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.138ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"2e927819-b1d0-b344-cc5d-6f947db9b6e4\" ORDER BY `k8s_contexts`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProcessConnectionRegistration_KubernetesKindFullLifecycleFromSaveK8sContext"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
