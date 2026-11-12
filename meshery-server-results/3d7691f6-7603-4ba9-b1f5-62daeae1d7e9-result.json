@@ -1,0 +1,46 @@
+{
+  "uuid": "3d7691f6-7603-4ba9-b1f5-62daeae1d7e9",
+  "name": "TestNotifySmOfConnectionStatusChangeByKind/kind_'kubernetes'_keeps_the_Kubernetes_path",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestNotifySmOfConnectionStatusChangeByKind/kind_'kubernetes'_keeps_the_Kubernetes_path",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794508186967,
+  "stop": 1794508186967,
+  "statusDetails": {
+    "message": "2026/11/12 18:29:46 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:99 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.114ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"d9025f8b-c1cc-4f81-ae7c-62c0013d19b1\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/12 18:29:46 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:103 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.146ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE connection_id = \"d9025f8b-c1cc-4f81-ae7c-62c0013d19b1\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/12 18:29:46 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:99 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.080ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"d9025f8bc1cc4f81ae7c62c0013d19b1\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/12 18:29:46 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:103 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.084ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE connection_id = \"d9025f8bc1cc4f81ae7c62c0013d19b1\" ORDER BY `k8s_contexts`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestNotifySmOfConnectionStatusChangeByKind/kind_'kubernetes'_keeps_the_Kubernetes_path"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

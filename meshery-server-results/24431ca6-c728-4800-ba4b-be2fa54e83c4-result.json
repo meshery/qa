@@ -1,0 +1,44 @@
+{
+  "uuid": "24431ca6-c728-4800-ba4b-be2fa54e83c4",
+  "name": "TestResolveResourcePath_NamespaceResolution/Pod,_no_namespace_arg,_no_metadata.namespace_->_/api/v1/namespaces/default",
+  "fullName": "github.com/meshery/meshery/server/models/pattern/patterns/k8s::TestResolveResourcePath_NamespaceResolution/Pod,_no_namespace_arg,_no_metadata.namespace_->_/api/v1/namespaces/default",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794508187804,
+  "stop": 1794508187804,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models/pattern/patterns/k8s"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestResolveResourcePath_NamespaceResolution/Pod,_no_namespace_arg,_no_metadata.namespace_->_/api/v1/namespaces/default"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

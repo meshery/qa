@@ -1,0 +1,46 @@
+{
+  "uuid": "8b01e1b6-fa81-45d7-b08d-21b89319196f",
+  "name": "TestDeleteConnection_ProviderDeleteFails_AllowsRetry",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestDeleteConnection_ProviderDeleteFails_AllowsRetry",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794508178726,
+  "stop": 1794508178770,
+  "statusDetails": {
+    "message": "2026/11/12 18:29:38 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:169 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.158ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"7c1f8d2f-cc6c-4214-890b-c60a77c6bac4\" ORDER BY `connections`.`id` LIMIT 1\n\r\n2026/11/12 18:29:38 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:99 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.102ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"7c1f8d2f-cc6c-4214-890b-c60a77c6bac4\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/12 18:29:38 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:99 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.100ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"7c1f8d2f-cc6c-4214-890b-c60a77c6bac4\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/12 18:29:38 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:303 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.145ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"7c1f8d2f-cc6c-4214-890b-c60a77c6bac4\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteConnection_ProviderDeleteFails_AllowsRetry"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
