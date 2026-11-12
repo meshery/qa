@@ -1,0 +1,46 @@
+{
+  "uuid": "df223bf3-1579-4560-89d4-50d5db2b3ae1",
+  "name": "TestRelationshipEvaluationScenarios/core_utils_set_to_array",
+  "fullName": "github.com/meshery/meshery/server/policies::TestRelationshipEvaluationScenarios/core_utils_set_to_array",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794483728070,
+  "stop": 1794483728278,
+  "statusDetails": {
+    "message": "rego_test.go:328: Expected error for \"core_utils_set_to_array\" (design: inline): 1 error occurred: 1:1: rego_type_error: undefined ref: data.core_utils.set_to_array\n        \tdata.core_utils.set_to_array\n        \t^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        \thave: (any) => array[any]"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestRelationshipEvaluationScenarios/core_utils_set_to_array"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
