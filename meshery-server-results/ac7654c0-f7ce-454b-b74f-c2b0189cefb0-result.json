@@ -1,0 +1,46 @@
+{
+  "uuid": "ac7654c0-f7ce-454b-b74f-c2b0189cefb0",
+  "name": "TestUpdateConnectionDefinition",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestUpdateConnectionDefinition",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794473659183,
+  "stop": 1794473659190,
+  "statusDetails": {
+    "message": "2026/11/12 08:54:19 \u001b[31;1m/home/runner/work/meshery/meshery/server/handlers/connection_definition_handler.go:185 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.315ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connection_definition_dbs` WHERE id = \"aa7ca0e2-4c79-4ab3-b8f6-7a534c648f8e\" ORDER BY `connection_definition_dbs`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestUpdateConnectionDefinition"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
