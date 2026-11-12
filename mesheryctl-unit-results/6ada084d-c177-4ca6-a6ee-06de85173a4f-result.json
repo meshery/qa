@@ -1,0 +1,46 @@
+{
+  "uuid": "6ada084d-c177-4ca6-a6ee-06de85173a4f",
+  "name": "TestDesignListCmd/given_--pagesize_0_when_design_list_then_throw_invalid_flag_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/design::TestDesignListCmd/given_--pagesize_0_when_design_list_then_throw_invalid_flag_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794441424673,
+  "stop": 1794441424676,
+  "statusDetails": {
+    "message": "Error: Invalid value for --pagesize '0' | Short Description: Invalid flag(s) provided | Probable Cause: The value for one or more flags provided is invalid. | Suggested Remediation: Provide valid flag value and try again."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/design"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDesignListCmd/given_--pagesize_0_when_design_list_then_throw_invalid_flag_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
