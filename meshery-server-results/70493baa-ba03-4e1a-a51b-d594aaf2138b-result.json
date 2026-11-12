@@ -1,0 +1,46 @@
+{
+  "uuid": "70493baa-ba03-4e1a-a51b-d594aaf2138b",
+  "name": "TestProcessConnectionRegistrationRegistersKindsWithoutVerifyAction",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestProcessConnectionRegistrationRegistersKindsWithoutVerifyAction",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794502867915,
+  "stop": 1794502868160,
+  "statusDetails": {
+    "message": "2026/11/12 17:01:08 \u001b[32m/home/runner/work/meshery/meshery/server/handlers/connections_register_test.go:35 \u001b[33mSLOW SQL >= 200ms\n\u001b[0m\u001b[31;1m[218.413ms] \u001b[33m[rows:0]\u001b[35m CREATE TABLE `connections` (`id` text,`name` text,`description` text,`url` text,`credential_id` text,`connection_type` text,`sub_type` text,`kind` text,`model_reference` text,`connection_schema` text,`credential_schema` text,`metadata` text,`status` text,`owner` text,`created_at` datetime,`updated_at` datetime,`deleted_at` datetime,`styles` blob,`transition_map` blob,`organization_id` text,PRIMARY KEY (`id`))\u001b[0m"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProcessConnectionRegistrationRegistersKindsWithoutVerifyAction"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
