@@ -1,0 +1,46 @@
+{
+  "uuid": "29d35379-b142-45fc-b24b-58304cd80593",
+  "name": "TestGetAllMeshmodelPoliciesPagination/policies_by_name",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestGetAllMeshmodelPoliciesPagination/policies_by_name",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794494035234,
+  "stop": 1794494035249,
+  "statusDetails": {
+    "message": "2026/11/12 14:33:55 \u001b[31;1m/home/runner/go/pkg/mod/github.com/meshery/schemas@v1.3.116/models/v1beta1/connection/connection_helper.go:60 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.086ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"a48839df-3b95-a488-9af0-c575e301aca4\" ORDER BY `connections`.`id` LIMIT 1\n\r\n2026/11/12 14:33:55 \u001b[31;1m/home/runner/go/pkg/mod/github.com/meshery/schemas@v1.3.116/models/v1beta2/model/model_helper.go:83 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.088ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `model_dbs` WHERE id = \"52af80be-27c3-8cff-9870-d1add252bcde\" and connection_id = \"a48839df-3b95-a488-9af0-c575e301aca4\" ORDER BY `model_dbs`.`id` LIMIT 1\n\r\n2026/11/12 14:33:55 \u001b[31;1m/home/runner/go/pkg/mod/github.com/meshery/schemas@v1.3.116/models/v1beta1/category/category_helper.go:63 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.058ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `category_dbs` WHERE id = \"3514ec74-8381-c4eb-c822-89ad0ac66e39\" ORDER BY `category_dbs`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGetAllMeshmodelPoliciesPagination/policies_by_name"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
