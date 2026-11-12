@@ -1,0 +1,36 @@
+(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,
+ in test file 003-design/03-design-list.bats, line 17)
+  `assert_line --regexp "$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN"' failed
+
+-- no output line matches regular expression --
+regexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$
+output (13 lines):
+  Total number of designs: 51586
+  Page: 1
+  DESIGN ID                             OWNER     NAME                                            CREATED     UPDATED
+  c6497b45-7d9a-4481-a15e-4ed1a5050b26  dea82811  nginx                                           11-12-2026  11-12-2026
+  7fefda4d-ec50-4229-b4b2-3e3b74dea540  dea82811  nginx                                           11-12-2026  11-12-2026
+  aa065caf-24f4-411f-a5e8-779600032c1f  dea82811  nginx                                           11-12-2026  11-12-2026
+  57b6d19b-cf47-402f-bd67-5aed38dce078  de4901de  Rama Chandra - Kubernetes Web Service Practice  11-12-2026  11-12-2026
+  3c248cad-ef63-46e5-a29d-36417214d12e  dea82811  nginx                                           11-12-2026  11-12-2026
+  d97e2060-495f-4fd0-901b-1f74e404b963  dea82811  nginx                                           11-12-2026  11-12-2026
+  89d64b1e-daf9-4ad9-b512-491bb9dc84b5  dea82811  nginx                                           11-12-2026  11-12-2026
+  8a46766d-f32e-4458-a2bd-150df2f50d35  dea82811  nginx                                           11-12-2026  11-12-2026
+  11b29bb6-213b-4ff3-9e1f-fd56e6766846  dea82811  nginx                                           11-12-2026  11-12-2026
+  bc85f1cc-44e2-402a-98da-0d965e6afb8c  dea82811  nginx                                           11-12-2026  11-12-2026
+--
+
+Last output:
+Total number of designs: 51586
+Page: 1
+DESIGN ID                             OWNER     NAME                                            CREATED     UPDATED
+c6497b45-7d9a-4481-a15e-4ed1a5050b26  dea82811  nginx                                           11-12-2026  11-12-2026
+7fefda4d-ec50-4229-b4b2-3e3b74dea540  dea82811  nginx                                           11-12-2026  11-12-2026
+aa065caf-24f4-411f-a5e8-779600032c1f  dea82811  nginx                                           11-12-2026  11-12-2026
+57b6d19b-cf47-402f-bd67-5aed38dce078  de4901de  Rama Chandra - Kubernetes Web Service Practice  11-12-2026  11-12-2026
+3c248cad-ef63-46e5-a29d-36417214d12e  dea82811  nginx                                           11-12-2026  11-12-2026
+d97e2060-495f-4fd0-901b-1f74e404b963  dea82811  nginx                                           11-12-2026  11-12-2026
+89d64b1e-daf9-4ad9-b512-491bb9dc84b5  dea82811  nginx                                           11-12-2026  11-12-2026
+8a46766d-f32e-4458-a2bd-150df2f50d35  dea82811  nginx                                           11-12-2026  11-12-2026
+11b29bb6-213b-4ff3-9e1f-fd56e6766846  dea82811  nginx                                           11-12-2026  11-12-2026
+bc85f1cc-44e2-402a-98da-0d965e6afb8c  dea82811  nginx                                           11-12-2026  11-12-2026
