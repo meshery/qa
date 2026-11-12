@@ -1,0 +1,46 @@
+{
+  "uuid": "9a6aa52a-c147-42ec-93bd-e2620fe9aad6",
+  "name": "TestDeleteConnectionExisting",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestDeleteConnectionExisting",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794511936804,
+  "stop": 1794511936829,
+  "statusDetails": {
+    "message": "2026/11/12 19:32:16 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:169 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.223ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"dd3a43b0-c68f-4865-9daa-9f8dda729eb7\" ORDER BY `connections`.`id` LIMIT 1\n\r\n2026/11/12 19:32:16 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:99 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.084ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"dd3a43b0-c68f-4865-9daa-9f8dda729eb7\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/12 19:32:16 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:103 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.098ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE connection_id = \"dd3a43b0-c68f-4865-9daa-9f8dda729eb7\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/12 19:32:16 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:99 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.081ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"dd3a43b0c68f48659daa9f8dda729eb7\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/12 19:32:16 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:103 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.089ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE connection_id = \"dd3a43b0c68f48659daa9f8dda729eb7\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/12 19:32:16 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:303 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.163ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"dd3a43b0-c68f-4865-9daa-9f8dda729eb7\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteConnectionExisting"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
