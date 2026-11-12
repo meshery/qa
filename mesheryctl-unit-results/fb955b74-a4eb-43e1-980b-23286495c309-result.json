@@ -1,0 +1,46 @@
+{
+  "uuid": "fb955b74-a4eb-43e1-980b-23286495c309",
+  "name": "TestChannelArgsValidation/view_with_unexpected_args_fails_in_Args_validation",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/system::TestChannelArgsValidation/view_with_unexpected_args_fails_in_Args_validation",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794468589620,
+  "stop": 1794468589622,
+  "statusDetails": {
+    "message": "Error: No argument expected.\n\nSee https://docs.meshery.io/reference/mesheryctl/system/channel/view for usage details\n | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/system"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestChannelArgsValidation/view_with_unexpected_args_fails_in_Args_validation"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
