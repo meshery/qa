@@ -1,0 +1,46 @@
+{
+  "uuid": "5d19fe8a-d87a-4f59-9b48-54f1e12f3c84",
+  "name": "TestProcessConnectionRegistration_KubernetesKindResolvesContextByConnectionIDLink",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestProcessConnectionRegistration_KubernetesKindResolvesContextByConnectionIDLink",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794475703398,
+  "stop": 1794475703449,
+  "statusDetails": {
+    "message": "2026/11/12 09:28:23 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:84 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.165ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"e10d308c2bb4418199bb446f189b418e\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/12 09:28:23 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:169 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.172ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"dc3c957e-ba1a-4f51-917a-eb5dfd6108b4\" ORDER BY `connections`.`id` LIMIT 1\n\r\n2026/11/12 09:28:23 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:99 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.147ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"dc3c957e-ba1a-4f51-917a-eb5dfd6108b4\" ORDER BY `k8s_contexts`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProcessConnectionRegistration_KubernetesKindResolvesContextByConnectionIDLink"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
