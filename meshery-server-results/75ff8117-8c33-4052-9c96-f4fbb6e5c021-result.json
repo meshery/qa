@@ -1,0 +1,46 @@
+{
+  "uuid": "75ff8117-8c33-4052-9c96-f4fbb6e5c021",
+  "name": "TestPostLoginRedirect_LocationNeverLeavesTheOrigin/https://kanvas.new//evil.example",
+  "fullName": "github.com/meshery/meshery/server/models::TestPostLoginRedirect_LocationNeverLeavesTheOrigin/https://kanvas.new//evil.example",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794515387618,
+  "stop": 1794515387623,
+  "statusDetails": {
+    "message": "=== PAUSE TestPostLoginRedirect_LocationNeverLeavesTheOrigin/https://kanvas.new//evil.example\n=== CONT  TestPostLoginRedirect_LocationNeverLeavesTheOrigin/https://kanvas.new//evil.example"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPostLoginRedirect_LocationNeverLeavesTheOrigin/https://kanvas.new//evil.example"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

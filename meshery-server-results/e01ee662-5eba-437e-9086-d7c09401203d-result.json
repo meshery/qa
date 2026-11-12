@@ -1,0 +1,46 @@
+{
+  "uuid": "e01ee662-5eba-437e-9086-d7c09401203d",
+  "name": "TestDeleteConnection_KubernetesKindMetadataOwnershipMismatchFallsBackToLinkedContext",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestDeleteConnection_KubernetesKindMetadataOwnershipMismatchFallsBackToLinkedContext",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794515271650,
+  "stop": 1794515271686,
+  "statusDetails": {
+    "message": "2026/11/12 20:27:51 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:169 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.171ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"ee789037-8bc7-4b37-81b8-700af2d011f1\" ORDER BY `connections`.`id` LIMIT 1\n\r\n2026/11/12 20:27:51 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:169 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.158ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"2eecd9da-fa43-4e53-b2ca-597f79bd3325\" ORDER BY `connections`.`id` LIMIT 1\n\r\n2026/11/12 20:27:51 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:99 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.107ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"ee789037-8bc7-4b37-81b8-700af2d011f1\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/12 20:27:51 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:303 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.149ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"ee789037-8bc7-4b37-81b8-700af2d011f1\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteConnection_KubernetesKindMetadataOwnershipMismatchFallsBackToLinkedContext"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
