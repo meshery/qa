@@ -1,0 +1,46 @@
+{
+  "uuid": "1c1c7298-6f83-4a8c-af53-8e04f05ad43c",
+  "name": "TestApplyCmd/Run_Test_without_profile-name_and_id",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/perf::TestApplyCmd/Run_Test_without_profile-name_and_id",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794457525527,
+  "stop": 1794457525528,
+  "statusDetails": {
+    "message": "Error: No profile name provided | Short Description: No profile name | Probable Cause: No profile name provided to perform test | Suggested Remediation: Provide a profile-name.\nSee https://docs.meshery.io/reference/mesheryctl/perf/apply for usage details"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/perf"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestApplyCmd/Run_Test_without_profile-name_and_id"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
