@@ -1,0 +1,46 @@
+{
+  "uuid": "8e02b66f-5710-4cd2-82e6-43ea5730f48a",
+  "name": "TestGetEnvironmentConnectionsExcludesSoftDeletedMappings",
+  "fullName": "github.com/meshery/meshery/server/models::TestGetEnvironmentConnectionsExcludesSoftDeletedMappings",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794457556374,
+  "stop": 1794457556428,
+  "statusDetails": {
+    "message": "2026/11/12 04:25:56 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:169 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.193ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"6e3b4657-e135-4006-a483-a1b312187f8b\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGetEnvironmentConnectionsExcludesSoftDeletedMappings"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

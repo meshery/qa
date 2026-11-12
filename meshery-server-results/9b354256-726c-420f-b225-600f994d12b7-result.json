@@ -1,0 +1,46 @@
+{
+  "uuid": "9b354256-726c-420f-b225-600f994d12b7",
+  "name": "TestDeleteConnection_KubernetesKindContextLookupFails_LogsWarningAndDeletes",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestDeleteConnection_KubernetesKindContextLookupFails_LogsWarningAndDeletes",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794457553828,
+  "stop": 1794457553870,
+  "statusDetails": {
+    "message": "2026/11/12 04:25:53 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:169 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.167ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"0fbe2d7a-ed2b-46bd-933c-26255d3bf3fc\" ORDER BY `connections`.`id` LIMIT 1\n\r\n2026/11/12 04:25:53 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:99 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.108ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"non-existent-context-id\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/12 04:25:53 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:103 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.103ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE connection_id = \"non-existent-context-id\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/12 04:25:53 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:99 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.078ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"nonexistentcontextid\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/12 04:25:53 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:103 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.089ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE connection_id = \"nonexistentcontextid\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/12 04:25:53 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:99 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.081ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"0fbe2d7a-ed2b-46bd-933c-26255d3bf3fc\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/12 04:25:53 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:103 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.091ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE connection_id = \"0fbe2d7a-ed2b-46bd-933c-26255d3bf3fc\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/12 04:25:53 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:99 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.077ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"0fbe2d7aed2b46bd933c26255d3bf3fc\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/12 04:25:53 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:103 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.080ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE connection_id = \"0fbe2d7aed2b46bd933c26255d3bf3fc\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/12 04:25:53 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:303 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.123ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"0fbe2d7a-ed2b-46bd-933c-26255d3bf3fc\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteConnection_KubernetesKindContextLookupFails_LogsWarningAndDeletes"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
