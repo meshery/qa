@@ -1,0 +1,18 @@
+(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,
+ in test file 002-model/03-model-export.bats, line 59)
+  `assert_success' failed
+
+-- command failed --
+status : 1
+output (4 lines):
+  Error: too many arguments specified
+
+  Usage: mesheryctl model export [model-name]
+  Run 'mesheryctl model export --help' to see detailed help message | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed
+--
+
+Last output:
+Error: too many arguments specified
+
+Usage: mesheryctl model export [model-name]
+Run 'mesheryctl model export --help' to see detailed help message | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed
