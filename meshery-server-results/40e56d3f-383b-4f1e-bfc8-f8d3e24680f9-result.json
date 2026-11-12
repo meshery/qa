@@ -1,0 +1,46 @@
+{
+  "uuid": "40e56d3f-383b-4f1e-bfc8-f8d3e24680f9",
+  "name": "TestRegistrationAuthMiddleware/no_selector,_no_enforced_provider_reaches_handler",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestRegistrationAuthMiddleware/no_selector,_no_enforced_provider_reaches_handler",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794497432287,
+  "stop": 1794497432288,
+  "statusDetails": {
+    "message": "=== PAUSE TestRegistrationAuthMiddleware/no_selector,_no_enforced_provider_reaches_handler\n=== CONT  TestRegistrationAuthMiddleware/no_selector,_no_enforced_provider_reaches_handler"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestRegistrationAuthMiddleware/no_selector,_no_enforced_provider_reaches_handler"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

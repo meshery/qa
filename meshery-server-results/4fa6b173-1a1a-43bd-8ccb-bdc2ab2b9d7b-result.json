@@ -1,0 +1,46 @@
+{
+  "uuid": "4fa6b173-1a1a-43bd-8ccb-bdc2ab2b9d7b",
+  "name": "TestExportModel_VersionTraversal/inner_model_version_traverses",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestExportModel_VersionTraversal/inner_model_version_traverses",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794497368242,
+  "stop": 1794497368308,
+  "statusDetails": {
+    "message": "2026/11/12 15:29:28 \u001b[31;1m/home/runner/go/pkg/mod/github.com/meshery/schemas@v1.3.116/models/v1beta1/connection/connection_helper.go:60 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.193ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"21582be4-5153-c5ae-f0d3-c433c591ae5b\" ORDER BY `connections`.`id` LIMIT 1\n\r\n2026/11/12 15:29:28 \u001b[31;1m/home/runner/go/pkg/mod/github.com/meshery/schemas@v1.3.116/models/v1beta1/model/model_helper.go:83 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.138ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `model_dbs` WHERE id = \"6bf78dda-17f4-4ae0-9cd1-98f5f2ee8eb7\" and connection_id = \"21582be4-5153-c5ae-f0d3-c433c591ae5b\" ORDER BY `model_dbs`.`id` LIMIT 1\n\r\n2026/11/12 15:29:28 \u001b[31;1m/home/runner/go/pkg/mod/github.com/meshery/schemas@v1.3.116/models/v1beta1/category/category_helper.go:63 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.111ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `category_dbs` WHERE id = \"3514ec74-8381-c4eb-c822-89ad0ac66e39\" ORDER BY `category_dbs`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestExportModel_VersionTraversal/inner_model_version_traverses"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
