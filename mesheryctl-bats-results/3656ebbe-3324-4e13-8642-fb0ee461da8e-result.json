@@ -1,0 +1,43 @@
+{
+  "uuid": "3656ebbe-3324-4e13-8642-fb0ee461da8e",
+  "name": "given ADAPTERS without PLATFORM when the platform prompt is answered then mesheryctl is installed and started with a new context holding only that adapter",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794607066342,
+  "stop": 1794607066343,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "testId",
+      "value": "TC-6"
+    },
+    {
+      "name": "tag",
+      "value": "TC-6"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "Installer / Bash Script"
+    },
+    {
+      "name": "testGroup",
+      "value": "Installation"
+    }
+  ]
+}

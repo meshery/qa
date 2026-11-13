@@ -1,0 +1,35 @@
+{
+  "uuid": "1e5a0aa9-be69-448e-ac12-1ad0578bdc6d",
+  "name": "mesheryctl model import succeeds for valid model in uncompressed format",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794607066337,
+  "stop": 1794607066338,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "Model"
+    },
+    {
+      "name": "testGroup",
+      "value": "Model Import"
+    }
+  ]
+}
