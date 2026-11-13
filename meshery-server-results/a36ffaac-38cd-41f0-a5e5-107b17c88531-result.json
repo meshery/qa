@@ -1,0 +1,46 @@
+{
+  "uuid": "a36ffaac-38cd-41f0-a5e5-107b17c88531",
+  "name": "TestProcessConnectionRegistration_KubernetesKindPreExistingTrackerInstance",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestProcessConnectionRegistration_KubernetesKindPreExistingTrackerInstance",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794567901727,
+  "stop": 1794567901747,
+  "statusDetails": {
+    "message": "2026/11/13 11:05:01 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:169 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.150ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"fbd83c0f-6708-43d5-92ec-ecfb9fa96a28\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProcessConnectionRegistration_KubernetesKindPreExistingTrackerInstance"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
