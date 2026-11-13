@@ -1,0 +1,46 @@
+{
+  "uuid": "0ca83567-995d-4476-a562-8caa9da4467d",
+  "name": "TestDeleteConnection_KubernetesKindMetadataStaleContextFallsBackToLinkedContextTriggersTeardown",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestDeleteConnection_KubernetesKindMetadataStaleContextFallsBackToLinkedContextTriggersTeardown",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794582137166,
+  "stop": 1794582137203,
+  "statusDetails": {
+    "message": "2026/11/13 15:02:17 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:169 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.165ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"f0ce0af5-a579-4322-85e1-9c822b6a58c3\" ORDER BY `connections`.`id` LIMIT 1\n\r\n2026/11/13 15:02:17 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:99 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.121ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"stale-or-nonexistent-context-id\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/13 15:02:17 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:103 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.128ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE connection_id = \"stale-or-nonexistent-context-id\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/13 15:02:17 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:99 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.115ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"staleornonexistentcontextid\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/13 15:02:17 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:103 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.124ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE connection_id = \"staleornonexistentcontextid\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/13 15:02:17 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:99 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.147ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"f0ce0af5-a579-4322-85e1-9c822b6a58c3\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/13 15:02:17 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:330 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.115ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"f0ce0af5-a579-4322-85e1-9c822b6a58c3\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteConnection_KubernetesKindMetadataStaleContextFallsBackToLinkedContextTriggersTeardown"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
