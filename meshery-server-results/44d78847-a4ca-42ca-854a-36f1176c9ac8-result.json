@@ -1,0 +1,46 @@
+{
+  "uuid": "44d78847-a4ca-42ca-854a-36f1176c9ac8",
+  "name": "TestResolveProviderName/cookie_with_whitespace_value_is_honored_verbatim",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestResolveProviderName/cookie_with_whitespace_value_is_honored_verbatim",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794550855740,
+  "stop": 1794550855742,
+  "statusDetails": {
+    "message": "=== PAUSE TestResolveProviderName/cookie_with_whitespace_value_is_honored_verbatim\n=== CONT  TestResolveProviderName/cookie_with_whitespace_value_is_honored_verbatim"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestResolveProviderName/cookie_with_whitespace_value_is_honored_verbatim"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
