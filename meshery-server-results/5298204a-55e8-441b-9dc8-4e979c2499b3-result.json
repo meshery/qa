@@ -1,0 +1,46 @@
+{
+  "uuid": "5298204a-55e8-441b-9dc8-4e979c2499b3",
+  "name": "TestDeleteConnection_KubernetesKindMetadataStaleContextFallsBackToLinkedContextTriggersTeardown",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestDeleteConnection_KubernetesKindMetadataStaleContextFallsBackToLinkedContextTriggersTeardown",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794563025834,
+  "stop": 1794563025869,
+  "statusDetails": {
+    "message": "2026/11/13 09:43:45 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/events_persister.go:139 \u001b[35;1mattempt to write a readonly database\n\u001b[0m\u001b[33m[8.504ms] \u001b[34;1m[rows:0]\u001b[0m INSERT INTO `events` (`acted_upon`,`action`,`category`,`created_at`,`deleted_at`,`description`,`id`,`metadata`,`operation_id`,`severity`,`status`,`system_id`,`updated_at`,`owner`,`idempotency_key`,`correlation_key`,`occurrence_count`,`first_seen_at`,`last_seen_at`,`resolved_at`,`source`,`type`,`specversion`,`trace_id`,`parent_id`) VALUES (\"00000000-0000-0000-0000-000000000000\",\"flush\",\"meshsync\",\"2026-11-13 09:43:45.828\",NULL,\"No Kubernetes context specified, please choose a context from context switcher\",\"5e75e780-88d5-4264-b627-a965a7ce7cda\",NULL,\"6c02127e-54fa-47e3-8bb3-cb60cd1bb74f\",\"error\",\"unread\",\"00000000-0000-0000-0000-000000000000\",\"2026-11-13 09:43:45.829\",NULL,NULL,NULL,NULL,NULL,NULL,NULL,\"meshery-server\",NULL,NULL,NULL,NULL)\n\r\n2026/11/13 09:43:45 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:169 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.121ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"e6cfe8ff-ef00-459a-8b8e-1e38e6877f9b\" ORDER BY `connections`.`id` LIMIT 1\n\r\n2026/11/13 09:43:45 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:99 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.067ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"stale-or-nonexistent-context-id\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/13 09:43:45 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:103 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.157ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE connection_id = \"stale-or-nonexistent-context-id\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/13 09:43:45 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:99 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.101ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"staleornonexistentcontextid\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/13 09:43:45 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:103 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.073ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE connection_id = \"staleornonexistentcontextid\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/13 09:43:45 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:99 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.054ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"e6cfe8ff-ef00-459a-8b8e-1e38e6877f9b\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/13 09:43:45 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:303 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.116ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"e6cfe8ff-ef00-459a-8b8e-1e38e6877f9b\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteConnection_KubernetesKindMetadataStaleContextFallsBackToLinkedContextTriggersTeardown"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

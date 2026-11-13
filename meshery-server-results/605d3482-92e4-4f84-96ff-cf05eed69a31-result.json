@@ -1,0 +1,46 @@
+{
+  "uuid": "605d3482-92e4-4f84-96ff-cf05eed69a31",
+  "name": "TestProcessConnectionRegistration_KubernetesKindFullLifecycleFromSaveK8sContext",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestProcessConnectionRegistration_KubernetesKindFullLifecycleFromSaveK8sContext",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794562983088,
+  "stop": 1794562983116,
+  "statusDetails": {
+    "message": "2026/11/13 09:43:03 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:169 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.126ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"9b2ee376-2b9b-4a0e-479c-7e7d9b9747a7\" ORDER BY `connections`.`id` LIMIT 1\n\r\n2026/11/13 09:43:03 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:84 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.083ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"9b2ee3762b9b4a0e479c7e7d9b9747a7\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/13 09:43:03 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:99 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.103ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"9b2ee376-2b9b-4a0e-479c-7e7d9b9747a7\" ORDER BY `k8s_contexts`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProcessConnectionRegistration_KubernetesKindFullLifecycleFromSaveK8sContext"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
