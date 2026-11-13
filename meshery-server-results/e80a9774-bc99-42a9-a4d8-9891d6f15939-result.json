@@ -1,0 +1,46 @@
+{
+  "uuid": "e80a9774-bc99-42a9-a4d8-9891d6f15939",
+  "name": "TestGetMesheryK8sContexts_PropagatesCountError",
+  "fullName": "github.com/meshery/meshery/server/models::TestGetMesheryK8sContexts_PropagatesCountError",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794564319824,
+  "stop": 1794564319826,
+  "statusDetails": {
+    "message": "2026/11/13 10:05:19 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:44 \u001b[35;1mno such table: k8s_contexts\n\u001b[0m\u001b[33m[0.863ms] \u001b[34;1m[rows:0]\u001b[0m SELECT count(*) FROM `k8s_contexts`"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGetMesheryK8sContexts_PropagatesCountError"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
