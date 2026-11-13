@@ -1,0 +1,46 @@
+{
+  "uuid": "d915b434-91a7-48f9-bffe-4202c57222ca",
+  "name": "TestGrafanaClientForConnectionCredentialShapes/legacy_double-nested_shape",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestGrafanaClientForConnectionCredentialShapes/legacy_double-nested_shape",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794593510962,
+  "stop": 1794593510967,
+  "statusDetails": {
+    "message": "2026/11/13 18:11:50 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:169 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.117ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"7d2519dc-af33-4f9c-975f-53c8d61705d7\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGrafanaClientForConnectionCredentialShapes/legacy_double-nested_shape"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

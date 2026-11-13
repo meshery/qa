@@ -1,0 +1,46 @@
+{
+  "uuid": "96412aab-c520-476e-989c-4fd70ab3934c",
+  "name": "TestDeleteConnectionExisting",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestDeleteConnectionExisting",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794593494348,
+  "stop": 1794593495131,
+  "statusDetails": {
+    "message": "2026/11/13 18:11:34 \u001b[32m/home/runner/work/meshery/meshery/server/handlers/delete_connection_test.go:42 \u001b[33mSLOW SQL >= 200ms\n\u001b[0m\u001b[31;1m[420.088ms] \u001b[33m[rows:0]\u001b[35m CREATE TABLE `k8s_contexts` (`id` text,`name` text,`auth` text,`cluster` text,`server` text,`meshery_instance_id` text,`kubernetes_server_id` text,`deployment_type` text,`version` text,`updated_at` datetime,`created_at` datetime,`connection_id` text,PRIMARY KEY (`id`))\u001b[0m\n\r\n2026/11/13 18:11:34 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:169 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.274ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"099bb0b8-abc6-4902-a54c-9259adfc048e\" ORDER BY `connections`.`id` LIMIT 1\n\r\n2026/11/13 18:11:35 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:99 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.106ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"099bb0b8-abc6-4902-a54c-9259adfc048e\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/13 18:11:35 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:103 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.151ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE connection_id = \"099bb0b8-abc6-4902-a54c-9259adfc048e\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/13 18:11:35 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:99 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.111ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"099bb0b8abc64902a54c9259adfc048e\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/13 18:11:35 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:103 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.074ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE connection_id = \"099bb0b8abc64902a54c9259adfc048e\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/13 18:11:35 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:330 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.155ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"099bb0b8-abc6-4902-a54c-9259adfc048e\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteConnectionExisting"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
