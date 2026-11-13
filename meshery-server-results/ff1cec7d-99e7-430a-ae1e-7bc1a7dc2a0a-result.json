@@ -1,0 +1,46 @@
+{
+  "uuid": "ff1cec7d-99e7-430a-ae1e-7bc1a7dc2a0a",
+  "name": "TestOpenEventCorrelationIndexAllowsOneOpenEventPerOwnerAndKey",
+  "fullName": "github.com/meshery/meshery/server/models::TestOpenEventCorrelationIndexAllowsOneOpenEventPerOwnerAndKey",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794556650349,
+  "stop": 1794556650414,
+  "statusDetails": {
+    "message": "2026/11/13 07:57:30 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/events_persister_correlation_test.go:423 \u001b[35;1mUNIQUE constraint failed: events.owner, events.correlation_key\n\u001b[0m\u001b[33m[0.388ms] \u001b[34;1m[rows:0]\u001b[0m INSERT INTO `events` (`acted_upon`,`action`,`category`,`created_at`,`deleted_at`,`description`,`id`,`metadata`,`operation_id`,`severity`,`status`,`system_id`,`updated_at`,`owner`,`idempotency_key`,`correlation_key`,`occurrence_count`,`first_seen_at`,`last_seen_at`,`resolved_at`,`source`,`type`,`specversion`,`trace_id`,`parent_id`) VALUES (\"00000000-0000-0000-0000-000000000000\",\"update\",\"connection\",\"2026-11-13 07:57:30.412\",NULL,\"second open\",\"cb76186c-45ce-408e-a71d-5009c93576ad\",NULL,\"f6893a5f-8407-4868-8657-7aedab098094\",\"error\",\"unread\",\"00000000-0000-0000-0000-000000000000\",\"2026-11-13 07:57:30.412\",\"6e900a0d-228c-41bc-96b6-4f9e6caa1d8f\",NULL,\"meshery-server/k8s-connection/f/unreachable\",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestOpenEventCorrelationIndexAllowsOneOpenEventPerOwnerAndKey"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
