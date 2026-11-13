@@ -1,0 +1,46 @@
+{
+  "uuid": "48b13388-41b8-4e1e-841f-e0f3be7f8b45",
+  "name": "TestProcessEvaluationResponse_NilPointerGuard",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestProcessEvaluationResponse_NilPointerGuard",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794580655433,
+  "stop": 1794580656053,
+  "statusDetails": {
+    "message": "=== PAUSE TestProcessEvaluationResponse_NilPointerGuard\n=== CONT  TestProcessEvaluationResponse_NilPointerGuard"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProcessEvaluationResponse_NilPointerGuard"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
