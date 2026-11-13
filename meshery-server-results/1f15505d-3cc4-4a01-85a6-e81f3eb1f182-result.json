@@ -1,0 +1,46 @@
+{
+  "uuid": "1f15505d-3cc4-4a01-85a6-e81f3eb1f182",
+  "name": "TestDeleteConnectionResolvesUnreachableConditionWhenLookupFails",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestDeleteConnectionResolvesUnreachableConditionWhenLookupFails",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794611785024,
+  "stop": 1794611785038,
+  "statusDetails": {
+    "message": "2026/11/13 23:16:25 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:169 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.173ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"2f0a2f75-accd-4c1f-b8ad-cb133df450ab\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteConnectionResolvesUnreachableConditionWhenLookupFails"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
