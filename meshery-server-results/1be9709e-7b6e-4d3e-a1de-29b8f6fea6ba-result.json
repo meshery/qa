@@ -1,0 +1,46 @@
+{
+  "uuid": "1be9709e-7b6e-4d3e-a1de-29b8f6fea6ba",
+  "name": "TestGetComponentMetadataWithoutRegistryTablesFallsBackSilently",
+  "fullName": "github.com/meshery/meshery/server/models::TestGetComponentMetadataWithoutRegistryTablesFallsBackSilently",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794529769985,
+  "stop": 1794529769990,
+  "statusDetails": {
+    "message": "2026/11/13 00:29:29 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshsync_events.go:371 \u001b[35;1mno such table: component_definition_dbs\n\u001b[0m\u001b[33m[1.193ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `component_definition_dbs` WHERE component->>'version' = \"v1\" AND component->>'kind' = \"Pod\" ORDER BY `component_definition_dbs`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGetComponentMetadataWithoutRegistryTablesFallsBackSilently"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
