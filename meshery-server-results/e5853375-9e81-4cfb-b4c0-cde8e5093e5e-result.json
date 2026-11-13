@@ -1,0 +1,46 @@
+{
+  "uuid": "e5853375-9e81-4cfb-b4c0-cde8e5093e5e",
+  "name": "TestNewPatternFileFromK8sManifest_AllResourcesUnmatched",
+  "fullName": "github.com/meshery/meshery/server/models/pattern/core::TestNewPatternFileFromK8sManifest_AllResourcesUnmatched",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794578789612,
+  "stop": 1794578790870,
+  "statusDetails": {
+    "message": "2026/11/13 14:06:29 \u001b[32m/home/runner/go/pkg/mod/github.com/meshery/meshkit@v1.0.29/models/meshmodel/registry/registry.go:97 \u001b[33mSLOW SQL >= 200ms\n\u001b[0m\u001b[31;1m[361.353ms] \u001b[33m[rows:0]\u001b[35m CREATE TABLE `registries` (`id` text,`registrant_id` text,`entity` text,`type` text,`created_at` datetime,`updated_at` datetime,PRIMARY KEY (`id`))\u001b[0m\n\r\n2026/11/13 14:06:30 \u001b[32m/home/runner/go/pkg/mod/github.com/meshery/meshkit@v1.0.29/models/meshmodel/registry/registry.go:97 \u001b[33mSLOW SQL >= 200ms\n\u001b[0m\u001b[31;1m[576.955ms] \u001b[33m[rows:0]\u001b[35m CREATE TABLE `connections` (`id` text,`name` text,`credential_id` text,`type` text,`sub_type` text,`kind` text,`metadata` text,`status` text,`user_id` text,`created_at` datetime,`updated_at` datetime,`deleted_at` datetime,`organization_id` text,PRIMARY KEY (`id`))\u001b[0m"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models/pattern/core"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestNewPatternFileFromK8sManifest_AllResourcesUnmatched"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
