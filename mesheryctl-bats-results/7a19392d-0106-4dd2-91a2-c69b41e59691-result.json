@@ -1,0 +1,45 @@
+{
+  "uuid": "7a19392d-0106-4dd2-91a2-c69b41e59691",
+  "name": "mesheryctl model export handles discard flags correctly",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1794577755596,
+  "stop": 1794577755597,
+  "statusDetails": {
+    "message": "`assert_success' failed",
+    "trace": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 002-model/03-model-export.bats, line 59)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput (4 lines):\n  Error: too many arguments specified\n\n  Usage: mesheryctl model export [model-name]\n  Run 'mesheryctl model export --help' to see detailed help message | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed\n--\n\nLast output:\nError: too many arguments specified\n\nUsage: mesheryctl model export [model-name]\nRun 'mesheryctl model export --help' to see detailed help message | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "Model"
+    },
+    {
+      "name": "testGroup",
+      "value": "Model Export"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "CLI output (bats)",
+      "source": "7a19392d-0106-4dd2-91a2-c69b41e59691-attachment.txt",
+      "type": "text/plain"
+    }
+  ]
+}

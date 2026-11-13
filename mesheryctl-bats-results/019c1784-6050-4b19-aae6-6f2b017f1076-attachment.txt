@@ -1,0 +1,36 @@
+(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,
+ in test file 003-design/03-design-list.bats, line 17)
+  `assert_line --regexp "$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN"' failed
+
+-- no output line matches regular expression --
+regexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$
+output (13 lines):
+  Total number of designs: 51707
+  Page: 1
+  DESIGN ID                             OWNER     NAME              CREATED     UPDATED
+  2b13be2f-0899-4a5f-b5bb-dd3ad8527505  dea82811  nginx             11-13-2026  11-13-2026
+  1f068d87-d98f-43b8-b40c-ceb6b953fe5a  dea82811  nginx             11-13-2026  11-13-2026
+  c8b4fa38-5707-48bf-b787-4e5b5510bdf8  dea82811  nginx             11-13-2026  11-13-2026
+  b70c1c53-f56c-437a-88c7-e4fc122aaeb9  dea82811  nginx             11-13-2026  11-13-2026
+  739f1feb-87e6-4306-a064-0d92cceb4d1e  dea82811  nginx             11-13-2026  11-13-2026
+  ca13f784-ec36-4ff2-b2c8-9a21b859d871  dea82811  nginx             11-13-2026  11-13-2026
+  26804520-37af-4b02-a096-809e08b1f4b5  dea82811  nginx             11-13-2026  11-13-2026
+  78b05052-bc0c-4982-b4ec-872556940077  472bb70f  First Design      11-13-2026  11-13-2026
+  03397972-6da4-4196-a52f-161203c79ef8  31c69433  SmartNote Design  11-03-2026  11-13-2026
+  5197c1f4-f1a5-401c-a5c9-7ce967feed1c  31c69433  SmartNote Design  11-13-2026  11-13-2026
+--
+
+Last output:
+Total number of designs: 51707
+Page: 1
+DESIGN ID                             OWNER     NAME              CREATED     UPDATED
+2b13be2f-0899-4a5f-b5bb-dd3ad8527505  dea82811  nginx             11-13-2026  11-13-2026
+1f068d87-d98f-43b8-b40c-ceb6b953fe5a  dea82811  nginx             11-13-2026  11-13-2026
+c8b4fa38-5707-48bf-b787-4e5b5510bdf8  dea82811  nginx             11-13-2026  11-13-2026
+b70c1c53-f56c-437a-88c7-e4fc122aaeb9  dea82811  nginx             11-13-2026  11-13-2026
+739f1feb-87e6-4306-a064-0d92cceb4d1e  dea82811  nginx             11-13-2026  11-13-2026
+ca13f784-ec36-4ff2-b2c8-9a21b859d871  dea82811  nginx             11-13-2026  11-13-2026
+26804520-37af-4b02-a096-809e08b1f4b5  dea82811  nginx             11-13-2026  11-13-2026
+78b05052-bc0c-4982-b4ec-872556940077  472bb70f  First Design      11-13-2026  11-13-2026
+03397972-6da4-4196-a52f-161203c79ef8  31c69433  SmartNote Design  11-03-2026  11-13-2026
+5197c1f4-f1a5-401c-a5c9-7ce967feed1c  31c69433  SmartNote Design  11-13-2026  11-13-2026
