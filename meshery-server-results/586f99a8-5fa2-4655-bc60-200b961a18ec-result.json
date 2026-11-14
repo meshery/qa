@@ -1,0 +1,46 @@
+{
+  "uuid": "586f99a8-5fa2-4655-bc60-200b961a18ec",
+  "name": "TestProcessConnectionRegistration_RemoteProviderUsesConnectionUUIDEvenWithMetadataContextID",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestProcessConnectionRegistration_RemoteProviderUsesConnectionUUIDEvenWithMetadataContextID",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794685344659,
+  "stop": 1794685344738,
+  "statusDetails": {
+    "message": "2026/11/14 19:42:24 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:84 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.235ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"f73cbbb5-3b65-4268-9eeb-b04730101ab9\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/14 19:42:24 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:169 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.268ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"f73cbbb5-3b65-4268-9eeb-b04730101ab9\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProcessConnectionRegistration_RemoteProviderUsesConnectionUUIDEvenWithMetadataContextID"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
