@@ -1,0 +1,46 @@
+{
+  "uuid": "1da57ec9-7727-446d-b2ef-d7c9f8101c7f",
+  "name": "TestProcessEvaluationResponse_NilPointerGuard/ReturnDiffOnly_option_populates_Design_from_Trace",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestProcessEvaluationResponse_NilPointerGuard/ReturnDiffOnly_option_populates_Design_from_Trace",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794674200802,
+  "stop": 1794674200863,
+  "statusDetails": {
+    "message": "=== PAUSE TestProcessEvaluationResponse_NilPointerGuard/ReturnDiffOnly_option_populates_Design_from_Trace\n=== CONT  TestProcessEvaluationResponse_NilPointerGuard/ReturnDiffOnly_option_populates_Design_from_Trace\n\r\n2026/11/14 16:36:40 \u001b[31;1m/home/runner/go/pkg/mod/github.com/meshery/schemas@v1.3.116/models/v1beta1/connection/connection_helper.go:60 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.157ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"a74bd823-c7de-510d-9dd8-901f6dfddb32\" ORDER BY `connections`.`id` LIMIT 1\n\r\n2026/11/14 16:36:40 \u001b[31;1m/home/runner/go/pkg/mod/github.com/meshery/schemas@v1.3.116/models/v1beta1/model/model_helper.go:83 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.127ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `model_dbs` WHERE id = \"75e016da-88b0-f469-3101-2236e94056e3\" and connection_id = \"a74bd823-c7de-510d-9dd8-901f6dfddb32\" ORDER BY `model_dbs`.`id` LIMIT 1\n\r\n2026/11/14 16:36:40 \u001b[31;1m/home/runner/go/pkg/mod/github.com/meshery/schemas@v1.3.116/models/v1beta1/category/category_helper.go:63 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.127ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `category_dbs` WHERE id = \"2bc26cc4-84ab-3f24-fb61-1f2f8682a66d\" ORDER BY `category_dbs`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProcessEvaluationResponse_NilPointerGuard/ReturnDiffOnly_option_populates_Design_from_Trace"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
