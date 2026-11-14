@@ -1,0 +1,43 @@
+{
+  "uuid": "de3258e7-6638-42ed-bc03-ac634d6ac9d2",
+  "name": "given only unsupported adapters in ADAPTERS when running the installer then it exits with an error before installing mesheryctl",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794620760744,
+  "stop": 1794620760745,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "testId",
+      "value": "TC-6"
+    },
+    {
+      "name": "tag",
+      "value": "TC-6"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "Installer / Bash Script"
+    },
+    {
+      "name": "testGroup",
+      "value": "Installation"
+    }
+  ]
+}
