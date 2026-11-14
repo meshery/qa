@@ -1,0 +1,36 @@
+(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,
+ in test file 003-design/03-design-list.bats, line 17)
+  `assert_line --regexp "$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN"' failed
+
+-- no output line matches regular expression --
+regexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$
+output (13 lines):
+  Total number of designs: 51826
+  Page: 1
+  DESIGN ID                             OWNER     NAME                     CREATED     UPDATED
+  88871916-7d5f-4473-becf-7e1a179fe43f  dea82811  nginx                    11-14-2026  11-14-2026
+  cc4a7881-479f-4d9a-90ab-ec270849b70a  dea82811  nginx                    11-14-2026  11-14-2026
+  7312cd0c-92a4-4757-ab8c-df037f2476f0  dea82811  nginx                    11-14-2026  11-14-2026
+  65124b08-7f34-47c6-9159-34b942fa98ea  dea82811  nginx                    11-14-2026  11-14-2026
+  8c68d952-c2d8-4e82-ae36-d85e655b1df2  e779a703  Untitled Design          11-14-2026  11-14-2026
+  4ff9b4e9-3064-428b-b811-d4b46da0cadd  09d33aa5  My First Meshery Design  11-14-2026  11-14-2026
+  18b4b136-b8ab-4eb1-9b45-e748824f6adf  dea82811  nginx                    11-14-2026  11-14-2026
+  5ecef0f2-3de7-4a84-acca-dcffb3944cf9  dea82811  nginx                    11-14-2026  11-14-2026
+  b8743ee0-cea1-498f-a62a-1568153c1113  dea82811  nginx                    11-14-2026  11-14-2026
+  90fda6ba-120d-416b-8df8-1d274ef86dfc  dea82811  nginx                    11-14-2026  11-14-2026
+--
+
+Last output:
+Total number of designs: 51826
+Page: 1
+DESIGN ID                             OWNER     NAME                     CREATED     UPDATED
+88871916-7d5f-4473-becf-7e1a179fe43f  dea82811  nginx                    11-14-2026  11-14-2026
+cc4a7881-479f-4d9a-90ab-ec270849b70a  dea82811  nginx                    11-14-2026  11-14-2026
+7312cd0c-92a4-4757-ab8c-df037f2476f0  dea82811  nginx                    11-14-2026  11-14-2026
+65124b08-7f34-47c6-9159-34b942fa98ea  dea82811  nginx                    11-14-2026  11-14-2026
+8c68d952-c2d8-4e82-ae36-d85e655b1df2  e779a703  Untitled Design          11-14-2026  11-14-2026
+4ff9b4e9-3064-428b-b811-d4b46da0cadd  09d33aa5  My First Meshery Design  11-14-2026  11-14-2026
+18b4b136-b8ab-4eb1-9b45-e748824f6adf  dea82811  nginx                    11-14-2026  11-14-2026
+5ecef0f2-3de7-4a84-acca-dcffb3944cf9  dea82811  nginx                    11-14-2026  11-14-2026
+b8743ee0-cea1-498f-a62a-1568153c1113  dea82811  nginx                    11-14-2026  11-14-2026
+90fda6ba-120d-416b-8df8-1d274ef86dfc  dea82811  nginx                    11-14-2026  11-14-2026
