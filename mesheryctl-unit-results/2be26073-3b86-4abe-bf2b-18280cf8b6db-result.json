@@ -1,0 +1,46 @@
+{
+  "uuid": "2be26073-3b86-4abe-bf2b-18280cf8b6db",
+  "name": "TestApplyCmd",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/perf::TestApplyCmd",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794621215604,
+  "stop": 1794621215637,
+  "statusDetails": {
+    "message": "testing.go:799: Test 'Run Test with Existing profile' executed\n    testing.go:799: Test 'Run Test with Existing profile with --url' executed\n    testing.go:799: Test 'Run Test with new profile' executed\n    testing.go:799: Test 'Server rejects the test run' executed\n    testing.go:799: Test 'Run Test without profile-name and id' executed\n    testing.go:799: Test 'No profiles found with given name' executed\n    testing.go:799: Test 'Run Test with new profile with Invalid URL' executed\n    testing.go:799: Test 'Run Test with Existing profile with Invalid URL' executed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/perf"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestApplyCmd"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

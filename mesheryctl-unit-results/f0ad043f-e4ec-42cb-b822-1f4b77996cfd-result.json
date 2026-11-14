@@ -1,0 +1,46 @@
+{
+  "uuid": "f0ad043f-e4ec-42cb-b822-1f4b77996cfd",
+  "name": "TestExportCmdRejectsUnknownType",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/design::TestExportCmdRejectsUnknownType",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794621204284,
+  "stop": 1794621204289,
+  "statusDetails": {
+    "message": "Error: invalid --type \"helm\": use one of current, original or oci | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/design"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestExportCmdRejectsUnknownType"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
