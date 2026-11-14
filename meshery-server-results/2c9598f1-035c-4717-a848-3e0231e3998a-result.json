@@ -1,0 +1,46 @@
+{
+  "uuid": "2c9598f1-035c-4717-a848-3e0231e3998a",
+  "name": "TestDesignExportImportRoundtrip/2._Empty_input",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestDesignExportImportRoundtrip/2._Empty_input",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794656998703,
+  "stop": 1794656998706,
+  "statusDetails": {
+    "message": "design_roundtrip_test.go:201: [2. Empty input] PATH A: Export HTTP Status=500, Content-Type=application/json; charset=utf-8, BodySize=234\n    design_roundtrip_test.go:208: [2. Empty input] Correctly failed at export stage with status 500."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDesignExportImportRoundtrip/2._Empty_input"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
