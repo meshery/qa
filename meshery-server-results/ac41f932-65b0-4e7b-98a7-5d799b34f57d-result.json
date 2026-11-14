@@ -1,0 +1,46 @@
+{
+  "uuid": "ac41f932-65b0-4e7b-98a7-5d799b34f57d",
+  "name": "TestProcessConnectionRegistration_KubernetesKindFreshRegistrationWithPersistedContext",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestProcessConnectionRegistration_KubernetesKindFreshRegistrationWithPersistedContext",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794651935305,
+  "stop": 1794651935353,
+  "statusDetails": {
+    "message": "2026/11/14 10:25:35 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:84 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.186ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"persisted-context-id\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/14 10:25:35 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:169 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.179ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"77c466cc-dde5-4400-ac71-fd8c7351632d\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProcessConnectionRegistration_KubernetesKindFreshRegistrationWithPersistedContext"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
