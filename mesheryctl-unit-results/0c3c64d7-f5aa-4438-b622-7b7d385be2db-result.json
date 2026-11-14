@@ -1,0 +1,46 @@
+{
+  "uuid": "0c3c64d7-f5aa-4438-b622-7b7d385be2db",
+  "name": "TestDeleteCmd/given_server_error_when_delete_then_throw_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/perf::TestDeleteCmd/given_server_error_when_delete_then_throw_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794647282830,
+  "stop": 1794647282830,
+  "statusDetails": {
+    "message": "Error: Response Status Code 400. Server emitted an error:  | Short Description: Failed response server error | Probable Cause: Invalid API call | Suggested Remediation: Check your network connection and the status of Meshery Server via `mesheryctl system status`."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/perf"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteCmd/given_server_error_when_delete_then_throw_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "uuid": "d69ab473-af76-44bc-92e0-1742d2190c54",
+  "name": "TestSearchComponent/search_registered_components_with_--pagesize_0",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/components::TestSearchComponent/search_registered_components_with_--pagesize_0",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794647268124,
+  "stop": 1794647268124,
+  "statusDetails": {
+    "message": "Error: Invalid value for --pagesize '0' | Short Description: Invalid flag(s) provided | Probable Cause: The value for one or more flags provided is invalid. | Suggested Remediation: Provide valid flag value and try again."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/components"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSearchComponent/search_registered_components_with_--pagesize_0"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
