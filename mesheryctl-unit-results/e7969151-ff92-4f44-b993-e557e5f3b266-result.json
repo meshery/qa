@@ -1,0 +1,46 @@
+{
+  "uuid": "e7969151-ff92-4f44-b993-e557e5f3b266",
+  "name": "TestApplyCmd/given_no_args_and_no_file_flag_when_design_apply_then_validation_error_is_returned",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/design::TestApplyCmd/given_no_args_and_no_file_flag_when_design_apply_then_validation_error_is_returned",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794670520316,
+  "stop": 1794670520317,
+  "statusDetails": {
+    "message": "Error: please provide a design name or specify a file using --file | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/design"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestApplyCmd/given_no_args_and_no_file_flag_when_design_apply_then_validation_error_is_returned"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "uuid": "ae8b1413-f692-4776-956d-2c269c32dcea",
+  "name": "TestWaitForResponseOnEventStream/deploy/stream_ends_without_a_result",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/adapter::TestWaitForResponseOnEventStream/deploy/stream_ends_without_a_result",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1794670511695,
+  "stop": 1794670511698,
+  "statusDetails": {
+    "message": "==================\nWARNING: DATA RACE\nWrite at 0x000009737510 by goroutine 33:\n  github.com/meshery/meshery/mesheryctl/pkg/utils.SetupMeshkitLoggerTesting()\n      /home/runner/work/meshery/meshery/mesheryctl/pkg/utils/testing.go:368 +0x1f4\n  github.com/meshery/meshery/mesheryctl/internal/cli/root/adapter.TestWaitForResponseOnEventStream.func1()\n      /home/runner/work/meshery/meshery/mesheryctl/internal/cli/root/adapter/event_stream_test.go:97 +0xc5\n  testing.tRunner()\n      /opt/hostedtoolcache/go/1.26.4/x64/src/testing/testing.go:2036 +0x21c\n  testing.(*T).Run.gowrap1()\n      /opt/hostedtoolcache/go/1.26.4/x64/src/testing/testing.go:2101 +0x38\n\nPrevious read at 0x000009737510 by goroutine 32:\n  github.com/meshery/meshery/mesheryctl/internal/cli/root/adapter.waitForDeployResponse.func2()\n      /home/runner/work/meshery/meshery/mesheryctl/internal/cli/root/adapter/adapter.go:292 +0x4a6\n\nGoroutine 33 (running) created at:\n  testing.(*T).Run()\n      /opt/hostedtoolcache/go/1.26.4/x64/src/testing/testing.go:2101 +0xb12\n  github.com/meshery/meshery/mesheryctl/internal/cli/root/adapter.TestWaitForResponseOnEventStream()\n      /home/runner/work/meshery/meshery/mesheryctl/internal/cli/root/adapter/event_stream_test.go:94 +0x6e4\n  testing.tRunner()\n      /opt/hostedtoolcache/go/1.26.4/x64/src/testing/testing.go:2036 +0x21c\n  testing.(*T).Run.gowrap1()\n      /opt/hostedtoolcache/go/1.26.4/x64/src/testing/testing.go:2101 +0x38\n\nGoroutine 32 (running) created at:\n  github.com/meshery/meshery/mesheryctl/internal/cli/root/adapter.waitForDeployResponse()\n      /home/runner/work/meshery/meshery/mesheryctl/internal/cli/root/adapter/adapter.go:282 +0x414\n  github.com/meshery/meshery/mesheryctl/internal/cli/root/adapter.TestWaitForResponseOnEventStream.func1.1()\n      /home/runner/work/meshery/meshery/mesheryctl/internal/cli/root/adapter/event_stream_test.go:107 +0x5e\n  github.com/meshery/meshery/mesheryctl/internal/cli/root/adapter.waitWithDeadline.func1()\n      /home/runner/work/meshery/meshery/mesheryctl/internal/cli/root/adapter/event_stream_test.go:33 +0x33\n==================\nerror during resp.Body read:EOF\n    testing.go:1712: race detected during execution of test"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/adapter"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWaitForResponseOnEventStream/deploy/stream_ends_without_a_result"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
