@@ -1,0 +1,46 @@
+{
+  "uuid": "36a310e3-8f94-48b7-b107-6c465963e8a6",
+  "name": "TestContextViewCmd",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/system::TestContextViewCmd",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794645617408,
+  "stop": 1794645617417,
+  "statusDetails": {
+    "message": "context_test.go:98: List context test\n    context_test.go:98: List context test\n    context_test.go:98: List context test\n    context_test.go:98: List context test\n    context_test.go:98: List context test"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/system"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContextViewCmd"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
