@@ -1,0 +1,46 @@
+{
+  "uuid": "1a95f651-84a4-4109-8244-0fb21c6d902b",
+  "name": "TestOrganization/Launch_organization_with_invalid_subcommand_name",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/organizations::TestOrganization/Launch_organization_with_invalid_subcommand_name",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794616551706,
+  "stop": 1794616551706,
+  "statusDetails": {
+    "message": "Error: 'test-invalid-subcommand' is an invalid command. Use 'mesheryctl organization --help' to display usage guide | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/organizations"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestOrganization/Launch_organization_with_invalid_subcommand_name"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
