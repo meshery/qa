@@ -1,0 +1,46 @@
+{
+  "uuid": "ad254a51-cf64-4721-9b96-53796c5387a5",
+  "name": "TestDefaultLocalProvider_UpdateNonExistentEnvironmentReturnsNotFound",
+  "fullName": "github.com/meshery/meshery/server/models::TestDefaultLocalProvider_UpdateNonExistentEnvironmentReturnsNotFound",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794661287910,
+  "stop": 1794661287934,
+  "statusDetails": {
+    "message": "2026/11/14 13:01:27 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/environment_persister.go:182 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.062ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `environments` WHERE id = \"a3cc5e30-d6db-4260-87ce-d5a65275f565\" ORDER BY `environments`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDefaultLocalProvider_UpdateNonExistentEnvironmentReturnsNotFound"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

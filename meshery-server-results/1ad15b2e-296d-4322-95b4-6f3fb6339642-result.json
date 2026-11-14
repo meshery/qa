@@ -1,0 +1,46 @@
+{
+  "uuid": "1ad15b2e-296d-4322-95b4-6f3fb6339642",
+  "name": "TestDesignExportImportRoundtrip/3._Several_items",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestDesignExportImportRoundtrip/3._Several_items",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794661284228,
+  "stop": 1794661284233,
+  "statusDetails": {
+    "message": "design_roundtrip_test.go:201: [3. Several items] PATH A: Export HTTP Status=200, Content-Type=application/yaml, BodySize=325\n    design_roundtrip_test.go:301: [3. Several items] PATH B: Import HTTP Status=200, Body={\"id\":\"e9468c77-46e2-4158-a912-577104caa103\",\"name\":\"multi-service-design\",\"patternFile\":\"{\\n  \\\"id\\\": \\\"00000000-0000-0000-0000-000000000000\\\",\\n  \\\"name\\\": \\\"multi-service-design\\\",\\n  \\\"schemaVersion\\\": \\\"designs.meshery.io/v1beta1\\\",\\n  \\\"version\\\": \\\"0.0.1\\\",\\n  \\\"components\\\": [\\n    {\\n      \\\"id\\\": \\\"00000000-0000-0000-0000-000000000000\\\",\\n      \\\"schemaVersion\\\": \\\"\\\",\\n      \\\"version\\\": \\\"\\\",\\n      \\\"displayName\\\": \\\"\\\",\\n      \\\"description\\\": \\\"\\\",\\n      \\\"format\\\": \\\"\\\",\\n      \\\"model\\\": null,\\n      \\\"modelReference\\\": {\\n        \\\"displayName\\\": \\\"\\\",\\n        \\\"id\\\": \\\"00000000-0000-0000-0000-000000000000\\\",\\n        \\\"model\\\": {\\n          \\\"version\\\": \\\"\\\"\\n        },\\n        \\\"name\\\": \\\"\\\",\\n        \\\"registrant\\\": {\\n          \\\"kind\\\": \\\"\\\"\\n        },\\n        \\\"version\\\": \\\"\\\"\\n      },\\n      \\\"styles\\\": null,\\n      \\\"capabilities\\\": null,\\n      \\\"status\\\": null,\\n      \\\"metadata\\\": {\\n        \\\"configurationUISchema\\\": \\\"\\\",\\n        \\\"genealogy\\\": \\\"\\\",\\n        \\\"instanceDetails\\\": null,\\n        \\\"isAnnotation\\\": false,\\n        \\\"isNamespaced\\\": false,\\n        \\\"published\\\": false\\n      },\\n      \\\"configuration\\\": null,\\n      \\\"component\\\": {\\n        \\\"version\\\": \\\"apps/v1\\\",\\n        \\\"kind\\\": \\\"Deployment\\\",\\n        \\\"schema\\\": \\\"\\\"\\n      },\\n      \\\"created_at\\\": \\\"0001-01-01T00:00:00Z\\\",\\n      \\\"updated_at\\\": \\\"0001-01-01T00:00:00Z\\\"\\n    },\\n    {\\n      \\\"id\\\": \\\"00000000-0000-0000-0000-000000000000\\\",\\n      \\\"schemaVersion\\\": \\\"\\\",\\n      \\\"version\\\": \\\"\\\",\\n      \\\"displayName\\\": \\\"\\\",\\n      \\\"description\\\": \\\"\\\",\\n      \\\"format\\\": \\\"\\\",\\n      \\\"model\\\": null,\\n      \\\"modelReference\\\": {\\n        \\\"displayName\\\": \\\"\\\",\\n        \\\"id\\\": \\\"00000000-0000-0000-0000-000000000000\\\",\\n        \\\"model\\\": {\\n          \\\"version\\\": \\\"\\\"\\n        },\\n        \\\"name\\\": \\\"\\\",\\n        \\\"registrant\\\": {\\n          \\\"kind\\\": \\\"\\\"\\n        },\\n        \\\"version\\\": \\\"\\\"\\n      },\\n      \\\"styles\\\": null,\\n      \\\"capabilities\\\": null,\\n      \\\"status\\\": null,\\n      \\\"metadata\\\": {\\n        \\\"configurationUISchema\\\": \\\"\\\",\\n        \\\"genealogy\\\": \\\"\\\",\\n        \\\"instanceDetails\\\": null,\\n        \\\"isAnnotation\\\": false,\\n        \\\"isNamespaced\\\": false,\\n        \\\"published\\\": false\\n      },\\n      \\\"configuration\\\": null,\\n      \\\"component\\\": {\\n        \\\"version\\\": \\\"v1\\\",\\n        \\\"kind\\\": \\\"Service\\\",\\n        \\\"schema\\\": \\\"\\\"\\n      },\\n      \\\"created_at\\\": \\\"0001-01-01T00:00:00Z\\\",\\n      \\\"updated_at\\\": \\\"0001-01-01T00:00:00Z\\\"\\n    },\\n    {\\n      \\\"id\\\": \\\"00000000-0000-0000-0000-000000000000\\\",\\n      \\\"schemaVersion\\\": \\\"\\\",\\n      \\\"version\\\": \\\"\\\",\\n      \\\"displayName\\\": \\\"\\\",\\n      \\\"description\\\": \\\"\\\",\\n      \\\"format\\\": \\\"\\\",\\n      \\\"model\\\": null,\\n      \\\"modelReference\\\": {\\n        \\\"displayName\\\": \\\"\\\",\\n        \\\"id\\\": \\\"00000000-0000-0000-0000-000000000000\\\",\\n        \\\"model\\\": {\\n          \\\"version\\\": \\\"\\\"\\n        },\\n        \\\"name\\\": \\\"\\\",\\n        \\\"registrant\\\": {\\n          \\\"kind\\\": \\\"\\\"\\n        },\\n        \\\"version\\\": \\\"\\\"\\n      },\\n      \\\"styles\\\": null,\\n      \\\"capabilities\\\": null,\\n      \\\"status\\\": null,\\n      \\\"metadata\\\": {\\n        \\\"configurationUISchema\\\": \\\"\\\",\\n        \\\"genealogy\\\": \\\"\\\",\\n        \\\"instanceDetails\\\": null,\\n        \\\"isAnnotation\\\": false,\\n        \\\"isNamespaced\\\": false,\\n        \\\"published\\\": false\\n      },\\n      \\\"configuration\\\": null,\\n      \\\"component\\\": {\\n        \\\"version\\\": \\\"v1\\\",\\n        \\\"kind\\\": \\\"ConfigMap\\\",\\n        \\\"schema\\\": \\\"\\\"\\n      },\\n      \\\"created_at\\\": \\\"0001-01-01T00:00:00Z\\\",\\n      \\\"updated_at\\\": \\\"0001-01-01T00:00:00Z\\\"\\n    }\\n  ],\\n  \\\"relationships\\\": null\\n}\",\"location\":null,\"visibility\":\"\",\"catalogData\":{\"publishedVersion\":\"\",\"compatibility\":null,\"patternCaveats\":\"\",\"patternInfo\":\"\",\"type\":\"\"},\"type\":{\"String\":\"meshery-design\",\"Valid\":true},\"sourceContent\":\"bmFtZTogbXVsdGktc2VydmljZS1kZXNpZ24Kc2NoZW1hVmVyc2lvbjogZGVzaWducy5tZXNoZXJ5LmlvL3YxYmV0YTEKdmVyc2lvbjogMC4wLjEKY29tcG9uZW50czoKICAtIG5hbWU6IHNlcnZpY2UtYQogICAgY29tcG9uZW50OgogICAgICBraW5kOiBEZXBsb3ltZW50CiAgICAgIHZlcnNpb246IGFwcHMvdjEKICAtIG5hbWU6IHNlcnZpY2UtYgogICAgY29tcG9uZW50OgogICAgICBraW5kOiBTZXJ2aWNlCiAgICAgIHZlcnNpb246IHYxCiAgLSBuYW1lOiBzZXJ2aWNlLWMKICAgIGNvbXBvbmVudDoKICAgICAga2luZDogQ29uZmlnTWFwCiAgICAgIHZlcnNpb246IHYxCg==\",\"viewCount\":0,\"shareCount\":0,\"downloadCount\":0,\"cloneCount\":0,\"deploymentCount\":0,\"workspaceId\":\"00000000-0000-0000-0000-000000000000\",\"orgId\":\"00000000-0000-0000-0000-000000000000\"}"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDesignExportImportRoundtrip/3._Several_items"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
