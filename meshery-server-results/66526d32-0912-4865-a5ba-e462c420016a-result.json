@@ -1,0 +1,46 @@
+{
+  "uuid": "66526d32-0912-4865-a5ba-e462c420016a",
+  "name": "TestDesignExportImportRoundtrip/4._Error_case",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestDesignExportImportRoundtrip/4._Error_case",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794645620808,
+  "stop": 1794645620812,
+  "statusDetails": {
+    "message": "design_roundtrip_test.go:201: [4. Error case] PATH A: Export HTTP Status=500, Content-Type=application/json; charset=utf-8, BodySize=643\n    design_roundtrip_test.go:208: [4. Error case] Correctly failed at export stage with status 500."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDesignExportImportRoundtrip/4._Error_case"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

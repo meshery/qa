@@ -1,0 +1,46 @@
+{
+  "uuid": "3b2b1310-e998-4d9b-bdd0-a458839b4b79",
+  "name": "TestGetAllContexts_DatabaseFailure",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestGetAllContexts_DatabaseFailure",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794645619652,
+  "stop": 1794645619654,
+  "statusDetails": {
+    "message": "2026/11/14 08:40:19 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:44 \u001b[35;1mno such table: k8s_contexts\n\u001b[0m\u001b[33m[1.061ms] \u001b[34;1m[rows:0]\u001b[0m SELECT count(*) FROM `k8s_contexts`"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGetAllContexts_DatabaseFailure"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

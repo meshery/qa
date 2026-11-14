@@ -1,0 +1,46 @@
+{
+  "uuid": "933ed7df-85fd-4bc1-82e9-c85fa76ea09c",
+  "name": "TestDesignExportImportRoundtrip/1._Normal_input",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestDesignExportImportRoundtrip/1._Normal_input",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794645620793,
+  "stop": 1794645620797,
+  "statusDetails": {
+    "message": "design_roundtrip_test.go:201: [1. Normal input] PATH A: Export HTTP Status=200, Content-Type=application/yaml, BodySize=92\n    design_roundtrip_test.go:301: [1. Normal input] PATH B: Import HTTP Status=200, Body={\"id\":\"abcbaf49-10fb-49d8-a321-223390028204\",\"name\":\"normal-design\",\"patternFile\":\"{\\n  \\\"id\\\": \\\"00000000-0000-0000-0000-000000000000\\\",\\n  \\\"name\\\": \\\"normal-design\\\",\\n  \\\"schemaVersion\\\": \\\"designs.meshery.io/v1beta1\\\",\\n  \\\"version\\\": \\\"0.0.1\\\",\\n  \\\"components\\\": [],\\n  \\\"relationships\\\": null\\n}\",\"location\":null,\"visibility\":\"\",\"catalogData\":{\"publishedVersion\":\"\",\"compatibility\":null,\"patternCaveats\":\"\",\"patternInfo\":\"\",\"type\":\"\"},\"type\":{\"String\":\"meshery-design\",\"Valid\":true},\"sourceContent\":\"bmFtZTogbm9ybWFsLWRlc2lnbgpzY2hlbWFWZXJzaW9uOiBkZXNpZ25zLm1lc2hlcnkuaW8vdjFiZXRhMQp2ZXJzaW9uOiAwLjAuMQpjb21wb25lbnRzOiBbXQo=\",\"viewCount\":0,\"shareCount\":0,\"downloadCount\":0,\"cloneCount\":0,\"deploymentCount\":0,\"workspaceId\":\"00000000-0000-0000-0000-000000000000\",\"orgId\":\"00000000-0000-0000-0000-000000000000\"}"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDesignExportImportRoundtrip/1._Normal_input"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
