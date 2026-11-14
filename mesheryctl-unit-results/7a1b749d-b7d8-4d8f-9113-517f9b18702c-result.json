@@ -1,0 +1,46 @@
+{
+  "uuid": "7a1b749d-b7d8-4d8f-9113-517f9b18702c",
+  "name": "TestConnectionListCmd/given_--pagesize_0_when_running_mesheryctl_connection_list_then_an_invalid_flag_error_is_returned",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/connections::TestConnectionListCmd/given_--pagesize_0_when_running_mesheryctl_connection_list_then_an_invalid_flag_error_is_returned",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794624758679,
+  "stop": 1794624758680,
+  "statusDetails": {
+    "message": "Error: Invalid value for --pagesize '0' | Short Description: Invalid flag(s) provided | Probable Cause: The value for one or more flags provided is invalid. | Suggested Remediation: Provide valid flag value and try again."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/connections"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestConnectionListCmd/given_--pagesize_0_when_running_mesheryctl_connection_list_then_an_invalid_flag_error_is_returned"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

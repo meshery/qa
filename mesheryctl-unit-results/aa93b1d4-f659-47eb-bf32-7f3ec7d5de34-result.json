@@ -1,0 +1,46 @@
+{
+  "uuid": "aa93b1d4-f659-47eb-bf32-7f3ec7d5de34",
+  "name": "TestResolveDockerEndpointReturnsDialableHost/remote_endpoint_kept_when_the_change_to_localhost_is_declined",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/system::TestResolveDockerEndpointReturnsDialableHost/remote_endpoint_kept_when_the_change_to_localhost_is_declined",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794624784016,
+  "stop": 1794624784018,
+  "statusDetails": {
+    "message": "The endpoint address will be changed to localhost. Are you sure you want to continue? [y/n]?"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/system"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestResolveDockerEndpointReturnsDialableHost/remote_endpoint_kept_when_the_change_to_localhost_is_declined"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
