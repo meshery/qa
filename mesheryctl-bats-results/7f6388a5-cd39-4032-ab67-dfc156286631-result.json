@@ -1,0 +1,43 @@
+{
+  "uuid": "7f6388a5-cd39-4032-ab67-dfc156286631",
+  "name": "given an unsupported adapter next to a supported one in ADAPTERS when running the installer then the unsupported one is skipped with a warning",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794614671464,
+  "stop": 1794614671465,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "testId",
+      "value": "TC-6"
+    },
+    {
+      "name": "tag",
+      "value": "TC-6"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "Installer / Bash Script"
+    },
+    {
+      "name": "testGroup",
+      "value": "Installation"
+    }
+  ]
+}
