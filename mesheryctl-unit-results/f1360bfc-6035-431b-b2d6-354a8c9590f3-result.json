@@ -1,0 +1,46 @@
+{
+  "uuid": "f1360bfc-6035-431b-b2d6-354a8c9590f3",
+  "name": "TestWebsiteSystem_WriteFailure",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/registry::TestWebsiteSystem_WriteFailure",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794618278756,
+  "stop": 1794618278756,
+  "statusDetails": {
+    "message": "open /nonexistent/invalid/dir/that/cannot/exist/data.js: no such file or directory | Short Description: error creating file at /nonexistent/invalid/dir/that/cannot/exist/data.js | Probable Cause: invalid path provided.insufficient permissions | Suggested Remediation: provide a valid path.retry by using an absolute path.check for sufficient permissions for the user"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/registry"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWebsiteSystem_WriteFailure"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

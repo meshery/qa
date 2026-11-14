@@ -1,0 +1,46 @@
+{
+  "uuid": "f442add7-aa57-430a-859b-42a1d3c95707",
+  "name": "TestUndeployCmd/given_both_positional_argument_and_file_flag_when_design_undeploy_then_error_is_thrown",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/design::TestUndeployCmd/given_both_positional_argument_and_file_flag_when_design_undeploy_then_error_is_thrown",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794618262205,
+  "stop": 1794618262205,
+  "statusDetails": {
+    "message": "Error: cannot specify both a positional argument and the --file flag | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/design"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestUndeployCmd/given_both_positional_argument_and_file_flag_when_design_undeploy_then_error_is_thrown"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
