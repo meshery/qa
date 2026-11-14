@@ -1,0 +1,46 @@
+{
+  "uuid": "3e0f8bba-2c48-407f-b3e9-896c92dc071f",
+  "name": "TestDeployMesh",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/adapter::TestDeployMesh",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794656808850,
+  "stop": 1794656808855,
+  "statusDetails": {
+    "message": "deploy_test.go:166: Mesh Deploy test Passed\n    deploy_test.go:166: Mesh Deploy test Passed\n    deploy_test.go:166: Mesh Deploy test Passed\n    deploy_test.go:166: Mesh Deploy test Passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/adapter"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeployMesh"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
