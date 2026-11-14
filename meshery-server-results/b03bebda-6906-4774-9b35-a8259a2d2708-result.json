@@ -1,0 +1,46 @@
+{
+  "uuid": "b03bebda-6906-4774-9b35-a8259a2d2708",
+  "name": "TestProvisionNeverDispatchesAnnotations",
+  "fullName": "github.com/meshery/meshery/server/models/pattern/stages::TestProvisionNeverDispatchesAnnotations",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794676442336,
+  "stop": 1794676442686,
+  "statusDetails": {
+    "message": "2026/11/14 17:14:02 \u001b[32m/home/runner/go/pkg/mod/github.com/meshery/meshkit@v1.0.29/models/meshmodel/registry/registry.go:97 \u001b[33mSLOW SQL >= 200ms\n\u001b[0m\u001b[31;1m[335.345ms] \u001b[33m[rows:0]\u001b[35m CREATE INDEX `idx_relationship_definition_dbs_model_id` ON `relationship_definition_dbs`(`model_id`)\u001b[0m"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models/pattern/stages"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProvisionNeverDispatchesAnnotations"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

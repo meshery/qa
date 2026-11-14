@@ -1,0 +1,46 @@
+{
+  "uuid": "521b4282-28c1-44bf-8347-92a445703549",
+  "name": "TestDesignExportImportRoundtrip",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestDesignExportImportRoundtrip",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794676437749,
+  "stop": 1794676438769,
+  "statusDetails": {
+    "message": "2026/11/14 17:13:58 \u001b[32m/home/runner/work/meshery/meshery/server/handlers/design_roundtrip_test.go:73 \u001b[33mSLOW SQL >= 200ms\n\u001b[0m\u001b[31;1m[303.193ms] \u001b[33m[rows:0]\u001b[35m CREATE TABLE `events` (`acted_upon` text,`action` text,`category` text,`created_at` datetime,`deleted_at` datetime,`description` text,`id` text,`metadata` blob,`operation_id` text,`severity` text,`status` text,`system_id` text,`updated_at` datetime,`owner` text,`idempotency_key` text,`correlation_key` text,`occurrence_count` integer,`first_seen_at` datetime,`last_seen_at` datetime,`resolved_at` datetime,`source` text,`type` text,`specversion` text,`trace_id` text,`parent_id` text,PRIMARY KEY (`id`))\u001b[0m\n\r\n2026/11/14 17:13:58 \u001b[32m/home/runner/work/meshery/meshery/server/handlers/design_roundtrip_test.go:73 \u001b[33mSLOW SQL >= 200ms\n\u001b[0m\u001b[31;1m[201.894ms] \u001b[33m[rows:0]\u001b[35m CREATE TABLE `meshery_patterns` (`id` text,`name` text,`pattern_file` text,`location` text,`visibility` text,`catalog_data` blob,`type` text,`source_content` blob,`updated_at` datetime,`created_at` datetime,`view_count` integer,`share_count` integer,`download_count` integer,`clone_count` integer,`deployment_count` integer,`workspace_id` text,`org_id` text,PRIMARY KEY (`id`))\u001b[0m"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDesignExportImportRoundtrip"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
