@@ -1,0 +1,46 @@
+{
+  "uuid": "8d711167-b68c-44e3-b9d5-23940c6e2b04",
+  "name": "TestEnvironmentReassignRestoresSoftDeletedMapping",
+  "fullName": "github.com/meshery/meshery/server/models::TestEnvironmentReassignRestoresSoftDeletedMapping",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794624879878,
+  "stop": 1794624879920,
+  "statusDetails": {
+    "message": "2026/11/14 02:54:39 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:169 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.138ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"fa5bd780-3abe-4338-8621-a13c34104c4a\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestEnvironmentReassignRestoresSoftDeletedMapping"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
