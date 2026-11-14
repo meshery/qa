@@ -1,0 +1,46 @@
+{
+  "uuid": "d7bc9346-ce24-4cbb-8ae0-93cf9881dd49",
+  "name": "TestIdentifyInventoryAdditions_OneNamespaceAcrossKubernetesModelVersions",
+  "fullName": "github.com/meshery/meshery/server/policies::TestIdentifyInventoryAdditions_OneNamespaceAcrossKubernetesModelVersions",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794685970526,
+  "stop": 1794685990312,
+  "statusDetails": {
+    "message": "=== PAUSE TestIdentifyInventoryAdditions_OneNamespaceAcrossKubernetesModelVersions\n=== CONT  TestIdentifyInventoryAdditions_OneNamespaceAcrossKubernetesModelVersions"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestIdentifyInventoryAdditions_OneNamespaceAcrossKubernetesModelVersions"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

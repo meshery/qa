@@ -1,0 +1,46 @@
+{
+  "uuid": "ba2086c9-2fad-4639-9e3b-3a6f47f3a4cf",
+  "name": "TestLocalUpdateUserCredential/deleted_credential_is_not_found_and_stays_unchanged",
+  "fullName": "github.com/meshery/meshery/server/models::TestLocalUpdateUserCredential/deleted_credential_is_not_found_and_stays_unchanged",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794685957195,
+  "stop": 1794685957197,
+  "statusDetails": {
+    "message": "2026/11/14 19:52:37 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/default_local_provider.go:1773 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.082ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `credentials` WHERE user_id = \"26fd025b-1baf-4976-9eaf-247132469457\" AND id = \"25d68435-431f-4ef7-a9a2-949ddc515b95\" AND deleted_at is NULL ORDER BY `credentials`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestLocalUpdateUserCredential/deleted_credential_is_not_found_and_stays_unchanged"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
