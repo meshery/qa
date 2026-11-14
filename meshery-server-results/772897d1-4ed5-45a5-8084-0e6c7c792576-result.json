@@ -1,0 +1,46 @@
+{
+  "uuid": "772897d1-4ed5-45a5-8084-0e6c7c792576",
+  "name": "TestDeleteConnection_KubernetesKindWithoutMachineContext_SafelyEvicts",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestDeleteConnection_KubernetesKindWithoutMachineContext_SafelyEvicts",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794678977115,
+  "stop": 1794678977133,
+  "statusDetails": {
+    "message": "2026/11/14 17:56:17 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:169 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.144ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"e2425c8e-e21c-4ab7-b87d-e40725c0e15d\" ORDER BY `connections`.`id` LIMIT 1\n\r\n2026/11/14 17:56:17 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:99 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.091ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"e2425c8e-e21c-4ab7-b87d-e40725c0e15d\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/14 17:56:17 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:103 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.113ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE connection_id = \"e2425c8e-e21c-4ab7-b87d-e40725c0e15d\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/14 17:56:17 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:99 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.088ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"e2425c8ee21c4ab7b87de40725c0e15d\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/14 17:56:17 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:103 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.099ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE connection_id = \"e2425c8ee21c4ab7b87de40725c0e15d\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/14 17:56:17 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:330 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.102ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"e2425c8e-e21c-4ab7-b87d-e40725c0e15d\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteConnection_KubernetesKindWithoutMachineContext_SafelyEvicts"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
