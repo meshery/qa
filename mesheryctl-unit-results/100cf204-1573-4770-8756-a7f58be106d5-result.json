@@ -1,0 +1,46 @@
+{
+  "uuid": "100cf204-1573-4770-8756-a7f58be106d5",
+  "name": "TestDeleteCmd/given_ID_prefix_shared_by_two_designs_when_design_delete_then_ambiguity_error_is_thrown_and_nothing_is_deleted",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/design::TestDeleteCmd/given_ID_prefix_shared_by_two_designs_when_design_delete_then_ambiguity_error_is_thrown_and_nothing_is_deleted",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794685346260,
+  "stop": 1794685346262,
+  "statusDetails": {
+    "message": "Error: \"a12\" matches 2 IDs, including: a12b3c4d-5e6f-4890-abcd-ef1234567890, a12f9e8d-7c6b-4a59-8d4c-3b2a19087654 | Short Description: Ambiguous ID prefix | Probable Cause: The provided ID prefix is shared by more than one item. | Suggested Remediation: Provide more characters of the ID, or the full ID."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/design"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteCmd/given_ID_prefix_shared_by_two_designs_when_design_delete_then_ambiguity_error_is_thrown_and_nothing_is_deleted"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
