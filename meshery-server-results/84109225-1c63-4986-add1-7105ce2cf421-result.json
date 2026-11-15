@@ -1,0 +1,46 @@
+{
+  "uuid": "84109225-1c63-4986-add1-7105ce2cf421",
+  "name": "TestGrafanaClientForConnectionCredentialShapes/canonical_shape",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestGrafanaClientForConnectionCredentialShapes/canonical_shape",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794767071619,
+  "stop": 1794767071626,
+  "statusDetails": {
+    "message": "2026/11/15 18:24:31 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:185 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.151ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"491f351e-8eea-48ed-ba62-68a95470d7b2\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGrafanaClientForConnectionCredentialShapes/canonical_shape"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

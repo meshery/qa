@@ -1,0 +1,44 @@
+{
+  "uuid": "3ffd667d-d5b5-44b2-8149-07c2b265737e",
+  "name": "TestBuildPolicyEvaluationEventMetadata_NilTimestamp",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestBuildPolicyEvaluationEventMetadata_NilTimestamp",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794767070383,
+  "stop": 1794767070384,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestBuildPolicyEvaluationEventMetadata_NilTimestamp"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "uuid": "02d7bd8c-bfb2-4371-8c1d-fa15937d018c",
+  "name": "TestDeleteConnection_ProviderDeleteFails_AllowsRetry",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestDeleteConnection_ProviderDeleteFails_AllowsRetry",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794767055281,
+  "stop": 1794767055328,
+  "statusDetails": {
+    "message": "2026/11/15 18:24:15 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:67 \u001b[35;1msql: database is closed\n\u001b[0m\u001b[33m[0.051ms] \u001b[34;1m[rows:0]\u001b[0m SELECT count(*) FROM `k8s_contexts` JOIN connections ON connections.id = k8s_contexts.connection_id WHERE connections.status = \"connected\"\n\r\n2026/11/15 18:24:15 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:185 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.179ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"c1f3bfb8-b379-4adb-86ca-eb8ba969ec1f\" ORDER BY `connections`.`id` LIMIT 1\n\r\n2026/11/15 18:24:15 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:122 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.143ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"c1f3bfb8-b379-4adb-86ca-eb8ba969ec1f\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/15 18:24:15 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:122 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.123ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"c1f3bfb8-b379-4adb-86ca-eb8ba969ec1f\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/15 18:24:15 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:346 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.178ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"c1f3bfb8-b379-4adb-86ca-eb8ba969ec1f\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteConnection_ProviderDeleteFails_AllowsRetry"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
