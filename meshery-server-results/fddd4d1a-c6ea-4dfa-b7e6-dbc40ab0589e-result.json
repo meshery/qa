@@ -1,0 +1,46 @@
+{
+  "uuid": "fddd4d1a-c6ea-4dfa-b7e6-dbc40ab0589e",
+  "name": "TestWorkspacePersisterGetWorkspaceTeams_InvalidPagination/invalid_pagesize",
+  "fullName": "github.com/meshery/meshery/server/models::TestWorkspacePersisterGetWorkspaceTeams_InvalidPagination/invalid_pagesize",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794731685077,
+  "stop": 1794731685077,
+  "statusDetails": {
+    "message": "2026/11/15 08:34:45 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/workspace_persister.go:874 \u001b[35;1mno such table: teams\n\u001b[0m\u001b[33m[0.035ms] \u001b[34;1m[rows:0]\u001b[0m SELECT count(*) FROM teams AS t WHERE (EXISTS (SELECT 1 FROM workspaces_teams_mappings AS wtm WHERE t.id = wtm.team_id AND wtm.workspace_id = \"1110e74f-8514-4c2c-ae09-7a76d6890b8c\" AND wtm.deleted_at IS NULL)) AND t.deleted_at IS NULL"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWorkspacePersisterGetWorkspaceTeams_InvalidPagination/invalid_pagesize"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
