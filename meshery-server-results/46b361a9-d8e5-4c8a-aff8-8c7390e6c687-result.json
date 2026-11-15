@@ -1,0 +1,46 @@
+{
+  "uuid": "46b361a9-d8e5-4c8a-aff8-8c7390e6c687",
+  "name": "TestUserCapabilitiesPersister_NotFound",
+  "fullName": "github.com/meshery/meshery/server/models::TestUserCapabilitiesPersister_NotFound",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794783046802,
+  "stop": 1794783046860,
+  "statusDetails": {
+    "message": "2026/11/15 22:50:46 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/capabilities_persister.go:31 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.096ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `user_capabilities` WHERE id = \"missing-user\" ORDER BY `user_capabilities`.`id` LIMIT 1\n\r\n2026/11/15 22:50:46 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/capabilities_persister.go:31 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.124ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `user_capabilities` WHERE id = \"test-user\" ORDER BY `user_capabilities`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestUserCapabilitiesPersister_NotFound"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
