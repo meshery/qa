@@ -1,0 +1,46 @@
+{
+  "uuid": "323cf674-2a5b-4494-8ebf-44fc3f1a1a04",
+  "name": "TestDeleteFilterNotFound",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestDeleteFilterNotFound",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794766100529,
+  "stop": 1794766100532,
+  "statusDetails": {
+    "message": "2026/11/15 18:08:20 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/events_persister.go:139 \u001b[35;1mattempt to write a readonly database\n\u001b[0m\u001b[33m[19.335ms] \u001b[34;1m[rows:0]\u001b[0m INSERT INTO `events` (`acted_upon`,`action`,`category`,`created_at`,`deleted_at`,`description`,`id`,`metadata`,`operation_id`,`severity`,`status`,`system_id`,`updated_at`,`owner`,`idempotency_key`,`correlation_key`,`occurrence_count`,`first_seen_at`,`last_seen_at`,`resolved_at`,`source`,`type`,`specversion`,`trace_id`,`parent_id`) VALUES (\"00000000-0000-0000-0000-000000000000\",\"flush\",\"meshsync\",\"2026-11-15 18:08:20.51\",NULL,\"No Kubernetes context specified, please choose a context from context switcher\",\"4d587388-bde8-4dee-93f7-9092bc58e224\",NULL,\"74ae2dc9-bdc3-4aa0-8037-e88672e3d29c\",\"error\",\"unread\",\"00000000-0000-0000-0000-000000000000\",\"2026-11-15 18:08:20.51\",NULL,NULL,NULL,NULL,NULL,NULL,NULL,\"meshery-server\",NULL,NULL,NULL,NULL)"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteFilterNotFound"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
