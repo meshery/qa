@@ -1,0 +1,46 @@
+{
+  "uuid": "82bcf044-7335-4fe6-aada-1cf07a700d29",
+  "name": "TestDryRunCreateFallsBackOnlyForDeclaredNamespaces",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestDryRunCreateFallsBackOnlyForDeclaredNamespaces",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794781520096,
+  "stop": 1794781520109,
+  "statusDetails": {
+    "message": "2026/11/15 22:25:20 \u001b[32m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:63 \u001b[33mSLOW SQL >= 200ms\n\u001b[0m\u001b[31;1m[432.130ms] \u001b[33m[rows:-]\u001b[35m SELECT count(*) FROM sqlite_master WHERE type='table' AND name=\"connections\"\u001b[0m\n\r\n2026/11/15 22:25:20 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:67 \u001b[35;1msql: database is closed\n\u001b[0m\u001b[33m[0.047ms] \u001b[34;1m[rows:0]\u001b[0m SELECT count(*) FROM `k8s_contexts` JOIN connections ON connections.id = k8s_contexts.connection_id WHERE connections.status = \"connected\""
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDryRunCreateFallsBackOnlyForDeclaredNamespaces"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

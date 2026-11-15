@@ -1,0 +1,46 @@
+{
+  "uuid": "428b7230-adad-4e02-baa7-cd7a138ebd4a",
+  "name": "TestUpdateConnectionByIDUnknownIDIsNotFound",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestUpdateConnectionByIDUnknownIDIsNotFound",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794781537460,
+  "stop": 1794781537857,
+  "statusDetails": {
+    "message": "2026/11/15 22:25:37 \u001b[32m/home/runner/work/meshery/meshery/server/handlers/delete_connection_test.go:42 \u001b[33mSLOW SQL >= 200ms\n\u001b[0m\u001b[31;1m[241.762ms] \u001b[33m[rows:0]\u001b[35m CREATE INDEX `idx_events_owner_idempotency_key` ON `events`(`owner`,`idempotency_key`)\u001b[0m\n\r\n2026/11/15 22:25:37 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:346 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.156ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"d5e13f78-f2ce-42d7-a9c3-0842f6cfa9a5\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestUpdateConnectionByIDUnknownIDIsNotFound"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
