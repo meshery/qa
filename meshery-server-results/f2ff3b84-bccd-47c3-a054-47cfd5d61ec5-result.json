@@ -1,0 +1,46 @@
+{
+  "uuid": "f2ff3b84-bccd-47c3-a054-47cfd5d61ec5",
+  "name": "TestDeleteConnectionResolvesTheUnreachableCondition",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestDeleteConnectionResolvesTheUnreachableCondition",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794710072654,
+  "stop": 1794710072702,
+  "statusDetails": {
+    "message": "2026/11/15 02:34:32 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:169 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.178ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"85308f82-785c-4f3e-8e9e-392f6480b9f5\" ORDER BY `connections`.`id` LIMIT 1\n\r\n2026/11/15 02:34:32 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:99 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.129ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"85308f82-785c-4f3e-8e9e-392f6480b9f5\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/15 02:34:32 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:103 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.155ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE connection_id = \"85308f82-785c-4f3e-8e9e-392f6480b9f5\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/15 02:34:32 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:99 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.120ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"85308f82785c4f3e8e9e392f6480b9f5\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/15 02:34:32 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:103 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.138ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE connection_id = \"85308f82785c4f3e8e9e392f6480b9f5\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/15 02:34:32 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:169 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.166ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"bb57868e-400b-4a18-ae7e-5d55119f5b3e\" ORDER BY `connections`.`id` LIMIT 1\n\r\n2026/11/15 02:34:32 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:99 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.087ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"bb57868e-400b-4a18-ae7e-5d55119f5b3e\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/15 02:34:32 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:103 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.125ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE connection_id = \"bb57868e-400b-4a18-ae7e-5d55119f5b3e\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/15 02:34:32 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:99 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.082ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"bb57868e400b4a18ae7e5d55119f5b3e\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/15 02:34:32 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:103 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.082ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE connection_id = \"bb57868e400b4a18ae7e5d55119f5b3e\" ORDER BY `k8s_contexts`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteConnectionResolvesTheUnreachableCondition"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
