@@ -1,0 +1,46 @@
+{
+  "uuid": "1350fecd-4fee-4693-ac03-4495d4a413b5",
+  "name": "TestGetMesheryPatternHandler_LocalProvider/database_failure_is_a_server_error",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestGetMesheryPatternHandler_LocalProvider/database_failure_is_a_server_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794774711303,
+  "stop": 1794774711308,
+  "statusDetails": {
+    "message": "2026/11/15 20:31:51 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_pattern_persister.go:421 \u001b[35;1mno such table: meshery_patterns\n\u001b[0m\u001b[33m[0.061ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `meshery_patterns` WHERE `meshery_patterns`.`id` = \"9561d1f7-1321-470f-b1bd-6637d3ae4107\" ORDER BY `meshery_patterns`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGetMesheryPatternHandler_LocalProvider/database_failure_is_a_server_error"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

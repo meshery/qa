@@ -1,0 +1,46 @@
+{
+  "uuid": "83f4fa98-a7f6-4edf-ae42-b0fd4269ae13",
+  "name": "TestWorkspacePersister_MissingWorkspace_ReturnsResultNotFound/DeleteWorkspaceByID",
+  "fullName": "github.com/meshery/meshery/server/models::TestWorkspacePersister_MissingWorkspace_ReturnsResultNotFound/DeleteWorkspaceByID",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794774788198,
+  "stop": 1794774788198,
+  "statusDetails": {
+    "message": "2026/11/15 20:33:08 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/workspace_persister.go:227 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.042ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `workspaces` WHERE id = \"f52523bf-b93e-4be5-91ca-c4677b0fdb0f\" ORDER BY `workspaces`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWorkspacePersister_MissingWorkspace_ReturnsResultNotFound/DeleteWorkspaceByID"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "uuid": "7244c9ce-69d4-4abd-bc0a-d5ae7d453c0c",
+  "name": "TestDeleteConnection_ProviderDeleteFails_AllowsRetry",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestDeleteConnection_ProviderDeleteFails_AllowsRetry",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794774703134,
+  "stop": 1794774703172,
+  "statusDetails": {
+    "message": "2026/11/15 20:31:43 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:126 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[3.887ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE connection_id = \"linked-to-saved-context-id\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/15 20:31:43 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:122 \u001b[35;1msql: database is closed\n\u001b[0m\u001b[33m[0.029ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"linkedtosavedcontextid\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/15 20:31:43 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:126 \u001b[35;1msql: database is closed\n\u001b[0m\u001b[33m[0.014ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE connection_id = \"linkedtosavedcontextid\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/15 20:31:43 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:185 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.134ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"18e2e940-cca8-4a7a-9548-f8e01af21a3c\" ORDER BY `connections`.`id` LIMIT 1\n\r\n2026/11/15 20:31:43 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:122 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.074ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"18e2e940-cca8-4a7a-9548-f8e01af21a3c\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/15 20:31:43 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:122 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.064ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"18e2e940-cca8-4a7a-9548-f8e01af21a3c\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/15 20:31:43 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:346 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.127ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"18e2e940-cca8-4a7a-9548-f8e01af21a3c\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteConnection_ProviderDeleteFails_AllowsRetry"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
