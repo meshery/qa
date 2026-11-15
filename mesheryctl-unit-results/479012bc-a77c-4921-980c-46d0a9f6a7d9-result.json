@@ -1,0 +1,46 @@
+{
+  "uuid": "479012bc-a77c-4921-980c-46d0a9f6a7d9",
+  "name": "TestSwitchProviderCmdValidatesProviderBeforeConfirmation/given_available_provider_when_provider_switch_then_ask_for_confirmation",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/system::TestSwitchProviderCmdValidatesProviderBeforeConfirmation/given_available_provider_when_provider_switch_then_ask_for_confirmation",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794736962413,
+  "stop": 1794736962414,
+  "statusDetails": {
+    "message": "The Meshery deployment in context 'local' will be replaced with a new Meshery deployment with provider set to 'Local'. Are you sure you want to continue [y/n]?"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/system"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSwitchProviderCmdValidatesProviderBeforeConfirmation/given_available_provider_when_provider_switch_then_ask_for_confirmation"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
