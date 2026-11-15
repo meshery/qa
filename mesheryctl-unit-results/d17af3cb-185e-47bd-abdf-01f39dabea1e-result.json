@@ -1,0 +1,46 @@
+{
+  "uuid": "d17af3cb-185e-47bd-abdf-01f39dabea1e",
+  "name": "TestChannelArgsValidation/switch_with_no_args_fails_in_Args_validation",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/system::TestChannelArgsValidation/switch_with_no_args_fails_in_Args_validation",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794744202185,
+  "stop": 1794744202185,
+  "statusDetails": {
+    "message": "Error: Only one release channel can be specified as an argument.\n\nSee https://docs.meshery.io/reference/mesheryctl/system/channel/switch for usage details\n | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/system"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestChannelArgsValidation/switch_with_no_args_fails_in_Args_validation"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "uuid": "8abc2ccc-2b5f-4cf1-98ca-4df98e48c2d6",
+  "name": "TestListComponent/list_registered_components_with_--page_0",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/components::TestListComponent/list_registered_components_with_--page_0",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794744160138,
+  "stop": 1794744160139,
+  "statusDetails": {
+    "message": "Error: Invalid value for --page '0' | Short Description: Invalid flag(s) provided | Probable Cause: The value for one or more flags provided is invalid. | Suggested Remediation: Provide valid flag value and try again."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/components"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestListComponent/list_registered_components_with_--page_0"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
