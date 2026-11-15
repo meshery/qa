@@ -1,0 +1,46 @@
+{
+  "uuid": "e9ea71d2-686d-4f82-85ba-1525b6fbf07b",
+  "name": "TestGetMesheryK8sContexts_PropagatesFindError",
+  "fullName": "github.com/meshery/meshery/server/models::TestGetMesheryK8sContexts_PropagatesFindError",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794777370237,
+  "stop": 1794777370240,
+  "statusDetails": {
+    "message": "2026/11/15 21:16:10 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:71 \u001b[35;1msql: Scan error on column index 2, name \"auth\": invalid character 'o' in literal null (expecting 'u')\n\u001b[0m\u001b[33m[0.243ms] \u001b[34;1m[rows:1]\u001b[0m SELECT * FROM `k8s_contexts` ORDER BY `k8s_contexts`.`updated_at` DESC LIMIT 10"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGetMesheryK8sContexts_PropagatesFindError"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
