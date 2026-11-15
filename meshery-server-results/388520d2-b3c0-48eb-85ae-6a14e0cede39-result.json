@@ -1,0 +1,46 @@
+{
+  "uuid": "388520d2-b3c0-48eb-85ae-6a14e0cede39",
+  "name": "TestConnectionTypeFilterUsesPersistedType",
+  "fullName": "github.com/meshery/meshery/server/models::TestConnectionTypeFilterUsesPersistedType",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794776857810,
+  "stop": 1794776857874,
+  "statusDetails": {
+    "message": "2026/11/15 21:07:37 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:185 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.159ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"8f53ce9f-c4b2-4dc6-b88e-47d3b0a17163\" ORDER BY `connections`.`id` LIMIT 1\n\r\n2026/11/15 21:07:37 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:185 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.122ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"5d224ffb-c745-4b46-b307-23bfc290ff07\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestConnectionTypeFilterUsesPersistedType"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
