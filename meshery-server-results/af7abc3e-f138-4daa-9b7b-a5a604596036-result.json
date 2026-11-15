@@ -1,0 +1,46 @@
+{
+  "uuid": "af7abc3e-f138-4daa-9b7b-a5a604596036",
+  "name": "TestDeleteConnection_KubernetesKindRegisteredState_TransitionsToDeleted",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestDeleteConnection_KubernetesKindRegisteredState_TransitionsToDeleted",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794763543541,
+  "stop": 1794763543564,
+  "statusDetails": {
+    "message": "2026/11/15 17:25:43 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:71 \u001b[35;1msql: database is closed\n\u001b[0m\u001b[33m[0.088ms] \u001b[34;1m[rows:1]\u001b[0m SELECT `k8s_contexts`.`id`,`k8s_contexts`.`name`,`k8s_contexts`.`auth`,`k8s_contexts`.`cluster`,`k8s_contexts`.`server`,`k8s_contexts`.`meshery_instance_id`,`k8s_contexts`.`kubernetes_server_id`,`k8s_contexts`.`deployment_type`,`k8s_contexts`.`version`,`k8s_contexts`.`updated_at`,`k8s_contexts`.`created_at`,`k8s_contexts`.`connection_id` FROM `k8s_contexts` JOIN connections ON connections.id = k8s_contexts.connection_id WHERE connections.status = \"connected\" ORDER BY `k8s_contexts`.`updated_at` DESC LIMIT 25\n\r\n2026/11/15 17:25:43 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:185 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.148ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"c917ecc0-1c46-4081-bbe6-0efb3901a166\" ORDER BY `connections`.`id` LIMIT 1\n\r\n2026/11/15 17:25:43 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:346 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.097ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"c917ecc0-1c46-4081-bbe6-0efb3901a166\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteConnection_KubernetesKindRegisteredState_TransitionsToDeleted"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
