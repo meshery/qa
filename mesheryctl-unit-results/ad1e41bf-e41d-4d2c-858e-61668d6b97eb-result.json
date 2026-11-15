@@ -1,0 +1,46 @@
+{
+  "uuid": "ad1e41bf-e41d-4d2c-858e-61668d6b97eb",
+  "name": "TestListPageHandlerStopsWithoutTerminal",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/pkg/display::TestListPageHandlerStopsWithoutTerminal",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794733474336,
+  "stop": 1794733474342,
+  "statusDetails": {
+    "message": "Total number of connections: 294\nPage: 1\nID  \n1   \n2"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/pkg/display"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestListPageHandlerStopsWithoutTerminal"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
