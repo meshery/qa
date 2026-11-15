@@ -1,0 +1,46 @@
+{
+  "uuid": "1375669f-aab1-4d61-9f83-13c65e8501bc",
+  "name": "TestDeleteModel/given_no_model_name_or_ID_provided_when_running_model_delete_then_ErrInvalidArgument_is_returned",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestDeleteModel/given_no_model_name_or_ID_provided_when_running_model_delete_then_ErrInvalidArgument_is_returned",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794781106166,
+  "stop": 1794781106168,
+  "statusDetails": {
+    "message": "Error: [ model-id | model-name ] is required\n\nUsage: mesheryctl model delete [model-id | model-name]\nRun 'mesheryctl model delete --help' to see detailed help message | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteModel/given_no_model_name_or_ID_provided_when_running_model_delete_then_ErrInvalidArgument_is_returned"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

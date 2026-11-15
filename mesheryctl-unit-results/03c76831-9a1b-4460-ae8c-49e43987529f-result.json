@@ -1,0 +1,46 @@
+{
+  "uuid": "03c76831-9a1b-4460-ae8c-49e43987529f",
+  "name": "TestOperationIDFromResponse",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/adapter::TestOperationIDFromResponse",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794781092361,
+  "stop": 1794781092361,
+  "statusDetails": {
+    "message": "error during resp.Body read:EOF"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/adapter"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestOperationIDFromResponse"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
