@@ -1,0 +1,46 @@
+{
+  "uuid": "319b3cfc-3490-4879-b477-746ce7ba5a11",
+  "name": "TestLocalUpdateUserCredential/unknown_id_is_not_found",
+  "fullName": "github.com/meshery/meshery/server/models::TestLocalUpdateUserCredential/unknown_id_is_not_found",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794770731952,
+  "stop": 1794770731953,
+  "statusDetails": {
+    "message": "2026/11/15 19:25:31 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/default_local_provider.go:1773 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.075ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `credentials` WHERE user_id = \"b3c1b81a-02b6-4b32-8b1e-5e21c8928fae\" AND id = \"5c660a97-53d9-4172-bd26-c29feb82eca4\" AND deleted_at is NULL ORDER BY `credentials`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestLocalUpdateUserCredential/unknown_id_is_not_found"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
