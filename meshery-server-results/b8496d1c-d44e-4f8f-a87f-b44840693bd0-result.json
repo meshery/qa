@@ -1,0 +1,46 @@
+{
+  "uuid": "b8496d1c-d44e-4f8f-a87f-b44840693bd0",
+  "name": "TestLoadTestHandler_BoundsEveryWrite",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestLoadTestHandler_BoundsEveryWrite",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794836553394,
+  "stop": 1794836554403,
+  "statusDetails": {
+    "message": "{\"ts\":1794836553.394188,\"level\":\"info\",\"r\":3694,\"file\":\"httprunner.go\",\"line\":121,\"msg\":\"Starting http test\",\"run\":0,\"url\":\"http://127.0.0.1:45033\",\"threads\":1,\"qps\":\"5.0\",\"warmup\":\"parallel\",\"conn-reuse\":\"\"}\nStarting at 5 qps with 1 thread(s) [gomax 4] for 1s : 5 calls each (total 5)\n{\"ts\":1794836554.399733,\"level\":\"info\",\"r\":3694,\"file\":\"periodic.go\",\"line\":882,\"msg\":\"T000 ended after 1.001036178s : 5 calls. qps=4.994824472767456\"}\nEnded after 1.001098054s : 5 calls. qps=4.9945\n{\"ts\":1794836554.399856,\"level\":\"info\",\"r\":3694,\"file\":\"periodic.go\",\"line\":598,\"msg\":\"Run ended\",\"run\":0,\"elapsed\":1001098054,\"calls\":5,\"qps\":4.994515752000453}\nSleep times : count 4 avg 0.24903479 +/- 0.0001614 min 0.248879306 max 0.249304708 sum 0.996139146\nAggregated Function Time : count 5 avg 0.0005608084 +/- 7.828e-05 min 0.000446548 max 0.000681437 sum 0.002804042\n# range, mid point, percentile, count\n>= 0.000446548 <= 0.000681437 , 0.000563992 , 100.00, 5\n# target 50% 0.000534631\n# target 75% 0.000608034\n# target 90% 0.000652076\n# target 99% 0.000678501\n# target 99.9% 0.000681143\nError cases : no data\n# Socket and IP used for each connection:\n[0]   1 socket used, resolved to 127.0.0.1:45033, connection timing : count 1 avg 0.000834509 +/- 0 min 0.000834509 max 0.000834509 sum 0.000834509\nConnection time histogram (s) : count 1 avg 0.000834509 +/- 0 min 0.000834509 max 0.000834509 sum 0.000834509\n# range, mid point, percentile, count\n>= 0.000834509 <= 0.000834509 , 0.000834509 , 100.00, 1\n# target 50% 0.000834509\n# target 75% 0.000834509\n# target 90% 0.000834509\n# target 99% 0.000834509\n# target 99.9% 0.000834509\nSockets used: 1 (for perfect keepalive, would be 1)\nUniform: false, Jitter: false, Catchup allowed: true\nIP addresses distribution:\n127.0.0.1:45033: 1\nCode 200 : 5 (100.0 %)\nResponse Header Sizes : count 5 avg 0 +/- 0 min 0 max 0 sum 0\nResponse Body/Total Sizes : count 5 avg 0 +/- 0 min 0 max 0 sum 0"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestLoadTestHandler_BoundsEveryWrite"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

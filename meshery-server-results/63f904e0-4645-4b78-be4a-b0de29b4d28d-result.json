@@ -1,0 +1,46 @@
+{
+  "uuid": "63f904e0-4645-4b78-be4a-b0de29b4d28d",
+  "name": "TestEnvironmentConnectionUnlistedAfterRemoval",
+  "fullName": "github.com/meshery/meshery/server/models::TestEnvironmentConnectionUnlistedAfterRemoval",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794836535786,
+  "stop": 1794836535836,
+  "statusDetails": {
+    "message": "2026/11/16 13:42:15 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:185 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.179ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"4ee31b40-6c73-4915-b84f-1da425c5f088\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestEnvironmentConnectionUnlistedAfterRemoval"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

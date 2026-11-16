@@ -1,0 +1,46 @@
+{
+  "uuid": "40994384-d23a-4920-b86e-77e77067abd8",
+  "name": "TestGetMesheryPattern_MissingDesignReturnsResultNotFound/missing_design",
+  "fullName": "github.com/meshery/meshery/server/models::TestGetMesheryPattern_MissingDesignReturnsResultNotFound/missing_design",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794836539280,
+  "stop": 1794836539280,
+  "statusDetails": {
+    "message": "2026/11/16 13:42:19 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_pattern_persister.go:450 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.166ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `meshery_patterns` WHERE `meshery_patterns`.`id` = \"491b3251-b881-4a60-b42a-caae21dd2c98\" ORDER BY `meshery_patterns`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGetMesheryPattern_MissingDesignReturnsResultNotFound/missing_design"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
