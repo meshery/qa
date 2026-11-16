@@ -1,0 +1,46 @@
+{
+  "uuid": "9a44c0bc-fcb6-42e2-bb1e-04ec03dec6a8",
+  "name": "TestPersistEventConcurrentIdempotencyKeyRecordsOnce",
+  "fullName": "github.com/meshery/meshery/server/models::TestPersistEventConcurrentIdempotencyKeyRecordsOnce",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794822348731,
+  "stop": 1794822348754,
+  "statusDetails": {
+    "message": "2026/11/16 09:45:48 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/event_idempotency.go:49 \u001b[35;1mUNIQUE constraint failed: event_idempotency_bindings.owner, event_idempotency_bindings.idempotency_key\n\u001b[0m\u001b[33m[0.052ms] \u001b[34;1m[rows:0]\u001b[0m INSERT INTO `event_idempotency_bindings` (`owner`,`idempotency_key`,`event_id`,`created_at`) VALUES (\"bb0444fc-fd2f-420a-ac97-35adf05846b2\",\"run-1\",\"8c85ec8a-a354-4b14-bad1-25d0eca2bc7b\",\"2026-11-16 09:45:48.752\")"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPersistEventConcurrentIdempotencyKeyRecordsOnce"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

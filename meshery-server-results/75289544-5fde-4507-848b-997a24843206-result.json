@@ -1,0 +1,46 @@
+{
+  "uuid": "75289544-5fde-4507-848b-997a24843206",
+  "name": "TestDeleteConnectionStopsProbingTheDeletedConnection",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestDeleteConnectionStopsProbingTheDeletedConnection",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794822338332,
+  "stop": 1794822338864,
+  "statusDetails": {
+    "message": "2026/11/16 09:45:38 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:185 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.170ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"a61c768f-5172-4c2e-a66e-69b3b73ed4cc\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteConnectionStopsProbingTheDeletedConnection"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

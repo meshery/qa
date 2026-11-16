@@ -1,0 +1,46 @@
+{
+  "uuid": "d06a5e83-9bd4-4178-8e26-f80792ec9d63",
+  "name": "TestPatternResourcePersistenceLifecycle",
+  "fullName": "github.com/meshery/meshery/server/models::TestPatternResourcePersistenceLifecycle",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794822350201,
+  "stop": 1794822350245,
+  "statusDetails": {
+    "message": "2026/11/16 09:45:50 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/pattern_resource_persister.go:63 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.065ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `pattern_resources` WHERE deleted = false AND id = \"46cc9033-4cbc-486a-83ed-2b693c5cb781\" ORDER BY `pattern_resources`.`id` LIMIT 1\n\r\n2026/11/16 09:45:50 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/pattern_resource_persister.go:78 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.076ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `pattern_resources` WHERE name = \"resource\" AND namespace = \"ns\" AND type = \"type\" AND oam_type = \"oam\" AND deleted = false ORDER BY `pattern_resources`.`id` LIMIT 1\n\r\n2026/11/16 09:45:50 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/pattern_resource_persister.go:120 \u001b[35;1mno such table: pattern_resources\n\u001b[0m\u001b[33m[0.032ms] \u001b[34;1m[rows:0]\u001b[0m SELECT count(*) FROM `pattern_resources` WHERE deleted = false"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPatternResourcePersistenceLifecycle"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
