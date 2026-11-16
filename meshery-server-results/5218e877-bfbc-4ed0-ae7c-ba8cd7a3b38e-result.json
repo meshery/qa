@@ -1,0 +1,46 @@
+{
+  "uuid": "5218e877-bfbc-4ed0-ae7c-ba8cd7a3b38e",
+  "name": "TestRouterAcceptsSlowRequestBody",
+  "fullName": "github.com/meshery/meshery/server/router::TestRouterAcceptsSlowRequestBody",
+  "status": "skipped",
+  "stage": "finished",
+  "start": 1794806557863,
+  "stop": 1794806557865,
+  "statusDetails": {
+    "message": "server_test.go:156: Skipping test in short mode."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/router"
+    },
+    {
+      "name": "suite",
+      "value": "server/router"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestRouterAcceptsSlowRequestBody"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
