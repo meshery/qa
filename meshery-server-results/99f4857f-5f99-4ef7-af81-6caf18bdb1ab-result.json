@@ -1,0 +1,46 @@
+{
+  "uuid": "99f4857f-5f99-4ef7-af81-6caf18bdb1ab",
+  "name": "TestGetMesheryFilter_MissingFilterReturnsResultNotFound/missing_filter",
+  "fullName": "github.com/meshery/meshery/server/models::TestGetMesheryFilter_MissingFilterReturnsResultNotFound/missing_filter",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794820967970,
+  "stop": 1794820967971,
+  "statusDetails": {
+    "message": "2026/11/16 09:22:47 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_filter_persister.go:327 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.123ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `meshery_filters` WHERE `meshery_filters`.`id` = \"7c7e711a-eac1-4b7c-96e8-2673578241ad\" ORDER BY `meshery_filters`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGetMesheryFilter_MissingFilterReturnsResultNotFound/missing_filter"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
