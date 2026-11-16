@@ -1,0 +1,36 @@
+(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,
+ in test file 003-design/03-design-list.bats, line 17)
+  `assert_line --regexp "$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN"' failed
+
+-- no output line matches regular expression --
+regexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$
+output (13 lines):
+  Total number of designs: 51936
+  Page: 1
+  DESIGN ID                             OWNER     NAME             CREATED     UPDATED
+  8cbfd090-0f15-4c08-9a67-1a182a3b3fc3  de7f1b67  Untitled Design  11-16-2026  11-16-2026
+  93441482-45ff-4a5e-b258-9dedaa356a78  de7f1b67  Untitled Design  11-16-2026  11-16-2026
+  8848caf8-f86e-4d50-8ee2-4fbc10c65415  de7f1b67  Untitled Design  11-16-2026  11-16-2026
+  77f87c2a-8f9c-4087-a7b3-5149ce5f02d7  dea82811  nginx            11-16-2026  11-16-2026
+  c1032c15-46fe-4957-b371-f0bf508fb841  dea82811  nginx            11-16-2026  11-16-2026
+  69ba0ffb-ccc3-45b5-bf13-3b2c0a0ff880  de7f1b67  Untitled Design  11-16-2026  11-16-2026
+  565a7085-5804-490e-b7c2-6620b510c3ae  de7f1b67  Untitled Design  11-16-2026  11-16-2026
+  8c0b7db1-bef4-49c0-acc1-5f657891b6de  de7f1b67  Untitled Design  11-16-2026  11-16-2026
+  befce52b-ab71-427e-9ca7-4d87eaadcb29  de7f1b67  Untitled Design  11-16-2026  11-16-2026
+  3dc1bfcc-3e63-4378-a942-50ced39823fc  de7f1b67  Untitled Design  11-16-2026  11-16-2026
+--
+
+Last output:
+Total number of designs: 51936
+Page: 1
+DESIGN ID                             OWNER     NAME             CREATED     UPDATED
+8cbfd090-0f15-4c08-9a67-1a182a3b3fc3  de7f1b67  Untitled Design  11-16-2026  11-16-2026
+93441482-45ff-4a5e-b258-9dedaa356a78  de7f1b67  Untitled Design  11-16-2026  11-16-2026
+8848caf8-f86e-4d50-8ee2-4fbc10c65415  de7f1b67  Untitled Design  11-16-2026  11-16-2026
+77f87c2a-8f9c-4087-a7b3-5149ce5f02d7  dea82811  nginx            11-16-2026  11-16-2026
+c1032c15-46fe-4957-b371-f0bf508fb841  dea82811  nginx            11-16-2026  11-16-2026
+69ba0ffb-ccc3-45b5-bf13-3b2c0a0ff880  de7f1b67  Untitled Design  11-16-2026  11-16-2026
+565a7085-5804-490e-b7c2-6620b510c3ae  de7f1b67  Untitled Design  11-16-2026  11-16-2026
+8c0b7db1-bef4-49c0-acc1-5f657891b6de  de7f1b67  Untitled Design  11-16-2026  11-16-2026
+befce52b-ab71-427e-9ca7-4d87eaadcb29  de7f1b67  Untitled Design  11-16-2026  11-16-2026
+3dc1bfcc-3e63-4378-a942-50ced39823fc  de7f1b67  Untitled Design  11-16-2026  11-16-2026
