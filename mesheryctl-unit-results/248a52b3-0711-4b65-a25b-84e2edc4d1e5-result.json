@@ -1,0 +1,46 @@
+{
+  "uuid": "248a52b3-0711-4b65-a25b-84e2edc4d1e5",
+  "name": "TestModelGenerate/model_generate:_no_args_prints_help_and_errors",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestModelGenerate/model_generate:_no_args_prints_help_and_errors",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794818808510,
+  "stop": 1794818808511,
+  "statusDetails": {
+    "message": "Error: either --file flag, a URL or a path as argument must be specified\n\nUsage: mesheryctl model generate [ file | filePath | URL ] path\nRun 'mesheryctl model generate --help' to see detailed help message | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed\n    generate_test.go:152: [model generate: no args prints help and errors] stderr (error):\n        either --file flag, a URL or a path as argument must be specified\n        \n        Usage: mesheryctl model generate [ file | filePath | URL ] path\n        Run 'mesheryctl model generate --help' to see detailed help message | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestModelGenerate/model_generate:_no_args_prints_help_and_errors"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

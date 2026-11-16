@@ -1,0 +1,46 @@
+{
+  "uuid": "d2adc3e0-e72f-4f71-bce1-e58cfb1935df",
+  "name": "TestResolveDockerEndpointReturnsDialableHost/remote_endpoint_stored_without_a_scheme",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/system::TestResolveDockerEndpointReturnsDialableHost/remote_endpoint_stored_without_a_scheme",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794818837133,
+  "stop": 1794818837135,
+  "statusDetails": {
+    "message": "The endpoint address will be changed to localhost. Are you sure you want to continue? [y/n]?"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/system"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestResolveDockerEndpointReturnsDialableHost/remote_endpoint_stored_without_a_scheme"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
