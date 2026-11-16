@@ -1,0 +1,46 @@
+{
+  "uuid": "955b9fd5-4f1e-4a79-83d2-3aae70d8a4f5",
+  "name": "TestNewBrokerSubscribeChannel",
+  "fullName": "github.com/meshery/meshery/server/internal/channels::TestNewBrokerSubscribeChannel",
+  "status": "skipped",
+  "stage": "finished",
+  "start": 1794838147753,
+  "stop": 1794838147754,
+  "statusDetails": {
+    "message": "broker_test.go:9: Skipping test in short mode."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/internal"
+    },
+    {
+      "name": "suite",
+      "value": "server/internal/channels"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestNewBrokerSubscribeChannel"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
