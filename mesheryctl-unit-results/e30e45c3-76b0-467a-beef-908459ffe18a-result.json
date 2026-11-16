@@ -1,0 +1,46 @@
+{
+  "uuid": "e30e45c3-76b0-467a-beef-908459ffe18a",
+  "name": "TestDeleteEnvironment/Delete_environment_with_invalid_UUID",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/environments::TestDeleteEnvironment/Delete_environment_with_invalid_UUID",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794806598743,
+  "stop": 1794806598748,
+  "statusDetails": {
+    "message": "Error: invalid environment ID: invalid-uuid | Short Description: Invalid ID format | Probable Cause: ID is not a valid UUID format.ID contains invalid characters | Suggested Remediation: Ensure the ID is a valid UUID format.Check the ID parameter for typos or formatting issues"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/environments"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteEnvironment/Delete_environment_with_invalid_UUID"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
