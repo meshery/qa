@@ -1,0 +1,46 @@
+{
+  "uuid": "f9bf0e39-5fd0-481a-a0d0-f546e657f608",
+  "name": "TestExportModel/given_an_invalid_output_type_when_model_export_then_throw_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestExportModel/given_an_invalid_output_type_when_model_export_then_throw_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794842668988,
+  "stop": 1794842668989,
+  "statusDetails": {
+    "message": "Error: Invalid value for --output-type 'invalid-type': valid values are oci tar | Short Description: Invalid flag(s) provided | Probable Cause: The value for one or more flags provided is invalid. | Suggested Remediation: Provide valid flag value and try again."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestExportModel/given_an_invalid_output_type_when_model_export_then_throw_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
