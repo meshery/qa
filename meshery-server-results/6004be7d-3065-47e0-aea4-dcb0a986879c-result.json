@@ -1,0 +1,46 @@
+{
+  "uuid": "6004be7d-3065-47e0-aea4-dcb0a986879c",
+  "name": "TestPersistEventInsertsANewEventOnceWithItsBuilderID",
+  "fullName": "github.com/meshery/meshery/server/models::TestPersistEventInsertsANewEventOnceWithItsBuilderID",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794831681367,
+  "stop": 1794831681416,
+  "statusDetails": {
+    "message": "2026/11/16 12:21:21 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/events_persister.go:139 \u001b[35;1mUNIQUE constraint failed: events.id\n\u001b[0m\u001b[33m[0.253ms] \u001b[34;1m[rows:0]\u001b[0m INSERT INTO `events` (`acted_upon`,`action`,`category`,`created_at`,`deleted_at`,`description`,`id`,`metadata`,`operation_id`,`severity`,`status`,`system_id`,`updated_at`,`owner`,`idempotency_key`,`correlation_key`,`occurrence_count`,`first_seen_at`,`last_seen_at`,`resolved_at`,`source`,`type`,`specversion`,`trace_id`,`parent_id`) VALUES (\"00000000-0000-0000-0000-000000000000\",\"save\",\"design\",\"2026-11-16 12:21:21.414\",NULL,\"saved\",\"a15c0e72-4b12-4aec-9529-23d859d0ddaa\",NULL,\"deb30a3d-e012-49d6-bf7c-4f9293d3989c\",\"informational\",\"unread\",\"00000000-0000-0000-0000-000000000000\",\"2026-11-16 12:21:21.414\",\"0a620e69-a1b2-4118-ba0b-764e7619dc54\",NULL,NULL,NULL,NULL,NULL,NULL,\"meshery-server\",NULL,NULL,NULL,NULL)"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPersistEventInsertsANewEventOnceWithItsBuilderID"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

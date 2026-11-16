@@ -1,0 +1,46 @@
+{
+  "uuid": "366d4e92-ddb9-4cc0-bafe-cca3f80e04d3",
+  "name": "TestUpdateConnectionById_NilSystemID_DoesNotPanic",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestUpdateConnectionById_NilSystemID_DoesNotPanic",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794831609528,
+  "stop": 1794831609551,
+  "statusDetails": {
+    "message": "2026/11/16 12:20:09 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:185 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.378ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"d22295da-90b1-456a-a765-6176894e655a\" ORDER BY `connections`.`id` LIMIT 1\n\r\n2026/11/16 12:20:09 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:122 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.242ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"d22295da-90b1-456a-a765-6176894e655a\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/16 12:20:09 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:126 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.156ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE connection_id = \"d22295da-90b1-456a-a765-6176894e655a\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/16 12:20:09 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:122 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.110ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"d22295da90b1456aa7656176894e655a\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/16 12:20:09 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:126 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.120ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE connection_id = \"d22295da90b1456aa7656176894e655a\" ORDER BY `k8s_contexts`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestUpdateConnectionById_NilSystemID_DoesNotPanic"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
