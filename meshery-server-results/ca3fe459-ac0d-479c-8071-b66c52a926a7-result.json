@@ -1,0 +1,46 @@
+{
+  "uuid": "ca3fe459-ac0d-479c-8071-b66c52a926a7",
+  "name": "TestDeleteConnection_NonKubernetesKindSkipsTeardown",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestDeleteConnection_NonKubernetesKindSkipsTeardown",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794818908795,
+  "stop": 1794818908819,
+  "statusDetails": {
+    "message": "2026/11/16 08:48:28 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:185 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.131ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"2c7ab59d-27e8-4f0b-abd0-ab5834cc920f\" ORDER BY `connections`.`id` LIMIT 1\n\r\n2026/11/16 08:48:28 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:346 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.107ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"2c7ab59d-27e8-4f0b-abd0-ab5834cc920f\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteConnection_NonKubernetesKindSkipsTeardown"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
