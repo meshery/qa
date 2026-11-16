@@ -1,0 +1,46 @@
+{
+  "uuid": "2f85b698-7ca8-44b9-be13-3ac808931db9",
+  "name": "TestProcessConnectionRegistrationRegistersKindsWithoutVerifyAction/artifacthub",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestProcessConnectionRegistrationRegistersKindsWithoutVerifyAction/artifacthub",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794828445188,
+  "stop": 1794828445193,
+  "statusDetails": {
+    "message": "2026/11/16 11:27:25 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:185 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.154ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"b9811c46-0b53-4a5c-9f60-80af3f5356ca\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProcessConnectionRegistrationRegistersKindsWithoutVerifyAction/artifacthub"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
