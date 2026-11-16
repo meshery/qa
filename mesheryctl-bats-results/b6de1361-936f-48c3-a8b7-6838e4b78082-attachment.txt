@@ -1,0 +1,36 @@
+(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,
+ in test file 003-design/03-design-list.bats, line 17)
+  `assert_line --regexp "$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN"' failed
+
+-- no output line matches regular expression --
+regexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$
+output (13 lines):
+  Total number of designs: 51905
+  Page: 1
+  DESIGN ID                             OWNER     NAME                              CREATED     UPDATED
+  e69d94ae-f1e8-4328-bd09-e16931bbdff3  8a97268f  Vllm inference server             11-16-2026  11-16-2026
+  57a809c4-d292-4e63-a577-4bf116919e6d  f81da29c  Kingsley First Kubernetes Design  11-16-2026  11-16-2026
+  4595f64f-5b78-45a0-8157-b733073a7b58  dea82811  nginx                             11-16-2026  11-16-2026
+  50ea9fc6-ddfa-488e-b9bf-896ed98399ad  dea82811  nginx                             11-16-2026  11-16-2026
+  b45eb736-5504-4c69-99dd-96dc00141968  3adec9fb  Demo                              11-16-2026  11-16-2026
+  d3fc74e3-f105-4eb1-bd7f-a5f79d5cb529  dea82811  nginx                             11-16-2026  11-16-2026
+  34dd3e26-b8fa-464a-b33e-88116c096b97  dea82811  nginx                             11-16-2026  11-16-2026
+  2c1961fa-3163-4bd2-93fa-92081e8618c5  dea82811  nginx                             11-16-2026  11-16-2026
+  0d18f66d-b93e-45b8-985d-1f0846aef93d  dea82811  nginx                             11-16-2026  11-16-2026
+  c8ec435c-3ea3-4416-baa6-553adf07048c  a957e6e3  my-first-design-copy              11-16-2026  11-16-2026
+--
+
+Last output:
+Total number of designs: 51905
+Page: 1
+DESIGN ID                             OWNER     NAME                              CREATED     UPDATED
+e69d94ae-f1e8-4328-bd09-e16931bbdff3  8a97268f  Vllm inference server             11-16-2026  11-16-2026
+57a809c4-d292-4e63-a577-4bf116919e6d  f81da29c  Kingsley First Kubernetes Design  11-16-2026  11-16-2026
+4595f64f-5b78-45a0-8157-b733073a7b58  dea82811  nginx                             11-16-2026  11-16-2026
+50ea9fc6-ddfa-488e-b9bf-896ed98399ad  dea82811  nginx                             11-16-2026  11-16-2026
+b45eb736-5504-4c69-99dd-96dc00141968  3adec9fb  Demo                              11-16-2026  11-16-2026
+d3fc74e3-f105-4eb1-bd7f-a5f79d5cb529  dea82811  nginx                             11-16-2026  11-16-2026
+34dd3e26-b8fa-464a-b33e-88116c096b97  dea82811  nginx                             11-16-2026  11-16-2026
+2c1961fa-3163-4bd2-93fa-92081e8618c5  dea82811  nginx                             11-16-2026  11-16-2026
+0d18f66d-b93e-45b8-985d-1f0846aef93d  dea82811  nginx                             11-16-2026  11-16-2026
+c8ec435c-3ea3-4416-baa6-553adf07048c  a957e6e3  my-first-design-copy              11-16-2026  11-16-2026
