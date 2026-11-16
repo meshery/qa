@@ -1,0 +1,46 @@
+{
+  "uuid": "1b23a8dc-e414-4f8d-9a48-9cb28dfb846f",
+  "name": "TestCreateWorkspace/given_unexpected_positional_argument_when_workspace_create_then_throw_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/workspaces::TestCreateWorkspace/given_unexpected_positional_argument_when_workspace_create_then_throw_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794849006622,
+  "stop": 1794849006622,
+  "statusDetails": {
+    "message": "Error: too many arguments specified\n\nUsage: mesheryctl workspace create --orgId [orgId] --name [name] --description [description]\nRun 'mesheryctl workspace create --help' to see detailed help message | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/workspaces"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCreateWorkspace/given_unexpected_positional_argument_when_workspace_create_then_throw_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
