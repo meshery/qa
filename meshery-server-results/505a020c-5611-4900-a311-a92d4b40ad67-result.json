@@ -1,0 +1,46 @@
+{
+  "uuid": "505a020c-5611-4900-a311-a92d4b40ad67",
+  "name": "TestRebuildPausesTheOldHandlerUntilRollback",
+  "fullName": "github.com/meshery/meshery/server/models::TestRebuildPausesTheOldHandlerUntilRollback",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1794855111352,
+  "stop": 1794855113354,
+  "statusDetails": {
+    "message": "broker_supervisor_test.go:516: the old handler kept its MeshSync subscriptions during the replacement wait"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestRebuildPausesTheOldHandlerUntilRollback"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "uuid": "98ea8faa-495f-4143-a150-934ecca4571e",
+  "name": "TestDeleteMeshSyncResourceByIDRollsBackOnError",
+  "fullName": "github.com/meshery/meshery/server/models::TestDeleteMeshSyncResourceByIDRollsBackOnError",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794855119375,
+  "stop": 1794855119395,
+  "statusDetails": {
+    "message": "2026/11/16 18:51:59 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/k8s_context.go:771 \u001b[35;1mno such table: kubernetes_resource_object_meta\n\u001b[0m\u001b[33m[0.045ms] \u001b[34;1m[rows:0]\u001b[0m DELETE FROM `kubernetes_resource_object_meta` WHERE id = \"res-atomic\""
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteMeshSyncResourceByIDRollsBackOnError"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

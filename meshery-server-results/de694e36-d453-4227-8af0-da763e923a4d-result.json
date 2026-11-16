@@ -1,0 +1,46 @@
+{
+  "uuid": "de694e36-d453-4227-8af0-da763e923a4d",
+  "name": "TestDeleteConnection_KubernetesKindMetadataOwnershipMismatchFallsBackToLinkedContext",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestDeleteConnection_KubernetesKindMetadataOwnershipMismatchFallsBackToLinkedContext",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794855115465,
+  "stop": 1794855115863,
+  "statusDetails": {
+    "message": "2026/11/16 18:51:55 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:185 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.193ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"4248da09-40a9-48f7-a0a2-d60e192ef897\" ORDER BY `connections`.`id` LIMIT 1\n\r\n2026/11/16 18:51:55 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:185 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.209ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"fcbe41d0-8153-4c63-8f05-421180417a57\" ORDER BY `connections`.`id` LIMIT 1\n\r\n2026/11/16 18:51:55 \u001b[32m/home/runner/work/meshery/meshery/server/handlers/delete_connection_test.go:1012 \u001b[33mSLOW SQL >= 200ms\n\u001b[0m\u001b[31;1m[232.870ms] \u001b[33m[rows:1]\u001b[35m INSERT INTO `k8s_contexts` (`id`,`name`,`auth`,`cluster`,`server`,`meshery_instance_id`,`kubernetes_server_id`,`deployment_type`,`version`,`updated_at`,`created_at`,`connection_id`) VALUES (\"linked-to-saved-context-id\",\"saved-cluster\",\"{\"\"name\"\":\"\"test-user\"\",\"\"user\"\":{\"\"token\"\":\"\"fake-token\"\"}}\",\"{\"\"cluster\"\":{\"\"server\"\":\"\"https://127.0.0.1:6443\"\"},\"\"name\"\":\"\"test-cluster\"\"}\",\"\",\"91b800bb-bc1b-4fb8-87b3-150ae8ea3127\",NULL,\"\",\"\",\"2026-11-16 18:51:55.607\",\"2026-11-16 18:51:55.607\",\"4248da09-40a9-48f7-a0a2-d60e192ef897\")\u001b[0m\n\r\n2026/11/16 18:51:55 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_k8scontext_persister.go:122 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.105ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `k8s_contexts` WHERE id = \"4248da09-40a9-48f7-a0a2-d60e192ef897\" ORDER BY `k8s_contexts`.`id` LIMIT 1\n\r\n2026/11/16 18:51:55 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:346 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.194ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"4248da09-40a9-48f7-a0a2-d60e192ef897\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteConnection_KubernetesKindMetadataOwnershipMismatchFallsBackToLinkedContext"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

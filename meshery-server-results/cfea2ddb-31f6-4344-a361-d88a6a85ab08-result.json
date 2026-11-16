@@ -1,0 +1,46 @@
+{
+  "uuid": "cfea2ddb-31f6-4344-a361-d88a6a85ab08",
+  "name": "TestProcessConnectionRegistration_NilUser_ReturnsUnauthorized",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestProcessConnectionRegistration_NilUser_ReturnsUnauthorized",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794855051491,
+  "stop": 1794855051763,
+  "statusDetails": {
+    "message": "2026/11/16 18:50:51 \u001b[32m/home/runner/work/meshery/meshery/server/handlers/delete_connection_test.go:42 \u001b[33mSLOW SQL >= 200ms\n\u001b[0m\u001b[31;1m[237.505ms] \u001b[33m[rows:0]\u001b[35m CREATE TABLE `connections` (`id` text,`name` text,`description` text,`url` text,`credential_id` text,`connection_type` text,`sub_type` text,`kind` text,`model_reference` text,`connection_schema` text,`credential_schema` text,`metadata` text,`status` text,`owner` text,`created_at` datetime,`updated_at` datetime,`deleted_at` datetime,`styles` blob,`transition_map` blob,`organization_id` text,PRIMARY KEY (`id`))\u001b[0m"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProcessConnectionRegistration_NilUser_ReturnsUnauthorized"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
