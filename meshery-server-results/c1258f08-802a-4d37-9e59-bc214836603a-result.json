@@ -1,0 +1,46 @@
+{
+  "uuid": "c1258f08-802a-4d37-9e59-bc214836603a",
+  "name": "TestSaveConnection_NilSystemID_DoesNotPanic",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestSaveConnection_NilSystemID_DoesNotPanic",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794842560287,
+  "stop": 1794842560314,
+  "statusDetails": {
+    "message": "2026/11/16 15:22:40 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/connection_persister.go:185 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.300ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `connections` WHERE id = \"35110bab-4bca-4d23-bfe3-810f36a24761\" ORDER BY `connections`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSaveConnection_NilSystemID_DoesNotPanic"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

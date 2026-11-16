@@ -1,0 +1,46 @@
+{
+  "uuid": "c4bd7c4d-1701-4d0c-b668-65d1ab766ffe",
+  "name": "TestDownloadMesheryPatternHandler_NilSystemID_DoesNotPanic",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestDownloadMesheryPatternHandler_NilSystemID_DoesNotPanic",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794842616129,
+  "stop": 1794842616132,
+  "statusDetails": {
+    "message": "2026/11/16 15:23:36 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshery_pattern_persister.go:450 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.068ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `meshery_patterns` WHERE `meshery_patterns`.`id` = \"b3fc99fd-5037-4b62-aa96-2feb558bf039\" ORDER BY `meshery_patterns`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDownloadMesheryPatternHandler_NilSystemID_DoesNotPanic"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
