@@ -1,0 +1,46 @@
+{
+  "uuid": "c8f95143-de20-4f67-b91a-000c7f59d9bd",
+  "name": "TestInventoryCandidateKey",
+  "fullName": "github.com/meshery/meshery/server/policies::TestInventoryCandidateKey",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794827047513,
+  "stop": 1794827067346,
+  "statusDetails": {
+    "message": "=== PAUSE TestInventoryCandidateKey\n=== CONT  TestInventoryCandidateKey"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestInventoryCandidateKey"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

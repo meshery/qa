@@ -1,0 +1,46 @@
+{
+  "uuid": "4a57e74f-e595-4cb7-9bb3-fde7ba8ceef5",
+  "name": "TestGetMeshSyncResourcesMatchesAllLabels",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestGetMeshSyncResourcesMatchesAllLabels",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794827038592,
+  "stop": 1794827040140,
+  "statusDetails": {
+    "message": "2026/11/16 11:03:59 \u001b[32m/home/runner/work/meshery/meshery/server/handlers/meshsync_label_filter_test.go:25 \u001b[33mSLOW SQL >= 200ms\n\u001b[0m\u001b[31;1m[212.500ms] \u001b[33m[rows:0]\u001b[35m CREATE TABLE `kubernetes_resource_statuses` (`id` text,`attribute` text,PRIMARY KEY (`id`),CONSTRAINT `fk_kubernetes_resources_status` FOREIGN KEY (`id`) REFERENCES `kubernetes_resources`(`id`) ON DELETE SET NULL ON UPDATE CASCADE)\u001b[0m\n\r\n2026/11/16 11:03:59 \u001b[32m/home/runner/work/meshery/meshery/server/handlers/meshsync_label_filter_test.go:42 \u001b[33mSLOW SQL >= 200ms\n\u001b[0m\u001b[31;1m[247.275ms] \u001b[33m[rows:1]\u001b[35m INSERT INTO `kubernetes_resources` (`id`,`api_version`,`kind`,`model`,`cluster_id`,`pattern_resource`,`component_metadata`,`immutable`,`data`,`binary_data`,`string_data`,`type`) VALUES (\"YzEuUG9kLnYxLmRlZmF1bHQud2ViLWZyb250ZW5k\",\"v1\",\"Pod\",\"kubernetes\",\"c1\",NULL,NULL,\"\",\"\",\"\",\"\",\"\")\u001b[0m\n\r\n2026/11/16 11:04:00 \u001b[32m/home/runner/work/meshery/meshery/server/handlers/meshsync_label_filter_test.go:42 \u001b[33mSLOW SQL >= 200ms\n\u001b[0m\u001b[31;1m[259.208ms] \u001b[33m[rows:1]\u001b[35m INSERT INTO `kubernetes_resources` (`id`,`api_version`,`kind`,`model`,`cluster_id`,`pattern_resource`,`component_metadata`,`immutable`,`data`,`binary_data`,`string_data`,`type`) VALUES (\"YzEuUG9kLnYxLmRlZmF1bHQud2ViLWJhY2tlbmQ=\",\"v1\",\"Pod\",\"kubernetes\",\"c1\",NULL,NULL,\"\",\"\",\"\",\"\",\"\")\u001b[0m"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGetMeshSyncResourcesMatchesAllLabels"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
