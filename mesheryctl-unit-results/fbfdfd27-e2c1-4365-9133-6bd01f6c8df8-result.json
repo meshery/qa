@@ -1,0 +1,46 @@
+{
+  "uuid": "fbfdfd27-e2c1-4365-9133-6bd01f6c8df8",
+  "name": "TestModelInitRejectsNonDirectoryPath/--path_is_nested_deeper_below_a_regular",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestModelInitRejectsNonDirectoryPath/--path_is_nested_deeper_below_a_regular",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794905015682,
+  "stop": 1794905015693,
+  "statusDetails": {
+    "message": "Error: cannot use /tmp/TestModelInitRejectsNonDirectoryPath2071556009/002/not-a-directory/nested/deeper/test-case-not-a-directory/v0.1.0 as a model version folder: stat /tmp/TestModelInitRejectsNonDirectoryPath2071556009/002/not-a-directory/nested/deeper/test-case-not-a-directory/v0.1.0: not a directory | Short Description: Error model init | Probable Cause: Error during run of model init command | Suggested Remediation: Ensure passing all params according to the command description"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestModelInitRejectsNonDirectoryPath/--path_is_nested_deeper_below_a_regular"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
