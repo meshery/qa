@@ -1,0 +1,46 @@
+{
+  "uuid": "b34d5814-65fa-41a1-9b75-9b1a4e218e07",
+  "name": "TestWaitIgnoresOtherOperations",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/adapter::TestWaitIgnoresOtherOperations",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794919916240,
+  "stop": 1794919916244,
+  "statusDetails": {
+    "message": "error during resp.Body read:EOF"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/adapter"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWaitIgnoresOtherOperations"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

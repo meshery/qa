@@ -1,0 +1,46 @@
+{
+  "uuid": "9991777e-d115-4302-bee6-ad1e788be2f7",
+  "name": "TestPerfCmd",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/perf::TestPerfCmd",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794919935934,
+  "stop": 1794919935937,
+  "statusDetails": {
+    "message": "perf_test.go:35: Perf tests Passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/perf"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPerfCmd"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
