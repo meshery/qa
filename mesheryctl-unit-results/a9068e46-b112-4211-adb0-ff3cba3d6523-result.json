@@ -1,0 +1,46 @@
+{
+  "uuid": "a9068e46-b112-4211-adb0-ff3cba3d6523",
+  "name": "TestDeleteCmd/given_empty_positional_argument_when_design_delete_then_error_is_thrown",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/design::TestDeleteCmd/given_empty_positional_argument_when_design_delete_then_error_is_thrown",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794896037875,
+  "stop": 1794896037876,
+  "statusDetails": {
+    "message": "Error: target cannot be empty | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/design"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteCmd/given_empty_positional_argument_when_design_delete_then_error_is_thrown"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
