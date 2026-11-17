@@ -1,0 +1,46 @@
+{
+  "uuid": "5b792f10-3e1f-49eb-980c-0da45a18e13f",
+  "name": "TestApplyCmd/given_empty_design_name_when_design_apply_then_validation_error_is_returned",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/design::TestApplyCmd/given_empty_design_name_when_design_apply_then_validation_error_is_returned",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794954552408,
+  "stop": 1794954552408,
+  "statusDetails": {
+    "message": "Error: please provide a design name or specify a file using --file | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/design"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestApplyCmd/given_empty_design_name_when_design_apply_then_validation_error_is_returned"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

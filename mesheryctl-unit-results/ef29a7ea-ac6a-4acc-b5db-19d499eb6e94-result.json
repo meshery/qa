@@ -1,0 +1,46 @@
+{
+  "uuid": "ef29a7ea-ac6a-4acc-b5db-19d499eb6e94",
+  "name": "TestComponentView/given_invalid_argument_value_provided_for_--output-format_flag_when_component_view_then_throw_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/components::TestComponentView/given_invalid_argument_value_provided_for_--output-format_flag_when_component_view_then_throw_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794954547438,
+  "stop": 1794954547439,
+  "statusDetails": {
+    "message": "Error: Invalid value for --output-format 'invalid': valid values are json yaml | Short Description: Invalid flag(s) provided | Probable Cause: The value for one or more flags provided is invalid. | Suggested Remediation: Provide valid flag value and try again."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/components"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestComponentView/given_invalid_argument_value_provided_for_--output-format_flag_when_component_view_then_throw_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
