@@ -1,0 +1,37 @@
+{
+  "uuid": "16e58148-0664-4338-b059-4a59f5722f96",
+  "name": "given all requirements met when running mesheryctl design list --page 1 then the total numbers of designs and a list of designs are displayed",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1794895747003,
+  "stop": 1794895747004,
+  "statusDetails": {
+    "message": "`assert_line --regexp \"$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN\"' failed",
+    "trace": "(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,\n in test file 003-design/03-design-list.bats, line 17)\n  `assert_line --regexp \"$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN\"' failed\n\n-- no output line matches regular expression --\nregexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$\noutput (13 lines):\n  Total number of designs: 51963\n  Page: 1\n  DESIGN ID                             OWNER     NAME   CREATED     UPDATED\n  22c6f640-da4a-4b21-91f9-108897a3a874  dea82811  nginx  11-17-2026  11-17-2026\n  7fb4a876-9c23-4bf7-8929-fa755a46bde7  dea82811  nginx  11-17-2026  11-17-2026\n  a3b51151-cd6c-42ec-9885-ed38bf0f69c1  dea82811  nginx  11-17-2026  11-17-2026\n  4da24e95-30ae-4b45-b522-2a772a9627fd  dea82811  nginx  11-17-2026  11-17-2026\n  276ba05f-d9a1-432a-9943-3c29015f5db5  dea82811  nginx  11-17-2026  11-17-2026\n  6a086114-56c4-4670-aa01-c98985be5a2b  dea82811  nginx  11-17-2026  11-17-2026\n  6a551e47-359d-4de2-ac2a-ecf40d72e610  dea82811  nginx  11-17-2026  11-17-2026\n  9938e485-ca5c-4368-9968-39de7db11b79  dea82811  nginx  11-17-2026  11-17-2026\n  8ef2a862-1e57-4d95-af21-9c246c8ee922  dea82811  nginx  11-17-2026  11-17-2026\n  ce388f2a-2dd6-4494-85ff-d662755e8aee  dea82811  nginx  11-17-2026  11-17-2026\n--\n\nLast output:\nTotal number of designs: 51963\nPage: 1\nDESIGN ID                             OWNER     NAME   CREATED     UPDATED\n22c6f640-da4a-4b21-91f9-108897a3a874  dea82811  nginx  11-17-2026  11-17-2026\n7fb4a876-9c23-4bf7-8929-fa755a46bde7  dea82811  nginx  11-17-2026  11-17-2026\na3b51151-cd6c-42ec-9885-ed38bf0f69c1  dea82811  nginx  11-17-2026  11-17-2026\n4da24e95-30ae-4b45-b522-2a772a9627fd  dea82811  nginx  11-17-2026  11-17-2026\n276ba05f-d9a1-432a-9943-3c29015f5db5  dea82811  nginx  11-17-2026  11-17-2026\n6a086114-56c4-4670-aa01-c98985be5a2b  dea82811  nginx  11-17-2026  11-17-2026\n6a551e47-359d-4de2-ac2a-ecf40d72e610  dea82811  nginx  11-17-2026  11-17-2026\n9938e485-ca5c-4368-9968-39de7db11b79  dea82811  nginx  11-17-2026  11-17-2026\n8ef2a862-1e57-4d95-af21-9c246c8ee922  dea82811  nginx  11-17-2026  11-17-2026\nce388f2a-2dd6-4494-85ff-d662755e8aee  dea82811  nginx  11-17-2026  11-17-2026"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "CLI output (bats)",
+      "source": "16e58148-0664-4338-b059-4a59f5722f96-attachment.txt",
+      "type": "text/plain"
+    }
+  ]
+}
