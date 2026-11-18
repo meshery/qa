@@ -1,0 +1,46 @@
+{
+  "uuid": "1ccb6610-40e8-42ac-aa2b-90730510c4bc",
+  "name": "TestInitiateLogin_PersistsRegistrationKey",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestInitiateLogin_PersistsRegistrationKey",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795020123691,
+  "stop": 1795020123731,
+  "statusDetails": {
+    "message": "time=\"2026-11-18T16:42:03Z\" level=info msg=\"Initiating login...\""
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestInitiateLogin_PersistsRegistrationKey"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
