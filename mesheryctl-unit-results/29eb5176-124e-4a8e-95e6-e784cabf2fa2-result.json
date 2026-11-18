@@ -1,0 +1,46 @@
+{
+  "uuid": "29eb5176-124e-4a8e-95e6-e784cabf2fa2",
+  "name": "TestList/List_registered_relationships_with_--page_0",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/relationships::TestList/List_registered_relationships_with_--page_0",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794998590223,
+  "stop": 1794998590226,
+  "statusDetails": {
+    "message": "Error: Invalid value for --page '0' | Short Description: Invalid flag(s) provided | Probable Cause: The value for one or more flags provided is invalid. | Suggested Remediation: Provide valid flag value and try again."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/relationships"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestList/List_registered_relationships_with_--page_0"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
