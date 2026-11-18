@@ -1,0 +1,46 @@
+{
+  "uuid": "543c7653-8b0b-4223-b8a9-7057b7af587f",
+  "name": "TestApplyCmd/given_whitespace_design_name_when_design_apply_then_validation_error_is_returned",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/design::TestApplyCmd/given_whitespace_design_name_when_design_apply_then_validation_error_is_returned",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794983646796,
+  "stop": 1794983646796,
+  "statusDetails": {
+    "message": "Error: please provide a design name or specify a file using --file | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/design"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestApplyCmd/given_whitespace_design_name_when_design_apply_then_validation_error_is_returned"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
