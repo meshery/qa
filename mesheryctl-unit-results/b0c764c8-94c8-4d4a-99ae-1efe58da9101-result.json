@@ -1,0 +1,46 @@
+{
+  "uuid": "b0c764c8-94c8-4d4a-99ae-1efe58da9101",
+  "name": "TestDeleteCmd/given_two_arguments_when_delete_then_throw_argument_overflow_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/perf::TestDeleteCmd/given_two_arguments_when_delete_then_throw_argument_overflow_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1794962737180,
+  "stop": 1794962737180,
+  "statusDetails": {
+    "message": "Error: Invalid number of arguments | Short Description: Invalid arguments | Probable Cause: Too many arguments passed | Suggested Remediation: Use `mesheryctl perf --help` to display usage guide..\nSee https://docs.meshery.io/reference/mesheryctl/perf/apply for usage details"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/perf"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteCmd/given_two_arguments_when_delete_then_throw_argument_overflow_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
