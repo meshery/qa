@@ -1,0 +1,46 @@
+{
+  "uuid": "33cf3f77-6a7d-4728-83b9-d0af9f21e1c5",
+  "name": "TestConnectionDeleteCmd/given_no_connectionID_provided_when_running_mesheryctl_connection_delete_then_an_error_message_is_displayed",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/connections::TestConnectionDeleteCmd/given_no_connectionID_provided_when_running_mesheryctl_connection_delete_then_an_error_message_is_displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795053322079,
+  "stop": 1795053322079,
+  "statusDetails": {
+    "message": "Error: connection name or ID isn't specified\nUsage: mesheryctl connection delete --help' to see detailed help message | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/connections"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestConnectionDeleteCmd/given_no_connectionID_provided_when_running_mesheryctl_connection_delete_then_an_error_message_is_displayed"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
