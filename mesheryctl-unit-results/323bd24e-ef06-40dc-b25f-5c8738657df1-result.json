@@ -1,0 +1,46 @@
+{
+  "uuid": "323bd24e-ef06-40dc-b25f-5c8738657df1",
+  "name": "TestWorkspaces",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/workspaces::TestWorkspaces",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795116119453,
+  "stop": 1795116119458,
+  "statusDetails": {
+    "message": "testing.go:613: List workspace test\n    testing.go:613: List workspace test"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/workspaces"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWorkspaces"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
