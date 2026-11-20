@@ -1,0 +1,35 @@
+{
+  "uuid": "5b0bd307-451b-4e38-bcfa-10b2cc5bab35",
+  "name": "mesheryctl perf apply runs successfully with test-profile and valid URL",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795185214247,
+  "stop": 1795185214248,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "Performance"
+    },
+    {
+      "name": "testGroup",
+      "value": "Performance Apply"
+    }
+  ]
+}
