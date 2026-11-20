@@ -1,0 +1,46 @@
+{
+  "uuid": "a37efb68-e58a-46fd-a8cb-7c4891b260c4",
+  "name": "TestSearchModel/given_two_arguments_provided_when_running_mesheryctl_model_search_then_an_error_message_is_displayed",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestSearchModel/given_two_arguments_provided_when_running_mesheryctl_model_search_then_an_error_message_is_displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795196086810,
+  "stop": 1795196086810,
+  "statusDetails": {
+    "message": "Error: only one argument must be provided and needs to be enclosed by double quotes if it contains spaces (eg. \"model name\", modelName) | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSearchModel/given_two_arguments_provided_when_running_mesheryctl_model_search_then_an_error_message_is_displayed"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
