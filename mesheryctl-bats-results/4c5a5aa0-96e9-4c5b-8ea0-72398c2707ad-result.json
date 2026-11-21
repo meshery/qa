@@ -1,0 +1,35 @@
+{
+  "uuid": "4c5a5aa0-96e9-4c5b-8ea0-72398c2707ad",
+  "name": "given a running installation when running mesheryctl system uninstall -y then Meshery and its namespace are removed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795290543656,
+  "stop": 1795290543657,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "System"
+    },
+    {
+      "name": "testGroup",
+      "value": "System Management"
+    }
+  ]
+}

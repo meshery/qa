@@ -1,0 +1,29 @@
+{
+  "uuid": "b878596d-f409-4622-bef5-97c664bad341",
+  "name": "given valid spreadsheet credentials and a model name when running mesheryctl registry generate then only that model is generated",
+  "status": "skipped",
+  "stage": "finished",
+  "start": 1795290543655,
+  "stop": 1795290543656,
+  "statusDetails": {
+    "message": "Spreadsheet credentials not configured"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    }
+  ]
+}
