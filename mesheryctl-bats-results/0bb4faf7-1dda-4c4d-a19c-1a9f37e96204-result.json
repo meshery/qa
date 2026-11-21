@@ -1,0 +1,37 @@
+{
+  "uuid": "0bb4faf7-1dda-4c4d-a19c-1a9f37e96204",
+  "name": "mesheryctl design view with nonexistent design throws an error",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1795231616315,
+  "stop": 1795231616316,
+  "statusDetails": {
+    "message": "`assert_output --partial \"not found\"' failed",
+    "trace": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 003-design/02-design-view.bats, line 38)\n  `assert_output --partial \"not found\"' failed\n\n-- output does not contain substring --\nsubstring : not found\noutput    : Error: Access to this resource is unauthorized. | Short Description: Unauthenticated User | Probable Cause: You haven't logged in to Meshery. | Suggested Remediation: To proceed, log in using `mesheryctl system login`. | Short Description: Invalid Name or ID Provided | Probable Cause: The provided Name or ID is either not present or invalid. | Suggested Remediation: Provide a valid Name or ID using the `list` command with the appropriate subcommand.\n--\n\nLast output:\nError: Access to this resource is unauthorized. | Short Description: Unauthenticated User | Probable Cause: You haven't logged in to Meshery. | Suggested Remediation: To proceed, log in using `mesheryctl system login`. | Short Description: Invalid Name or ID Provided | Probable Cause: The provided Name or ID is either not present or invalid. | Suggested Remediation: Provide a valid Name or ID using the `list` command with the appropriate subcommand."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "CLI output (bats)",
+      "source": "0bb4faf7-1dda-4c4d-a19c-1a9f37e96204-attachment.txt",
+      "type": "text/plain"
+    }
+  ]
+}
