@@ -1,0 +1,46 @@
+{
+  "uuid": "8c8d9943-20df-4bd7-becf-5ec70a2986b7",
+  "name": "TestPurgeCmdRunE_PropagatesRemovalFailures",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/registry::TestPurgeCmdRunE_PropagatesRemovalFailures",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795293044407,
+  "stop": 1795293044407,
+  "statusDetails": {
+    "message": "unlinkat /tmp/TestPurgeCmdRunE_PropagatesRemovalFailures924820053/001/models/cilium/v1.0.0: permission denied | Short Description: error removing model version directory: /tmp/TestPurgeCmdRunE_PropagatesRemovalFailures924820053/001/models/cilium/v1.0.0 | Probable Cause: Insufficient filesystem permissions.The directory is in use by another process | Suggested Remediation: Ensure sufficient permissions to delete the directory.Retry the purge after closing any process using the directory"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/registry"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPurgeCmdRunE_PropagatesRemovalFailures"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
