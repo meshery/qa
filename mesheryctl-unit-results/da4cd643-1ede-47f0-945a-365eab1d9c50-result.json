@@ -1,0 +1,46 @@
+{
+  "uuid": "da4cd643-1ede-47f0-945a-365eab1d9c50",
+  "name": "TestConnection/given_an_invalid_subcommands_provided_when_running_mesheryctl_connection_then_an_error_message_is_displayed",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/connections::TestConnection/given_an_invalid_subcommands_provided_when_running_mesheryctl_connection_then_an_error_message_is_displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795303450494,
+  "stop": 1795303450495,
+  "statusDetails": {
+    "message": "Error: 'invalidCommand' is an invalid subcommand. Use 'mesheryctl connection --help' to display usage | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/connections"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestConnection/given_an_invalid_subcommands_provided_when_running_mesheryctl_connection_then_an_error_message_is_displayed"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
