@@ -1,0 +1,46 @@
+{
+  "uuid": "3a8e23c7-cb18-4e18-9b67-84e5616b8a9f",
+  "name": "Test_importPattern_SendsContractUrlPayload",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/design::Test_importPattern_SendsContractUrlPayload",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795314947781,
+  "stop": 1795314947784,
+  "statusDetails": {
+    "message": "import_test.go:159: Captured URL-import request body: {\"name\":\"RemoteApp\",\"url\":\"https://example.com/design.yaml\"}\n    import_test.go:176: mesheryctl output: The design file 'RemoteApp' has been imported. Design ID: 3817ec9a"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/design"
+    },
+    {
+      "name": "subSuite",
+      "value": "Test_importPattern_SendsContractUrlPayload"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
