@@ -1,0 +1,46 @@
+{
+  "uuid": "06f2a8cf-e6af-430d-a5f4-bc06eb73bfe9",
+  "name": "TestModelBuild",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestModelBuild",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795457709204,
+  "stop": 1795457709776,
+  "statusDetails": {
+    "message": "build_test.go:123: removed created dirs and files\n    build_test.go:123: removed created dirs and files\n    build_test.go:123: removed created dirs and files\n    build_test.go:123: removed created dirs and files\n    build_test.go:123: removed created dirs and files\n    build_test.go:123: removed created dirs and files\n    build_test.go:123: removed created dirs and files\n    build_test.go:123: removed created dirs and files\n    build_test.go:123: removed created dirs and files\n    build_test.go:123: removed created dirs and files\n    build_test.go:123: removed created dirs and files\n    build_test.go:123: removed created dirs and files\n    build_test.go:123: removed created dirs and files\n    build_test.go:123: removed created dirs and files\n    build_test.go:123: removed created dirs and files\n    build_test.go:123: removed created dirs and files\n    build_test.go:123: removed created dirs and files\n    build_test.go:123: removed created dirs and files\n    build_test.go:123: removed created dirs and files\n    build_test.go:123: removed created dirs and files\n    build_test.go:123: removed created dirs and files\n    build_test.go:123: removed created dirs and files"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestModelBuild"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
