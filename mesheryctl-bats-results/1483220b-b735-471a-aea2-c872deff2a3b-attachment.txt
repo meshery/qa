@@ -1,0 +1,36 @@
+(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,
+ in test file 003-design/03-design-list.bats, line 17)
+  `assert_line --regexp "$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN"' failed
+
+-- no output line matches regular expression --
+regexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$
+output (13 lines):
+  Total number of designs: 52205
+  Page: 1
+  DESIGN ID                             OWNER     NAME                                 CREATED     UPDATED
+  18d36054-b219-4921-ad15-a57eb5fa9ee7  dea82811  nginx                                11-23-2026  11-23-2026
+  5886a141-7609-4202-9aab-dfce9d2a0732  dea82811  nginx                                11-23-2026  11-23-2026
+  6749a65b-a4e7-42ac-965a-9ee158b8d75e  9ee0cd04  Cloud-Native Observability Platform  10-19-2026  11-23-2026
+  436ea6dc-cb79-4709-9117-f1eecf06af77  b0001d5f  Web App - Deployment and Service     11-23-2026  11-23-2026
+  fffd0def-13f0-4980-be17-a54724493a37  7cb7164e  AKS Store Demo                       11-22-2026  11-22-2026
+  2feb9312-2afd-4d76-bcf2-a39a8461c7ae  7cb7164e  Podtato Head                         11-22-2026  11-22-2026
+  3f89d02b-f8aa-4235-a53a-3ccf76c05790  7cb7164e  Podinfo                              11-22-2026  11-22-2026
+  9fa35ce0-d000-4f69-b8b4-7843a17d84f2  7cb7164e  Bookinfo                             11-22-2026  11-22-2026
+  33606bb5-1920-4c02-b76f-308c704832e2  f1830dbe  RelationshipLab                      11-22-2026  11-22-2026
+  e67a052f-b11d-41f2-b8d6-26f5bc4b1b81  f1830dbe  RelationshipLab                      11-22-2026  11-22-2026
+--
+
+Last output:
+Total number of designs: 52205
+Page: 1
+DESIGN ID                             OWNER     NAME                                 CREATED     UPDATED
+18d36054-b219-4921-ad15-a57eb5fa9ee7  dea82811  nginx                                11-23-2026  11-23-2026
+5886a141-7609-4202-9aab-dfce9d2a0732  dea82811  nginx                                11-23-2026  11-23-2026
+6749a65b-a4e7-42ac-965a-9ee158b8d75e  9ee0cd04  Cloud-Native Observability Platform  10-19-2026  11-23-2026
+436ea6dc-cb79-4709-9117-f1eecf06af77  b0001d5f  Web App - Deployment and Service     11-23-2026  11-23-2026
+fffd0def-13f0-4980-be17-a54724493a37  7cb7164e  AKS Store Demo                       11-22-2026  11-22-2026
+2feb9312-2afd-4d76-bcf2-a39a8461c7ae  7cb7164e  Podtato Head                         11-22-2026  11-22-2026
+3f89d02b-f8aa-4235-a53a-3ccf76c05790  7cb7164e  Podinfo                              11-22-2026  11-22-2026
+9fa35ce0-d000-4f69-b8b4-7843a17d84f2  7cb7164e  Bookinfo                             11-22-2026  11-22-2026
+33606bb5-1920-4c02-b76f-308c704832e2  f1830dbe  RelationshipLab                      11-22-2026  11-22-2026
+e67a052f-b11d-41f2-b8d6-26f5bc4b1b81  f1830dbe  RelationshipLab                      11-22-2026  11-22-2026
