@@ -1,0 +1,46 @@
+{
+  "uuid": "b779f1d0-dec5-4e87-a099-110dff174750",
+  "name": "TestSwitchProviderCmdValidatesProviderOnContextInFocus",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/system::TestSwitchProviderCmdValidatesProviderOnContextInFocus",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795421511205,
+  "stop": 1795421511207,
+  "statusDetails": {
+    "message": "The Meshery deployment in context 'gke' will be replaced with a new Meshery deployment with provider set to 'Local'. Are you sure you want to continue [y/n]?"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/system"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSwitchProviderCmdValidatesProviderOnContextInFocus"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
