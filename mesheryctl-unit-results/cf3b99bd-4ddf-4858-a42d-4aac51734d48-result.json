@@ -1,0 +1,46 @@
+{
+  "uuid": "cf3b99bd-4ddf-4858-a42d-4aac51734d48",
+  "name": "TestModelInit/given_invalid_model_name_when_model_init_then_throw_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestModelInit/given_invalid_model_name_when_model_init_then_throw_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795476317766,
+  "stop": 1795476317774,
+  "statusDetails": {
+    "message": "Error: invalid model name: name must match pattern ^[a-z0-9-]+$ | Short Description: Error model init | Probable Cause: Error during run of model init command | Suggested Remediation: Ensure passing all params according to the command description"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestModelInit/given_invalid_model_name_when_model_init_then_throw_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
