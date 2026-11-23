@@ -1,0 +1,46 @@
+{
+  "uuid": "478e106a-fea7-4e1b-99cb-97653786d573",
+  "name": "TestDeleteCmdRejectsIncompleteProfileLookup",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/perf::TestDeleteCmdRejectsIncompleteProfileLookup",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795446900281,
+  "stop": 1795446900284,
+  "statusDetails": {
+    "message": "The matching performance profile pages changed or were inconsistent during lookup | Short Description: Unable to complete performance profile lookup | Probable Cause: Profiles were added, deleted, or reordered during lookup, or the provider returned inconsistent pagination data | Suggested Remediation: Rerun the command to refresh the matching profile list.\nSee https://docs.meshery.io/reference/mesheryctl/perf/apply for usage details\n\nError: The matching performance profile pages changed or were inconsistent during lookup | Short Description: Unable to complete performance profile lookup | Probable Cause: Profiles were added, deleted, or reordered during lookup, or the provider returned inconsistent pagination data | Suggested Remediation: Rerun the command to refresh the matching profile list.\nSee https://docs.meshery.io/reference/mesheryctl/perf/apply for usage details"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/perf"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteCmdRejectsIncompleteProfileLookup"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
