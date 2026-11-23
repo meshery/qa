@@ -1,0 +1,36 @@
+(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,
+ in test file 003-design/03-design-list.bats, line 17)
+  `assert_line --regexp "$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN"' failed
+
+-- no output line matches regular expression --
+regexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$
+output (13 lines):
+  Total number of designs: 52226
+  Page: 1
+  DESIGN ID                             OWNER     NAME                  CREATED     UPDATED
+  e6fa597e-c31c-472d-ada8-475f7e9b5c4f  b0684d7f  lfx-playground-demo   11-23-2026  11-23-2026
+  fd2835c3-213b-41fc-beb7-cf40023bb983  dea82811  nginx                 11-23-2026  11-23-2026
+  ce8c4906-8469-406e-bc46-9779117efe6d  dea82811  nginx                 11-23-2026  11-23-2026
+  e7a8c6f4-cc17-4027-825f-0a553bd13740  7be4115e  alice                 11-23-2026  11-23-2026
+  6baf1123-c13f-4017-b525-9eba52fe592b  7be4115e  alice                 11-23-2026  11-23-2026
+  226c0441-cbd8-4842-a84f-5a8b311e6651  7be4115e  alice                 11-23-2026  11-23-2026
+  2dfb9393-5474-4d0c-9139-ab671f39f61f  7be4115e  alice                 11-23-2026  11-23-2026
+  5cf1b2a1-ec5b-4660-b620-ef288c5b1aea  d8f9481b  Architectural Design  11-23-2026  11-23-2026
+  f867e8c1-86a4-413b-bf30-dbd745b22d59  7be4115e  ASRTG                 11-23-2026  11-23-2026
+  ea70e179-8b85-4982-b98c-f95a77f21a68  7be4115e  alice file            11-23-2026  11-23-2026
+--
+
+Last output:
+Total number of designs: 52226
+Page: 1
+DESIGN ID                             OWNER     NAME                  CREATED     UPDATED
+e6fa597e-c31c-472d-ada8-475f7e9b5c4f  b0684d7f  lfx-playground-demo   11-23-2026  11-23-2026
+fd2835c3-213b-41fc-beb7-cf40023bb983  dea82811  nginx                 11-23-2026  11-23-2026
+ce8c4906-8469-406e-bc46-9779117efe6d  dea82811  nginx                 11-23-2026  11-23-2026
+e7a8c6f4-cc17-4027-825f-0a553bd13740  7be4115e  alice                 11-23-2026  11-23-2026
+6baf1123-c13f-4017-b525-9eba52fe592b  7be4115e  alice                 11-23-2026  11-23-2026
+226c0441-cbd8-4842-a84f-5a8b311e6651  7be4115e  alice                 11-23-2026  11-23-2026
+2dfb9393-5474-4d0c-9139-ab671f39f61f  7be4115e  alice                 11-23-2026  11-23-2026
+5cf1b2a1-ec5b-4660-b620-ef288c5b1aea  d8f9481b  Architectural Design  11-23-2026  11-23-2026
+f867e8c1-86a4-413b-bf30-dbd745b22d59  7be4115e  ASRTG                 11-23-2026  11-23-2026
+ea70e179-8b85-4982-b98c-f95a77f21a68  7be4115e  alice file            11-23-2026  11-23-2026
