@@ -1,0 +1,46 @@
+{
+  "uuid": "b143e3df-69d0-4060-a6de-9d4cc6fb8eb9",
+  "name": "Test_importPattern_EmptyResponseCollection",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/design::Test_importPattern_EmptyResponseCollection",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795410480283,
+  "stop": 1795410480287,
+  "statusDetails": {
+    "message": "Error: design import returned no design | Short Description: Invalid API response | Probable Cause: The API response is missing expected fields or has an unexpected format | Suggested Remediation: Ensure the Meshery server is running a compatible version.Check for any issues with the Meshery server that may cause it to return malformed responses\n    import_test.go:206: structured error returned instead of panicking: design import returned no design | Short Description: Invalid API response | Probable Cause: The API response is missing expected fields or has an unexpected format | Suggested Remediation: Ensure the Meshery server is running a compatible version.Check for any issues with the Meshery server that may cause it to return malformed responses"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/design"
+    },
+    {
+      "name": "subSuite",
+      "value": "Test_importPattern_EmptyResponseCollection"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

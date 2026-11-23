@@ -1,0 +1,46 @@
+{
+  "uuid": "80da8d63-c938-492a-a8ca-42723a03f6c5",
+  "name": "TestListCmd/List_filters_with_too_many_arguments",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/filter::TestListCmd/List_filters_with_too_many_arguments",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795410486213,
+  "stop": 1795410486218,
+  "statusDetails": {
+    "message": "Error: too many arguments specified\n\nUsage: mesheryctl filter list [filter-name]\nRun 'mesheryctl filter list --help' to see detailed help message | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/filter"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestListCmd/List_filters_with_too_many_arguments"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

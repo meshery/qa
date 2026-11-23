@@ -1,0 +1,46 @@
+{
+  "uuid": "95354812-d322-4e0a-90ce-5e5a1402379d",
+  "name": "TestEnvironmentViewInconsistentTotalCount/multiple_environments_prompts_user_and_selects_chosen_environment",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/environments::TestEnvironmentViewInconsistentTotalCount/multiple_environments_prompts_user_and_selects_chosen_environment",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795410481160,
+  "stop": 1795410481165,
+  "statusDetails": {
+    "message": "id: 179c4596-7200-4af2-a744-9b5428fbc7a4\nschemaVersion: \"\"\nname: staging-env\ndescription: \"\"\norganization_id: 2d2c0b60-076a-4f0a-8a63-de538570a553\nowner: null\nmetadata: {}\ndeleted_at: null"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/environments"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestEnvironmentViewInconsistentTotalCount/multiple_environments_prompts_user_and_selects_chosen_environment"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
