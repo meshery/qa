@@ -1,0 +1,36 @@
+(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,
+ in test file 003-design/03-design-list.bats, line 17)
+  `assert_line --regexp "$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN"' failed
+
+-- no output line matches regular expression --
+regexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$
+output (13 lines):
+  Total number of designs: 52234
+  Page: 1
+  DESIGN ID                             OWNER     NAME                 CREATED     UPDATED
+  fa1f52a1-5a0d-4001-81ae-280c0e0b083f  dea82811  nginx                11-23-2026  11-23-2026
+  59361b53-2786-41d7-beaf-ecd313bfece2  dea82811  nginx                11-23-2026  11-23-2026
+  37b9da0e-2e51-4cdd-a6f2-d5aa469be573  30db9573  my-first-k8s-design  11-23-2026  11-23-2026
+  30922e6f-9aa9-483b-ab59-d7e08c76e9f2  a2cdfcef  nginx-k8s-design     11-23-2026  11-23-2026
+  362ace13-9c9c-4802-a7e7-7936a7656163  dea82811  nginx                11-23-2026  11-23-2026
+  127cf636-1012-4613-9fc0-a617e210d6b1  dea82811  nginx                11-23-2026  11-23-2026
+  bce391cc-dd89-492b-80c7-7fa681f4e116  dea82811  nginx                11-23-2026  11-23-2026
+  a59e455e-c87d-4e75-88db-b720c16f0a73  dea82811  nginx                11-23-2026  11-23-2026
+  e6fa597e-c31c-472d-ada8-475f7e9b5c4f  b0684d7f  lfx-playground-demo  11-23-2026  11-23-2026
+  fd2835c3-213b-41fc-beb7-cf40023bb983  dea82811  nginx                11-23-2026  11-23-2026
+--
+
+Last output:
+Total number of designs: 52234
+Page: 1
+DESIGN ID                             OWNER     NAME                 CREATED     UPDATED
+fa1f52a1-5a0d-4001-81ae-280c0e0b083f  dea82811  nginx                11-23-2026  11-23-2026
+59361b53-2786-41d7-beaf-ecd313bfece2  dea82811  nginx                11-23-2026  11-23-2026
+37b9da0e-2e51-4cdd-a6f2-d5aa469be573  30db9573  my-first-k8s-design  11-23-2026  11-23-2026
+30922e6f-9aa9-483b-ab59-d7e08c76e9f2  a2cdfcef  nginx-k8s-design     11-23-2026  11-23-2026
+362ace13-9c9c-4802-a7e7-7936a7656163  dea82811  nginx                11-23-2026  11-23-2026
+127cf636-1012-4613-9fc0-a617e210d6b1  dea82811  nginx                11-23-2026  11-23-2026
+bce391cc-dd89-492b-80c7-7fa681f4e116  dea82811  nginx                11-23-2026  11-23-2026
+a59e455e-c87d-4e75-88db-b720c16f0a73  dea82811  nginx                11-23-2026  11-23-2026
+e6fa597e-c31c-472d-ada8-475f7e9b5c4f  b0684d7f  lfx-playground-demo  11-23-2026  11-23-2026
+fd2835c3-213b-41fc-beb7-cf40023bb983  dea82811  nginx                11-23-2026  11-23-2026
