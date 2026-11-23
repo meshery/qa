@@ -1,0 +1,46 @@
+{
+  "uuid": "c3f5d214-52a5-432d-b5b1-6e30a778d7ea",
+  "name": "TestChannelArgsValidation/switch_with_invalid_channel_fails_in_Args_validation_before_PreRunE_or_confirmation",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/system::TestChannelArgsValidation/switch_with_invalid_channel_fails_in_Args_validation_before_PreRunE_or_confirmation",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795416518340,
+  "stop": 1795416518341,
+  "statusDetails": {
+    "message": "Error: Unable to set release channel to bogus | Short Description: Invalid release channel | Probable Cause: A wrong release channel was specified | Suggested Remediation: Specify a valid release channel. Valid channels are 'stable' and 'edge'."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/system"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestChannelArgsValidation/switch_with_invalid_channel_fails_in_Args_validation_before_PreRunE_or_confirmation"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

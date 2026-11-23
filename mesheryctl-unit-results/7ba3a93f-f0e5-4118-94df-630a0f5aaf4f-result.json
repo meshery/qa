@@ -1,0 +1,46 @@
+{
+  "uuid": "7ba3a93f-f0e5-4118-94df-630a0f5aaf4f",
+  "name": "TestModelInit/given_too_many_arguments_when_model_init_then_throw_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestModelInit/given_too_many_arguments_when_model_init_then_throw_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795416484589,
+  "stop": 1795416484589,
+  "statusDetails": {
+    "message": "Error: model init requires one argument: 'Model name' using kebab-cased (eg. model-name, aws-model-name) | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestModelInit/given_too_many_arguments_when_model_init_then_throw_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

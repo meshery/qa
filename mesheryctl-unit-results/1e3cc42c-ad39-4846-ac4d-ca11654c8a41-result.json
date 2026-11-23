@@ -1,0 +1,46 @@
+{
+  "uuid": "1e3cc42c-ad39-4846-ac4d-ca11654c8a41",
+  "name": "TestConnectionViewCmd/given_multiple_arguments_provided_when_connection_view_then_throw_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/connections::TestConnectionViewCmd/given_multiple_arguments_provided_when_connection_view_then_throw_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795416471138,
+  "stop": 1795416471140,
+  "statusDetails": {
+    "message": "Error: too many arguments specified\nUsage: mesheryctl connection view --help' to see detailed help message | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/connections"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestConnectionViewCmd/given_multiple_arguments_provided_when_connection_view_then_throw_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
