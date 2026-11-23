@@ -1,0 +1,46 @@
+{
+  "uuid": "ae39029b-a9b6-4932-a978-62bfa6e4f3ee",
+  "name": "TestDeleteCmdByUUIDRejectsInvalidProfileResponses/invalid_json_in_response",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/perf::TestDeleteCmdByUUIDRejectsInvalidProfileResponses/invalid_json_in_response",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795470418976,
+  "stop": 1795470418978,
+  "statusDetails": {
+    "message": "Failed to unmarshal response body.invalid character 'o' in literal null (expecting 'u') | Short Description: Error unmarshalling response | Probable Cause: The JSON format from the response body is not valid. | Suggested Remediation: Ensure a valid JSON is provided for processing..\nSee https://docs.meshery.io/reference/mesheryctl/perf/apply for usage details\n\nError: Failed to unmarshal response body.invalid character 'o' in literal null (expecting 'u') | Short Description: Error unmarshalling response | Probable Cause: The JSON format from the response body is not valid. | Suggested Remediation: Ensure a valid JSON is provided for processing..\nSee https://docs.meshery.io/reference/mesheryctl/perf/apply for usage details"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/perf"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteCmdByUUIDRejectsInvalidProfileResponses/invalid_json_in_response"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
