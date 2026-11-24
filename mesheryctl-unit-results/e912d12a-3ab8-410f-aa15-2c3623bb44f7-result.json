@@ -1,0 +1,46 @@
+{
+  "uuid": "e912d12a-3ab8-410f-aa15-2c3623bb44f7",
+  "name": "TestChannelArgsValidation/set_with_invalid_channel_fails_in_Args_validation",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/system::TestChannelArgsValidation/set_with_invalid_channel_fails_in_Args_validation",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795543970303,
+  "stop": 1795543970303,
+  "statusDetails": {
+    "message": "Error: Unable to set release channel to bogus | Short Description: Invalid release channel | Probable Cause: A wrong release channel was specified | Suggested Remediation: Specify a valid release channel. Valid channels are 'stable' and 'edge'."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/system"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestChannelArgsValidation/set_with_invalid_channel_fails_in_Args_validation"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
