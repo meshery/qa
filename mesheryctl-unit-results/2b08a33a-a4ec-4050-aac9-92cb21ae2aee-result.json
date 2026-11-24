@@ -1,0 +1,46 @@
+{
+  "uuid": "2b08a33a-a4ec-4050-aac9-92cb21ae2aee",
+  "name": "TestValidateMesh/Validate_without_the_required_spec_flag",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/adapter::TestValidateMesh/Validate_without_the_required_spec_flag",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795530336245,
+  "stop": 1795530336245,
+  "statusDetails": {
+    "message": "Error: required flag(s) \"spec\" not set"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/adapter"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestValidateMesh/Validate_without_the_required_spec_flag"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
