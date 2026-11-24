@@ -1,0 +1,46 @@
+{
+  "uuid": "ab331d95-7d06-4c98-967c-745f1fd3f09f",
+  "name": "TestContextFlagRejectsUnknownContext/login",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/system::TestContextFlagRejectsUnknownContext/login",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795542112808,
+  "stop": 1795542112811,
+  "statusDetails": {
+    "message": "Error: current context no-such-context does not exist"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/system"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContextFlagRejectsUnknownContext/login"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

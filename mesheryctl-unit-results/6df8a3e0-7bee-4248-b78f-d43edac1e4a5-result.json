@@ -1,0 +1,46 @@
+{
+  "uuid": "6df8a3e0-7bee-4248-b78f-d43edac1e4a5",
+  "name": "TestDeleteCmd/given_server_error_on_profile_uuid_lookup_when_delete_with_yes_then_throw_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/perf::TestDeleteCmd/given_server_error_on_profile_uuid_lookup_when_delete_with_yes_then_throw_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795542080084,
+  "stop": 1795542080084,
+  "statusDetails": {
+    "message": "| Short Description: Internal Server Error | Probable Cause: An unexpected error occurred on the server side | Suggested Remediation: Check the server logs using 'mesheryctl system logs' for more details and try again later\nError:  | Short Description: Internal Server Error | Probable Cause: An unexpected error occurred on the server side | Suggested Remediation: Check the server logs using 'mesheryctl system logs' for more details and try again later"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/perf"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteCmd/given_server_error_on_profile_uuid_lookup_when_delete_with_yes_then_throw_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
