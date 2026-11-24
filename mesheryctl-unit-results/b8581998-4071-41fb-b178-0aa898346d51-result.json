@@ -1,0 +1,46 @@
+{
+  "uuid": "b8581998-4071-41fb-b178-0aa898346d51",
+  "name": "TestDeleteCmd/given_only_a_substring_match_when_delete_with_yes_then_throw_no_profile_found_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/perf::TestDeleteCmd/given_only_a_substring_match_when_delete_with_yes_then_throw_no_profile_found_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795480884962,
+  "stop": 1795480884963,
+  "statusDetails": {
+    "message": "Error: No profile found with given name | Short Description: No profile found | Probable Cause: Invalid profile name or no profile name provided | Suggested Remediation: Ensure a valid profile name is inputted. See https://docs.meshery.io/reference/mesheryctl/perf/apply for more details"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/perf"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteCmd/given_only_a_substring_match_when_delete_with_yes_then_throw_no_profile_found_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
