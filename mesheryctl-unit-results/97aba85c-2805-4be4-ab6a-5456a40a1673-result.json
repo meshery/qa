@@ -1,0 +1,46 @@
+{
+  "uuid": "97aba85c-2805-4be4-ab6a-5456a40a1673",
+  "name": "TestChannelArgsValidation/set_with_invalid_edge_version_fails_in_Args_validation",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/system::TestChannelArgsValidation/set_with_invalid_edge_version_fails_in_Args_validation",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795562715810,
+  "stop": 1795562715811,
+  "statusDetails": {
+    "message": "Error: Unable to set edge release channel to v1.0.0 | Short Description: Invalid edge release version | Probable Cause: A wrong edge release version was specified | Suggested Remediation: The edge release channel only supports 'latest' as version argument."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/system"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestChannelArgsValidation/set_with_invalid_edge_version_fails_in_Args_validation"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
