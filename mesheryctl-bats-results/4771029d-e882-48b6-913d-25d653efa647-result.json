@@ -1,0 +1,35 @@
+{
+  "uuid": "4771029d-e882-48b6-913d-25d653efa647",
+  "name": "mesheryctl model import succeeds for URL of valid model as OCI artifact",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795531119178,
+  "stop": 1795531119179,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "Model"
+    },
+    {
+      "name": "testGroup",
+      "value": "Model Import"
+    }
+  ]
+}
