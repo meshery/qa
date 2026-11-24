@@ -1,0 +1,46 @@
+{
+  "uuid": "220db2d0-b01a-4c5c-a103-e6fe27869a31",
+  "name": "TestDeleteCmdByUUIDRejectsInvalidProfileResponses/500_server_error_in_response",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/perf::TestDeleteCmdByUUIDRejectsInvalidProfileResponses/500_server_error_in_response",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795484385395,
+  "stop": 1795484385395,
+  "statusDetails": {
+    "message": "internal error | Short Description: Internal Server Error | Probable Cause: An unexpected error occurred on the server side | Suggested Remediation: Check the server logs using 'mesheryctl system logs' for more details and try again later\nError: internal error | Short Description: Internal Server Error | Probable Cause: An unexpected error occurred on the server side | Suggested Remediation: Check the server logs using 'mesheryctl system logs' for more details and try again later"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/perf"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteCmdByUUIDRejectsInvalidProfileResponses/500_server_error_in_response"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
