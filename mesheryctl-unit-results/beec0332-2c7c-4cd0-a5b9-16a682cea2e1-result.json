@@ -1,0 +1,44 @@
+{
+  "uuid": "beec0332-2c7c-4cd0-a5b9-16a682cea2e1",
+  "name": "TestGetDeploymentVersion/digest-only_image_without_tag_(meshery/meshery@sha256:abc)",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestGetDeploymentVersion/digest-only_image_without_tag_(meshery/meshery@sha256:abc)",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795527902634,
+  "stop": 1795527902635,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGetDeploymentVersion/digest-only_image_without_tag_(meshery/meshery@sha256:abc)"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
