@@ -1,0 +1,46 @@
+{
+  "uuid": "3c821e19-a049-4d28-b66e-7c2f7800eb81",
+  "name": "TestDeleteCmdByUUIDRejectsInvalidProfileResponses/404_not_found_in_response",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/perf::TestDeleteCmdByUUIDRejectsInvalidProfileResponses/404_not_found_in_response",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795525702606,
+  "stop": 1795525702607,
+  "statusDetails": {
+    "message": "No profile found with given name | Short Description: No profile found | Probable Cause: Invalid profile name or no profile name provided | Suggested Remediation: Ensure a valid profile name is inputted. See https://docs.meshery.io/reference/mesheryctl/perf/apply for more details\nError: No profile found with given name | Short Description: No profile found | Probable Cause: Invalid profile name or no profile name provided | Suggested Remediation: Ensure a valid profile name is inputted. See https://docs.meshery.io/reference/mesheryctl/perf/apply for more details"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/perf"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteCmdByUUIDRejectsInvalidProfileResponses/404_not_found_in_response"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
