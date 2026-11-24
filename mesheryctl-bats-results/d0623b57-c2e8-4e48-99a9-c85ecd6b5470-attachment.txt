@@ -1,0 +1,36 @@
+(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,
+ in test file 003-design/03-design-list.bats, line 17)
+  `assert_line --regexp "$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN"' failed
+
+-- no output line matches regular expression --
+regexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$
+output (13 lines):
+  Total number of designs: 52254
+  Page: 1
+  DESIGN ID                             OWNER     NAME                               CREATED     UPDATED
+  cdf6d862-3b26-4441-8319-ec5f70af2c5b  7af63904  AI-ML-Inference-Architecture       11-24-2026  11-24-2026
+  e324873f-54d0-4bc2-a606-c5e4d91093fd  dea82811  nginx                              11-24-2026  11-24-2026
+  51b2c02c-9ed9-4cd8-9ec8-c848d1b062db  dea82811  nginx                              11-24-2026  11-24-2026
+  9266604f-aa46-4e86-b224-cae80375bae7  7af63904  AI-ML-Inference-Architecture       11-24-2026  11-24-2026
+  d794f22e-86ac-44a0-be96-14ac349ec484  7af63904  AI-ML-Inference-Architecture       11-24-2026  11-24-2026
+  36f3167a-24a9-4499-b2eb-973f3a2d755b  dea82811  nginx                              11-24-2026  11-24-2026
+  f79060f8-d265-4a98-a6c1-9349fff67c6a  dea82811  nginx                              11-24-2026  11-24-2026
+  b15c6965-1b07-4737-ab5a-b25eb17d132f  76bd1ba0  My First Cloud Native Application  11-24-2026  11-24-2026
+  ffd9f155-5d11-43d3-9bd9-8a5a71095b29  a05637f1  Deploy / dry run                   11-24-2026  11-24-2026
+  ce437953-de5e-4102-9b4e-009f7eab7caf  dea82811  nginx                              11-24-2026  11-24-2026
+--
+
+Last output:
+Total number of designs: 52254
+Page: 1
+DESIGN ID                             OWNER     NAME                               CREATED     UPDATED
+cdf6d862-3b26-4441-8319-ec5f70af2c5b  7af63904  AI-ML-Inference-Architecture       11-24-2026  11-24-2026
+e324873f-54d0-4bc2-a606-c5e4d91093fd  dea82811  nginx                              11-24-2026  11-24-2026
+51b2c02c-9ed9-4cd8-9ec8-c848d1b062db  dea82811  nginx                              11-24-2026  11-24-2026
+9266604f-aa46-4e86-b224-cae80375bae7  7af63904  AI-ML-Inference-Architecture       11-24-2026  11-24-2026
+d794f22e-86ac-44a0-be96-14ac349ec484  7af63904  AI-ML-Inference-Architecture       11-24-2026  11-24-2026
+36f3167a-24a9-4499-b2eb-973f3a2d755b  dea82811  nginx                              11-24-2026  11-24-2026
+f79060f8-d265-4a98-a6c1-9349fff67c6a  dea82811  nginx                              11-24-2026  11-24-2026
+b15c6965-1b07-4737-ab5a-b25eb17d132f  76bd1ba0  My First Cloud Native Application  11-24-2026  11-24-2026
+ffd9f155-5d11-43d3-9bd9-8a5a71095b29  a05637f1  Deploy / dry run                   11-24-2026  11-24-2026
+ce437953-de5e-4102-9b4e-009f7eab7caf  dea82811  nginx                              11-24-2026  11-24-2026
