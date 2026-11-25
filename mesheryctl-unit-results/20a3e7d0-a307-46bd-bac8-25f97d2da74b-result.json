@@ -1,0 +1,46 @@
+{
+  "uuid": "20a3e7d0-a307-46bd-bac8-25f97d2da74b",
+  "name": "TestDeleteCmdByUUIDInteractive/when_confirmed_then_delete_profile",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/perf::TestDeleteCmdByUUIDInteractive/when_confirmed_then_delete_profile",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795626113113,
+  "stop": 1795626113115,
+  "statusDetails": {
+    "message": "Performance profile 'istio-test' (a947dff3-1415-4ca6-8922-e35b3232bd78) will be deleted. Are you sure you want to continue [y/n]?"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/perf"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteCmdByUUIDInteractive/when_confirmed_then_delete_profile"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
