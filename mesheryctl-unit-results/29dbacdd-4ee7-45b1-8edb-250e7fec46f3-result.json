@@ -1,0 +1,46 @@
+{
+  "uuid": "29dbacdd-4ee7-45b1-8edb-250e7fec46f3",
+  "name": "TestListEnvironment",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/environments::TestListEnvironment",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795607507629,
+  "stop": 1795607507637,
+  "statusDetails": {
+    "message": "testing.go:613: List environments test\n    testing.go:613: List environments test\n    testing.go:613: List environments test\n    testing.go:613: List environments test"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/environments"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestListEnvironment"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

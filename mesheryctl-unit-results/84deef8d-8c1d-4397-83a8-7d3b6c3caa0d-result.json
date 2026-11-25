@@ -1,0 +1,46 @@
+{
+  "uuid": "84deef8d-8c1d-4397-83a8-7d3b6c3caa0d",
+  "name": "TestCreateEnvironment/given_unexpected_positional_argument_when_environment_create_then_throw_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/environments::TestCreateEnvironment/given_unexpected_positional_argument_when_environment_create_then_throw_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795607507612,
+  "stop": 1795607507612,
+  "statusDetails": {
+    "message": "Error: too many arguments specified\n\nUsage: mesheryctl environment create --orgId [orgId] --name [name] --description [description]\nRun 'mesheryctl environment create --help' to see detailed help message | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/environments"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCreateEnvironment/given_unexpected_positional_argument_when_environment_create_then_throw_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

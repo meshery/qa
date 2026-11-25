@@ -1,0 +1,46 @@
+{
+  "uuid": "cbf8c863-8913-43c6-adf0-7f7d951fbf8d",
+  "name": "TestDeleteCmd/given_both_positional_argument_and_-f_flag_when_design_delete_then_error_is_thrown",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/design::TestDeleteCmd/given_both_positional_argument_and_-f_flag_when_design_delete_then_error_is_thrown",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795607506273,
+  "stop": 1795607506273,
+  "statusDetails": {
+    "message": "Error: cannot specify both a positional argument and the --file flag | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/design"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteCmd/given_both_positional_argument_and_-f_flag_when_design_delete_then_error_is_thrown"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
