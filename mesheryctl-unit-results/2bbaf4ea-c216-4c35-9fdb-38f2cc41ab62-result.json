@@ -1,0 +1,46 @@
+{
+  "uuid": "2bbaf4ea-c216-4c35-9fdb-38f2cc41ab62",
+  "name": "TestContextCreateCmd",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/system::TestContextCreateCmd",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795564724276,
+  "stop": 1795564724298,
+  "statusDetails": {
+    "message": "context_test.go:416: CreateContextCmd test Passed\n    context_test.go:416: CreateContextCmd test Passed\n    context_test.go:416: CreateContextCmd test Passed\n    context_test.go:416: CreateContextCmd test Passed\n    context_test.go:416: CreateContextCmd test Passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/system"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContextCreateCmd"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
