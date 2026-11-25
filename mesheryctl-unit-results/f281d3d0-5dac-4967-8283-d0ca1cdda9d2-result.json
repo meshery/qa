@@ -1,0 +1,46 @@
+{
+  "uuid": "f281d3d0-5dac-4967-8283-d0ca1cdda9d2",
+  "name": "TestProfileCmd/given_negative_pagesize_when_profile_then_throw_invalid_flag_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/perf::TestProfileCmd/given_negative_pagesize_when_profile_then_throw_invalid_flag_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795642641888,
+  "stop": 1795642641888,
+  "statusDetails": {
+    "message": "Error: invalid value for --pagesize '-1' | Short Description: Invalid flag(s) provided | Probable Cause: The value for one or more flags provided is invalid. | Suggested Remediation: Provide valid flag value and try again."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/perf"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProfileCmd/given_negative_pagesize_when_profile_then_throw_invalid_flag_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
