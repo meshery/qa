@@ -1,0 +1,46 @@
+{
+  "uuid": "98e2ec9a-5a8d-4bc1-b539-4432b5013298",
+  "name": "TestListCmd",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/filter::TestListCmd",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795592426934,
+  "stop": 1795592426946,
+  "statusDetails": {
+    "message": "testing.go:713: Test 'Fetch Filter List' executed\n    testing.go:713: Test 'Fetch Filter List with pagesize' executed\n    testing.go:713: Test 'Fetch Filter List when the server replies null' executed\n    testing.go:713: Test 'List filters with invalid page number' executed\n    testing.go:713: Test 'List filters with invalid page size' executed\n    testing.go:713: Test 'List filters with too many arguments' executed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/filter"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestListCmd"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
