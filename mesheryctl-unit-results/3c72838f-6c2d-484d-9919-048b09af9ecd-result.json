@@ -1,0 +1,46 @@
+{
+  "uuid": "3c72838f-6c2d-484d-9919-048b09af9ecd",
+  "name": "TestModelGenerate/model_generate:_from_URL_with_template",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestModelGenerate/model_generate:_from_URL_with_template",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795703538307,
+  "stop": 1795703538316,
+  "statusDetails": {
+    "message": "generate_test.go:175: [model generate: from URL with template] stdout:\n        Generating model from URL: https://github.com/cert-manager/cert-manager/releases/download/v1.13.0/cert-manager.crds.yaml\n        Model generated, registration skipped\n        Model can be accessed from .meshery/models"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestModelGenerate/model_generate:_from_URL_with_template"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
