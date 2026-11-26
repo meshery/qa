@@ -1,0 +1,46 @@
+{
+  "uuid": "f8386bc0-73a1-41fd-a392-26dfce62969b",
+  "name": "TestListOrganizations/given_valid_--page_and_--pagesize_when_organization_list_then_list_organizations",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/organizations::TestListOrganizations/given_valid_--page_and_--pagesize_when_organization_list_then_list_organizations",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795701843799,
+  "stop": 1795701843805,
+  "statusDetails": {
+    "message": "exit status 1 | Short Description: Failed to clear terminal | Probable Cause: Error occurred while attempting to clear the command-line interface | Suggested Remediation: Check if the required clear commands ('clear' or 'cls') are available in the system's PATH"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/organizations"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestListOrganizations/given_valid_--page_and_--pagesize_when_organization_list_then_list_organizations"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

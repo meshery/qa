@@ -1,0 +1,44 @@
+{
+  "uuid": "0b111dcc-2d5f-4f8e-b965-127dfb091395",
+  "name": "TestGetDeploymentVersion/port-qualified_image_with_channel_(localhost:5000/meshery/meshery:stable-v0.7.0)",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestGetDeploymentVersion/port-qualified_image_with_channel_(localhost:5000/meshery/meshery:stable-v0.7.0)",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795701874495,
+  "stop": 1795701874496,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGetDeploymentVersion/port-qualified_image_with_channel_(localhost:5000/meshery/meshery:stable-v0.7.0)"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

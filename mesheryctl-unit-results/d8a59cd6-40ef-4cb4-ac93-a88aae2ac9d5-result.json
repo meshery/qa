@@ -1,0 +1,46 @@
+{
+  "uuid": "d8a59cd6-40ef-4cb4-ac93-a88aae2ac9d5",
+  "name": "TestListOrganizations/given_a_negative_--page_when_organization_list_then_throw_invalid_flag_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/organizations::TestListOrganizations/given_a_negative_--page_when_organization_list_then_throw_invalid_flag_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795701843799,
+  "stop": 1795701843799,
+  "statusDetails": {
+    "message": "Error: Invalid value for --page '-1' | Short Description: Invalid flag(s) provided | Probable Cause: The value for one or more flags provided is invalid. | Suggested Remediation: Provide valid flag value and try again."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/organizations"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestListOrganizations/given_a_negative_--page_when_organization_list_then_throw_invalid_flag_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
