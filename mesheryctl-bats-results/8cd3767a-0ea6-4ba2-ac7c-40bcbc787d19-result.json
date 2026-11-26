@@ -1,0 +1,37 @@
+{
+  "uuid": "8cd3767a-0ea6-4ba2-ac7c-40bcbc787d19",
+  "name": "given all requirements met when running mesheryctl design list --page 1 then the total numbers of designs and a list of designs are displayed",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1795708521684,
+  "stop": 1795708521685,
+  "statusDetails": {
+    "message": "`assert_line --regexp \"$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN\"' failed",
+    "trace": "(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,\n in test file 003-design/03-design-list.bats, line 17)\n  `assert_line --regexp \"$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN\"' failed\n\n-- no output line matches regular expression --\nregexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$\noutput (13 lines):\n  Total number of designs: 52363\n  Page: 1\n  DESIGN ID                             OWNER     NAME                    CREATED     UPDATED\n  2d4fa804-5bd5-490f-b101-042e947d6682  dea82811  nginx                   11-26-2026  11-26-2026\n  05f85958-3293-4404-8eca-d2a8e42b4347  dea82811  nginx                   11-26-2026  11-26-2026\n  535e2b23-ffbe-4aa3-b8d5-a4c26383a4cc  e915fe11  CEREBRO                 11-26-2026  11-26-2026\n  2d51c7ef-d621-46bd-a5c3-3b4ad5923164  01e70f01  heshan-k8s-design-copy  11-26-2026  11-26-2026\n  6c512147-ef7e-40ca-9261-bde19f285bab  01e70f01  heshan-k8s-design       11-26-2026  11-26-2026\n  ed3d5029-e838-4f28-96bd-5607f70ec0ef  dea82811  nginx                   11-26-2026  11-26-2026\n  a849cc19-9e2d-4821-a415-107c2ee22d8f  dea82811  nginx                   11-26-2026  11-26-2026\n  0bc7950d-a709-4792-88d2-74dfe354daf4  dea82811  nginx                   11-26-2026  11-26-2026\n  c2c7f451-7d38-42b1-a9a1-d008b5644efe  dea82811  nginx                   11-26-2026  11-26-2026\n  75280e19-5953-4d09-bb5a-d7010b6b0452  dea82811  nginx                   11-26-2026  11-26-2026\n--\n\nLast output:\nTotal number of designs: 52363\nPage: 1\nDESIGN ID                             OWNER     NAME                    CREATED     UPDATED\n2d4fa804-5bd5-490f-b101-042e947d6682  dea82811  nginx                   11-26-2026  11-26-2026\n05f85958-3293-4404-8eca-d2a8e42b4347  dea82811  nginx                   11-26-2026  11-26-2026\n535e2b23-ffbe-4aa3-b8d5-a4c26383a4cc  e915fe11  CEREBRO                 11-26-2026  11-26-2026\n2d51c7ef-d621-46bd-a5c3-3b4ad5923164  01e70f01  heshan-k8s-design-copy  11-26-2026  11-26-2026\n6c512147-ef7e-40ca-9261-bde19f285bab  01e70f01  heshan-k8s-design       11-26-2026  11-26-2026\ned3d5029-e838-4f28-96bd-5607f70ec0ef  dea82811  nginx                   11-26-2026  11-26-2026\na849cc19-9e2d-4821-a415-107c2ee22d8f  dea82811  nginx                   11-26-2026  11-26-2026\n0bc7950d-a709-4792-88d2-74dfe354daf4  dea82811  nginx                   11-26-2026  11-26-2026\nc2c7f451-7d38-42b1-a9a1-d008b5644efe  dea82811  nginx                   11-26-2026  11-26-2026\n75280e19-5953-4d09-bb5a-d7010b6b0452  dea82811  nginx                   11-26-2026  11-26-2026"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "CLI output (bats)",
+      "source": "8cd3767a-0ea6-4ba2-ac7c-40bcbc787d19-attachment.txt",
+      "type": "text/plain"
+    }
+  ]
+}
