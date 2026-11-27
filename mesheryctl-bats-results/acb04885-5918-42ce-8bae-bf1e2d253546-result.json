@@ -1,0 +1,43 @@
+{
+  "uuid": "acb04885-5918-42ce-8bae-bf1e2d253546",
+  "name": "given ADAPTERS without PLATFORM when running the installer then it prompts for a platform before installing mesheryctl",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795759547721,
+  "stop": 1795759547722,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "testId",
+      "value": "TC-6"
+    },
+    {
+      "name": "tag",
+      "value": "TC-6"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "Installer / Bash Script"
+    },
+    {
+      "name": "testGroup",
+      "value": "Installation"
+    }
+  ]
+}
