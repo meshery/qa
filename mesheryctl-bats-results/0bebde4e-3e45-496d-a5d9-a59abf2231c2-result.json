@@ -1,0 +1,35 @@
+{
+  "uuid": "0bebde4e-3e45-496d-a5d9-a59abf2231c2",
+  "name": "given missing --orgId flag when running mesheryctl workspace list then an error message is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795797228353,
+  "stop": 1795797228354,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "Workspace"
+    },
+    {
+      "name": "testGroup",
+      "value": "Workspace Lifecycle"
+    }
+  ]
+}
