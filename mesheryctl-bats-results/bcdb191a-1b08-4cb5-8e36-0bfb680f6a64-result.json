@@ -1,0 +1,35 @@
+{
+  "uuid": "bcdb191a-1b08-4cb5-8e36-0bfb680f6a64",
+  "name": "given a non-existent component when mesheryctl component search component-name is run then no components are found",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795779574282,
+  "stop": 1795779574283,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "Component"
+    },
+    {
+      "name": "testGroup",
+      "value": "Component Search"
+    }
+  ]
+}
