@@ -1,0 +1,35 @@
+{
+  "uuid": "157b4e48-6de5-4db0-8003-4d819de48dc1",
+  "name": "given a valid URL and template when running mesheryctl model generate then the model is generated",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795780185465,
+  "stop": 1795780185466,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "Model"
+    },
+    {
+      "name": "testGroup",
+      "value": "Model Generate"
+    }
+  ]
+}
