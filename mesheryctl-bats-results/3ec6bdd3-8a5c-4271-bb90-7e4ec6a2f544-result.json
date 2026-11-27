@@ -1,0 +1,35 @@
+{
+  "uuid": "3ec6bdd3-8a5c-4271-bb90-7e4ec6a2f544",
+  "name": "given an invalid format provided when mesheryctl component view component-name -o xml then an error message is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795752248211,
+  "stop": 1795752248212,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "Component"
+    },
+    {
+      "name": "testGroup",
+      "value": "Component View"
+    }
+  ]
+}

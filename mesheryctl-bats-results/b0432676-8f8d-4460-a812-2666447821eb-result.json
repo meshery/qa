@@ -1,0 +1,35 @@
+{
+  "uuid": "b0432676-8f8d-4460-a812-2666447821eb",
+  "name": "mesheryctl system token list does not include deleted token",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795752248209,
+  "stop": 1795752248210,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "System"
+    },
+    {
+      "name": "testGroup",
+      "value": "Token Management"
+    }
+  ]
+}

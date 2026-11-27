@@ -1,0 +1,36 @@
+(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,
+ in test file 003-design/03-design-list.bats, line 17)
+  `assert_line --regexp "$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN"' failed
+
+-- no output line matches regular expression --
+regexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$
+output (13 lines):
+  Total number of designs: 52386
+  Page: 1
+  DESIGN ID                             OWNER     NAME                                        CREATED     UPDATED
+  91369db3-9eea-48e7-9b87-d4ecc7beba53  dea82811  nginx                                       11-27-2026  11-27-2026
+  272d91e7-b717-4f0f-b77e-199e4ebbff26  dea82811  nginx                                       11-27-2026  11-27-2026
+  afe3208a-d4b8-4eba-b8ac-00e555f6adc9  43ae34ae  LFX Kubernetes Web Starter - Aditya Kosuru  11-26-2026  11-27-2026
+  02896cc7-18e6-430a-8abc-450dd2f312da  dea82811  nginx                                       11-26-2026  11-26-2026
+  60c7921c-d4ca-4300-8279-194397996117  dea82811  nginx                                       11-26-2026  11-26-2026
+  e2587320-906d-436f-9913-e2169acb3985  dea82811  nginx                                       11-26-2026  11-26-2026
+  ffb2f4cb-2588-4c54-962f-1216228f06a0  dea82811  nginx                                       11-26-2026  11-26-2026
+  7f4263f8-fee0-48b4-844d-e250e5df03b8  dea82811  nginx                                       11-26-2026  11-26-2026
+  dfc57e5a-111b-4365-8f94-ad5168e85f2b  dea82811  nginx                                       11-26-2026  11-26-2026
+  dcea4018-2839-402e-954e-b04c74766cb6  dea82811  nginx                                       11-14-2026  11-26-2026
+--
+
+Last output:
+Total number of designs: 52386
+Page: 1
+DESIGN ID                             OWNER     NAME                                        CREATED     UPDATED
+91369db3-9eea-48e7-9b87-d4ecc7beba53  dea82811  nginx                                       11-27-2026  11-27-2026
+272d91e7-b717-4f0f-b77e-199e4ebbff26  dea82811  nginx                                       11-27-2026  11-27-2026
+afe3208a-d4b8-4eba-b8ac-00e555f6adc9  43ae34ae  LFX Kubernetes Web Starter - Aditya Kosuru  11-26-2026  11-27-2026
+02896cc7-18e6-430a-8abc-450dd2f312da  dea82811  nginx                                       11-26-2026  11-26-2026
+60c7921c-d4ca-4300-8279-194397996117  dea82811  nginx                                       11-26-2026  11-26-2026
+e2587320-906d-436f-9913-e2169acb3985  dea82811  nginx                                       11-26-2026  11-26-2026
+ffb2f4cb-2588-4c54-962f-1216228f06a0  dea82811  nginx                                       11-26-2026  11-26-2026
+7f4263f8-fee0-48b4-844d-e250e5df03b8  dea82811  nginx                                       11-26-2026  11-26-2026
+dfc57e5a-111b-4365-8f94-ad5168e85f2b  dea82811  nginx                                       11-26-2026  11-26-2026
+dcea4018-2839-402e-954e-b04c74766cb6  dea82811  nginx                                       11-14-2026  11-26-2026
