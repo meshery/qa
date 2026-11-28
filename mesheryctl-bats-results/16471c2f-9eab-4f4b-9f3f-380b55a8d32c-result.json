@@ -1,0 +1,35 @@
+{
+  "uuid": "16471c2f-9eab-4f4b-9f3f-380b55a8d32c",
+  "name": "given --help flag provided when running mesheryctl workspace --help displays command usage",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795856693811,
+  "stop": 1795856693812,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "Workspace"
+    },
+    {
+      "name": "testGroup",
+      "value": "Workspace Lifecycle"
+    }
+  ]
+}

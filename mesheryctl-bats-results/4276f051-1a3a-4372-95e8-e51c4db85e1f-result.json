@@ -1,0 +1,35 @@
+{
+  "uuid": "4276f051-1a3a-4372-95e8-e51c4db85e1f",
+  "name": "mesheryctl system dashboard fails when kubeconfig is missing",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795856693807,
+  "stop": 1795856693808,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "System"
+    },
+    {
+      "name": "testGroup",
+      "value": "System Dashboard"
+    }
+  ]
+}
