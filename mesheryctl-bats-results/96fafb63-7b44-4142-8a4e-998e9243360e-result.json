@@ -1,0 +1,35 @@
+{
+  "uuid": "96fafb63-7b44-4142-8a4e-998e9243360e",
+  "name": "given a valid format provided when mesheryctl component view component-name -o json then the output is displayed in specified format",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795894251835,
+  "stop": 1795894251836,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "Component"
+    },
+    {
+      "name": "testGroup",
+      "value": "Component View"
+    }
+  ]
+}

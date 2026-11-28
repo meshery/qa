@@ -1,0 +1,36 @@
+(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,
+ in test file 003-design/03-design-list.bats, line 17)
+  `assert_line --regexp "$DESIGN_LIST_OUTPUT__HEADER_REGEX_PATTERN"' failed
+
+-- no output line matches regular expression --
+regexp : ^DESIGN[[:space:]]ID[[:space:]]+(USER[[:space:]]ID)?[[:space:]]+NAME[[:space:]]+CREATED[[:space:]]+UPDATED[[:space:]]+$
+output (13 lines):
+  Total number of designs: 52483
+  Page: 1
+  DESIGN ID                             OWNER     NAME                            CREATED     UPDATED
+  24149cdd-e0d2-49e0-9866-e17f65cfc222  dea82811  nginx                           11-28-2026  11-28-2026
+  37a21ec9-5ade-4b69-8c52-5d7344af2e9e  dea82811  nginx                           11-28-2026  11-28-2026
+  b572b28d-1a59-4d08-b255-cfbc0544e482  27038982  student-grade-tracker           11-28-2026  11-28-2026
+  667f629d-d3fc-4e35-81c0-c9b59f1517ef  dea82811  nginx                           11-28-2026  11-28-2026
+  719c9db0-17af-4c76-b137-3c9503b1fe9d  dea82811  nginx                           11-28-2026  11-28-2026
+  dc17888d-a95d-4e77-a22b-5e4787344a0c  e39a8ef8  My-First-Kubernetes-Design      11-28-2026  11-28-2026
+  5cf1b2a1-ec5b-4660-b620-ef288c5b1aea  d8f9481b  Agentic Rag Architecture        11-23-2026  11-28-2026
+  133da601-a7cb-41d3-b2c3-1cd5eaef19fe  9eb80728  Mohamad_Maarouf_Web_App_Design  11-28-2026  11-28-2026
+  96eb722c-4646-4927-82ed-0b818e6cd468  9eb80728  Mohamad_Maarouf_Meshery_Trial   11-28-2026  11-28-2026
+  900665a7-7bab-487e-80cd-ab6fc72d0974  9eb80728  Mohamad_Maarouf_Meshery_Trial   11-28-2026  11-28-2026
+--
+
+Last output:
+Total number of designs: 52483
+Page: 1
+DESIGN ID                             OWNER     NAME                            CREATED     UPDATED
+24149cdd-e0d2-49e0-9866-e17f65cfc222  dea82811  nginx                           11-28-2026  11-28-2026
+37a21ec9-5ade-4b69-8c52-5d7344af2e9e  dea82811  nginx                           11-28-2026  11-28-2026
+b572b28d-1a59-4d08-b255-cfbc0544e482  27038982  student-grade-tracker           11-28-2026  11-28-2026
+667f629d-d3fc-4e35-81c0-c9b59f1517ef  dea82811  nginx                           11-28-2026  11-28-2026
+719c9db0-17af-4c76-b137-3c9503b1fe9d  dea82811  nginx                           11-28-2026  11-28-2026
+dc17888d-a95d-4e77-a22b-5e4787344a0c  e39a8ef8  My-First-Kubernetes-Design      11-28-2026  11-28-2026
+5cf1b2a1-ec5b-4660-b620-ef288c5b1aea  d8f9481b  Agentic Rag Architecture        11-23-2026  11-28-2026
+133da601-a7cb-41d3-b2c3-1cd5eaef19fe  9eb80728  Mohamad_Maarouf_Web_App_Design  11-28-2026  11-28-2026
+96eb722c-4646-4927-82ed-0b818e6cd468  9eb80728  Mohamad_Maarouf_Meshery_Trial   11-28-2026  11-28-2026
+900665a7-7bab-487e-80cd-ab6fc72d0974  9eb80728  Mohamad_Maarouf_Meshery_Trial   11-28-2026  11-28-2026

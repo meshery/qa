@@ -1,0 +1,35 @@
+{
+  "uuid": "6f906358-7a93-4342-be93-05efa2c8ca41",
+  "name": "mesheryctl model list --page 1 return total numbers of models",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795894251833,
+  "stop": 1795894251834,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "Model"
+    },
+    {
+      "name": "testGroup",
+      "value": "Model List"
+    }
+  ]
+}
