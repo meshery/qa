@@ -1,0 +1,35 @@
+{
+  "uuid": "f6cdb616-de60-420a-89a9-8787b9326580",
+  "name": "given an invalid file path when running mesheryctl model generate then an error message is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1795850548588,
+  "stop": 1795850548589,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "client",
+      "value": "CLI"
+    },
+    {
+      "name": "componentUnderTest",
+      "value": "Model"
+    },
+    {
+      "name": "testGroup",
+      "value": "Model Generate"
+    }
+  ]
+}
